@@ -5,13 +5,13 @@
 <a>LINKS</a>
 ====
 
-[TeamFortress.TV] (https://www.teamfortress.tv/53596/sunset-hud)
+[TeamFortress.TV](https://www.teamfortress.tv/53596/sunset-hud)
 
-[Huds.tf] (https://huds.tf/forum/showthread.php?tid=1754)
+[Huds.tf](https://huds.tf/forum/showthread.php?tid=1754)
 
-[Screenshot Album] (https://imgur.com/a/4BZs0ih)
+[Screenshot Album](https://imgur.com/a/4BZs0ih)
 
-[Changelogs] (https://github.com/Hypnootize/Sunset-Hud/commits/master)
+[Changelogs](https://github.com/Hypnootize/Sunset-Hud/commits/master)
 
 
 <a>INSTALLATION</a>
@@ -57,4 +57,4 @@ All the customizations can be found inside the Customizations folder and from th
 **Everyone who helped me testing the hud <3**
 
 
-**For any problem write me in the TeamFortress.TV thread!** [TeamFortress.TV] (https://www.teamfortress.tv/53596/sunset-hud)
+**For any problem write me in the TeamFortress.TV thread!** [TeamFortress.TV](https://www.teamfortress.tv/53596/sunset-hud)
