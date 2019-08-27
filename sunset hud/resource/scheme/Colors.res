@@ -260,9 +260,6 @@ Scheme
 		"UpgradeDisabledFg"						"64 59 52 255"
 		"UpgradeDisabledBg"						"79 77 68 255"
 	}
-	
-	
-	
 
 	BaseSettings
 	{
@@ -273,7 +270,7 @@ Scheme
 		ReplayBrowser.CollectionTitle.FgColor				"OrangeLight"
 		ReplayBrowser.Warning.FgColor						"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"White"
-		ReplayBrowser.Search.BgColor						"TanDark"
+		ReplayBrowser.Search.BgColor						"Gray"
 		ReplayBrowser.Search.FgColor						"White"
 		
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
@@ -342,8 +339,8 @@ Scheme
 
 		GraphPanel.FgColor									"OrangeLight"
 		GraphPanel.BgColor									"TransparentBlack"
-
-		Label.TextDullColor									"TanDark"
+		
+		Label.TextDullColor									"Gray"
 		Label.TextColor										"White"
 		Label.TextBrightColor								"White"
 		Label.SelectedTextColor								"White"
@@ -360,7 +357,7 @@ Scheme
 
 		Menu.TextColor										"White"
 		Menu.BgColor										"TransparentBlack"
-		Menu.ArmedTextColor									"TanDark"
+		Menu.ArmedTextColor									"Gray"
 		Menu.ArmedBgColor									"White"
 		Menu.TextInset										"6"
 
@@ -446,7 +443,7 @@ Scheme
 		HudObjectives.FgColor								"HudPanelForeground"
 		HudObjectives.BgColor								"HudPanelBackground"
 		HudObjectives.BorderColor							"HudPanelBorder"
-				
+		
 		HudProgressBar.Active								"HudProgressBarActive"
 		HudProgressBar.InActive								"HudProgressBarInActive"
 		
@@ -455,7 +452,6 @@ Scheme
 		HudCaptureProgressBar.Active						"HudProgressBarActive"
 		HudCaptureProgressBar.InActive						"HudProgressBarInActive"
 
-		// scheme-specific colors
 		"FgColor"											"White"
 		"BgColor"											"BlackLightTransparent"
 
@@ -467,26 +463,27 @@ Scheme
 		"MapDescriptionText"								"Gray"
 		"HudIcon_Green"										"0 160 0 255"
 		"HudIcon_Red"										"160 0 0 255"
-	// default 255 167 42 255
+
+		"ItemColor"											"OrangeLight"
 		"MenuColor"											"White"
-		"MenuBoxBg"											"0 0 0 100"
+		"MenuBoxBg"											"BlackLightTransparent"
 
 		"SelectionNumberFg"									"White"
 		"SelectionTextFg"									"White"
-		"SelectionEmptyBoxBg" 								"0 0 0 80"
-		"SelectionBoxBg" 									"0 0 0 80"
+		"SelectionEmptyBoxBg" 								"BlackLightTransparent"
+		"SelectionBoxBg" 									"BlackLightTransparent"
 		"SelectionSelectedBoxBg" 							"0 0 0 190"
 
 		"HintMessageFg"										"White"
-		"HintMessageBg" 									"0 0 0 50"
+		"HintMessageBg" 									"BlackLightTransparent"
 
-		"ProgressBarFg"										"255 30 13 255"
+		"ProgressBarFg"										"RedLight"
 
 		"Main.Menu.X"										"32"
 		"Main.Menu.Y"										"248"
 
 		"Main.BottomBorder"									"32"
 		
-		"VguiScreenCursor"									"255 208 64 255"
+		"VguiScreenCursor"									"OrangeLight"
 	}
 }
