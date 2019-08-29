@@ -69,7 +69,7 @@
 		"textAlignment"				"center"	
 		"font"						"Size 40"
 		"font_minmode"				"Size 50"
-		"fgcolor"					"White"
+		"fgcolor"					"Health"
 		
 		"pin_to_sibling"			"HealthAnchor"
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
