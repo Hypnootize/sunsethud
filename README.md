@@ -9,7 +9,9 @@
 
 [Huds.tf](https://huds.tf/forum/showthread.php?tid=1754)
 
-[Screenshot Album](https://imgur.com/a/4BZs0ih)
+[LIGHT THEME Screentshots](https://imgur.com/a/4BZs0ih)
+
+[DARK THEME Screentshots](https://imgur.com/a/Z8KJa9B)
 
 [Changelogs](https://github.com/Hypnootize/Sunset-Hud/commits/master)
 
@@ -19,9 +21,9 @@
 
 **1)** Extract/Unzip the hud
 
-**2)** Copy the sunset hud folder (**NOT** Sunset-Hud-Master, the one inside it!)
+**2)** Choose between [Light](https://imgur.com/a/4BZs0ih) or [Dark](https://imgur.com/a/Z8KJa9B) theme so open the choosen folder
 
-**3)** Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\sunset hud)
+**3)** Copy and Paste the sunsethud folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\sunsethud)
 
 **4)** Go to Resource/Scheme/Fonts select all the font and install them (rightclick while selected and install)
 
