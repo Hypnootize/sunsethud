@@ -25,9 +25,9 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"AllCaps"		"1"
 		"fgcolor_override" "White"
 		"proportionaltoparent"	"1"
+		"AllCaps"		"1"
 	}
 
 	"DescText"
@@ -38,43 +38,34 @@
 		"labelText"		"#TF_UsePaintkit_Panel_Desc"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
-		"ypos"			"33"
+		"ypos"			"37"
 		"zpos"			"10"
 		"wide"			"f20"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"AllCaps"		"1"
-		"fgcolor_override" "BlueLight"
+		"fgcolor_override" "White"
 		"proportionaltoparent"	"1"
+		"AllCaps"		"1"
 	}
 
 	"BGPanel"
 	{
-		"fieldName"	"BGPanel"
+		"fieldName"		"BGPanel"
 		"controlname"	"EditablePanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
-		"paintbackground"	"0"
 		"border"		"GrayBluBorder"
 	}
 
 	"Shade"
 	{
-		"fieldName"	"Shade"
+		"fieldName"		"Shade"
 		"controlname"	"EditablePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"100"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"0"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"1"
-		"bgcolor_override"	"Blank"
+		"xpos"			"9999"
 	}
 
 	"RedeemingPanel"
@@ -88,7 +79,6 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"paintbackground"		"0"
 		"border"		"GrayBluBorder"
 
 		"CTFLogoPanel"
@@ -121,6 +111,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "White"
 			"proportionaltoparent"	"1"
+			"AllCaps"		"1"
 		}
 	}
 
@@ -135,7 +126,6 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"paintbackground"	"0"
 		"border"		"GrayBluBorder"
 
 		"CTFLogoPanel"
@@ -168,6 +158,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "White"
 			"proportionaltoparent"	"1"
+			"AllCaps"		"1"
 		}
 	}
 
@@ -182,7 +173,6 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"paintbackground"	"0"
 		"border"		"GrayBluBorder"
 
 		"CTFLogoPanel"
@@ -216,6 +206,7 @@
 			"fgcolor_override" "White"
 			"proportionaltoparent"	"1"
 			"centerwrap"	"1"
+			"AllCaps"		"1"
 		}
 	}
 
@@ -264,7 +255,7 @@
 		
 		"border_default"						"BlueTransparent70"
 		"border_armed"							"OrangeTransparent70"
-	}		
+	}
 
 	"ConfirmButton"
 	{
@@ -301,5 +292,5 @@
 		
 		"border_default"						"BlueTransparent70"
 		"border_armed"							"OrangeTransparent70"
-	}			
+	}
 }
