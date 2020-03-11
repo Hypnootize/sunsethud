@@ -1290,7 +1290,7 @@
 		"visible"						"0"
 		"PaintBackgroundType"			"2"
 		"paintbackground" 				"0"
-		"border"						"ToolTipBorder"
+		"border"						"GrayBluBorder"
 		
 		"force_close"					"1"
 		"end_x"							"c-150"
@@ -1436,14 +1436,14 @@
 		"visible"						"0"
 		"PaintBackgroundType"			"2"
 		"paintbackground" 				"0"
-		"border"						"ToolTipBorder"
+		"border"						"GrayBluBorder"
 		
 		"force_close"					"1"
 		"end_x"							"c-250"
 		"end_y"							"60"
 		"end_wide"						"250"
 		"end_tall"						"130"
-		"callout_inparents_x"			"c-125"
+		"callout_inparents_x"			"c-120"
 		"callout_inparents_y"			"240"
 		"next_explanation"				"CraftingExplanation"
 		
@@ -1614,14 +1614,14 @@
 		"visible"						"0"
 		"PaintBackgroundType"			"2"
 		"paintbackground" 				"0"
-		"border"						"ToolTipBorder"
+		"border"						"GrayBluBorder"
 		
 		"force_close"					"1"
 		"end_x"							"c-210"
 		"end_y"							"60"
 		"end_wide"						"250"
 		"end_tall"						"140"
-		"callout_inparents_x"			"c-130"
+		"callout_inparents_x"			"c-60"
 		"callout_inparents_y"			"240"
 		"next_explanation"				"ArmoryExplanation"
 		
@@ -1792,7 +1792,7 @@
 		"visible"						"0"
 		"PaintBackgroundType"			"2"
 		"paintbackground" 				"0"
-		"border"						"ToolTipBorder"
+		"border"						"GrayBluBorder"
 		
 		"force_close"					"1"
 		"end_x"							"c-120"
@@ -1970,14 +1970,14 @@
 		"visible"						"0"
 		"PaintBackgroundType"			"2"
 		"paintbackground" 				"0"
-		"border"						"ToolTipBorder"
+		"border"						"GrayBluBorder"
 		
 		"force_close"					"1"
 		"end_x"							"c-30"
 		"end_y"							"60"
 		"end_wide"						"250"
 		"end_tall"						"140"
-		"callout_inparents_x"			"c130"
+		"callout_inparents_x"			"c60"
 		"callout_inparents_y"			"240"
 		"next_explanation"				"PatternsExplanation"
 		
@@ -2148,14 +2148,14 @@
 		"visible"						"0"
 		"PaintBackgroundType"			"2"
 		"paintbackground" 				"0"
-		"border"						"ToolTipBorder"
+		"border"						"GrayBluBorder"
 		
 		"force_close"					"1"
-		"end_x"							"c130"
+		"end_x"							"c90"
 		"end_y"							"60"
 		"end_wide"						"250"
 		"end_tall"						"140"
-		"callout_inparents_x"			"c255"
+		"callout_inparents_x"			"c120"
 		"callout_inparents_y"			"240"
 		"next_explanation"				"ExplanationExplanation"
 		
@@ -2326,7 +2326,7 @@
 		"visible"						"0"
 		"PaintBackgroundType"			"2"
 		"paintbackground" 				"0"
-		"border"						"ToolTipBorder"
+		"border"						"GrayBluBorder"
 		
 		"force_close"					"1"
 		"end_x"							"c100"
@@ -2457,7 +2457,7 @@
 			"enabled"					"1"
 			"fgcolor_override" 			"OrangeLight"
 		}
-	}	
+	}
 	
 	
 	

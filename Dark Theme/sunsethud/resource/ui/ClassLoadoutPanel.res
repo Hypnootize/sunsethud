@@ -103,12 +103,12 @@
 		}
 	}
 	
-	"Sunset"							//needed as a cover
+	"Sunset"
 	{
 		"ControlName"					"ImagePanel"
 		"fieldName"						"Sunset"
 		"xpos"							"0"
-		"ypos"							"-45"
+		"ypos"							"-47"
 		"zpos"							"-1"
 		"wide"							"f0"
 		"tall"							"f0"
@@ -329,7 +329,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"border"		"GrayBluBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-200"
@@ -344,7 +344,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#ItemPresetsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -356,14 +356,15 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"AllCaps"		"1"
+			"fgcolor_override" "BlueLight"
 		}
 		
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#ClassLoadoutItemPresetsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -375,55 +376,39 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"CloseButton"
-			"xpos"			"230"
+			"xpos"			"225"
 			"ypos"			"5"
 			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"18"
+			"tall"			"18"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"Â"
+			"font"			"Symbols 18"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
 			
-			"paintbackground"	"0"
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"paintbackground"			"0"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
+			"defaultFgColor_override" 	"BlueLight"
+			"armedFgColor_override"		"RedLight"
+			"depressedFgColor_override" "RedLight"
 		}		
 	}
 
@@ -439,22 +424,22 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"border"		"GrayBluBorder"
 		
 		"force_close"	"1"
-		"end_x"			"c-180"
-		"end_y"			"150"
+		"end_x"			"c-200"
+		"end_y"			"120"
 		"end_wide"		"250"
 		"end_tall"		"140"
-		"callout_inparents_x"	"c15"
-		"callout_inparents_y"	"330"
+		"callout_inparents_x"	"c13"
+		"callout_inparents_y"	"55"
 		"next_explanation"		""
 		
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TauntsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -466,14 +451,15 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"AllCaps"		"1"
+			"fgcolor_override" "BlueLight"
 		}
 		
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"labelText"		"#ClassLoadoutTauntsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -485,55 +471,39 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"CloseButton"
-			"xpos"			"230"
+			"xpos"			"225"
 			"ypos"			"5"
 			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"18"
+			"tall"			"18"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"Â"
+			"font"			"Symbols 18"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
 			
-			"paintbackground"	"0"
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"paintbackground"			"0"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
+			"defaultFgColor_override" 	"BlueLight"
+			"armedFgColor_override"		"RedLight"
+			"depressedFgColor_override" "RedLight"
 		}		
 	}
 	
