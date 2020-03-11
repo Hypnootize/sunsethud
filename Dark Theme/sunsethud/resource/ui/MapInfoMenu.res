@@ -94,7 +94,7 @@
 		"ypos"								"0"
 		"zpos"								"3"
 		"wide"								"114"
-		"tall"								"400"
+		"tall"								"390"
 		"autoResize"						"3"
 		"pinCorner"							"0"
 		"visible"							"1"
@@ -150,6 +150,44 @@
 		"pin_to_sibling_corner" 			"PIN_BOTTOMRIGHT"
 	}
 	
+	"MapInfoWatchIntro"
+	{
+		"ControlName"						"CExButton"
+		"fieldName"							"MapInfoWatchIntro"
+		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"6"
+		"wide"								"130"
+		"tall"								"24"
+		"autoResize"						"0"
+		"pinCorner"							"2"
+		"visible"							"1"
+		"enabled"							"1"
+		"labelText"							"#TF_WatchIntro"
+		"textAlignment"						"center"
+		"dulltext"							"0"
+		"brighttext"						"0"
+		"command"							"intro"
+		"default"							"1"
+		"font"								"Size 15"
+		
+		"paintbackground"					"0"
+		
+		"sound_depressed"					"UI/buttonclick.wav"
+		"sound_released"					"UI/buttonclickrelease.wav"
+		
+		"border_default"					"BlueTransparent70"
+		"border_armed"						"OrangeTransparent70"
+
+		"defaultFgColor_override"			"White"
+		"armedFgColor_override"				"White"
+		"depressedFgColor_override" 		"White"
+		
+		"pin_to_sibling" 					"ok"
+		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
+	}
+	
 	"MapInfoBack"
 	{
 		"ControlName"						"CExButton"
@@ -166,12 +204,6 @@
 	{
 		"ControlName"						"CTFButton"
 		"fieldName"							"MapInfoContinue"
-		"xpos"								"9999"
-	}
-	"MapInfoWatchIntro"
-	{
-		"ControlName"						"CExButton"
-		"fieldName"							"MapInfoWatchIntro"
 		"xpos"								"9999"
 	}
 	"MenuBG"
