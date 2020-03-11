@@ -1,5 +1,6 @@
 #base "HudLayout_Default.res"
 #base "../customizations/Crosshairs.res"
+#base "../customizations/HitMarkers.res"
 #base "../resource/tools/GuideLines.res"
 
 "Resource/HudLayout.res"
