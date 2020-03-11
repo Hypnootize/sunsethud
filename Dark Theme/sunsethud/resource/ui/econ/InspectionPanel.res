@@ -9,7 +9,7 @@
 		"xpos"										"99999"
 	}
 	
-	"Sunset"										//needed as a cover
+	"Sunset"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"Sunset"

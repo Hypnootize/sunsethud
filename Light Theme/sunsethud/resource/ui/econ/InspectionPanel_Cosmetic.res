@@ -50,7 +50,7 @@
 			"ui_fadeout_time"					"3.0"
 			"ui_fadeout_duration"				"2.0"
 			
-			"Sunset"							//needed as a cover
+			"Sunset"
 			{
 				"ControlName"					"ImagePanel"
 				"fieldName"						"Sunset"

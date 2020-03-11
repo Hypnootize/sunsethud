@@ -11,7 +11,7 @@
 		"tall"						"240"
 		"settitlebarvisible"		"0"
 		"paintbackground"			"0"
-		"border"					"GrayBlueBorder"
+		"border"					"WhiteTransparent90"
 	}
 
 	"mouseoveritempanel"
