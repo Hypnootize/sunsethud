@@ -1,3 +1,5 @@
+#base "../customizations/Menu Background.res"
+
 "GameMenu"
 {
 	"Servers"
@@ -259,7 +261,7 @@
 	}
 	"ReloadHud"
 	{
-		"label"			"ã"
+		"label"			";"
 		"command"		"engine snd_restart"
 		"OnlyInGame"	"1"
 	}

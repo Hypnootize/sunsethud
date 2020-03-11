@@ -203,7 +203,7 @@
 	
 	"Sunset"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"Sunset"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -212,22 +212,35 @@
 		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/menu/Sunset"
-		"scaleimage"		"1"
-	}
-	
-	"BlackGradient"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BlackGradient"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"2"
-		"wide"				"f0"
-		"tall"				"f0"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"0 0 0 20"
+		
+		"SunsetImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SunsetImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/menu/Sunset"
+			"scaleimage"	"1"
+		}
+		
+		"BlackGradient"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BlackGradient"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"0 0 0 20"
+		}
 	}
 	
 	"RightBar"
