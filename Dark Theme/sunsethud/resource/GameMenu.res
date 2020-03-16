@@ -262,7 +262,7 @@
 	"ReloadHud"
 	{
 		"label"			";"
-		"command"		"engine snd_restart"
+		"command"		"engine hud_reloadscheme"
 		"OnlyInGame"	"1"
 	}
 	
