@@ -2,12 +2,13 @@
 //// HUD INSTALLATION: //////
 /////////////////////////////
 
-1. Choose between Light or Dark theme so open the choosen folder, check out the screenshot albums to decide!
+1. Unzip the hud and open the sunsethud-master folder
+
+2. Choose between the SunsetLight or SunsetDark theme, check out the screenshot albums to decide!
 Light:	https://imgur.com/a/4BZs0ih
 Dark:	https://imgur.com/a/Z8KJa9B
 
-2. Copy and Paste the sunsethud folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\sunsethud)
-3. Once installed the hud go to Resource/Scheme/Fonts select all the font and install them (rightclick while selected and install)
+3. Based on what you decided, copy and paste the sunsetlight OR sunsetdark folder to your custom tf folder EG: (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\sunsetlight)
 
 If you are using a 4:3 or 16:10 aspect ration replace all the files you find inside the "4x3 - 16x10 Overrides" folder over the normal hud files!
 
@@ -22,4 +23,4 @@ All the customizations can be found inside the Customizations folder and from th
 
 
 
-Thank you for using sunset hud <3
+Thank you for using Sunset Hud <3
