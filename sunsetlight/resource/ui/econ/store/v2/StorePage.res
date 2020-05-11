@@ -758,6 +758,7 @@
 		"textinsetx"						"100"
 		"border"							"WhiteTransparent90"
 		"fgcolor"							"Gray"
+		"alpha"								"0"
 	}
 
 	"PriceLabel"							//????? WHAT ARE YOU FOR ?????

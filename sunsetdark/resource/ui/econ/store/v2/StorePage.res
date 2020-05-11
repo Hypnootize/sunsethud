@@ -758,6 +758,7 @@
 		"textinsetx"						"0"
 		"border"							"ToolTipBorder"
 		"fgcolor"							"White"
+		"alpha"								"0"
 	}
 
 	"PriceLabel"							//????? WHAT ARE YOU FOR ?????

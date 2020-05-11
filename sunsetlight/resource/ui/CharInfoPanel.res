@@ -83,10 +83,28 @@
 		"border"							"BlueTransparent70"
 	}
 	
+	"TopBlueBar"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldName"							"TopBlueBar"
+		"xpos"								"0"
+		"ypos"								"-5"
+		"zpos"								"0"
+		"wide"								"p1.02"
+		"tall"								"20"
+		"visible"							"1"
+		"enabled"							"1"
+		"border"							"BlueTransparent30"
+		
+		"pin_to_sibling" 					"TopWhiteBar"
+		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+	}
+	
 	"BottomWhiteBar"
 	{
 		"ControlName"						"EditablePanel"
-		"fieldName"							"TopWhiteBar"
+		"fieldName"							"BottomWhiteBar"
 		"xpos"								"-5"
 		"ypos"								"r24"
 		"zpos"								"0"
@@ -102,10 +120,11 @@
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Sheet"
 		"zpos"								"50"
-		"tabxindent"						"10"
-		"tabxdelta"							"5"
+		"tabxindent"						"6"
+		"tabxdelta"							"0"
 		"tabwidth"							"240"
 		"tabheight"							"18"
+		"tabxfittotext"						"1"
 		"transition_time" 					"0"
 		"yoffset"							"30"
 		
@@ -118,15 +137,15 @@
 		
 		"tabskv"
 		{
-			"textinsetx"					"10"
-			"textinsety"					"2"
-			"font"							"Size 14"
+			"textinsetx"					"2"
+			"textinsety"					"0"
+			"font"							"Size 16"
 			"selectedcolor"					"White"
 			"unselectedcolor"				"White"	
 			"defaultBgColor_override"		"Blank"
 			"paintbackground"				"0"
-			"activeborder_override"			"BlueTransparent70"
-			"normalborder_override" 		"BlueTransparent70"
+			"activeborder_override"			"NoBorder"
+			"normalborder_override" 		"NoBorder"
 		}
 	}
 	
