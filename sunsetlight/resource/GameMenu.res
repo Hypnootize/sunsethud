@@ -90,7 +90,7 @@
 	"Mute"
 	{
 		"label"			"k"
-		"command"		"OpenPlayerListDialog"
+		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
 	}
 	
