@@ -124,16 +124,16 @@
 			"depressedFgColor_override" 	"White"
 		}
 		
-		"filter_xoffset"					"-240"
+		"filter_xoffset"					"-260"
 		"filter_ypos"						"67"
-		"filter_xdelta"						"10"
-		"filter_ydelta"						"10"
+		"filter_xdelta"						"20"
+		"filter_ydelta"						"20"
 		
 		"recipefilterbuttons_kv"
 		{
 			"zpos"							"2"
-			"wide"							"35"
-			"tall"							"35"
+			"wide"							"40"
+			"tall"							"40"
 			"autoResize"					"0"
 			"pinCorner"						"0"
 			"visible"						"1"
@@ -147,7 +147,7 @@
 			"scaleImage"					"1"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-		}	
+		}
 	}
 	
 	"Sunset"
@@ -169,7 +169,7 @@
 	{
 		"ControlName"						"CExLabel"
 		"fieldName"							"ClassLabel"
-		"font"								"Size 35"
+		"font"								"Size 36"
 		"labelText"							"crafting"
 		"textAlignment"						"west"
 		"xpos"								"c-293"
