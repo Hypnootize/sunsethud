@@ -189,7 +189,7 @@
 	{
 		"ControlName"							"CExLabel"
 		"fieldName"								"ClassLabel"
-		"font"									"Size 35"
+		"font"									"Size 36"
 		"labelText"								"Backpack"
 		"textAlignment"							"west"
 		"xpos"									"0"

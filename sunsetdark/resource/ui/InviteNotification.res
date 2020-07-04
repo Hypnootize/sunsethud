@@ -65,7 +65,7 @@
 
 			"4"
 			{
-				"font"				"Size 7"
+				"font"				"Size 8"
 			}
 		}
 

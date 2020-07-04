@@ -127,7 +127,7 @@
 	{
 		"ControlName"					"CExLabel"
 		"fieldName"						"ItemSlotLabel"
-		"font"							"Size 35"
+		"font"							"Size 36"
 		"labelText"						"#PrimaryWeapon"
 		"textAlignment"					"west"
 		"xpos"							"0"

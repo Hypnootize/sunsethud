@@ -2,17 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		"Symbols 10"
-		{
-			"1"
-			{
-				"name"			"Sunset Icons"
-				"tall"			"10"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
 		"Symbols 12"
 		{
 			"1"
@@ -156,111 +145,12 @@ Scheme
 			}
 		}
 		
-		"Symbols 46"
-		{
-			"1"
-			{
-				"name"			"Sunset Icons"
-				"tall"			"46"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
 		"Symbols 48"
 		{
 			"1"
 			{
 				"name"			"Sunset Icons"
 				"tall"			"48"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Symbols 50"
-		{
-			"1"
-			{
-				"name"			"Sunset Icons"
-				"tall"			"50"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Symbols 54"
-		{
-			"1"
-			{
-				"name"			"Sunset Icons"
-				"tall"			"54"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Symbols 58"
-		{
-			"1"
-			{
-				"name"			"Sunset Icons"
-				"tall"			"58"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Symbols 60"
-		{
-			"1"
-			{
-				"name"			"Sunset Icons"
-				"tall"			"60"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Symbols 64"
-		{
-			"1"
-			{
-				"name"			"Sunset Icons"
-				"tall"			"64"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Symbols 68"
-		{
-			"1"
-			{
-				"name"			"Sunset Icons"
-				"tall"			"68"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Symbols 70"
-		{
-			"1"
-			{
-				"name"			"Sunset Icons"
-				"tall"			"70"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Symbols 72"
-		{
-			"1"
-			{
-				"name"			"Sunset Icons"
-				"tall"			"72"
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -277,45 +167,12 @@ Scheme
 			}
 		}
 		
-		"Class Symbols 10"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"10"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 12"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"12"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
 		"Class Symbols 14"
 		{
 			"1"
 			{
 				"name"			"TF2 Class Icons"
 				"tall"			"14"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 16"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"16"
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -343,17 +200,6 @@ Scheme
 			}
 		}
 		
-		"Class Symbols 22"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"22"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
 		"Class Symbols 24"
 		{
 			"1"
@@ -365,45 +211,12 @@ Scheme
 			}
 		}
 		
-		"Class Symbols 26"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"26"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 28"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"28"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
 		"Class Symbols 30"
 		{
 			"1"
 			{
 				"name"			"TF2 Class Icons"
 				"tall"			"30"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 34"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"34"
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -431,155 +244,12 @@ Scheme
 			}
 		}
 		
-		"Class Symbols 46"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"46"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
 		"Class Symbols 48"
 		{
 			"1"
 			{
 				"name"			"TF2 Class Icons"
 				"tall"			"48"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 50"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"50"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 54"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"54"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 58"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"58"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 60"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"60"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 64"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"64"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 68"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"68"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 70"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"70"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 72"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"72"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Blocks 64"
-		{
-			"1"
-			{
-				"name"			"Blocks"
-				"tall"			"64"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
-		
-		"Dot 46"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"46"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Dot 50"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"50"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"ReadyUp 20"
-		{
-			"1"
-			{
-				"name"			"ReadyUp Symbols"
-				"tall"			"20"
 				"additive"  	"0"
 				"antialias"		"1"
 			}

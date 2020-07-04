@@ -97,7 +97,7 @@
 	{
 		"ControlName"					"Label"
 		"fieldName"						"ArmoryLabel"
-		"font"							"Size 35"
+		"font"							"Size 36"
 		"labelText"						"catalog"
 		"textAlignment"					"west"
 		"xpos"							"-2"
@@ -111,7 +111,7 @@
 		"enabled"						"1"
 		"AllCaps"						"1"
 		"fgcolor_override"				"White"
-		"alpha"							"125"
+		"alpha"							"150"
 		
 		"pin_to_sibling" 				"ItemsBG"
 		"pin_corner_to_sibling" 		"PIN_BOTTOMLEFT"

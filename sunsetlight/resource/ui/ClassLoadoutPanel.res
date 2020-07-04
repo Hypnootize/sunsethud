@@ -122,7 +122,7 @@
 	{
 		"ControlName"					"CExLabel"
 		"fieldName"						"ClassLabel"
-		"font"							"Size 35"
+		"font"							"Size 36"
 		"labelText"						"#ClassBeingEquipped"
 		"textAlignment"					"west"
 		"xpos"							"c-309"
@@ -136,7 +136,7 @@
 		"enabled"						"1"
 		"AllCaps"						"1"
 		"fgcolor_override"				"White"
-		"alpha"							"125"
+		"alpha"							"150"
 	}
 	
 	"classmodelpanel"

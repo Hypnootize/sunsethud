@@ -12,100 +12,6 @@ Scheme
 		//////////////////////////////// SUNSET FONTS /////////////////////////////////
 		///////////////////////////////////////////////////////////////////////////////
 		
-		"Size 5"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"5"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 5 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"5"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 5 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"5"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 5 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"5"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 6"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"6"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 6 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"6"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 6 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"6"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 6 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"6"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 7"
 		{
 			"1"
@@ -114,42 +20,6 @@ Scheme
 				"tall"			"7"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 7 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"7"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 7 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"7"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 7 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"7"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -164,42 +34,6 @@ Scheme
 			}
 		}
 		
-		"Size 8 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"8"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 8 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"8"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 8 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"8"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 9"
 		{
 			"1"
@@ -208,42 +42,6 @@ Scheme
 				"tall"			"9"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 9 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"9"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 9 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"9"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 9 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"9"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -257,19 +55,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-		"Size 10 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"10"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
 		"Size 10 Shadow"
 		{
 			"1"
@@ -279,18 +64,6 @@ Scheme
 				"additive"  	"0"
 				"antialias"		"1"
 				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 10 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"10"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -304,19 +77,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-		"Size 11 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"11"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
 		"Size 11 Shadow"
 		{
 			"1"
@@ -326,18 +86,6 @@ Scheme
 				"additive"  	"0"
 				"antialias"		"1"
 				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 11 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"11"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -351,19 +99,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-		"Size 12 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"12"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
 		"Size 12 Shadow"
 		{
 			"1"
@@ -373,18 +108,6 @@ Scheme
 				"additive"  	"0"
 				"antialias"		"1"
 				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 12 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"12"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -399,42 +122,6 @@ Scheme
 			}
 		}
 		
-		"Size 13 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"13"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 13 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"13"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 13 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"13"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 14"
 		{
 			"1"
@@ -443,18 +130,6 @@ Scheme
 				"tall"			"14"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 14 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"14"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
 			}
 		}
 		
@@ -470,18 +145,6 @@ Scheme
 			}
 		}
 		
-		"Size 14 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"14"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 15"
 		{
 			"1"
@@ -490,42 +153,6 @@ Scheme
 				"tall"			"15"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 15 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"15"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 15 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"15"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 15 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"15"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -539,19 +166,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-		"Size 16 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"16"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
 		"Size 16 Shadow"
 		{
 			"1"
@@ -561,65 +175,6 @@ Scheme
 				"additive"  	"0"
 				"antialias"		"1"
 				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 16 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"16"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 17"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"17"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 17 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"17"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 17 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"17"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 17 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"17"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -633,19 +188,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-		"Size 18 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"18"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
 		"Size 18 Shadow"
 		{
 			"1"
@@ -657,60 +199,12 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
 		"Size 18 Outline"
 		{
 			"1"
 			{
 				"name"			"Renogare Soft"
 				"tall"			"18"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 19"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"19"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 19 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"19"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 19 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"19"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 19 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"19"
 				"additive"  	"0"
 				"antialias"		"1"
 				"outline"		"1"
@@ -727,19 +221,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-		"Size 20 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"20"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
 		"Size 20 Shadow"
 		{
 			"1"
@@ -751,60 +232,12 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
 		"Size 20 Outline"
 		{
 			"1"
 			{
 				"name"			"Renogare Soft"
 				"tall"			"20"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 21"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"21"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 21 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"21"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 21 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"21"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 21 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"21"
 				"additive"  	"0"
 				"antialias"		"1"
 				"outline"		"1"
@@ -821,19 +254,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-		"Size 22 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"22"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
 		"Size 22 Shadow"
 		{
 			"1"
@@ -845,7 +265,6 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
 		"Size 22 Outline"
 		{
 			"1"
@@ -869,42 +288,6 @@ Scheme
 			}
 		}
 		
-		"Size 23 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"23"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 23 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"23"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 23 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"23"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 24"
 		{
 			"1"
@@ -915,19 +298,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-		"Size 24 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"24"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
 		"Size 24 Shadow"
 		{
 			"1"
@@ -939,60 +309,12 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
 		"Size 24 Outline"
 		{
 			"1"
 			{
 				"name"			"Renogare Soft"
 				"tall"			"24"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 25"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"25"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 25 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"25"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 25 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"25"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 25 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"25"
 				"additive"  	"0"
 				"antialias"		"1"
 				"outline"		"1"
@@ -1010,89 +332,6 @@ Scheme
 			}
 		}
 		
-		"Size 26 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"26"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 26 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"26"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 26 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"26"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 27"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"27"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 27 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"27"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 27 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"27"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 27 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"27"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 28"
 		{
 			"1"
@@ -1101,89 +340,6 @@ Scheme
 				"tall"			"28"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 28 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"28"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 28 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"28"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 28 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"28"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 29"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"29"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 29 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"29"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 29 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"29"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 29 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"29"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -1197,19 +353,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-		"Size 30 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"30"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
 		"Size 30 Shadow"
 		{
 			"1"
@@ -1219,65 +362,6 @@ Scheme
 				"additive"  	"0"
 				"antialias"		"1"
 				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 30 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"30"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 31"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"31"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 31 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"31"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 31 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"31"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 31 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"31"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -1292,89 +376,6 @@ Scheme
 			}
 		}
 		
-		"Size 32 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"32"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 32 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"32"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 32 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"32"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 33"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"33"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 33 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"33"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 33 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"33"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 33 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"33"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 34"
 		{
 			"1"
@@ -1383,89 +384,6 @@ Scheme
 				"tall"			"34"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 34 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"34"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 34 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"34"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 34 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"34"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 35"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"35"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 35 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"35"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 35 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"35"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 35 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"35"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -1480,89 +398,6 @@ Scheme
 			}
 		}
 		
-		"Size 36 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"36"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 36 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"36"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 36 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"36"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 37"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"37"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 37 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"37"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 37 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"37"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 37 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"37"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 38"
 		{
 			"1"
@@ -1574,89 +409,6 @@ Scheme
 			}
 		}
 		
-		"Size 38 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"38"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 38 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"38"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 38 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"38"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 39"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"39"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 39 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"39"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 39 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"39"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 39 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"39"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 40"
 		{
 			"1"
@@ -1665,18 +417,6 @@ Scheme
 				"tall"			"40"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 40 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"40"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
 			}
 		}
 		
@@ -1692,65 +432,6 @@ Scheme
 			}
 		}
 		
-		"Size 40 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"40"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 41"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"41"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 41 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"41"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 41 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"41"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 41 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"41"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 42"
 		{
 			"1"
@@ -1759,89 +440,6 @@ Scheme
 				"tall"			"42"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 42 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"42"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 42 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"42"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 42 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"42"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 43"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"43"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 43 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"43"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 43 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"43"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 43 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"43"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -1856,89 +454,6 @@ Scheme
 			}
 		}
 		
-		"Size 44 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"44"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 44 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"44"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 44 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"44"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 45"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"45"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 45 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"45"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 45 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"45"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 45 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"45"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 46"
 		{
 			"1"
@@ -1947,89 +462,6 @@ Scheme
 				"tall"			"46"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 46 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"46"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 46 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"46"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 46 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"46"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 47"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"47"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 47 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"47"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 47 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"47"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 47 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"47"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -2044,89 +476,6 @@ Scheme
 			}
 		}
 		
-		"Size 48 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"48"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 48 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"48"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 48 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"48"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 49"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"49"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 49 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"49"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 49 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"49"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 49 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"49"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 50"
 		{
 			"1"
@@ -2135,18 +484,6 @@ Scheme
 				"tall"			"50"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 50 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"50"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
 			}
 		}
 		
@@ -2162,65 +499,6 @@ Scheme
 			}
 		}
 		
-		"Size 50 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"50"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 51"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"51"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 51 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"51"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 51 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"51"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 51 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"51"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 52"
 		{
 			"1"
@@ -2229,89 +507,6 @@ Scheme
 				"tall"			"52"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 52 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"52"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 52 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"52"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 52 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"52"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 53"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"53"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 53 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"53"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 53 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"53"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 53 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"53"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -2326,89 +521,6 @@ Scheme
 			}
 		}
 		
-		"Size 54 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"54"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 54 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"54"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 54 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"54"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 55"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"55"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 55 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"55"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 55 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"55"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 55 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"55"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 56"
 		{
 			"1"
@@ -2417,89 +529,6 @@ Scheme
 				"tall"			"56"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 56 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"56"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 56 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"56"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 56 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"56"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 57"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"57"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 57 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"57"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 57 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"57"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 57 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"57"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -2514,89 +543,6 @@ Scheme
 			}
 		}
 		
-		"Size 58 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"58"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 58 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"58"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 58 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"58"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 59"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"59"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 59 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"59"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 59 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"59"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 59 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"59"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 60"
 		{
 			"1"
@@ -2605,89 +551,6 @@ Scheme
 				"tall"			"60"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 60 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"60"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 60 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"60"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 60 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"60"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 61"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"61"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 61 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"61"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 61 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"61"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 61 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"61"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -2702,89 +565,6 @@ Scheme
 			}
 		}
 		
-		"Size 62 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"62"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 62 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"62"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 62 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"62"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 63"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"63"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 63 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"63"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 63 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"63"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 63 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"63"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 64"
 		{
 			"1"
@@ -2793,89 +573,6 @@ Scheme
 				"tall"			"64"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 64 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"64"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 64 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"64"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 64 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"64"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 65"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"65"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 65 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"65"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 65 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"65"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 65 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"65"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -2890,89 +587,6 @@ Scheme
 			}
 		}
 		
-		"Size 66 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"66"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 66 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"66"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 66 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"66"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 67"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"67"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 67 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"67"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 67 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"67"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 67 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"67"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 68"
 		{
 			"1"
@@ -2981,89 +595,6 @@ Scheme
 				"tall"			"68"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Size 68 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"68"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 68 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"68"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 68 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"68"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 69"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"69"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 69 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"69"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 69 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"69"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 69 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"69"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -3078,89 +609,6 @@ Scheme
 			}
 		}
 		
-		"Size 70 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"70"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 70 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"70"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 70 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"70"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
-		"Size 71"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"71"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Size 71 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"71"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
-		"Size 71 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"71"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Size 71 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"71"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Size 72"
 		{
 			"1"
@@ -3171,19 +619,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-		"Size 72 Blur"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"72"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
-			}
-		}
-		
 		"Size 72 Shadow"
 		{
 			"1"
@@ -3196,18 +631,6 @@ Scheme
 			}
 		}
 		
-		"Size 72 Outline"
-		{
-			"1"
-			{
-				"name"			"Renogare Soft"
-				"tall"			"72"
-				"additive"  	"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		
 		"Numbers 10"
 		{
 			"1"
@@ -3216,110 +639,6 @@ Scheme
 				"tall"			"10"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Numbers 10 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Numbers"
-				"tall"			"10"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Numbers 11"
-		{
-			"1"
-			{
-				"name"			"Renogare Numbers"
-				"tall"			"11"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Numbers 11 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Numbers"
-				"tall"			"11"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Numbers 12"
-		{
-			"1"
-			{
-				"name"			"Renogare Numbers"
-				"tall"			"12"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Numbers 12 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Numbers"
-				"tall"			"12"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Numbers 18"
-		{
-			"1"
-			{
-				"name"			"Renogare Numbers"
-				"tall"			"18"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Numbers 18 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Numbers"
-				"tall"			"18"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"Numbers 22"
-		{
-			"1"
-			{
-				"name"			"Renogare Numbers"
-				"tall"			"22"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Numbers 22 Shadow"
-		{
-			"1"
-			{
-				"name"			"Renogare Numbers"
-				"tall"			"22"
-				"additive"  	"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
 			}
 		}
 		

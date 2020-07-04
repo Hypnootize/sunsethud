@@ -189,7 +189,7 @@
 	{
 		"ControlName"							"CExLabel"
 		"fieldName"								"ClassLabel"
-		"font"									"Size 35"
+		"font"									"Size 36"
 		"labelText"								"Backpack"
 		"textAlignment"							"west"
 		"xpos"									"0"
@@ -202,7 +202,7 @@
 		"visible"								"1"
 		"enabled"								"1"
 		"AllCaps"								"1"
-		"alpha"									"125"
+		"alpha"									"150"
 		
 		"pin_to_sibling" 						"BackpackBG"
 		"pin_corner_to_sibling" 				"PIN_BOTTOMLEFT"

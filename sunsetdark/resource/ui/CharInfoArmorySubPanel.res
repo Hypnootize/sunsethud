@@ -97,7 +97,7 @@
 	{
 		"ControlName"					"Label"
 		"fieldName"						"ArmoryLabel"
-		"font"							"Size 35"
+		"font"							"Size 36"
 		"labelText"						"catalog"
 		"textAlignment"					"west"
 		"xpos"							"-2"
