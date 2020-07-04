@@ -73,7 +73,7 @@
 		"enabled"			"1"
 		"AllCaps"			"1"
 		"fgcolor_override"	"White"
-		"alpha"				"150"
+		"alpha"				"200"
 	}
 	
 	"MapLabel"
@@ -94,7 +94,7 @@
 		"enabled"			"1"
 		"AllCaps"			"1"
 		"fgcolor_override"	"White"
-		"alpha"				"150"
+		"alpha"				"200"
 	}
 	
 	

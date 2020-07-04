@@ -210,7 +210,7 @@
 		"LocalPlayerColor"			"BlackSolid"
 
 		"BaseBackgroundColor"		"BlackTransparent"
-		"LocalBackgroundColor"		"WhiteTransparent"
+		"LocalBackgroundColor"		"210 210 210 255"
 	}
 	
 	HudCloseCaption

@@ -558,7 +558,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"WhiteTransparent70"
+		"border"			"WhiteTransparent90"
 		"bgcolor_override"	"Blank"
 		"PaintBackground"	"0"
 		"AllCaps"			"1"
@@ -632,7 +632,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ComboLabel"
-			"font"			"Size 11"
+			"font"			"Size 12"
 			"labelText"		"%combo_label%"
 			"textAlignment"	"east"
 			"xpos"			"5"
@@ -651,7 +651,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBox"
-			"Font"				"Size 11"
+			"Font"				"Size 12"
 			"xpos"				"85"
 			"ypos"				"245"
 			"zpos"				"1"

@@ -588,12 +588,9 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"FgColor" 						"WhiteMoreTransparent"
-			"defaultFgColor_override" 		"WhiteMoreTransparent"
+			"FgColor" 						"200 200 200 255"
+			"defaultFgColor_override" 		"200 200 200 255"
 			"armedFgColor_override" 		"OrangeLight"
-			
-			"image_drawcolor"				"235 235 235 255"
-			"image_armedcolor"				"235 235 235 255"
 			
 			"pin_to_sibling" 				"DashboardAnchor"
 			"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
