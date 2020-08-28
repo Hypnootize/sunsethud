@@ -10,7 +10,15 @@ Dark:	https://imgur.com/a/Z8KJa9B
 
 3. Based on what you decided, copy and paste the sunsetlight OR sunsetdark folder to your custom tf folder EG: (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\sunsetlight)
 
-If you are using a 4:3 or 16:10 aspect ration replace all the files you find inside the "4x3 - 16x10 Overrides" folder over the normal hud files!
+/////////////////////////////
+//// RESOLUTION FIXES: //////
+/////////////////////////////
+
+If you are using a 4:3 or 16:10 aspect ratio you will also require to apply the fixes for said ratios, in order to do so:
+
+1. Open the customizations > resolutions folder, inside you will find 3 folders for 4x3, 16x10 and 16x9 resolutions
+2. Uncomment the folder that matches your aspect ratio by removing the underscore from the folder name.
+3. ONLY 1 FOLDER SHOULD STAY UNCOMMENTED MAKE SURE YOU COMMENT ANY FOLDER NOT IN USE!!
 
 /////////////////////////////
 /// CUSTOMIZATIONS USAGE ////
@@ -23,4 +31,4 @@ All the customizations can be found inside the Customizations folder and from th
 
 
 
-Thank you for using Sunset Hud <3
+Thank you for using Sunset Hud \(●'◡'●)/
