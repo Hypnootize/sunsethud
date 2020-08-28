@@ -8,7 +8,7 @@
 		"ypos"						"3"
 		"zpos"						"3"
 		"tall"						"60"
-		"wide"						"105"
+		"wide"						"160"
 		"proportionaltoparent"		"1"
 
 		"button_command"			"play_event"
@@ -18,11 +18,11 @@
 	{
 		"ControlName"				"CPlayListEntry"
 		"fieldName"					"CasualEntry"
-		"xpos"						"r110"
+		"xpos"						"r165"
 		"ypos"						"5"
 		"zpos"						"3"
 		"tall"						"60"
-		"wide"						"105"
+		"wide"						"160"
 		"proportionaltoparent"		"0"
 
 		"image_name"				"main_menu/main_menu_button_casual"
@@ -40,7 +40,7 @@
 		"ypos"						"0"
 		"zpos"						"3"
 		"tall"						"60"
-		"wide"						"105"
+		"wide"						"160"
 		"proportionaltoparent"		"0"
 
 		"image_name"				"main_menu/main_menu_button_competitive"
@@ -62,7 +62,7 @@
 		"ypos"						"0"
 		"zpos"						"3"
 		"tall"						"60"
-		"wide"						"105"
+		"wide"						"160"
 		"proportionaltoparent"		"0"
 
 		"image_name"				"main_menu/main_menu_button_mvm"
@@ -84,7 +84,7 @@
 		"ypos"						"0"
 		"zpos"						"3"
 		"tall"						"60"
-		"wide"						"105"
+		"wide"						"160"
 		"proportionaltoparent"		"1"
 
 		"image_name"				"main_menu/main_menu_button_training"
