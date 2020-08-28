@@ -3012,25 +3012,6 @@
 		}
 	}
 	
-	"StreamListPanel"
-	{
-		"ControlName"					"CTFStreamListPanel"
-		"fieldName"						"StreamListPanel"
-		"xpos"							"10"
-		"ypos"							"0"
-		"zpos"							"20"
-		"wide"							"300"
-		"tall"							"293"
-		"visible"						"0"
-		"PaintBackgroundType"			"0"
-		"paintbackground"				"0"
-		"border"						"WhiteTransparent50"
-		
-		"pin_to_sibling"				"RightBar"
-		"pin_corner_to_sibling"			"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner"			"PIN_CENTER_LEFT"
-	}
-	
 	
 	
 	
