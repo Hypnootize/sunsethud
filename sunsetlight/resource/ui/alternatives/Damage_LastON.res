@@ -6,8 +6,8 @@
 		"text_x"						"0"
 		"text_y"						"0"
 		"delta_item_end_y"				"0"
-		"PositiveColor"					"0 255 0 255"
-		"NegativeColor"					"255 0 0 255"
+		"PositiveColor"					"Heal Numbers"
+		"NegativeColor"					""					//This is dead, use the advanced options to change damage color!!
 		"delta_lifetime"				"1.5"
 		"delta_item_font"				"Size 22 Shadow"
 		"delta_item_font_minmode"		"Size 22 Shadow"

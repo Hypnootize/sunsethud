@@ -75,7 +75,7 @@ Scheme
 
 		"GradedWeaponDefault_Hover"				"180 180 180 255"
 		"CivilianGrade_Hover"					"185 210 245 255"
-		"FreelanceGrade"						"105 190 245 255"
+		"FreelanceGrade_Hover"					"105 190 245 255"
 		"MercenaryGrade_Hover"					"60 120 240 255"
 		"CommandoGrade_Hover"					"150 115 245 255"
 		"AssassinGrade_Hover"					"235 140 245 255"
