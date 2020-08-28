@@ -388,6 +388,7 @@
 			"textAlignment"			"west"
 			"dulltext"				"0"
 			"brighttext"			"0"
+			"alpha"					"255"
 		}
 		
 		"Player1Class"
@@ -525,6 +526,7 @@
 			"textAlignment"			"west"
 			"dulltext"				"0"
 			"brighttext"			"0"
+			"alpha"					"255"
 		}
 		
 		"Player2Class"
@@ -660,6 +662,7 @@
 			"textAlignment"			"west"
 			"dulltext"				"0"
 			"brighttext"			"0"
+			"alpha"					"255"
 		}
 		
 		"Player3Class"
@@ -811,6 +814,7 @@
 			"textAlignment"			"west"
 			"dulltext"				"0"
 			"brighttext"			"0"
+			"alpha"					"255"
 		}
 		
 		"Player1Class"
@@ -948,6 +952,7 @@
 			"textAlignment"			"west"
 			"dulltext"				"0"
 			"brighttext"			"0"
+			"alpha"					"255"
 		}
 		
 		"Player2Class"
@@ -1083,6 +1088,7 @@
 			"textAlignment"			"west"
 			"dulltext"				"0"
 			"brighttext"			"0"
+			"alpha"					"255"
 		}
 		
 		"Player3Class"

@@ -31,6 +31,7 @@
 		"autoresize"				"3"
 		"linespacing"				"22"
 		"textcolor"					"White"
+		"alpha"						"255"
 	}
 	
 	"PlayerListBackground"

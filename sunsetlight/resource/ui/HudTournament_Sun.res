@@ -92,6 +92,7 @@
 				"labelText"					"%playername%"
 				"textAlignment"				"west"
 				"fgcolor"					"80 80 80 255"
+				"alpha"						"255"
 			}
 			
 			"playernamebg"

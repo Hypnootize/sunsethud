@@ -292,6 +292,7 @@
 		"textAlignment"				"west"
 		"dulltext"					"0"
 		"brighttext"				"0"
+		"alpha"						"255"
 		
 		"pin_to_sibling"			"HorizontalLine"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -364,6 +365,7 @@
 		"textAlignment"				"west"
 		"dulltext"					"0"
 		"brighttext"				"0"
+		"alpha"						"255"
 		
 		"pin_to_sibling"			"Player1Name"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -436,6 +438,7 @@
 		"textAlignment"				"west"
 		"dulltext"					"0"
 		"brighttext"				"0"
+		"alpha"						"255"
 		
 		"pin_to_sibling"			"Player2Name"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"

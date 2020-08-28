@@ -76,6 +76,7 @@
 		"textAlignment"				"west"
 		"dulltext"					"0"
 		"brighttext"				"0"
+		"alpha"						"255"
 	}
 	
 	"TargetDataLabel"

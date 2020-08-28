@@ -112,6 +112,7 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"fgcolor_override"			"White"
+		"alpha"						"255"
 		
 		"pin_to_sibling"			"Background"
 	}

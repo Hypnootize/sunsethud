@@ -403,6 +403,7 @@
 		"tall"									"260"
 		"visible"								"0"
 		"enabled"								"1"
+		"alpha"									"255"
 
 		if_large
 		{
@@ -547,6 +548,7 @@
 		"tall"									"260"
 		"visible"								"0"
 		"enabled"								"1"
+		"alpha"									"255"
 
 		if_large
 		{

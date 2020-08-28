@@ -101,6 +101,7 @@
 			"labelText"						"%killername%"
 			"textAlignment"					"west"
 			"fgcolor_override"				"White"
+			"alpha"							"255"
 		}
 
 		"AvatarImage"

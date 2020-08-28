@@ -12,6 +12,7 @@
 		"visible"					"1"
 		"proportionaltoparent"		"1"
 		"scaleImage"				"1"
+		"alpha"						"255"
 	}
 
 	"EmptyImage"
