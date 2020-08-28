@@ -332,6 +332,7 @@
 		"linegap"					"1"
 		"fgcolor"					"blue"
 		"show_columns"				"0"
+		"alpha"						"255"
 		
 		"pin_to_sibling" 			"MainBG"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
@@ -357,6 +358,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"bgcolor_override"			"BlackLightTransparent"
+		"alpha"						"255"
 		
 		"pin_to_sibling" 			"BluePlayerList"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
@@ -386,6 +388,7 @@
 		"linegap"					"1"
 		"fgcolor"					"red"
 		"show_columns"				"0"
+		"alpha"						"255"
 		
 		"pin_to_sibling" 			"MainBG"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
@@ -459,6 +462,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"fgcolor"					"White"
+		"alpha"						"255"
 	}
 	
 	"SpectatorsInQueue"
@@ -478,6 +482,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"fgcolor"					"White"
+		"alpha"						"255"
 	}
 	
 	"ServerLabel"
@@ -497,6 +502,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"fgcolor"					"White"
+		"alpha"						"255"
 	}
 	
 	"MapName"
