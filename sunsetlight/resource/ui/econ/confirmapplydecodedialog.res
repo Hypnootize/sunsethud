@@ -52,6 +52,7 @@
 			"fgcolor"				"117 107 94 255"
 			"centerwrap"			"1"
 		}
+	}
 
 	"TitleLabel"
 	{
