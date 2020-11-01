@@ -41,8 +41,8 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"font"					"Symbols 20"
-			"labelText"				"B"
+			"font"					"Symbols 22"
+			"labelText"				"P"
 			"textAlignment"			"center"
 			"fgcolor"				"White"
 		}
@@ -121,8 +121,8 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"font"					"Symbols 20"
-			"labelText"				"B"
+			"font"					"Symbols 22"
+			"labelText"				"P"
 			"textAlignment"			"center"
 			"fgcolor"				"White"
 		}

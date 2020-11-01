@@ -164,7 +164,95 @@
 		}
 	}
 	
-	
+	"CarryingWeapon"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"CarryingWeapon"
+		"xpos"						"0"
+		"ypos"						"r40"
+		"zpos"						"100"
+		"wide"						"500"
+		"tall"	 					"28"
+
+		"CarryingBackground"
+		{
+			"ControlName"			"CTFImagePanel"
+			"fieldName"				"CarryingBackground"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"0"
+			"wide"					"p1"
+			"tall"	 				"f0"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"image"					"replay/thumbnails/panels/panel_gray"
+			"scaleImage"			"1"
+			"teambg_1"				"replay/thumbnails/panels/panel_gray"
+			"teambg_2"				"replay/thumbnails/panels/panel_red"
+			"teambg_3"				"replay/thumbnails/panels/panel_blue"
+			"proportionaltoparent"	"1"
+		
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
+
+			"alpha"					"150"			
+		}
+
+		"CarryingLabel"
+		{	
+			"ControlName"			"CExLabel"
+			"fieldName"				"CarryingLabel"
+			"font"					"Size 11"
+			"xpos"					"5"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"200"
+			"tall"	 				"f0"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"textAlignment"			"North-West"
+			"dulltext"				"0"
+			"brighttext"			"0"
+			"proportionaltoparent"	"1"
+			"auto_wide_tocontents"	"1"
+			"labelText"				"%carrying%"
+		}
+
+		"CarryingLabelDropShadow"
+		{	
+			"ControlName"			"CExLabel"
+			"fieldName"				"CarryingLabelDropShadow"
+			"xpos"					"9999"
+		}
+
+		"OwnerLabel"
+		{	
+			"ControlName"			"Label"
+			"fieldName"				"OwnerLabel"
+			"font"					"Size 9"
+			"xpos"					"5"
+			"ypos"					"12"
+			"zpos"					"0"
+			"wide"					"200"
+			"tall"	 				"f0"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"textAlignment"			"North-West"
+			"dulltext"				"0"
+			"brighttext"			"0"
+			"proportionaltoparent"	"1"
+			"auto_wide_tocontents"	"1"
+		}
+	}
 	
 	
 	"classmodelpanelBG"

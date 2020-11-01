@@ -55,7 +55,7 @@
 		"tall"										"43"
 		"visible"									"0"
 		"PaintBackgroundType"						"0"
-		"border"									"BlackTransparent70"
+		"border"									"GrayBluBorderDark"
 		"proportionaltoparent"						"1"
 
 		if_uses_xp
@@ -501,7 +501,7 @@
 					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
-					"border"						"BlackTransparent30"
+					"border"						"GrayBluBorderDark"
 
 					if_large
 					{
@@ -776,7 +776,7 @@
 					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
-					"border"						"BlackTransparent30"
+					"border"						"GrayBluBorderDark"
 
 					if_large
 					{

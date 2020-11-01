@@ -556,8 +556,8 @@
 		{
 			"ControlName"					"CExLabel"
 			"fieldName"						"CreditsIcon"
-			"font"							"Symbols 20"
-			"labelText"						"}"
+			"font"							"Symbols 22"
+			"labelText"						"6"
 			"textAlignment"					"west"
 			"xpos"							"-5"
 			"ypos"							"1"

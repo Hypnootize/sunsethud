@@ -13,7 +13,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"tabPosition"				"0"
-		"medal_width"				"0"
+		"medal_width"				"15"
 		"avatar_width"				"55"
 		"spacer"					"2"
 		"name_width"				"85"
@@ -154,9 +154,9 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"BlueTeamPlayerCountIcon"
-		"font"						"Symbols 14"
+		"font"						"Symbols 16"
 		"fgcolor"					"White"
-		"labelText"					"C"
+		"labelText"					"R"
 		"textAlignment"				"east"
 		"xpos"						"-5"
 		"ypos"						"-2"
@@ -265,9 +265,9 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"RedTeamPlayerCountIcon"
-		"font"						"Symbols 14"
+		"font"						"Symbols 16"
 		"fgcolor"					"White"
-		"labelText"					"C"
+		"labelText"					"R"
 		"textAlignment"				"west"
 		"xpos"						"-5"
 		"ypos"						"-2"
@@ -318,8 +318,8 @@
 	{
 		"ControlName"				"SectionedListPanel"
 		"fieldName"					"BluePlayerList"
-		"xpos"						"-4"
-		"ypos"						"-2"
+		"xpos"						"c-251"
+		"ypos"						"r288"
 		"zpos"						"20"
 		"wide"						"250"
 		"tall"						"247"
@@ -333,10 +333,6 @@
 		"fgcolor"					"blue"
 		"show_columns"				"0"
 		"alpha"						"255"
-		
-		"pin_to_sibling" 			"MainBG"
-		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 	"PIN_TOPLEFT"
 		
 		if_mvm
 		{
@@ -374,8 +370,8 @@
 	{
 		"ControlName"				"SectionedListPanel"
 		"fieldName"					"RedPlayerList"
-		"xpos"						"-4"
-		"ypos"						"-2"
+		"xpos"						"c2"
+		"ypos"						"r288"
 		"zpos"						"20"
 		"wide"						"250"
 		"tall"						"247"
@@ -389,10 +385,6 @@
 		"fgcolor"					"red"
 		"show_columns"				"0"
 		"alpha"						"255"
-		
-		"pin_to_sibling" 			"MainBG"
-		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 
  		if_mvm
  		{
@@ -402,16 +394,47 @@
 	
 	"TimePanelBG"
 	{
-		"ControlName"				"EditablePanel"
+		"ControlName"				"CTFImagePanel"
 		"fieldName"					"TimePanelBG"
-		"xpos"						"c-25"
-		"ypos"						"-5"
-		"zpos"						"1"
+		"xpos"						"cs-0.5"
+		"ypos"						"-10"
+		"zpos"						"2"
 		"wide"						"50"
-		"tall"						"22"
+		"tall"						"16"
 		"visible"					"1"
 		"enabled"					"1"
-		"border"					"BlackTransparent70"
+		
+		"image"						"replay/thumbnails/panels/material_transparent_white_70"
+		"scaleImage"				"1"
+		"teambg_1"					"replay/thumbnails/panels/material_transparent_white_70"
+		"teambg_2"					"replay/thumbnails/panels/material_transparent_red_70"
+		"teambg_3"					"replay/thumbnails/panels/material_transparent_blue_70"
+		
+		"src_corner_height"			"32"
+		"src_corner_width"			"32"
+		"draw_corner_width"			"8"
+		"draw_corner_height" 		"8"
+		"proportionaltoparent"		"1"
+		
+		if_mvm
+		{
+			"visible"				"0"
+		}
+	}
+	
+	"TimeBG"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"TimeBG"
+		"xpos"						"cs-0.5"
+		"ypos"						"-5"
+		"zpos"						"2"
+		"wide"						"50"
+		"tall"						"26"
+		"visible"					"1"
+		"enabled"					"1"
+		"border"					"WhiteTransparent70"
+		"proportionaltoparent"		"1"
 		
 		if_mvm
 		{
@@ -427,17 +450,17 @@
 		"labelText"					"%servertime%"
 		"textAlignment"				"center"
 		"xpos"						"0"
-		"ypos"						"0"
-		"zpos"						"2"
+		"ypos"						"-5"
+		"zpos"						"5"
 		"wide"						"50"
-		"tall"						"25"
+		"tall"						"24"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"fgcolor"					"White"
+		"fgcolor"					"GrayMedium"
 		
-		"pin_to_sibling" 			"TimePanelBG"
+		"pin_to_sibling" 			"TimeBG"
 		
 		if_mvm
 		{
@@ -2004,19 +2027,19 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"LocalPlayerDuelStatsPanel"
 		"xpos"					"0"
-		"ypos"					"40"
-		"zpos"					"3"
+		"ypos"					"3"
+		"zpos"					"5"
 		"wide"					"510"
 		"tall"					"45"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"border"				"BlackTransparent50"
+		"paintborder"			"0"
 		
 		"pin_to_sibling"		"MainBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 		
 		if_mvm
 		{
@@ -2106,7 +2129,7 @@
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"White"
 				"xpos"			"30"
-				"ypos"			"3"
+				"ypos"			"4"
 				"zpos"			"2"
 				"wide"			"130"
 				"tall"			"18"
@@ -2189,7 +2212,7 @@
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"White"
 				"xpos"			"354"
-				"ypos"			"3"
+				"ypos"			"4"
 				"zpos"			"2"
 				"wide"			"130"
 				"tall"			"18"
@@ -2197,7 +2220,6 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"AllCaps"		"1"
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"

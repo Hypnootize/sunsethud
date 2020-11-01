@@ -2121,7 +2121,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"tabPosition"				"0"
-		"labelText"					"j"
+		"labelText"					"D"
 		"font"						"Symbols 14"
 		"textAlignment"				"center"
 		"dulltext"					"0"

@@ -31,22 +31,22 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-	}	
+	}
 	
 	HudKothTimeStatus
 	{
 		"fieldName" 								"HudKothTimeStatus"
 		"visible" 									"1"
 		"enabled" 									"1"
-		"xpos"										"c-80"
-		"ypos"										"-5"
+		"xpos"										"cs-0.5"
+		"ypos"										"0"
 		"wide"										"160"
-		"tall"										"30"
+		"tall"										"100"
 		
-		"blue_active_xpos"							"35"
+		"blue_active_xpos"							"36"
 	
 		"red_active_xpos"							"85"
-	}	
+	}
 
 	HudItemEffectMeter
 	{
@@ -114,11 +114,11 @@
 		"fieldName"									"HudBossHealth"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"c-54"
-		"ypos"										"40"
+		"xpos"										"cs-0.5"
+		"ypos"										"42"
 		"zpos"										"0"
-		"wide"										"200"
-		"tall"										"50"
+		"wide"										"178"
+		"tall"										"22"
 		"MeterFG"									"Red"
 		"MeterBG"									"Gray"
 	}
@@ -679,17 +679,22 @@
 
 	HudVoiceStatus
 	{
-		"fieldName" 	 							"HudVoiceStatus"
-		"visible" 	 								"1"
-		"enabled" 	 								"1"
-		"xpos" 	 									"r145"
-		"ypos" 	 									"0"
-		"wide" 	 									"145"
-		"tall" 	 									"400"
+		"fieldName" 								"HudVoiceStatus"
+		"visible" 									"1"
+		"enabled" 									"1"
+		"xpos" 										"r145" 
+		"ypos" 										"0" 
+		"wide" 										"145"
+		"tall" 										"400"
 
-		"item_wide"		 							"135"
+		"item_wide"									"135"
 		
-		"show_avatar"								"0"
+		"show_avatar"								"1"
+        
+        "avatar_xpos"  							 	"-12"
+        "avatar_ypos"  							 	"-1"
+        "avatar_wide"  							 	"17"
+        "avatar_tall"  								"17"
 		
 		"show_dead_icon"							"1"
 		"dead_xpos"									"1"
@@ -698,10 +703,10 @@
 		"dead_tall"									"16"
 		
 		"show_voice_icon"							"1"
-		"icon_ypos"									"0"
-		"icon_xpos"									"15"
-		"icon_tall"									"16"
-		"icon_wide"									"16"
+		"icon_ypos"									"2"
+		"icon_xpos"									"17"
+		"icon_tall"									"12"
+		"icon_wide"									"12"
 		
 		"text_xpos"									"33"
 	}
@@ -769,8 +774,8 @@
 		"tall"									 	"200"
 		"visible"								 	"1"
 		"enabled"								 	"1"
-		"separator_width"						 	"5"
-		"separator_height"						 	"5"
+		"separator_width"						 	"3"
+		"separator_height"						 	"3"
 		"height_offset"							 	"0"
 	}
 

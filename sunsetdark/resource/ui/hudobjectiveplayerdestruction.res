@@ -679,8 +679,8 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BlueStolenContainer"
-			"xpos"									"r45"
-			"ypos"									"r77"
+			"xpos"									"c-120"
+			"ypos"									"r50"
 			"zpos"									"1"
 			"wide"									"30"
 			"tall"									"40"
@@ -772,10 +772,7 @@
 				"font"								"Size 16"	
 				"fgcolor"							"Shadows"
 				"proportionalToParent"				"1"
-				
 				"pin_to_sibling"					"IntelValue"
-				"pin_corner_to_sibling"				"PIN_TOPLEFT"
-				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
 		}
 
@@ -783,8 +780,8 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"RedStolenContainer"
-			"xpos"									"r45"
-			"ypos"									"r77"
+			"xpos"									"c90"
+			"ypos"									"r50"
 			"zpos"									"1"
 			"wide"									"30"
 			"tall"									"40"

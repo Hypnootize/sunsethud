@@ -50,7 +50,7 @@
 		"ControlName"				"CTFImagePanel"
 		"fieldName"					"StatusIcon"
 		"xpos"						"0"
-		"ypos"						"-1"
+		"ypos"						"0"
 		"zpos"						"3"
 		"wide"						"35"
 		"tall"						"35"
@@ -67,5 +67,5 @@
 		{
 			"visible"				"0"
 		}
-	}	
+	}
 }

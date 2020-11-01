@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"12"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -17,7 +17,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"14"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -28,7 +28,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"16"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -39,7 +39,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"18"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -50,7 +50,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"20"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -61,7 +61,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"22"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -72,7 +72,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"24"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -83,7 +83,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"26"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -94,7 +94,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"28"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -105,7 +105,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"30"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -116,7 +116,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"34"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -127,7 +127,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"38"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -138,7 +138,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"40"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -149,7 +149,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Sunset Icons"
+				"name"			"Hypnotize Icons"
 				"tall"			"48"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -167,39 +167,6 @@ Scheme
 			}
 		}
 		
-		"Class Symbols 14"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"14"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 18"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"18"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 20"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"20"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
 		"Class Symbols 24"
 		{
 			"1"
@@ -211,45 +178,23 @@ Scheme
 			}
 		}
 		
-		"Class Symbols 30"
+		"Class Symbols 42"
 		{
 			"1"
 			{
 				"name"			"TF2 Class Icons"
-				"tall"			"30"
+				"tall"			"42"
 				"additive"  	"0"
 				"antialias"		"1"
 			}
 		}
 		
-		"Class Symbols 38"
+		"Class Symbols 50"
 		{
 			"1"
 			{
 				"name"			"TF2 Class Icons"
-				"tall"			"38"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 40"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"40"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Class Symbols 48"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons"
-				"tall"			"48"
+				"tall"			"50"
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -271,19 +216,19 @@ Scheme
 	{
 		"20"
 		{
-			"font" "resource/scheme/fonts/sunset icons.otf"
-			"name" "Sunset Icons"
+			"font" "resource/scheme/fonts/hypnotize icons.ttf"
+			"name" "Hypnotize Icons"
 		}
 		
 		"21"
 		{
-			"font" "resource/scheme/fonts/tf2 class icons.otf"
+			"font" "resource/scheme/fonts/tf2 class icons.ttf"
 			"name" "TF2 Class Icons"
 		}
 		
 		"22"
 		{
-			"font" "resource/scheme/fonts/readyUp symbols.otf"
+			"font" "resource/scheme/fonts/readyup symbols.otf"
 			"name" "ReadyUp Symbols"
 		}
 		

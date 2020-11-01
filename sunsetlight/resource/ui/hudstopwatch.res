@@ -5,7 +5,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"ObjectiveStatusTimePanel"
 		"xpos"					"c-55"
-		"ypos"					"25"
+		"ypos"					"30"
 		"zpos"					"1"
 		"wide"					"110"
 		"tall"					"30"
@@ -17,7 +17,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
 			"font"				"Size 16"
-			"fgcolor"			"Gray"
+			"fgcolor"			"White"
 			"xpos"				"30"
 			"ypos"				"0"
 			"zpos"				"3"
@@ -26,7 +26,14 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"center"
-		}	
+		}
+		
+		"TimeBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"TimeBG"
+			"xpos"				"9999"
+		}
 	}
 
 	"StopWatchScoreToBeat"
@@ -37,7 +44,7 @@
 		"labelText"				"%scoretobeat%"
 		"textAlignment"			"west"
 		"xpos"					"-33"
-		"ypos"					"-8"
+		"ypos"					"-10"
 		"zpos"					"4"
 		"wide"					"12"
 		"tall"					"10"
