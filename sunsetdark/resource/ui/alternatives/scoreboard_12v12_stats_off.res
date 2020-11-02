@@ -433,7 +433,7 @@
 		"tall"						"26"
 		"visible"					"1"
 		"enabled"					"1"
-		"border"					"WhiteTransparent70"
+		"border"					"BlackTransparent70"
 		"proportionaltoparent"		"1"
 		
 		if_mvm
@@ -458,7 +458,7 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"fgcolor"					"GrayMedium"
+		"fgcolor"					"White"
 		
 		"pin_to_sibling" 			"TimeBG"
 		
