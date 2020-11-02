@@ -501,7 +501,7 @@
 					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
-					"border"						"GrayBluBorderDark"
+					"border"						"BlackTransparent90"
 
 					if_large
 					{
@@ -776,7 +776,7 @@
 					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
-					"border"						"GrayBluBorderDark"
+					"border"						"BlackTransparent90"
 
 					if_large
 					{

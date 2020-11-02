@@ -38,7 +38,7 @@
 			"tall"							"f5"
 			"visible"						"1"
 			"PaintBackgroundType"			"2"
-			"border"						"GrayBluBorder"
+			"border"						"BlackTransparent90"
 			"proportionaltoparent"			"1"
 			"pinCorner"						"2"
 
