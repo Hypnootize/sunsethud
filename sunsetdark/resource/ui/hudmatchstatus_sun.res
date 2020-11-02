@@ -165,11 +165,11 @@
 		"ypos"									"0"
 		"zpos"									"2"
 		"wide"									"f0"
-		"tall"									"75"
+		"tall"									"25"
 		"visible"								"1"
 		"enabled"								"1"
 
-		"max_size"								"19"
+		"max_size"								"20"
 
 		"6v6_gap"								"4"
 		"12v12_gap"								"1"
@@ -185,8 +185,8 @@
 		"playerpanels_kv"
 		{
 			"visible"							"0"
-			"wide"								"25"
-			"tall"								"50"
+			"wide"								"f0"
+			"tall"								"f0"
 			"zpos"								"1"
 			"zpos"								"1"
 
@@ -202,34 +202,14 @@
 			"color_portrait_blend_dead_red"		"White"
 			"color_portrait_blend_dead_blue" 	"White"
 			
-			"playername"
-			{
-				"ControlName"					"CExLabel"
-				"fieldName"						"playername"
-				"xpos"							"0"
-				"ypos"							"21"
-				"zpos"							"5"
-				"wide"							"f0"
-				"tall"							"7"
-				"autoResize"					"0"
-				"pinCorner"						"0"
-				"visible"						"0"				//1 to enable names
-				"textinsetx"					"1"
-				"labelText"						"%playername%"
-				"font"							"UltraSmall"
-				"textAlignment"					"center"
-				"bgcolor_override"				"BlackTransparent"
-				"proportionaltoparent"			"1"
-			}
-			
 			"classimage"
 			{
 				"ControlName"					"CTFClassImage"
 				"fieldName"						"classimage"
 				"xpos"							"cs-0.5"
 				"ypos"							"0"
-				"zpos"							"3"
-				"wide"							"19"
+				"zpos"							"5"
+				"wide"							"20"
 				"tall"							"19"
 				"visible"						"1"
 				"enabled"						"1"
@@ -253,6 +233,31 @@
 				"proportionaltoparent"			"1"
 			}
 			
+			"PlayerName"
+			{
+				"ControlName"					"CExLabel"
+				"fieldName"						"PlayerName"
+				"xpos"							"0"
+				"ypos"							"0"
+				"zpos"							"5"
+				"wide"							"f0"
+				"tall"							"7"
+				"autoResize"					"0"
+				"pinCorner"						"0"
+				"visible"						"1"
+				"textinsetx"					"1"
+				"labelText"						"%playername%"
+				"font"							"UltraSmall"
+				"textAlignment"					"center"
+				"bgcolor_override"				"TransparentBlack"
+				"proportionaltoparent"			"1"
+				"alpha"							"255"
+				
+				"pin_to_sibling" 				"classimagebg"
+				"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
+				"pin_to_sibling_corner" 		"PIN_CENTER_BOTTOM"
+			}
+			
 			"healthbar"
 			{	
 				"ControlName"					"ContinuousProgressBar"
@@ -260,7 +265,7 @@
 				"font"							"Default"
 				"xpos"							"0"
 				"ypos"							"19"
-				"zpos"							"5"
+				"zpos"							"3"
 				"wide"							"f0"
 				"tall"							"2"				
 				"autoResize"					"0"
@@ -281,7 +286,7 @@
 				"font"							"Default"																		
 				"xpos"							"0"
 				"ypos"							"19"
-				"zpos"							"6"
+				"zpos"							"4"
 				"wide"							"f0"
 				"tall"							"2"				
 				"autoResize"					"0"
@@ -296,24 +301,6 @@
 				"proportionaltoparent"			"1"
 			}
 			
-			"HealthIcon"
-			{
-				"ControlName"					"EditablePanel"
-				"fieldName"						"HealthIcon"
-				"xpos"							"22"
-				"ypos"							"-3"
-				"zpos"							"3"
-				"wide"							"32"
-				"tall"							"32"
-				"visible"						"0"
-				"enabled"						"1"	
-				"HealthBonusPosAdj"				"10"
-				"HealthDeathWarning"			"0.49"
-				"TFFont"						"HudFontSmallest"
-				"HealthDeathWarningColor"		"HUDDeathWarning"
-				"TextColor"						"HudOffWhite"
-			}
-			
 			"respawntime"
 			{
 				"ControlName"					"CExLabel"
@@ -321,7 +308,7 @@
 				"font"							"Size 12 Shadow"
 				"xpos"							"cs-0.5"
 				"ypos"							"0"
-				"zpos"							"5"
+				"zpos"							"10"
 				"wide"							"f0"
 				"tall"							"19"
 				"autoResize"					"0"
@@ -333,40 +320,24 @@
 				"fgcolor"						"White"
 			}
 			
+			"HealthIcon"
+			{
+				"ControlName"					"EditablePanel"
+				"fieldName"						"HealthIcon"
+				"xpos"							"9999"
+			}
 			"chargeamount"
 			{
 				"ControlName"					"CExLabel"
 				"fieldName"						"chargeamount"
-				"font"							"DefaultSmall"
-				"xpos"							"25"
-				"ypos"							"17"
-				"zpos"							"6"
-				"wide"							"25"
-				"tall"							"15"
-				"autoResize"					"0"
-				"pinCorner"						"0"
-				"visible"						"0"
-				"labelText"						"%chargeamount%"
-				"textAlignment"					"north"
-				"fgcolor"						"0 255 0 255"
+				"xpos"							"9999"
 			}
-			
 			"DeathPanel"
 			{
 				"ControlName"					"ImagePanel"
 				"fieldName"						"DeathPanel"
-				"xpos"							"cs-0.5"
-				"ypos"							"0"
-				"zpos"							"0"
-				"wide"							"f0"
-				"tall"							"24"
-				"visible"						"0"
-				"enabled"						"1"
-				"image"							"../HUD/comp_player_status"	
-				"scaleImage"					"1"
-				"proportionaltoparent"			"1"	
+				"xpos"							"9999"
 			}
-			
 			"ReadyBG"
 			{
 				"ControlName"					"ScalableImagePanel"
