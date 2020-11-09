@@ -484,6 +484,7 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+		"fgcolor"					"White"
 		"alpha"						"255"
 	}
 	
@@ -503,6 +504,7 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+		"fgcolor"					"White"
 		"alpha"						"255"
 	}
 	
@@ -522,6 +524,7 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+		"fgcolor"					"White"
 		"alpha"						"255"
 	}
 	
@@ -529,19 +532,19 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"mapname"
-		"font"						"ScoreboardVerySmall"
+		"font"						"Size 10"
 		"labelText"					"%mapname%"
 		"textAlignment"				"east"
- 		"xpos"						"315"
-		"ypos"						"385"
+ 		"xpos"						"-5"
+		"ypos"						"12"
 		"zpos"						"3"
-		"wide"						"265"
-		"tall"						"0"
+		"wide"						"f0"
+		"tall"						"10"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"fgcolor"					"236 227 203 255"
+		"fgcolor"					"White"
 
 		if_mvm
 		{

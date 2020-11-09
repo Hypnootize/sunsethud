@@ -484,6 +484,7 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+		"fgcolor"					"White"
 		"alpha"						"255"
 	}
 	
@@ -503,6 +504,7 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+		"fgcolor"					"White"
 		"alpha"						"255"
 	}
 	
@@ -522,7 +524,32 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+		"fgcolor"					"White"
 		"alpha"						"255"
+	}
+	
+	"MapName"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"					"mapname"
+		"font"						"Size 10"
+		"labelText"					"%mapname%"
+		"textAlignment"				"east"
+ 		"xpos"						"-5"
+		"ypos"						"12"
+		"zpos"						"3"
+		"wide"						"f0"
+		"tall"						"10"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"fgcolor"					"White"
+
+		if_mvm
+		{
+			"visible"				"0"
+		}
 	}
 	
 	"StatsSeparator"
@@ -550,30 +577,6 @@
  		}
 	}
 	
-	"MapName"
-	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"mapname"
-		"font"						"ScoreboardVerySmall"
-		"labelText"					"%mapname%"
-		"textAlignment"				"east"
- 		"xpos"						"315"
-		"ypos"						"385"
-		"zpos"						"3"
-		"wide"						"265"
-		"tall"						"0"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"enabled"					"1"
-		"fgcolor"					"236 227 203 255"
-
-		if_mvm
-		{
-			"visible"				"0"
-		}
-	}
-
 	"LocalPlayerStatsPanel"
 	{
 		"ControlName"				"EditablePanel"
