@@ -191,9 +191,9 @@
 		"fieldName"					"ShadedBar"
 		"xpos"						"0"
 		"ypos"						"16"
-		"zpos"						"3"
+		"zpos"						"6"
 		"wide"						"196"
-		"tall"						"43"
+		"tall"						"58"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -493,7 +493,97 @@
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 
-
+	"KillStreakSeparator"
+	{	
+		"ControlName"				"EditablePanel"
+		"fieldName"					"KillStreakSeparator"
+		"xpos"						"0"
+		"ypos"						"-15"
+		"zpos"						"7"
+		"wide"						"175"
+		"tall"						"1"
+		"visible"					"1"
+		"enabled"					"1"
+		"paintbackground"			"1"
+		"bgcolor_override"			"WhiteTransparent"
+		
+		"pin_to_sibling" 			"ShadedBar"
+		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+	}
+	
+	"KillStreakPlayer1Name"
+	{	
+		"ControlName"				"CExLabel"
+		"fieldName"					"KillStreakPlayer1Name"
+		"font"						"Size 10"
+		"xpos"						"0"
+		"ypos"						"4"
+		"zpos"						"10"
+		"wide"						"100"
+		"tall"						"10"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"labelText"					""
+		"textAlignment"				"west"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"alpha"						"255"
+		
+		"pin_to_sibling" 			"Player3Name"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+	}
+	
+	"KillStreakPlayer1Class"
+	{	
+		"ControlName"				"CExLabel"
+		"fieldName"					"KillStreakPlayer1Class"
+		"font"						"Size 10"
+		"xpos"						"0"
+		"ypos"						"4"
+		"zpos"						"10"
+		"wide"						"60"
+		"tall"						"10"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"labelText"					""
+		"textAlignment"				"west"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		
+		"pin_to_sibling" 			"Player3Class"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+	}
+	
+	"KillStreakPlayer1Score"
+	{	
+		"ControlName"				"CExLabel"
+		"fieldName"					"KillStreakPlayer1Score"
+		"font"						"Size 10"
+		"xpos"						"0"
+		"ypos"						"4"
+		"zpos"						"10"
+		"wide"						"30"
+		"tall"						"10"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"labelText"					""
+		"textAlignment"				"east"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		
+		"pin_to_sibling" 			"Player3Score"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+	}
 
 
 	"WinPanelBGBorder"
@@ -602,24 +692,6 @@
 	{
 		"ControlName"				"CAvatarImagePanel"
 		"fieldName"					"KillStreakPlayer1Avatar"
-		"xpos"						"9999"
-	}
-	"KillStreakPlayer1Name"
-	{	
-		"ControlName"				"CExLabel"
-		"fieldName"					"KillStreakPlayer1Name"
-		"xpos"						"9999"
-	}
-	"KillStreakPlayer1Class"
-	{	
-		"ControlName"				"CExLabel"
-		"fieldName"					"KillStreakPlayer1Class"
-		"xpos"						"9999"
-	}
-	"KillStreakPlayer1Score"
-	{	
-		"ControlName"				"CExLabel"
-		"fieldName"					"KillStreakPlayer1Score"
 		"xpos"						"9999"
 	}
 }
