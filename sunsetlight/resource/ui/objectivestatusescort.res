@@ -121,12 +121,6 @@
 		"image"										""
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
-		
-		"if_multiple_trains"
-		{
-			"wide"									"2"
-			"visible"								"1"
-		}
 	}
 
 	"EscortItemPanel"
@@ -143,41 +137,10 @@
 		
 		"proportionaltoparent"						"1"
 		
-		"if_multiple_trains"
-		{
-			"zpos"									"2"
-		}
-		
-		"Cart"
+		"EscortItemImage"
 		{
 			"ControlName"							"ImagePanel"
-			"fieldName"								"Cart"	
-			"xpos"									"0"			
-			"ypos"									"0"
-			"zpos"									"25"
-			"wide"									"4"
-			"tall"									"8"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"1"
-			"enabled"								"1"
-			"tabPosition"							"0"
-			"labelText"								""
-			"fillcolor"								"BlueLight"
-			"scaleImage"							"1"
-			"proportionaltoparent"					"1"
-			
-			"if_multiple_trains_red"
-			{
-				
-				"fillcolor"							"RedLight"
-			}
-		}
-		
-		"Cart2"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"Cart2"
+			"fieldName"								"EscortItemImage"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"23"
@@ -230,7 +193,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"RecedeTime"	
 			"font"									"Size 9"		
-			"xpos"									"125"
+			"xpos"									"122"
 			"ypos"									"0"
 			"zpos"									"30"
 			"wide"									"20"
@@ -254,6 +217,25 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Speed_Backwards"	
+			"xpos"									"134"
+			"ypos"									"1"
+			"zpos"									"30"
+			"wide"									"6"
+			"tall"									"6"
+			"autoResize"							"0"
+			"pinCorner"								"0"
+			"visible"								"0"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labelText"								""
+			"image"									"replay\thumbnails\cart_icons\cart_arrow_left"
+			"scaleImage"							"1"	
+		}
+
+		"Blocked"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"Blocked"	
 			"xpos"									"132"
 			"ypos"									"1"
 			"zpos"									"30"
@@ -265,16 +247,10 @@
 			"enabled"								"1"
 			"tabPosition"							"0"
 			"labelText"								""
-			"image"									"../hud/cart_arrow_left"
-			"scaleImage"							"1"	
+			"image"									"../hud/cart_blocked"
+			"scaleImage"							"1"
 		}
-		
-		"EscortItemImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"EscortItemImage"	
-			"xpos"									"9999"
-		}
+
 		"EscortItemImageBottom"
 		{
 			"ControlName"							"ImagePanel"
@@ -291,12 +267,6 @@
 		{
 			"ControlName"							"ImagePanel"		
 			"fieldName"								"CapPlayerImage"
-			"xpos"									"9999"
-		}
-		"Blocked"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"Blocked"	
 			"xpos"									"9999"
 		}
 		"EscortTeardrop"
