@@ -1,10 +1,12 @@
-//////////////////////////////////////////////////////////////////////////////////////////////
-//****************************************INSTRUCTIONS**************************************//
-//																							//
-//	UNCOMMENT (REMOVE THE // BEFORE #BASE) FROM THE CUSTOMIZATION LINE YOU WANT TO ACTIVATE	//
-//																							//
-// 						***IMPORTANT: ONLY 1 LINE CAN BE UNCOMMENTED***						//
-//////////////////////////////////////////////////////////////////////////////////////////////
+//=========================================================================================
+// SCOREBOARDS
+//=========================================================================================
+// Uncomment (by removing the // before #base) the customization line you want to activate
+// IMPORTANT: MAKE SURE ONLY ONE LINE STAYS UNCOMMENTED!!
+//=========================================================================================
+// See what the scoreboards looks like and get more in depth information in the wiki:
+// https://github.com/Hypnootize/Sunset-Hud/wiki/Scoreboard
+//=========================================================================================
 
 
 //#base "../resource/ui/alternatives/scoreboard_6v6_stats_off.res"		// 6vs6 SCOREBOARD WITH NO STATS (ONLY KD)

@@ -49,7 +49,7 @@
 	
 	"Contracker"
 	{
-		"label"			"_"
+		"label"			"B"
 		"command"		"questlog"
 		"tooltip"		"Contracker"
 		"OnlyAtMenu"	"1"
@@ -282,7 +282,7 @@
 	
 	"ContrackerINGAME"
 	{
-		"label"			"_"
+		"label"			"B"
 		"command"		"questlog"
 		"tooltip"		"Contracker"
 		"OnlyInGame"	"1"

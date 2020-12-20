@@ -1,12 +1,12 @@
-//////////////////////////////////////////////////////////////////////////////////////////////
-//****************************************INSTRUCTIONS**************************************//
-//																							//
-//	UNCOMMENT (REMOVE THE // BEFORE #BASE) FROM THE CUSTOMIZATION LINE YOU WANT TO ACTIVATE	//
-//																							//
-// 						***IMPORTANT: ONLY 1 LINE CAN BE UNCOMMENTED***						//	
-//																							//
-//				CHECK OUT https://i.imgur.com/gNBUpID.png TO SEE HOW THEY LOOK!				//
-//////////////////////////////////////////////////////////////////////////////////////////////
+//=========================================================================================
+// TEAM STATUS
+//=========================================================================================
+// Uncomment (by removing the // before #base) the customization line you want to activate
+// IMPORTANT: MAKE SURE ONLY ONE LINE STAYS UNCOMMENTED!!
+//=========================================================================================
+// See what the team status looks like and get more in depth information in the wiki:
+// https://github.com/Hypnootize/Sunset-Hud/wiki/Team-Status
+//=========================================================================================
 
 
 //#base "../resource/ui/alternatives/matchstatus_names.res"			// MATCHSTATUS WITH BIG HEALTH BAR AND PLAYER NAMES
