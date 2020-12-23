@@ -80,73 +80,6 @@
 		"pin_to_sibling"							"WhiteBackground"
 	}
 	
-	"BlueScoreBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BlueScoreBG"
-		"xpos"										"-2"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"36"
-		"tall"										"24"
-		"visible"									"1"
-		"enabled"									"1"
-		"border"									"BlackTransparent70"
-		
-		"pin_to_sibling"							"WhiteBackground"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-	}
-	
-	"BlueBar"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BlueBar"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"36"
-		"tall"										"6"
-		"visible"									"1"
-		"enabled"									"1"
-		"border"									"BlueTransparent70"
-		
-		"pin_to_sibling"							"BlueScoreBG"
-	}
-	
-	"RedScoreBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"RedScoreBG"
-		"xpos"										"-2"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"36"
-		"tall"										"24"
-		"visible"									"1"
-		"enabled"									"1"
-		"border"									"BlackTransparent70"
-		
-		"pin_to_sibling"							"WhiteBackground"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-	}
-	
-	"RedBar"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"RedBar"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"36"
-		"tall"										"6"
-		"visible"									"1"
-		"enabled"									"1"
-		"border"									"RedTransparent70"
-		
-		"pin_to_sibling"							"RedScoreBG"
-	}
 
 	"CarriedContainer"
 	{
@@ -165,8 +98,8 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"CarriedImage"
-			"xpos"									"3"
-			"ypos"									"8"
+			"xpos"									"5"
+			"ypos"									"6.5"
 			"zpos"									"4"
 			"wide"									"12"
 			"tall"									"12"
@@ -196,7 +129,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"FlagValue"
 			"xpos"									"12"
-			"ypos"									"6"
+			"ypos"									"4"
 			"zpos"									"4"
 			"wide"									"22"
 			"tall"									"16"
@@ -576,46 +509,60 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BlueScoreValueContainer"
-			"xpos"									"128"
-			"ypos"									"r29"
+			"xpos"									"125"
+			"ypos"									"r39"
 			"zpos"									"10"
 			"wide"									"60"
 			"tall"									"60"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionalToParent"					"1"
+				
+			"WhiteBG"
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"				"WhiteBG"
+				"xpos"					"0"
+				"ypos"					"4"
+				"zpos"					"1"
+				"wide"					"36"
+				"tall"					"25"
+				"visible"				"1"
+				"enabled"				"1"
+				"border"				"BlackTransparent70"
+			}
+			
+			"BlueBar"
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"				"BlueBar"
+				"xpos"					"2"
+				"ypos"					"3"
+				"zpos"					"3"
+				"wide"					"32"
+				"tall"					"4"
+				"visible"				"1"
+				"enabled"				"1"
+				"border"				"BlueTransparent70"
+			}
 			
 			"Score"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"Score"
-				"xpos"								"0"
-				"ypos"								"0"
-				"zpos"								"8"
-				"wide"								"33"
-				"tall"								"17"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"center"	
-				"labelText"							"%score%"
-				"font"								"Size 22"
-				"fgcolor"							"WhiteTransparent"		
-				"proportionalToParent"				"1"
-			}	
-			
-			"WhiteBG"
-			{
-				"ControlName"						"EditableLabel"
-				"fieldName"							"WhiteBG"
-				"xpos"								"9999"
+				"ControlName"			"CExLabel"
+				"fieldName"				"Score"
+				"xpos"					"2"
+				"ypos"					"10"
+				"zpos"					"5"
+				"wide"					"33"
+				"tall"					"17"
+				"visible"				"1"
+				"enabled"				"1"
+				"textAlignment"			"center"
+				"textinsetx"			"0"
+				"labelText"				"%score%"
+				"font"					"Size 22"
+				"fgcolor"				"HudWhite"
 			}
-			"BlueBar"
-			{
-				"ControlName"						"EditableLabel"
-				"fieldName"							"BlueBar"
-				"xpos"								"9999"
-			}
-			
 			"ScoreShadow"
 			{
 				"ControlName"						"CExLabel"
@@ -628,44 +575,61 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"RedScoreValueContainer"
-			"xpos"									"r160"
-			"ypos"									"r29"
+			"xpos"									"r159"
+			"ypos"									"r39"
 			"zpos"									"10"
-			"wide"									"60"
-			"tall"									"60"
+			"wide"									"36"
+			"tall"									"27"
 			"visible"								"1"
 			"enabled"								"1"
 			"bgcolor_override"						"Blank"
 			"proportionalToParent"					"1"
 
-			"Score"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"Score"
-				"xpos"								"0"
-				"ypos"								"0"
-				"zpos"								"8"
-				"wide"								"33"
-				"tall"								"17"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"center"	
-				"labelText"							"%score%"
-				"font"								"Size 22"
-				"fgcolor"							"WhiteTransparent"	
-				"proportionalToParent"				"1"	
-			}	
+
 			"WhiteBG"
 			{
-				"ControlName"						"EditableLabel"
-				"fieldName"							"WhiteBG"
-				"xpos"								"9999"
+				"ControlName"			"EditablePanel"
+				"fieldName"				"WhiteBG"
+				"xpos"					"0"
+				"ypos"					"4"
+				"zpos"					"1"
+				"wide"					"36"
+				"tall"					"25"
+				"visible"				"1"
+				"enabled"				"1"
+				"border"				"BlackTransparent70"
 			}
+			
 			"RedBar"
 			{
-				"ControlName"						"EditableLabel"
-				"fieldName"							"BlueBar"
-				"xpos"								"9999"
+				"ControlName"			"EditablePanel"
+				"fieldName"				"RedBar"
+				"xpos"					"2"
+				"ypos"					"3"
+				"zpos"					"3"
+				"wide"					"32"
+				"tall"					"4"
+				"visible"				"1"
+				"enabled"				"1"
+				"border"				"RedTransparent70"
+			}
+			
+			"Score"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"Score"
+				"xpos"					"2"
+				"ypos"					"10"
+				"zpos"					"5"
+				"wide"					"33"
+				"tall"					"17"
+				"visible"				"1"
+				"enabled"				"1"
+				"textAlignment"			"center"
+				"textinsetx"			"0"
+				"labelText"				"%score%"
+				"font"					"Size 22"
+				"fgcolor"				"HudWhite"
 			}
 			"ScoreShadow"
 			{
@@ -679,8 +643,8 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BlueStolenContainer"
-			"xpos"									"c-120"
-			"ypos"									"r50"
+			"xpos"									"r45"
+			"ypos"									"r77"
 			"zpos"									"1"
 			"wide"									"30"
 			"tall"									"40"
@@ -772,6 +736,7 @@
 				"font"								"Size 16"	
 				"fgcolor"							"Shadows"
 				"proportionalToParent"				"1"
+				
 				"pin_to_sibling"					"IntelValue"
 			}
 		}
@@ -780,8 +745,8 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"RedStolenContainer"
-			"xpos"									"c90"
-			"ypos"									"r50"
+			"xpos"									"r45"
+			"ypos"									"r77"
 			"zpos"									"1"
 			"wide"									"30"
 			"tall"									"40"
