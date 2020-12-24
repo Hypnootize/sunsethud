@@ -68,18 +68,20 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"PlayingToBG"
-		"xpos"						"c-200"
-		"ypos"						"r32"
+		"xpos"						"-0.5"
+		"ypos"						"-0.5"
 		"zpos"						"4"
 		"wide"						"402"
 		"tall"						"10"
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"#TF_PlayingTo"
-		"textAlignment"				"center"
+		"textAlignment"					"center"
 		"font"						"Size 10"
 		"AllCaps"					"1"
 		"fgcolor"					"Black"
+		"pin_to_sibling"				"PlayingTo"
+
 	}
 
 	"CarriedContainer"
