@@ -12,8 +12,8 @@
 		"visible"					"1"
 		"enabled"					"1"
 
-		"left_steal_edge_offset"	"97"
-		"right_steal_edge_offset"	"97"
+		"left_steal_edge_offset"		"-66"
+		"right_steal_edge_offset"		"-66"
 		"robot_x_offset"			"0"
 		"robot_y_offset"			"1"
 		"robot_x_step"				"19"
