@@ -922,37 +922,10 @@ Scheme
 			"1"
 			{
 				"name"		"Renogare Soft"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Renogare Soft"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Renogare Soft"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"	"768 1023"
-			}
-			"4"
-			{
-				"name"		"Renogare Soft"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"	"1024 1199"
-			}
-			"5"
-			{
-				"name"		"Renogare Soft"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"	"1200 10000"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontGiant"
