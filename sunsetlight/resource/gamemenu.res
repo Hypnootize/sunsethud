@@ -70,6 +70,14 @@
 		"tooltip"		"Advanced Options"
 		"OnlyAtMenu"	"1"
 	}
+
+	"Achievements"
+	{
+		"label"			"V"
+		"command"		"OpenAchievementsDialog"
+		"tooltip"		"Achievements"
+		"OnlyAtMenu"	"1"
+	}
 	
 	
 	/////INGAME ONLY/////
@@ -301,6 +309,14 @@
 		"label"			"}"
 		"command"		"opentf2options"
 		"tooltip"		"Advanced Options"
+		"OnlyInGame"	"1"
+	}
+
+	"AchievementsINGAME"
+	{
+		"label"			"V"
+		"command"		"OpenAchievementsDialog"
+		"tooltip"		"Achievements"
 		"OnlyInGame"	"1"
 	}
 	

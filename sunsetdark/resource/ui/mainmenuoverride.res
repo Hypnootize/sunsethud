@@ -1085,6 +1085,55 @@
 			"proportionaltoparent"		"1"
 		}
 	}
+
+	"Achievements"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"Achievements"
+		"xpos"							"4"
+		"ypos"							"0"
+		"zpos"							"50"
+		"wide"							"20"
+		"tall"							"20"
+		"visible"						"1"
+		"alpha"							"125"
+		
+		"pin_to_sibling" 				"AdvancedOptions"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"20"
+			"tall"						"20"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 20"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"0"
+			
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"BlueLight"
+			"depressedFgColor_override"	"BlueLight"
+			
+			"proportionaltoparent"		"1"
+		}
+	}
 	
 	///////////////////////////////////////////////////////////////////
 	///////////////////////////TOOLS SECTION///////////////////////////
@@ -2598,7 +2647,7 @@
 		"xpos"							"-5"
 		"ypos"							"0"
 		"zpos"							"55"
-		"wide"							"20"
+		"wide"							"18"
 		"tall"							"25"
 		"visible"						"1"
 		
@@ -2612,7 +2661,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"20"
+			"wide"						"18"
 			"tall"						"25"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -2620,7 +2669,7 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
-			"font"						"Symbols 22"
+			"font"						"Symbols 18"
 			"textAlignment"				"center"
 			"dulltext"					"0"
 			"brighttext"				"0"
@@ -2643,10 +2692,10 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"ContrackerINGAME"
-		"xpos"							"2"
+		"xpos"							"0"
 		"ypos"							"0"
 		"zpos"							"55"
-		"wide"							"22"
+		"wide"							"20"
 		"tall"							"25"
 		"visible"						"1"
 		
@@ -2660,7 +2709,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"22"
+			"wide"						"20"
 			"tall"						"25"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -2668,7 +2717,7 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
-			"font"						"Symbols 24"
+			"font"						"Symbols 20"
 			"textAlignment"				"center"
 			"dulltext"					"0"
 			"brighttext"				"0"
@@ -2691,10 +2740,10 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"ConsoleINGAME"
-		"xpos"							"4"
+		"xpos"							"0"
 		"ypos"							"0"
 		"zpos"							"55"
-		"wide"							"20"
+		"wide"							"18"
 		"tall"							"25"
 		"visible"						"1"
 		
@@ -2708,7 +2757,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"20"
+			"wide"						"18"
 			"tall"						"25"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -2716,7 +2765,7 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
-			"font"						"Symbols 22"
+			"font"						"Symbols 18"
 			"textAlignment"				"center"
 			"dulltext"					"0"
 			"brighttext"				"0"
@@ -2739,10 +2788,10 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"AdvancedOptionsINGAME"
-		"xpos"							"4"
+		"xpos"							"0"
 		"ypos"							"0"
 		"zpos"							"55"
-		"wide"							"20"
+		"wide"							"18"
 		"tall"							"25"
 		"visible"						"1"
 		
@@ -2756,7 +2805,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"20"
+			"wide"						"18"
 			"tall"						"25"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -2764,7 +2813,55 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
-			"font"						"Symbols 22"
+			"font"						"Symbols 18"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"0"
+			
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"BlueLight"
+			"depressedFgColor_override"	"BlueLight"
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+
+	"AchievementsINGAME"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"AchievementsINGAME"
+		"xpos"							"0"
+		"ypos"							"0"
+		"zpos"							"55"
+		"wide"							"18"
+		"tall"							"25"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"AdvancedOptionsINGAME"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"18"
+			"tall"						"25"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 18"
 			"textAlignment"				"center"
 			"dulltext"					"0"
 			"brighttext"				"0"
@@ -2787,14 +2884,14 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"Report"
-		"xpos"							"4"
+		"xpos"							"0"
 		"ypos"							"0"
 		"zpos"							"55"
-		"wide"							"20"
+		"wide"							"18"
 		"tall"							"25"
 		"visible"						"1"
 		
-		"pin_to_sibling" 				"AdvancedOptionsINGAME"
+		"pin_to_sibling" 				"AchievementsINGAME"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
 
@@ -2804,7 +2901,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"20"
+			"wide"						"18"
 			"tall"						"25"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -2812,7 +2909,7 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
-			"font"						"Symbols 22"
+			"font"						"Symbols 18"
 			"textAlignment"				"center"
 			"dulltext"					"0"
 			"brighttext"				"0"
