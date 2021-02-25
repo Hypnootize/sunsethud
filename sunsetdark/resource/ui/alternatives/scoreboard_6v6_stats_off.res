@@ -340,32 +340,6 @@
 		}
 	}
 	
-	"Separator"
-	{
-		"ControlName"				"EditablePanel"
-		"fieldName"					"Separator"
-		"xpos"						"1"
-		"ypos"						"-13"
-		"zpos"						"10"
-		"wide"						"1"
-		"tall"						"85"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"enabled"					"1"
-		"bgcolor_override"			"BlackLightTransparent"
-		"alpha"						"255"
-		
-		"pin_to_sibling" 			"BluePlayerList"
-		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
-		
-		if_mvm
- 		{
- 			"visible"				"0"
- 		}
-	}
-	
 	"RedPlayerList"
 	{
 		"ControlName"				"SectionedListPanel"
@@ -579,7 +553,7 @@
 			"font"					"Size 15"
 			"labelText"				"K:"
 			"textAlignment"			"west"
-			"xpos"					"0"
+			"xpos"					"2"
 			"ypos"					"0"
 			"zpos"					"3"
 			"wide"					"15"
