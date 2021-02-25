@@ -203,6 +203,7 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"r25"
+		"zpos"										"100"
 		"wide"										"500"
 		"tall"										"30"
 	}
