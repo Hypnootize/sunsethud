@@ -73,7 +73,7 @@
 		"fgcolor"				"White"
 		"xpos"					"-8"
 		"ypos"					"0"
-		"zpos"					"1"
+		"zpos"					"2"
 		"wide"					"50"
 		"tall"					"18"
 		"autoResize"			"0"
@@ -87,6 +87,27 @@
 		"pin_to_sibling"		"ItemBackground"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
+	"CostLabelShadow"
+	{	
+		"ControlName"			"CExLabel"
+		"fieldName"				"CostLabelShadow"
+		"font"					"Size 13"
+		"fgcolor"				"Shadows"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"1"
+		"wide"					"50"
+		"tall"					"18"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"%metal%"
+		"textAlignment"			"east"
+		"alpha"					"215"
+		
+		"pin_to_sibling"		"CostLabel"
 	}
 
 	"BuildingIcon"	
