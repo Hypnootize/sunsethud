@@ -1,34 +1,19 @@
 "Resource/UI/MvMInWorldCurrency.res"
 {
-	"BackgroundGood"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"BackgroundGood"
-		"xpos"					"-5"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"15"
-		"visible"				"1"
-		"enabled"				"1"
-		"PaintBackgroundType"	"3"
-		"bgcolor_override"		"RedLight"
-	}
-	
 	"CurrencyGood"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CurrencyGood"
-		"font"					"Size 15"
+		"font"					"Size 16"
 		"fgcolor"				"White"
-		"xpos"					"3"
-		"ypos"					"0"
+		"xpos"					"cs-0.5"
+		"ypos"					"c80"
 		"zpos"					"3"
 		"wide"					"40"
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"west"	
+		"textAlignment"			"center"	
 		"labelText"				"%currency%"
 	}
 	
@@ -36,19 +21,42 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CurrencyBad"
-		"font"					"Size 15"
-		"fgcolor"				"White"
-		"xpos"					"3"
-		"ypos"					"0"
+		"font"					"Size 16"
+		"fgcolor"				"RedLight"
+		"xpos"					"cs-0.5"
+		"ypos"					"c80"
 		"zpos"					"3"
 		"wide"					"40"
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"west"	
+		"textAlignment"			"center"	
+		"labelText"				"%currency%"
+	}
+
+	"CurrencyShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"CurrencyShadow"
+		"font"					"Size 16"
+		"fgcolor"				"Shadows"
+		"xpos"					"cs-0.5+1"
+		"ypos"					"c81"
+		"zpos"					"3"
+		"wide"					"40"
+		"tall"					"15"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"center"	
 		"labelText"				"%currency%"
 	}
 	
+	"BackgroundGood"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"BackgroundGood"
+		"xpos"					"9999"
+	}
 	"BorderBG"
 	{
 		"ControlName"			"EditablePanel"
