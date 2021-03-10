@@ -9,11 +9,11 @@
 		"ypos"								"-5"
 		"zpos"								"10001"
 		"wide"								"f0"
-		"tall"								"35"
+		"tall"								"40"
 		"keyboardinputenabled"				"0"
 
 		"collapsed_height"					"0"
-		"expanded_height"					"35"
+		"expanded_height"					"40"
 		"resize_time"						"0.2"
 	}
 
@@ -261,7 +261,7 @@
 			"ypos"							"-50"
 			"zpos"							"111"
 			"wide"							"230"
-			"tall"							"f0"
+			"tall"							"f5"
 			"visible"						"1"
 			"proportionaltoparent"			"1"
 
@@ -375,7 +375,7 @@
 				"ControlName"				"CExImageButton"
 				"fieldName"					"MultiQueuesManageButton"
 				"xpos"						"rs1-6"
-				"ypos"						"8"
+				"ypos"						"7"
 				"zpos"						"10"
 				"wide"						"22"
 				"tall"						"22"
@@ -384,7 +384,7 @@
 				"visible"					"1"
 				"enabled"					"1"
 				"tabPosition"				"0"
-				"labeltext"					"*"
+				"labeltext"					"~"
 				"font"						"Symbols 20"
 				"textAlignment"				"center"
 				"dulltext"					"0"
@@ -411,7 +411,7 @@
 				"ControlName"				"CExImageButton"
 				"fieldName"					"CloseButton"
 				"xpos"						"rs1-6"
-				"ypos"						"8"
+				"ypos"						"7"
 				"zpos"						"10"
 				"wide"						"22"
 				"tall"						"22"
@@ -451,7 +451,7 @@
 			"ypos"							"-50"
 			"zpos"							"110"
 			"wide"							"230"
-			"tall"							"f0"
+			"tall"							"f5"
 			"visible"						"1"
 			"proportionaltoparent"			"1"
 
@@ -570,13 +570,13 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"font"							"Symbols 38"
+			"font"							"Symbols 34"
 			"textAlignment"					"center"
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"Command"						"find_game"
 			"proportionaltoparent"			"1"
-			"labeltext"						"v"
+			"labeltext"						"F"
 			"mouseinputenabled"				"1"
 			"keyboardinputenabled"			"0"
 			"actionsignallevel"				"2"
@@ -588,30 +588,13 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"FgColor" 						"200 200 200 255"
-			"defaultFgColor_override" 		"200 200 200 255"
+			"FgColor" 						"WhiteMoreTransparent"
+			"defaultFgColor_override" 		"WhiteMoreTransparent"
 			"armedFgColor_override" 		"OrangeLight"
 			
 			"pin_to_sibling" 				"DashboardAnchor"
 			"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
 			"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
-			
-			"SubImage"
-			{
-				"ControlName"				"ImagePanel"
-				"fieldName"					"SubImage"
-				"xpos"						"7"
-				"ypos"						"7"
-				"zpos"						"1"
-				"wide"						"19"
-				"tall"						"19"
-				"visible"					"1"
-				"enabled"					"1"
-				"scaleImage"				"1"
-				"proportionaltoparent"		"1"
-				"image"						"replay/thumbnails/menu/play"
-				"drawcolor_override" 		"White"
-			}
 		}
 		
 		
