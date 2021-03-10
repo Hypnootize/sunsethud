@@ -8,40 +8,40 @@ Scheme
 		///////////////////////// COLORS CUSTOMIZATION START //////////////////////////
 		///////////////////////////////////////////////////////////////////////////////
 		
-		"FrameActive"										"235 235 235 180"
-		"FrameInactive"										"235 235 235 120"
+		"FrameActive"										"205 205 205 220"
+		"FrameInactive"										"190 190 190 220"
 		"ListBG"											"0 0 0 100"
 		
-		"ServerSelected"									"150 200 220 255"
+		"ServerSelected"									"130 180 200 255"
 		
 		"TextList"											"235 235 235 255"
 		"TextEnty"											"235 235 235 255"
-		"TextSelected"										"150 200 220 255"
-		"TextConsoleEntry"									"150 200 220 255"
+		"TextSelected"										"130 180 200 255"
+		"TextConsoleEntry"									"130 180 200 255"
 		
 		"Title"												"150 150 150 255"
 		"CloseButton"										"150 150 150 255"
 		
-		"Button"											"150 200 220 255"
+		"Button"											"130 180 200 255"
 		"ButtonArmed"										"255 200 55 255"
 		"ButtonText"										"235 235 235 255"
 		"ButtonTextArmed"									"235 235 235 255"
 		
 		"CheckButtonText"									"150 150 150 255"
-		"CheckButtonTextArmed"								"150 200 220 255"
-		"CheckButtonFG"										"150 200 220 255"
+		"CheckButtonTextArmed"								"130 180 200 255"
+		"CheckButtonFG"										"130 180 200 255"
 		"CheckButtonBG"										"0 0 0 100"
 		
 		"TextComboBoxes"									"150 150 150 255"
 		
-		"ScrollBarFG"										"150 200 220 255"
+		"ScrollBarFG"										"130 180 200 255"
 		"ScrollBarBG"										"150 150 150 255"
 		
 		"OptionsMenuBG"										"0 0 0 100"
-		"OptionsMenuArmed"									"150 200 220 255"
+		"OptionsMenuArmed"									"130 180 200 255"
 		"OptionsMenuText"									"235 235 235 255"
 		
-		"QuickListBGDeselected"								"150 200 220 255"
+		"QuickListBGDeselected"								"130 180 200 255"
 	    "QuickListBGSelected"              					"255 200 55 255"
 		
 		///////////////////////////////////////////////////////////////////////////////
@@ -53,7 +53,7 @@ Scheme
 		"Black"												"35 35 35 255"
 		"Gray"												"150 150 150 255"
 		"Blue"												"100 170 225 255"
-		"BlueLight"											"150 200 220 255"
+		"BlueLight"											"130 180 200 255"
 		"RedLight"											"245 70 70 255"
 		"OrangeLight"										"255 200 55 255"
 	}
