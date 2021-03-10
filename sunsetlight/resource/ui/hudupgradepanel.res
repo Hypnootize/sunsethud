@@ -32,7 +32,7 @@
 			"tall"							"50"
 			"bgcolor_override"				"Blank"
 			"noitem_textcolor"				"117 107 94 255"
-			"PaintBackgroundType"			"2"
+			"PaintBackgroundType"			"0"
 			"paintborder"					"0"
 			
 			"model_ypos"					"5"
@@ -223,7 +223,7 @@
 			"enabled"						"1"
 			"tabPosition"					"0"
 			"bgcolor_override"				"OrangeLight"
-			"PaintBackgroundType"			"2"
+			"PaintBackgroundType"			"0"
 		}
 		
 		"InactiveTabPanel1"
@@ -505,10 +505,10 @@
 		{
 			"ControlName"					"CExButton"
 			"fieldName"						"RespecButton"
-			"xpos"							"8"
-			"ypos"							"281"
+			"xpos"							"5"
+			"ypos"							"0"
 			"zpos"							"1"
-			"wide"							"140"
+			"wide"							"198"
 			"tall"							"24"
 			"autoResize"					"0"
 			"pinCorner"						"0"
@@ -536,19 +536,24 @@
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override"		"White"
+
+			"pin_to_sibling"				"CreditsBG"
+			"pin_corner_to_sibling"			"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"			"PIN_TOPLEFT"
 		}
 		
 		"CreditsBG"
 		{
 			"ControlName"					"EditablePanel"
 			"fieldName"						"CreditsBG"
-			"xpos"							"150"
+			"xpos"							"cs-0.5"
 			"ypos"							"281"
 			"wide"							"80"
 			"zpos"							"1"
 			"tall"							"24"
 			"visible"						"1"
 			"enabled"						"1"
+			"proportionaltoparent"			"1"
 			"border"						"GreenTransparent70"
 		}
 		
@@ -607,10 +612,10 @@
 		{
 			"ControlName"					"CExButton"
 			"fieldName"						"CancelButton"
-			"xpos"							"342"
-			"ypos"							"281"
+			"xpos"							"5"
+			"ypos"							"0"
 			"zpos"							"1"
-			"wide"							"75"
+			"wide"							"96"
 			"tall"							"24"
 			"autoResize"					"0"
 			"pinCorner"						"0"
@@ -637,16 +642,20 @@
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override" 	"White"
+
+			"pin_to_sibling"				"CreditsBG"
+			"pin_corner_to_sibling"			"PIN_TOPLEFT"
+			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 		}
 		
 		"CloseButton"
 		{
 			"ControlName"					"CExButton"
 			"fieldName"						"CloseButton"
-			"xpos"							"417"
-			"ypos"							"281"
+			"xpos"							"5"
+			"ypos"							"0"
 			"zpos"							"1"
-			"wide"							"75"
+			"wide"							"96"
 			"tall"							"24"
 			"autoResize"					"0"
 			"pinCorner"						"0"
@@ -673,8 +682,12 @@
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override" 	"White"
+			
+			"pin_to_sibling"				"CancelButton"
+			"pin_corner_to_sibling"			"PIN_TOPLEFT"
+			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 		}
-	}	
+	}
 	
 	"TipPanel"
 	{
