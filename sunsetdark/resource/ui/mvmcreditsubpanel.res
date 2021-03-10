@@ -138,23 +138,41 @@
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 	
+	"RatingBG"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"RatingBG"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"1"
+		"wide"						"29"
+		"tall"						"29"
+		"visible"					"1"
+		"enabled"					"1"
+		"paintbackground"			"0"
+		"border"					"BlackTransparent30"
+		
+		"pin_to_sibling"			"TableBackground"
+		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
+	}
 	"CreditRatingLabel"
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"CreditRatingLabel"
-		"font"						"HudFontMediumBold"
+		"font"						"Size 18"
 		"labelText"					"%rating%"
 		"textAlignment" 			"center"
-		"xpos"						"90"
-		"ypos"						"20"
-		"wide"						"30"
-		"tall"						"20"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"3"
+		"wide"						"29"
+		"tall"						"29"
 		"AllCaps"					"1"
 		"fgcolor"					"White"
+		"pin_to_sibling"			"RatingBG"
 	}
 	
-	
-		
 	"CreditRatingLabelShadow"
 	{
 		"ControlName"	"CExLabel"

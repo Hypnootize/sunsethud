@@ -137,4 +137,23 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
+	
+	"RatingBG"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"RatingBG"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"1"
+		"wide"						"29"
+		"tall"						"29"
+		"visible"					"1"
+		"enabled"					"1"
+		"paintbackground"			"0"
+		"border"					"BlackTransparent30"
+		
+		"pin_to_sibling"			"TableBackground"
+		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
+	}
 }
