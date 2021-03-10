@@ -8,7 +8,7 @@
 		"tall"						"35"
 		"visible"					"1"
 		"proportionaltoparent"		"1"
-		"border"					"GrayBluBorder"
+		"border"					"BlackTransparent50"
 		"paintbackground"			"0"
 	}
 
