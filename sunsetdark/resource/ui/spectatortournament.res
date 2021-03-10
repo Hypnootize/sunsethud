@@ -29,20 +29,20 @@
 			"color_ready"					"0 255 0 220"
 			"color_notready"				"0 0 0 220"
 			
-			"WhiteBackground"
+			"PlayerBackground"
 			{
 				"ControlName"				"EditablePanel"
-				"fieldName"					"WhiteBackground"
+				"fieldName"					"PlayerBackground"
 				"xpos"						"-10"
 				"ypos"						"0"
 				"zpos"						"-1"
 				"wide"						"130"
-				"tall"						"26"
+				"tall"						"16"
 				"visible"					"1"
 				"enabled"					"1"	
 				"bgcolor_override"			"Black"
 				"paintbackgroundtype"		"3"
-				"alpha"						"255"
+				"proportionaltoparent"		"1"
 			}
 			
 			"PlayerName"
@@ -61,6 +61,7 @@
 				"labelText"					"%playername%"
 				"textAlignment"				"west"
 				"fgcolor"					"White"
+				"proportionaltoparent"		"1"
 			}
 			
 			"PlayerNameShadow"
@@ -79,6 +80,7 @@
 				"labelText"					"%playername%"
 				"textAlignment"				"west"
 				"fgcolor"					"Shadows"
+				"proportionaltoparent"		"1"
 				"pin_to_sibling"			"playername"
 			}
 			
@@ -95,6 +97,7 @@
 				"enabled"					"1"
 				"image"						"../hud/class_scoutred"
 				"scaleImage"				"1"
+				"proportionaltoparent"		"1"
 			}
 			
 			"ClassImageBG"
@@ -110,6 +113,7 @@
 				"enabled"					"1"
 				"bgcolor_override"			"0 0 0 70"
 				"PaintBackgroundType"		"0"
+				"proportionaltoparent"		"1"
 				"pin_to_sibling"			"ClassImage"
 			}
 			
@@ -120,8 +124,8 @@
 				"xpos"						"1"
 				"ypos"						"0"
 				"zpos"						"3"
-				"wide"						"25"
-				"tall"						"25"
+				"wide"						"27"
+				"tall"						"f0"
 				"visible"					"1"
 				"enabled"					"1"	
 				"HealthBonusPosAdj"			"10"
@@ -129,24 +133,26 @@
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
+				"proportionaltoparent"		"1"
 			}
 			
 			"RespawnTime"
 			{
 				"ControlName"				"CExLabel"
 				"fieldName"					"RespawnTime"
-				"font"						"Size 12"
+				"font"						"Size 12 Shadow"
 				"xpos"						"1"
 				"ypos"						"0"
 				"zpos"						"5"
 				"wide"						"25"
-				"tall"						"16"
+				"tall"						"f0"
 				"autoResize"				"0"
 				"pinCorner"					"0"
 				"visible"					"1"
 				"labelText"					"%respawntime%"
 				"textAlignment"				"center"
-				"fgcolor"					"White"
+				"fgcolor"					"OrangeLight"
+				"proportionaltoparent"		"1"
 			}
 			
 			"ChargeAmountCover"
@@ -158,13 +164,14 @@
 				"ypos"						"0"
 				"zpos"						"5"
 				"wide"						"16"
-				"tall"						"16"
+				"tall"						"f0"
 				"autoResize"				"0"
 				"pinCorner"					"0"
 				"visible"					"1"
 				"labelText"					"%chargeamount%"
 				"textAlignment"				"east"
 				"fgcolor"					"GrayTransparent"
+				"proportionaltoparent"		"1"
 				"pin_to_sibling"			"ClassImage"
 			}
 			
@@ -172,18 +179,19 @@
 			{
 				"ControlName"				"CExLabel"
 				"fieldName"					"ChargeAmount"
-				"font"						"Numbers 10"
+				"font"						"Spectator Uber"
 				"xpos"						"0"
 				"ypos"						"0"
 				"zpos"						"6"
 				"wide"						"16"
-				"tall"						"16"
+				"tall"						"f0"
 				"autoResize"				"0"
 				"pinCorner"					"0"
 				"visible"					"1"
 				"labelText"					"%chargeamount%"
 				"textAlignment"				"center"
-				"fgcolor"					"OrangeLight"
+				"fgcolor"					"GreenLight"
+				"proportionaltoparent"		"1"
 				"pin_to_sibling"			"ClassImage"
 			}
 			

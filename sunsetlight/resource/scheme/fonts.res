@@ -631,7 +631,7 @@ Scheme
 			}
 		}
 		
-		"Numbers 10"
+		"Spectator Uber"
 		{
 			"1"
 			{
@@ -639,6 +639,7 @@ Scheme
 				"tall"			"10"
 				"additive"  	"0"
 				"antialias"		"1"
+				"dropshadow"	"1"
 			}
 		}
 		
@@ -2298,10 +2299,11 @@ Scheme
 			"1"
 			{
 				"name"		"Renogare Soft"
-				"tall"		"7"
+				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
+				"dropshadow" "1"
 			}
 		}
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
