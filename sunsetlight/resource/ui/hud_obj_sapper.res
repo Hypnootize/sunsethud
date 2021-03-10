@@ -110,7 +110,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"centerwrap"		"1"
-			"fgcolor"			"RedLight"
+			"fgcolor"			"White"
 			"alpha"				"200"
 		}
 	}
