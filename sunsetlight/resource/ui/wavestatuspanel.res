@@ -45,7 +45,7 @@
 		"ControlName"			"ScalableImagePanel"
 		"fieldName"				"ProgressBar"
 		"xpos"					"211"
-		"ypos"					"15"
+		"ypos"					"14"
 		"ypos_minmode"			"0"
 		"zpos"					"3"
 		"wide"					"178"
@@ -59,6 +59,27 @@
 	
 		"draw_corner_width"		"8"
 		"draw_corner_height" 	"8"	
+	}
+	
+	"ProgressBarBG"
+	{
+		"ControlName"			"ScalableImagePanel"
+		"fieldName"				"ProgressBarBG"
+		"xpos"					"211"
+		"ypos"					"14"
+		"ypos_minmode"			"0"
+		"zpos"					"2"
+		"wide"					"178"
+		"tall"					"18"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/panels/material_transparent_black_50"
+		
+		"src_corner_height"		"32"
+		"src_corner_width"		"32"
+	
+		"draw_corner_width"		"8"
+		"draw_corner_height"	"8"
 	}
 	
 	"SupportLabel"
@@ -84,12 +105,6 @@
 		}		
 	}
 	
-	"ProgressBarBG"
-	{
-		"ControlName"			"ScalableImagePanel"
-		"fieldName"				"ProgressBarBG"
-		"xpos"					"9999"
-	}
 	"SeparatorBar"
 	{
 		"ControlName"			"Panel"

@@ -52,6 +52,19 @@
 	{
 		"ControlName"			"ScalableImagePanel"
 		"fieldName"				"ProgressBarBG"
-		"xpos"					"9999"
+		"xpos"					"5"
+		"ypos"					"0"
+		"zpos"					"1"
+		"wide"					"178"
+		"tall"					"18"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/panels/material_transparent_white_50"
+		
+		"src_corner_height"		"32"
+		"src_corner_width"		"32"
+	
+		"draw_corner_width"		"8"
+		"draw_corner_height"	"8"
 	}
 }
