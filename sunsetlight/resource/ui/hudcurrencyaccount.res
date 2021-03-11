@@ -1,20 +1,37 @@
 "Resource/UI/HudCurrencyAccount.res"
 {
+	"FadeBG"
+	{
+		"ControlName"			"ScalableImagePanel"
+		"fieldName"				"FadeBG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"f0"
+		"tall"					"f0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/panels/fade_white"
+		"scaleimage"			"1"
+		"proportionaltoparent"	"1"
+	}
+
 	"Currency"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"Currency"
 		"font"					"Size 16"
-		"fgcolor"				"GreenLight"
-		"xpos"					"c70"
-		"ypos"					"r23"
-		"zpos"					"3"
-		"wide"					"40"
-		"tall"					"20"
+		"fgcolor"				"White"
+		"xpos"					"-5"
+		"ypos"					"0"
+		"zpos"					"4"
+		"wide"					"f0"
+		"tall"					"f0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"west"	
+		"textAlignment"			"east"
 		"labelText"				"%currency%"
+		"proportionaltoparent"	"1"
 	}
 
 	"CurrencyShadow"
@@ -26,21 +43,16 @@
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"
+		"wide"					"f0"
+		"tall"					"f0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"west"	
+		"textAlignment"			"east"
 		"labelText"				"%currency%"
+		"proportionaltoparent"	"1"
 		"pin_to_sibling"		"Currency"
 	}
 	
-	"GreenBG"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"GreenBG"
-		"xpos"					"9999"
-	}
 	"WhiteBG"
 	{
 		"ControlName"			"EditablePanel"
