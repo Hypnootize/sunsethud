@@ -30,6 +30,23 @@
 		"fgcolor"				"White"
 		"xpos"					"200"
 		"ypos"					"2"
+		"zpos"					"11"
+		"wide"					"200"
+		"tall"					"15"
+		"visible"				"1"
+		"enabled"				"1"
+		"AllCaps"				"1"
+		"textAlignment"			"center"
+		"labelText"				"%wave_count%"
+	}
+	"WaveCountLabelShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"WaveCountLabelShadow"
+		"font"					"Size 12"
+		"fgcolor"				"Shadows"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"zpos"					"10"
 		"wide"					"200"
 		"tall"					"15"
@@ -38,6 +55,7 @@
 		"AllCaps"				"1"
 		"textAlignment"			"center"
 		"labelText"				"%wave_count%"
+		"pin_to_sibling"		"WaveCountLabel"
 	}
 	
 	"ProgressBar"
