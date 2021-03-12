@@ -216,7 +216,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"tabPosition"				"0"	
-		"fillcolor"					"WhiteSolid"
+		"fillcolor"					"WhiteTransparent"
 		"PaintBackgroundType"		"0"
 		
 		"pin_to_sibling"			"ShadedBar"
@@ -242,7 +242,7 @@
 		"textAlignment"				"west"
 		"dulltext"					"0"
 		"brighttext"				"0"
-		"fgcolor"					"WhiteSolid"
+		"fgcolor"					"WhiteTransparent"
 		
 		"pin_to_sibling"			"HorizontalLine"
 		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
@@ -267,7 +267,7 @@
 		"textAlignment"				"east"
 		"dulltext"					"0"
 		"brighttext"				"0"
-		"fgcolor"					"WhiteSolid"
+		"fgcolor"					"WhiteTransparent"
 		
 		"pin_to_sibling"			"HorizontalLine"
 		"pin_corner_to_sibling"		"PIN_BOTTOMRIGHT"
