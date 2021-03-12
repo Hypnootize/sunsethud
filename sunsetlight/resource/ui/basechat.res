@@ -12,7 +12,9 @@
 		"wide"					"200"
 		"tall"					"90"
 		"fgcolor"				"White"
+		"piantbackground"		"1"
 		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"White"
 	}
 
 	ChatInputLine
