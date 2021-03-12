@@ -253,7 +253,7 @@
 		"wide"				"50"
 		"tall"				"p1.02"
 		"visible"			"1"
-		"border"			"WhiteTransparent50"
+		"border"			"WhiteTransparent70"
 	}
 	
 	"PlaySeparatorLine"
