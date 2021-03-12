@@ -28,6 +28,21 @@
 		"scaleImage"			"1"
 		"alpha"					"0"
 	}
+
+	"PlayerStatusSpyOutlineImage"
+	{
+		"ControlName"			"CTFImagePanel"
+		"fieldName"				"PlayerStatusSpyOutlineImage"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"7"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"				"0"
+		"enabled"				"1"
+		"image"					"../hud/class_spy_outline"
+		"scaleImage"			"1"	
+	}
 	
 	"classmodelpanel"
 	{
@@ -266,13 +281,7 @@
 		"ControlName"			"CTFImagePanel"
 		"fieldName"				"PlayerStatusSpyImage"
 		"xpos"					"9999"
-	}	
-	"PlayerStatusSpyOutlineImage"
-	{
-		"ControlName"			"CTFImagePanel"
-		"fieldName"				"PlayerStatusSpyOutlineImage"
-		"xpos"					"9999"
-	}		
+	}
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"			"CTFImagePanel"
