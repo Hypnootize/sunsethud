@@ -40,6 +40,6 @@
 		
 		"font"		"Size:18 | Blur:ON"
 		
-		"fgcolor"	"Shadow"
+		"fgcolor"	"Shadows"
 	}
 }
