@@ -2,87 +2,69 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"					"0"
-		"ypos"					"r20"
-		
-		"if_killstreak_visible"
-		{
-			"xpos"				"85"
-		}
+		"xpos"					"rs1"
+		"ypos"					"r15"
+		"wide"					"50"
+		"tall"					"15"
 	}
 	
-	"SpellBG"
+	"FadeBG"
 	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"SpellBG"
-		"xpos"					"-5"
-		"ypos"					"5"
-		"zpos"					"0"
-		"wide"					"50"
-		"tall"					"20"
+		"ControlName"			"ScalableImagePanel"
+		"fieldName"				"FadeBG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"f0"
+		"tall"					"f0"
 		"visible"				"1"
 		"enabled"				"1"
-		"paintbackgroundtype"	"3"
-		"bgcolor_override"		"BlueLight"
-		"alpha"					"255"
+		"image"					"replay/thumbnails/panels/fade_white"
+		"scaleimage"			"1"
+		"proportionaltoparent"	"1"
 	}
-	
 	
 	"SpellIcon"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"SpellIcon"
-		"xpos"					"5"
-		"ypos"					"7"
+		"xpos"					"rs1-2"
+		"ypos"					"cs-0.5"
 		"zpos"					"7"
-		"wide"					"12"
-		"tall"					"12"
+		"wide"					"13"
+		"tall"					"13"
 		"visible"				"1"
 		"enabled"				"1"
 		"scaleImage"			"1"	
 		"image"					"../signs/death_wheel_whammy"
-		"fgcolor"				"255 255 0 255"
 		"drawcolor"				"Black"
-	}
-	
-	"ActionText"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ActionText"
-		"font"					"UltraSmall"
-		"labelText"				"%actiontext%"
-		"textAlignment" 		"center"
-		"xpos"					"-17"
-		"ypos"					"5"
-		"wide"					"40"
-		"tall"					"0"		//10
-		"fgcolor"				"White"
-		"visible"				"1"
-		
-		"pin_to_sibling"		"SpellIcon"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+		"proportionaltoparent"	"1"
 	}
 	
 	"CountText"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CountText"
-		"font"					"Size 20"
+		"font"					"Size 18"
 		"labelText"				"%counttext%"
-		"textAlignment" 		"west"
-		"xpos"					"7"
-		"ypos"					"3"
-		"zpos"					"2"	
-		"wide"					"20"
-		"tall"					"18"
+		"textAlignment" 		"east"
+		"xpos"					"rs1-20"
+		"ypos"					"cs-0.5"
+		"zpos"					"5"	
+		"wide"					"f0"
+		"tall"					"f0"
 		"fgcolor"				"White"
-		
-		"pin_to_sibling"		"SpellIcon"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"proportionaltoparent"	"1"
 	}
 	
+
+	
+	"ActionText"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ActionText"
+		"xpos"				"9999"
+	}
 	"CountTextShadow"
 	{
 		"ControlName"		"CExLabel"
