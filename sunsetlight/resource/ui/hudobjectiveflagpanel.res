@@ -292,15 +292,16 @@
 	{
 		"ControlName"			"CTFImagePanel"
 		"fieldName"				"OutlineImage"
-		"xpos"					"c-50"
-		"ypos"					"r127"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"9"
-		"wide"					"100"
-		"tall"					"50"
+		"wide"					"0"
+		"tall"					"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"image"					"../hud/objectives_flagpanel_carried_outline"
-		"scaleImage"			"1"	
+		"scaleImage"			"1"
+		"proportionaltoparent"	"1"
 	}
 	
 	"BlueFlag"
