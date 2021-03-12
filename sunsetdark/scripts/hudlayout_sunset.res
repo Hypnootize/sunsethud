@@ -246,20 +246,7 @@
 		"tall"	 									"28"
 		"priority"									"35"
 	}
-	
-	BuildingStatus_Spy
-	{
-		"fieldName" 								"BuildingStatus_Spy"
-		"visible"									"1"
-		"enabled"									"1"
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"640"
-		"tall"										"480"
-		
-		"PaintBackgroundType"						"2"
-	}
-	
+
 	"BuildingAnchor"
 	{	
 		"ControlName"								"EditablePanel"
@@ -274,6 +261,20 @@
 		"bgcolor_override"							"Blank"
 	}
 	
+	BuildingStatus_Spy
+	{
+		"fieldName" 								"BuildingStatus_Spy"
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"0"
+		"ypos"										"-5"
+		"wide"										"640"
+		"tall"										"480"
+		"PaintBackgroundType"						"2"
+
+		"pin_to_sibling"							"BuildingAnchor"
+	}
+
 	BuildingStatus_Engineer
 	{
 		"fieldName"	 								"BuildingStatus_Engineer"
@@ -283,8 +284,8 @@
 		"ypos"			 							"0"
 		"wide"			 							"640"
 		"tall"			 							"480"
-		
 		"PaintBackgroundType"		 				"2"
+
 		"pin_to_sibling"							"BuildingAnchor"
 	}
 	
