@@ -132,12 +132,12 @@
 			"visible"						"1"
 		}
 	}
-	
+
 	"itempanel"
 	{
 		"ControlName"						"CItemModelPanel"
 		"fieldName"							"itempanel"
-		"xpos"								"9999"		//0
+		"xpos"								"r200"
 		"ypos"								"0"
 		"zpos"								"10"
 		"wide"								"190"
@@ -190,7 +190,7 @@
 			"brighttext"					"0"
 		}
 	}
-		
+	
 	"ScreenshotPanel"
 	{
 		"ControlName"						"EditablePanel"
