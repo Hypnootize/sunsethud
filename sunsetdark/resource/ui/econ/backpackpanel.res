@@ -189,7 +189,7 @@
 	{
 		"ControlName"							"CExLabel"
 		"fieldName"								"ClassLabel"
-		"font"									"Size 36"
+		"font"									"Size 34"
 		"labelText"								"Backpack"
 		"textAlignment"							"west"
 		"xpos"									"0"
@@ -208,7 +208,7 @@
 		"pin_corner_to_sibling" 				"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 	}
-	
+
 	"SortByComboBox"
 	{
 		"ControlName"							"ComboBox"
@@ -218,7 +218,7 @@
 		"ypos"									"2"
 		"zpos"									"1"
 		"wide"									"125"
-		"tall"									"15"
+		"tall"									"16"
 		"autoResize"							"0"
 		"pinCorner"								"0"
 		"visible"								"1"
@@ -241,8 +241,7 @@
 		"pin_to_sibling" 						"BackpackBG"
 		"pin_corner_to_sibling" 				"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
-	}	
-
+	}
 	"SortByBG"
 	{
 		"ControlName"							"EditablePanel"
@@ -251,7 +250,7 @@
 		"ypos"									"3"
 		"zpos"									"0"
 		"wide"									"128"
-		"tall"									"20"
+		"tall"									"21"
 		"visible"								"1"
 		"enabled"								"1"
 		"border"								"BlueTransparent70"
@@ -264,11 +263,11 @@
 		"ControlName"							"ComboBox"
 		"fieldName"								"ShowRarityComboBox"
 		"Font"									"Size 12"
-		"xpos"									"4"
+		"xpos"									"3"
 		"ypos"									"0"
 		"zpos"									"1"
 		"wide"									"170"
-		"tall"									"15"
+		"tall"									"16"
 		"autoResize"							"0"
 		"pinCorner"								"0"
 		"visible"								"1"
@@ -293,7 +292,6 @@
 		"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 	}
-	
 	"RarityBG"
 	{
 		"ControlName"							"EditablePanel"
@@ -302,23 +300,64 @@
 		"ypos"									"3"
 		"zpos"									"0"
 		"wide"									"172"
-		"tall"									"20"
+		"tall"									"21"
 		"visible"								"1"
 		"enabled"								"1"
 		"border"								"BlueTransparent70"
 		
 		"pin_to_sibling" 						"ShowRarityComboBox"
 	}
+
+	"ShowBaseItemsCheckbox"
+	{
+		"ControlName"							"CheckButton"
+		"fieldName"								"ShowBaseItemsCheckbox"
+		"labelText"								""
+		"Font"									""
+		"textAlignment"							"center"
+		"xpos"									"3"
+		"ypos"									"3"
+		"zpos"									"1"
+		"wide"									"20"
+		"tall"									"20"
+		"autoResize"							"0"
+		"pinCorner"								"0"
+		"visible"								"1"
+		"enabled"								"1"
+		"dulltext"								"0"
+		"brighttext"							"0"
+		"smallcheckimage"						"1"
+		"pin_to_sibling" 						"ShowRarityComboBox"
+		"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+	}
+	"ShowBaseItemsBG"
+	{
+		"ControlName"							"EditablePanel"
+		"fieldName"								"ShowBaseItemsBG"
+		"xpos"									"1"
+		"ypos"									"0"
+		"zpos"									"0"
+		"wide"									"21"
+		"tall"									"21"
+		"visible"								"1"
+		"enabled"								"1"
+		"paintbackground"						"0"
+		"paintborder"							"1"
+		"border"								"BlueTransparent70"
+		
+		"pin_to_sibling" 						"ShowBaseItemsCheckbox"
+	}
 	
 	"NameFilterTextEntry"
 	{
 		"ControlName"							"TextEntry"
 		"fieldName"								"NameFilterTextEntry"
-		"xpos"									"7"
-		"ypos"									"0"
+		"xpos"									"4"
+		"ypos"									"-3"
 		"zpos"									"20"
-		"wide"									"100"
-		"tall"									"15"
+		"wide"									"90"
+		"tall"									"16"
 		"autoResize"							"0"
 		"pinCorner"								"0"
 		"visible"								"1"
@@ -332,11 +371,10 @@
 		"paintbackgroundtype" 					"2"
 		"font"									"Size 12"
 		
-		"pin_to_sibling" 						"ShowRarityComboBox"
+		"pin_to_sibling" 						"ShowBaseItemsCheckbox"
 		"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
 	}
-	
 	"NameFilterBG"
 	{
 		"ControlName"							"CExLabel"
@@ -345,8 +383,8 @@
 		"xpos"									"20"
 		"ypos"									"3"
 		"zpos"									"0"
-		"wide"									"123"
-		"tall"									"20"
+		"wide"									"113"
+		"tall"									"21"
 		"visible"								"1"
 		"enabled"								"1"
 		"autoResize"							"1"
@@ -359,6 +397,24 @@
 		"border"								"BlueTransparent70"
 		
 		"pin_to_sibling" 						"NameFilterTextEntry"
+	}
+	"NameFilterLine"
+	{
+		"ControlName"							"EditablePanel"
+		"fieldName"								"NameFilterLine"
+		"xpos"									"-2"
+		"ypos"									"-2"
+		"zpos"									"1"
+		"wide"									"87"
+		"tall"									"1"
+		"visible"								"1"
+		"enabled"								"1"
+		"paintbackground"						"1"
+		"bgcolor_override"						"BlackLightTransparent"
+		"proportionaltoparent"					"1"
+		"pin_to_sibling" 						"NameFilterTextEntry"
+		"pin_corner_to_sibling"					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner" 				"PIN_BOTTOMRIGHT"
 	}
 	
 	"PrevPageButton"
@@ -1464,12 +1520,6 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"tool_icon"
-		"xpos"			"9999"
-	}
-	"ShowBaseItemsCheckbox"
-	{
-		"ControlName"	"CheckButton"
-		"fieldName"		"ShowBaseItemsCheckbox"
 		"xpos"			"9999"
 	}
 	"NameFilterLabel"
