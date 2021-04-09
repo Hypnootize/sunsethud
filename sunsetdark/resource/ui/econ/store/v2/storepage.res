@@ -588,7 +588,6 @@
 		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
 	}
-	
 	"NameFilterBG"
 	{
 		"ControlName"						"CExLabel"
@@ -611,6 +610,24 @@
 		"border"							"BlueTransparent70"
 		
 		"pin_to_sibling" 					"NameFilterTextEntry"
+	}
+	"NameFilterLine"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldName"							"NameFilterLine"
+		"xpos"								"-2"
+		"ypos"								"-2"
+		"zpos"								"1"
+		"wide"								"114"
+		"tall"								"1"
+		"visible"							"1"
+		"enabled"							"1"
+		"paintbackground"					"1"
+		"bgcolor_override"					"BlackLightTransparent"
+		"proportionaltoparent"				"1"
+		"pin_to_sibling" 					"NameFilterTextEntry"
+		"pin_corner_to_sibling"				"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner" 			"PIN_BOTTOMRIGHT"
 	}
 
 	"SubcategoryFilterComboBox"
