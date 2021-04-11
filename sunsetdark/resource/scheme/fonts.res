@@ -3219,6 +3219,18 @@ Scheme
 			{
 				"range" "0x0000 0x007E"
 			}
+		{
+...
+	"8" 
+	{
+		"font" "resource/scheme/fonts/CustomNotoMono.otf"
+		"name" "CustomNotoMono"
+		"english" 
+		{
+			"range" "0x021 0xFFFF"
+		}
+	}
+}
 		}
 		
 		"10"
