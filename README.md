@@ -5,9 +5,9 @@
 <a>LINKS</a>
 ====
 
-[LIGHT THEME Screentshots](https://imgur.com/a/4BZs0ih)
+[LIGHT THEME Screenshots](https://imgur.com/a/4BZs0ih)
 
-[DARK THEME Screentshots](https://imgur.com/a/Z8KJa9B)
+[DARK THEME Screenshots](https://imgur.com/a/Z8KJa9B)
 
 [Huds.tf](https://huds.tf/forum/showthread.php?tid=1754)
 
