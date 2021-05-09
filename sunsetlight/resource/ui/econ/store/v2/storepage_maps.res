@@ -57,6 +57,10 @@
 	{
 		"visible"						"0"
 	}
+	"NameFilterLine"
+	{
+		"visible"						"0"
+	}
 	
 	"SubcategoryBG"
 	{

@@ -141,7 +141,7 @@
 			"textinsety"					"0"
 			"font"							"Size 16"
 			"selectedcolor"					"White"
-			"unselectedcolor"				"White"	
+			"unselectedcolor"				"210 210 210 255"	
 			"defaultBgColor_override"		"Blank"
 			"paintbackground"				"0"
 			"activeborder_override"			"NoBorder"

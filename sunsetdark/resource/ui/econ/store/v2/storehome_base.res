@@ -253,7 +253,7 @@
 			"font"							"Size 13"
 			
 			"fgcolor"						"White"
-			"defaultBgColor_override" 		"0 0 0 75"
+			"defaultBgColor_override" 		"0 0 0 125"
 			"defaultFgColor_override" 		"White"
 			"armedBgColor_override" 		"0 0 0 75"
 			"armedFgColor_override" 		"White"

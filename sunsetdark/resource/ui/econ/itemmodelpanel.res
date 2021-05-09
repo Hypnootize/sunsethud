@@ -136,7 +136,7 @@
 			"textAlignment"			"center"
 			"fgcolor"				"200 80 60 255"
 			"paintbackground"		"0"
-			"border"				"WhiteTransparent70"
+			"border"				"BlackTransparent70"
 			"paintborder"			"1"
 		}
 	
@@ -171,7 +171,7 @@
 			"textAlignment"			"center"
 			"fgcolor"				"200 80 60 255"
 			"paintbackground"		"0"
-			"border"				"WhiteTransparent70"
+			"border"				"BlackTransparent70"
 			"paintborder"			"1"
 		}
 
@@ -195,7 +195,7 @@
 			"auto_wide_tocontents"	"1"
 			"textinsetx"			"20"
 			"paintbackground"		"0"
-			"border"				"WhiteTransparent70"
+			"border"				"BlackTransparent70"
 			"paintborder"			"1"
 		}
 
