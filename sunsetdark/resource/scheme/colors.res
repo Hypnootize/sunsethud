@@ -126,7 +126,7 @@ Scheme
 		"QualityColorCustomized"				"71 98 145 255"
 		"QualityColorStrange"					"207 106 50 255"
 		"QualityColorCompleted"					"134 80 172 255"
-		"QualityColorHaunted"					"56 243 171 255"
+		"QualityColorHaunted"					"40 200 140 255"
 		"QualityColorCollectors"				"170 0 0 255"
 		"QualityColorPaintkitWeapon"			"250 250 250 255"
 
