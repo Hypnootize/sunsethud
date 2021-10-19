@@ -486,7 +486,7 @@
 			
 			"fixed_paintkit"
 			{
-				"ypos"								"10"
+				"ypos"								"5"
 			}
 			
 			"zpos"									"100"
@@ -548,11 +548,6 @@
 			"border"								"BlueTransparent70"
 			
 			"pin_to_sibling" 						"ComboBoxValidItems"
-			
-			"fixed_paintkit"
-			{
-				"visible"							"0"
-			}
 		}
 
 		"ItemLabel"
@@ -629,7 +624,7 @@
 			
 			"fixed_paintkit"
 			{
-				"ypos"								"30"
+				"ypos"								"5"
 			}
 
 			"zpos"									"10"
@@ -679,7 +674,7 @@
 			
 			"fixed_paintkit"
 			{
-				"ypos"								"30"
+				"ypos"								"5"
 			}
 
 			"zpos"									"100"
@@ -730,7 +725,7 @@
 			
 			"fixed_paintkit"
 			{
-				"ypos"								"30"
+				"ypos"								"5"
 			}
 			
 			"zpos"									"100"
@@ -777,7 +772,7 @@
 			
 			"fixed_paintkit"
 			{
-				"ypos"								"30"
+				"ypos"								"5"
 			}
 			
 			"zpos"									"100"
@@ -831,7 +826,7 @@
 			
 			"fixed_paintkit"
 			{
-				"ypos"								"30"
+				"ypos"								"5"
 			}
 			
 			"zpos"									"100"
