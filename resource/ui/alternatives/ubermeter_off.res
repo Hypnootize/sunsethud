@@ -40,7 +40,7 @@
 		"textAlignment"				"center"
 		"font"						"Size 40 Shadow"
 		"font_minmode"				"Size 50 Shadow"
-		"fgcolor"					"White"
+		"fgcolor"					"Ubercharge"
 		
 		"pin_to_sibling"			"UberAnchor"
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
@@ -64,7 +64,7 @@
 		"textAlignment"				"center"
 		"font"						"Size 40 Shadow"
 		"font_minmode"				"Size 50 Shadow"
-		"fgcolor"					"White"
+		"fgcolor"					"Ubercharge"
 		
 		"pin_to_sibling"			"UberAnchor"
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
