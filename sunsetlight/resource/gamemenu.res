@@ -78,6 +78,22 @@
 		"tooltip"		"Achievements"
 		"OnlyAtMenu"	"1"
 	}
+
+	"Workshop"
+	{
+		"label"			"{"
+		"command"		"engine OpenSteamWorkshopDialog"
+		"tooltip"		"Workshop"
+		"OnlyAtMenu"	"1"
+	}
+
+	"Replays"
+	{
+		"label"			"^"
+		"command"		"engine replay_reloadbrowser"
+		"tooltip"		"Replays"
+		"OnlyAtMenu"	"1"
+	}
 	
 	
 	/////INGAME ONLY/////
