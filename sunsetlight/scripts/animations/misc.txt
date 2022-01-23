@@ -52,54 +52,12 @@ event HudSpyDisguiseHide
 
 event ActiveTimerHighlight
 {
-	Animate TimePanelValue 						FgColor		"White"								Linear 	0.0 	0.0
+	Animate TimePanelValue 						FgColor		"Gray"								Linear 	0.0 	0.0
 }
 
 event ActiveTimerDim
 {
-	Animate TimePanelValue 						FgColor		"WhiteTransparent"					Linear 	0.0 	0.0
-}
-
-//====================================================================================================================
-
-event HasNotificationsBlink
-{
-}
-
-event HasNotificationsBlinkStop
-{
-}
-
-//====================================================================================================================
-
-event TeamStatus_PlayerDead
-{
-}
-
-event TeamStatus_PlayerAlive
-{
-}
-
-//====================================================================================================================
-
-event RDPositiveScorePulse
-{
-}
-
-event RDNegativeScorePulse
-{
-}
-
-//====================================================================================================================
-
-event CompetitiveGame_LowerChatWindow
-{
-}
-event CompetitiveGame_RestoreChatWindow
-{
-}
-event HudTournament_MoveChatWindow
-{
+	Animate TimePanelValue 						FgColor		"GrayMedium"						Linear 	0.0 	0.0
 }
 
 //====================================================================================================================
