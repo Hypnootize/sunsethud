@@ -1146,6 +1146,88 @@
 			"proportionaltoparent"		"1"
 		}
 	}
+
+	"Workshop"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"Workshop"
+		"xpos"							"2"
+		"ypos"							"0"
+		"zpos"							"50"
+		"wide"							"18"
+		"tall"							"20"
+		"visible"						"1"
+		"alpha"							"125"
+
+		"pin_to_sibling" 				"Achievements"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"f0"
+			"tall"						"f0"
+			"visible"					"1"
+			"enabled"					"1"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 20"
+			"textAlignment"				"center"
+			"default"					"1"
+			"proportionaltoparent"		"1"
+			"sound_depressed"			"UI/buttonclick.wav"
+
+			"paintbackground"			"0"
+
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"BlueLight"
+			"depressedFgColor_override"	"BlueLight"
+		}
+	}
+
+	"Replays"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"Replays"
+		"xpos"							"2"
+		"ypos"							"0"
+		"zpos"							"50"
+		"wide"							"20"
+		"tall"							"20"
+		"visible"						"1"
+		"alpha"							"125"
+
+		"pin_to_sibling" 				"Workshop"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"f0"
+			"tall"						"f0"
+			"visible"					"1"
+			"enabled"					"1"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 20"
+			"textAlignment"				"center"
+			"default"					"1"
+			"proportionaltoparent"		"1"
+			"sound_depressed"			"UI/buttonclick.wav"
+
+			"paintbackground"			"0"
+
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"BlueLight"
+			"depressedFgColor_override"	"BlueLight"
+		}
+	}
 	
 	///////////////////////////////////////////////////////////////////
 	///////////////////////////TOOLS SECTION///////////////////////////
