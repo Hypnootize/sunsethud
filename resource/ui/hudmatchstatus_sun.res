@@ -325,6 +325,7 @@
 				"ControlName"					"EditablePanel"
 				"fieldName"						"HealthIcon"
 				"xpos"							"9999"
+				"visible"						"0"
 			}
 			"chargeamount"
 			{
