@@ -1,22 +1,18 @@
-![Logo](https://i.imgur.com/B6g5fCV.png)
+![logo](https://i.imgur.com/B6g5fCV.png)
 
-**A very BRIGHT Team Fortress 2 Hud by Hypnotize**
+<p align="center">
+  <a href="https://huds.tf/site/s-Sunset-Hud"><img src="https://i.imgur.com/WAusE3C.png"></a>
+  <a href="https://www.teamfortress.tv/53596/sunset-hud"><img src="https://i.imgur.com/xTQ26gp.png"></a>
+  <a href="https://gamebanana.com/mods/291779"><img src="https://i.imgur.com/UzXoexI.png"></a>
+  <a href="https://www.editor.criticalflaw.ca/"><img src="https://i.imgur.com/6JJTzkc.png"></a>
+</p>
 
-<a>LINKS</a>
-====
+##
 
-[LIGHT THEME Screenshots](https://imgur.com/a/4BZs0ih)
+<a href="https://imgur.com/a/cJYtauq"><img src="https://i.imgur.com/vVxJdvB.png"></a>
 
-[DARK THEME Screenshots](https://imgur.com/a/Z8KJa9B)
+<a href="https://github.com/Hypnootize/Sunset-Hud/wiki"><img src="https://i.imgur.com/UpvlsG7.png"></a>
 
-[Huds.tf](https://huds.tf/forum/showthread.php?tid=1754)
+<a href="https://github.com/Hypnootize/Sunset-Hud/wiki/Customization"><img src="https://i.imgur.com/tDsELgW.png"></a>
 
-[TeamFortress.TV](https://www.teamfortress.tv/53596/sunset-hud)
-
-[HUD Wiki](https://github.com/Hypnootize/Sunset-Hud/wiki)
-
-[HUD Installation](https://github.com/Hypnootize/Sunset-Hud/wiki/Installation)
-
-[HUD Customization](https://github.com/Hypnootize/Sunset-Hud/wiki/Customization)
-
-[Credits](https://github.com/Hypnootize/Sunset-Hud/wiki/Credits)
+<a href="https://github.com/Hypnootize/Sunset-Hud/wiki/Credits"><img src="https://i.imgur.com/CjePbm6.png"></a>
