@@ -1,1 +1,1 @@
-#base "../../customizations/damage.res
+#base "../../customizations/damage.res"

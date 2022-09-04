@@ -227,7 +227,7 @@
 	"TopPlayersLabel"
 	{
 		"ControlName"				"CExLabel"
-		"fieldName"					"TopPlayerLabel"
+		"fieldName"					"TopPlayersLabel"
 		"font"						"DefaultVerySmall"
 		"xpos"						"0"
 		"ypos"						"-2"

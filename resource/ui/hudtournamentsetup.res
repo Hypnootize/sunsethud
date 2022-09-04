@@ -190,7 +190,7 @@
 	"TournamentSetupLabel"
 	{	
 		"ControlName"						"Label"
-		"fieldName"							"TournamentLabel"
+		"fieldName"							"TournamentSetupLabel"
 		"xpos"								"9999"
 	}
 	"TournamentTeamNameLabel"

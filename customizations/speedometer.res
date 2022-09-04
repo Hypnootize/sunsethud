@@ -1,10 +1,10 @@
 //=============================================================================================
-// TRANSPARENT VIEWMODELS
+// SPEEDOMETER
 //=============================================================================================
-// Uncomment (by removing the // before #base) the line to activate the transparent viewmodels
+// Uncomment (by removing the // before #base) the line to activate the Speedometer
 //=============================================================================================
 // For more instructions check out the dedicated wiki page:
-// https://github.com/Hypnootize/Sunset-Hud/wiki/Transparent-Viewmodels
+// https://github.com/Hypnootize/Sunset-Hud/wiki/Speedometer
 //=============================================================================================
 
-//#base "../resource/ui/transparent_viewmodels.res"
+//#base "../resource/ui/speedometer.res"

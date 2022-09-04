@@ -1224,13 +1224,13 @@
 	"LosingTeamLabel"
 	{	
 		"ControlName"				"CExLabel"
-		"fieldName"					"WinningTeamLabel"
+		"fieldName"					"LosingTeamLabel"
 		"xpos"						"9999"
 	}
 	"LosingTeamLabelDropshadow"
 	{	
 		"ControlName"				"CExLabel"
-		"fieldName"					"WinningTeamLabelDropshadow"
+		"fieldName"					"LosingTeamLabelDropshadow"
 		"xpos"						"9999"
 	}
 	"WinReasonLabel"

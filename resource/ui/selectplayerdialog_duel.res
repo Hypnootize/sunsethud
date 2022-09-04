@@ -388,7 +388,7 @@
 	"VerticalLine"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"VerticalLine0"
+		"fieldName"			"VerticalLine"
 		"xpos"				"200"
 		"ypos"				"73"
 		"wide"				"1"

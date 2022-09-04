@@ -664,7 +664,7 @@
 			"RedBar"
 			{
 				"ControlName"						"EditableLabel"
-				"fieldName"							"BlueBar"
+				"fieldName"							"RedBar"
 				"xpos"								"9999"
 			}
 			"ScoreShadow"
