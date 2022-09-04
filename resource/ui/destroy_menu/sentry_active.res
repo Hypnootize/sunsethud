@@ -1,9 +1,9 @@
 #base "base_active.res"
 
-"Resource/UI/destroy_menu/sentry_active.res"
+"Resource/UI/Destroy_Menu/Sentry_Active.res"
 {
 	"ItemNameLabel"
-	{	
-		"labelText"		"#TF_Object_Sentry"
+	{
+		"labelText"									"#TF_Object_Sentry"
 	}
 }

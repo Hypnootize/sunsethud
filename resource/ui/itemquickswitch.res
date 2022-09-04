@@ -12,37 +12,36 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
-		
+
 		"paintbackground"							"0"
 		"paintborder"								"0"
-		
+
 		"itempanel_xpos"							"0"
 		"itempanel_ydelta"							"0"
-		
-		"itemskv"	
+
+		"itemskv"
 		{
 			"wide"									"210"
 			"tall"									"30"
 			"paintbackground"						"0"
 			"border"								"BlueTransparent70"
 			"text_forcesize" 						"2"
-			
+
 			"model_xpos"							"25"
 			"model_ypos"							"3"
-			"model_wide"							"48"		
+			"model_wide"							"48"
 			"model_tall"							"24"
-			
+
 			"text_center"							"1"
 			"text_xpos"								"50"
 			"text_wide"								"170"
 			"name_only"								"1"
-			
+
 			"noitem_textcolor"						"Gray"
 		}
 	}
-	
+
 	"itemcontainerscroller"
 	{
 		"ControlName"								"EditablePanel"
@@ -56,7 +55,7 @@
 		"bgcolor_override"							"Blank"
 		"autohide_buttons" 							"1"
 	}
-	
+
 	"CustomBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -69,7 +68,7 @@
 		"paintbackground"							"0"
 		"border"									"BlackTransparent50"
 	}
-		
+
 	"itemcontainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -81,7 +80,7 @@
 		"PaintBackgroundType"						"2"
 		"bgcolor_override"							"Blank"
 		"border"									"noborder"
-		
+
 		"CurrentlyEquippedBackground"
 		{
 			"ControlName"							"CExLabel"
@@ -100,7 +99,7 @@
 			"fgcolor" 								"White"
 		}
 	}
-	
+
 	"loadout_preset_panel"
 	{
 		"ControlName"								"CLoadoutPresetPanel"
@@ -114,10 +113,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"paintbackground"							"0"
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"								"CExLabel"

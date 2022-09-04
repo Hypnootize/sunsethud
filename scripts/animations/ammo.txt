@@ -9,11 +9,6 @@ event HudLowAmmoPulse
 	Animate AmmoNoClip 							FgColor 	"Ammo No Clip Low" 					Linear 	0.0 	0.0
 	
 	RunEvent HudLowAmmoPulseLoop				0.4
-}	
-
-event HudLowAmmoPulseLoop
-{
-	RunEvent HudLowAmmoPulse					0.0
 }
 
 event HudLowAmmoPulseStop

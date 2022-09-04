@@ -2,6 +2,6 @@
 {
 	"TargetNameLabel"
 	{
-		"labeltext"		""
+		"labeltext"									""
 	}
 }

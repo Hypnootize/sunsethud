@@ -1,24 +1,24 @@
 #base "scout_red.res"
 
-"Resource/UI/disguise_menu/soldier_red.res"
+"Resource/UI/Disguise_Menu/Soldier_Blue.res"
 {
 	"ItemBackground"
-	{	
-		"bgcolor_override"		"BlueLight"
+	{
+		"bgcolor_override"							"BlueLight"
 	}
-	
+
 	"ItemNameLabel"
-	{	
-		"labelText"				"#TF_Class_Name_Soldier"
+	{
+		"labelText"									"#TF_Class_Name_Soldier"
 	}
-	
+
 	"NewNumberLabel"
-	{	
-		"labelText"				"2"
+	{
+		"labelText"									"2"
 	}
-	
+
 	"NumberLabel"
-	{	
-		"labelText"				"2"
+	{
+		"labelText"									"2"
 	}
 }

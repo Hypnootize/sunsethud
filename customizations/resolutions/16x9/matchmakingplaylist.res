@@ -1,28 +1,28 @@
-"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+"Resource/UI/MatchMakingPlaylist.res"
 {
 	"EventEntry"
 	{
-		"wide"						"160"
+		"wide"										"160"
 	}
 
 	"CasualEntry"
 	{
-		"xpos"						"r165"
-		"wide"						"160"
+		"xpos"										"r165"
+		"wide"										"160"
 	}
 
 	"CompetitiveEntry"
 	{
-		"wide"						"160"
+		"wide"										"160"
 	}
 
 	"MvMEntry"
 	{
-		"wide"						"160"
+		"wide"										"160"
 	}
-	
+
 	"TrainingEntry"
 	{
-		"wide"						"160"
+		"wide"										"160"
 	}
 }

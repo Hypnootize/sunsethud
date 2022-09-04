@@ -1,4 +1,4 @@
-"Resource/HudLayout.res"
+"Resource/UI/Transparent_Viewmodels.res"
 {
 	"TransparentViewmodelMask"
 	{
@@ -8,7 +8,7 @@
 		"ypos"										"0"
 		"zpos"										"-100"
 		"wide"										"f0"
-		"tall"										"480"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/viewmodels/transparent_viewmodel_refract"

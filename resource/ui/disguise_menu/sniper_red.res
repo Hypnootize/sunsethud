@@ -1,23 +1,23 @@
 #base "scout_red.res"
 
-"Resource/UI/disguise_menu/sniper_red.res"
+"Resource/UI/Disguise_Menu/Sniper_Red.res"
 {
 	"ItemBackground"
 	{
 	}
-	
+
 	"ItemNameLabel"
-	{	
-		"labelText"				"#TF_Class_Name_Sniper"
+	{
+		"labelText"									"#TF_Class_Name_Sniper"
 	}
-	
+
 	"NewNumberLabel"
-	{	
-		"labelText"				"2"
+	{
+		"labelText"									"2"
 	}
-	
+
 	"NumberLabel"
-	{	
-		"labelText"				"8"
+	{
+		"labelText"									"8"
 	}
 }

@@ -1,7 +1,7 @@
 "Resource/UI/HudTeamSwitch.res"
-{	
+{
 	"SwitchLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchLabel"
 		"font"										"Size 11"
@@ -20,16 +20,16 @@
 		"textAlignment"								"North"
 		"AllCaps"									"1"
 	}
-	
+
 	"BalanceLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BalanceLabel"
 		"font"										"Size 11"
 		"xpos"										"80"
 		"ypos"										"28"
 		"zpos"										"1"
-		"wide"										"230"	
+		"wide"										"230"
 		"tall"										"55"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -41,21 +41,21 @@
 		"textAlignment"								"North"
 		"AllCaps"									"1"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	"HudTeamSwitchBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HudTeamSwitchBG"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"HudTeamSwitchBG"
+		"xpos"										"9999"
 	}
 	"SwitchImage"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"SwitchImage"
-		"xpos"			"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"SwitchImage"
+		"xpos"										"9999"
 	}
 }

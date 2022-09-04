@@ -1,23 +1,23 @@
 #base "scout_red.res"
 
-"Resource/UI/disguise_menu/spy_red.res"
+"Resource/UI/Disguise_Menu/Spy_Red.res"
 {
 	"ItemBackground"
 	{
 	}
-	
+
 	"ItemNameLabel"
-	{	
-		"labelText"				"#TF_Class_Name_Spy"
+	{
+		"labelText"									"#TF_Class_Name_Spy"
 	}
 
 	"NewNumberLabel"
-	{	
-		"labelText"				"3"
+	{
+		"labelText"									"3"
 	}
-	
+
 	"NumberLabel"
-	{	
-		"labelText"				"9"
+	{
+		"labelText"									"9"
 	}
 }

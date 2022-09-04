@@ -1,23 +1,23 @@
 #base "scout_red.res"
 
-"Resource/UI/disguise_menu/soldier_red.res"
+"Resource/UI/Disguise_Menu/Soldier_Red.res"
 {
 	"ItemBackground"
 	{
 	}
-	
+
 	"ItemNameLabel"
-	{	
-		"labelText"				"#TF_Class_Name_Soldier"
+	{
+		"labelText"									"#TF_Class_Name_Soldier"
 	}
-	
+
 	"NewNumberLabel"
-	{	
-		"labelText"				"2"
+	{
+		"labelText"									"2"
 	}
-	
+
 	"NumberLabel"
-	{	
-		"labelText"				"2"
+	{
+		"labelText"									"2"
 	}
 }

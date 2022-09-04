@@ -1,7 +1,7 @@
 "Resource/UI/HudStalemate.res"
 {
 	"StalemateLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StalemateLabel"
 		"font"										"Size 18 Shadow"
@@ -20,7 +20,7 @@
 		"fgcolor"									"White"
 	}
 	"ReasonLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ReasonLabel"
 		"font"										"Size 12 Shadow"

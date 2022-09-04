@@ -1,24 +1,24 @@
 #base "scout_red.res"
 
-"Resource/UI/disguise_menu/pyro_blue.res"
+"Resource/UI/Disguise_Menu/Pyro_Blue.res"
 {
 	"ItemBackground"
-	{	
-		"bgcolor_override"		"BlueLight"
+	{
+		"bgcolor_override"							"BlueLight"
 	}
-	
+
 	"ItemNameLabel"
-	{	
-		"labelText"				"#TF_Class_Name_Pyro"
+	{
+		"labelText"									"#TF_Class_Name_Pyro"
 	}
-	
+
 	"NewNumberLabel"
-	{	
-		"labelText"				"3"
+	{
+		"labelText"									"3"
 	}
-	
+
 	"NumberLabel"
-	{	
-		"labelText"				"3"
+	{
+		"labelText"									"3"
 	}
 }

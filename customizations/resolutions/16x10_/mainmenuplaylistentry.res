@@ -2,6 +2,6 @@
 {
 	"ModeButton"
 	{
-		"wide"									"135"
+		"wide"										"135"
 	}
 }

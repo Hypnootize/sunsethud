@@ -75,7 +75,6 @@
 	{	
 		"ControlName"				"ContinuousProgressBar"
 		"fieldName"					"ChargeMeter"
-		"font"						"Default"
 		"xpos"						"cs-0.5"
 		"ypos"						"r108"
 		"ypos_minmode"				"r70"
@@ -92,7 +91,6 @@
 	{	
 		"ControlName"				"ContinuousProgressBar"
 		"fieldName"					"ChargeMeter1"
-		"font"						"Default"
 		"xpos"						"1"
 		"ypos"						"0"
 		"zpos"						"2"
@@ -108,7 +106,6 @@
 	{	
 		"ControlName"				"ContinuousProgressBar"
 		"fieldName"					"ChargeMeter2"
-		"font"						"Default"
 		"xpos"						"1"
 		"ypos"						"0"
 		"zpos"						"2"
@@ -126,7 +123,6 @@
 	{	
 		"ControlName"				"ContinuousProgressBar"
 		"fieldName"					"ChargeMeter3"
-		"font"						"Default"
 		"xpos"						"1"
 		"ypos"						"0"
 		"zpos"						"2"
@@ -144,7 +140,6 @@
 	{	
 		"ControlName"				"ContinuousProgressBar"
 		"fieldName"					"ChargeMeter4"
-		"font"						"Default"
 		"xpos"						"1"
 		"ypos"						"0"
 		"zpos"						"2"

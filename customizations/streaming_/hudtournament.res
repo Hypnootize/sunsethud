@@ -1,12 +1,12 @@
 "Resource/UI/HudTournament.res"
 {
-	HudTournament
+	"HudTournament"
 	{
-		playerpanels_kv
+		"playerpanels_kv"
 		{
 			"playername"
 			{
-				"alpha"			"0"
+				"alpha"								"0"
 			}
 		}
 	}

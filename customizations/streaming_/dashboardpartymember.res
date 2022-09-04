@@ -1,7 +1,7 @@
 "Resource/UI/DashboardPartyMember.res"
-{	
+{
 	"avatar"
 	{
-		"alpha" "0"
+		"alpha"										"0"
 	}
 }

@@ -1,7 +1,7 @@
-"Resource/UI/ItemModelPanel.res"
+"Resource/UI/DisguiseStatusPanel.res"
 {
 	"DisguiseNameLabel"
 	{
-		"alpha"				"0"
+		"alpha"										"0"
 	}
 }

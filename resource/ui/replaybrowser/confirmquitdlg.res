@@ -1,4 +1,4 @@
-"Resource/UI/replaybrowser/confirmquitdlg.res"
+"Resource/UI/ReplayBrowser/ConfirmQuitDlg.res"
 {
 	"confirmquitdlg"
 	{
@@ -12,7 +12,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 	}
@@ -30,7 +29,7 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"BlackTransparent"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -49,7 +48,7 @@
 		"enabled"									"1"
 		"fgcolor" 									"White"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -83,29 +82,26 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Replay_RenderNow"
 		"font"										"Size 11"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"rendernow"
 		"AllCaps"									"1"
-		
+
 		"paintbackground"							"0"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}			
-	
+	}
+
 	"ReplaysButton"
 	{
 		"ControlName"								"CExButton"
@@ -119,29 +115,26 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Replay_TakeMeToReplays"
 		"font"										"Size 11"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"gotoreplays"
 		"AllCaps"									"1"
-		
+
 		"paintbackground"							"0"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}			
-	
+	}
+
 	"QuitButton"
 	{
 		"ControlName"								"CExButton"
@@ -155,28 +148,25 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Replay_YesReallyQuit"
 		"font"										"Size 11"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"quit"
 		"AllCaps"									"1"
-		
+
 		"paintbackground"							"0"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}		
+	}
 
 	"DontShowThisAgainCheckbox"
 	{
@@ -195,8 +185,5 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"tabPosition"								"10"
 	}
 }
