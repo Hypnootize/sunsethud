@@ -67,7 +67,7 @@
 	"Icon_Teleport_Exit"
 	{
 		"ControlName"			"CIconPanel"
-		"fieldName"				"Icon"
+		"fieldName"				"Icon_Teleport_Exit"
 		"xpos"					"-22"
 		"ypos"					"0"
 		"wide"					"28"

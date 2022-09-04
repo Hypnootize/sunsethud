@@ -1,18 +1,18 @@
-"Resource/HudLayout.res"
+"Scripts/HudLayout.res"
 {
-	HudDeathNotice
+	"HudDeathNotice"
 	{
-		"TextFont"			""
+		"TextFont"									""
 	}
 
-	HudVoiceStatus
+	"HudVoiceStatus"
 	{
-		"text_xpos"			"9999"
-		"avatar_xpos"		"9999"
+		"text_xpos"									"9999"
+		"avatar_xpos"								"9999"
 	}
 	
-	HudSpectatorExtras
+	"HudSpectatorExtras"
 	{
-		"player_name_font"	""
+		"player_name_font"							""
 	}
 }

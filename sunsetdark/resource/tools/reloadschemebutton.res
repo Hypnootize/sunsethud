@@ -3,7 +3,7 @@
 //STORE 					//#base "../../../../../resource/tools/reloadschemebutton.res"
 //ONLY WORKS WITH 			//vgui_cache_res_files 0
 
-"resource/ui/ReloadSchemeButton.res"
+"Resource/Tools/ReloadSchemeButton.res"
 {
 	"ReloadSchemeButton"
 	{
@@ -20,9 +20,9 @@
 		"font"				"Default"
 		"textAlignment"		"center"
 		"Command"			"reloadscheme"
-		
+
 		"paintbackground"	"0"
-		
+
 		"border_default"	"BlueTransparent70"
 		"border_armed"		"OrangeTransparent70"
 	}

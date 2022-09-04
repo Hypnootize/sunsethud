@@ -194,7 +194,7 @@
 	"PlayListDropShadow"
 	{
 		"ControlName"						"EditablePanel"
-		"fieldName"							"PlaylistBGPanel"
+		"fieldName"							"PlayListDropShadow"
 		"xpos"								"9999"
 		"ypos"								"p1.17-2"
 		"zpos"								"1"

@@ -1,6 +1,6 @@
 #base "../../resource/tools/reloadschemebutton.res"
 
-"ImportMaterialEditDialog.res"
+"Resource/UI/ImportMaterialEditDialog.res"
 {
 	"ImportMaterialEditDialog"
 	{
@@ -28,7 +28,7 @@
 		"image"										"replay/thumbnails/menu/Sunset_Blur"
 		"scaleimage"								"1"
 	}
-	
+
 	"RedBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -68,17 +68,14 @@
 		"tall"										"25"
 		"visible"									"0"
 		"enabled"									"0"
-		"tabPosition"								"0"
 		"labelText"									""
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"wrap"										"0"
 		"Command"									"EditSkin0"
 		"Default"									"0"
-		"font"										"HudFontSmallBold"
-		"defaultBgColor_override"					"0 0 0 0"
-		"armedBgColor_override"						"0 0 0 0"
+		"font"										"Size 14"
+		"defaultBgColor_override"					"Blank"
+		"armedBgColor_override"						"Blank"
 	}
 	"BlueTeamButton"
 	{
@@ -92,17 +89,14 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"0"
-		"tabPosition"								"0"
 		"labelText"									""
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"wrap"										"0"
 		"Command"									"EditSkin1"
 		"Default"									"0"
-		"font"										"HudFontSmallBold"
-		"defaultBgColor_override"					"0 0 0 0"
-		"armedBgColor_override"						"0 0 0 0"
+		"font"										"Size 14"
+		"defaultBgColor_override"					"Blank"
+		"armedBgColor_override"						"Blank"
 	}
 
 	"TitleLabel"
@@ -132,10 +126,10 @@
 		"use_proportional_insets" 					"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"center"
-					
+
 		"labelText"									"q"
-		"command"									"BrowseMaterial"			
-					
+		"command"									"BrowseMaterial"
+
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"border_default"							"BlueTransparent70"
@@ -188,10 +182,10 @@
 		"use_proportional_insets" 					"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"center"
-	
+
 		"labelText"									"q"
-		"command"									"BrowseNormalTexture"			
-					
+		"command"									"BrowseNormalTexture"
+
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"border_default"							"BlueTransparent70"
@@ -213,10 +207,10 @@
 		"use_proportional_insets" 					"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"center"
-					
+
 		"labelText"									"-"
-		"command"									"ClearNormalTexture"				
-					
+		"command"									"ClearNormalTexture"
+
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"border_default"							"BlueTransparent70"
@@ -322,7 +316,7 @@
 		"labelText"									""
 		"Font"										"Size 11"
 		"textAlignment"								"west"
-		"xpos"										"c+1" 
+		"xpos"										"c+1"
 		"ypos"										"103"
 		"wide"										"30"
 		"tall"										"20"
@@ -330,8 +324,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"command"									"UpdateBaseMapAlphaPhongMask"
 		"border"									"SteamWorkshopBorder"
 	}
@@ -348,10 +340,10 @@
 		"use_proportional_insets" 					"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"west"
-					
+
 		"labelText"									"q"
-		"command"									"BrowsePhongExponentTexture"			
-					
+		"command"									"BrowsePhongExponentTexture"
+
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"border_default"							"BlueTransparent70"
@@ -373,10 +365,10 @@
 		"use_proportional_insets" 					"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"west"
-					
+
 		"labelText"									"-"
-		"command"									"ClearPhongExponentTexture"				
-					
+		"command"									"ClearPhongExponentTexture"
+
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"border_default"							"BlueTransparent70"
@@ -439,7 +431,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -475,7 +466,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -511,7 +501,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -547,7 +536,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -581,7 +569,7 @@
 		"labelText"									""
 		"Font"										"Size 11"
 		"textAlignment"								"west"
-		"xpos"										"c+1" 
+		"xpos"										"c+1"
 		"ypos"										"203"
 		"wide"										"30"
 		"tall"										"20"
@@ -589,8 +577,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"0"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"command"									"UpdateRimMask"
 		"border"									"SteamWorkshopBorder"
 	}
@@ -616,7 +602,7 @@
 		"labelText"									""
 		"Font"										"Size 11"
 		"textAlignment"								"west"
-		"xpos"										"c+1" 
+		"xpos"										"c+1"
 		"ypos"										"223"
 		"wide"										"30"
 		"tall"										"20"
@@ -624,8 +610,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"command"									"UpdateHalfLambert"
 		"border"									"SteamWorkshopBorder"
 	}
@@ -652,7 +636,7 @@
 		"labelText"									""
 		"Font"										"Size 11"
 		"textAlignment"								"west"
-		"xpos"										"c+1" 
+		"xpos"										"c+1"
 		"ypos"										"243"
 		"wide"										"30"
 		"tall"										"20"
@@ -660,8 +644,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"0"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"command"									"UpdateBlendTintByBaseAlpha"
 		"border"									"SteamWorkshopBorder"
 	}
@@ -691,7 +673,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -728,7 +709,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -750,7 +730,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -772,7 +751,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -805,7 +783,7 @@
 		"labelText"									""
 		"Font"										"Size 11"
 		"textAlignment"								"west"
-		"xpos"										"c+1" 
+		"xpos"										"c+1"
 		"ypos"										"293"
 		"wide"										"30"
 		"tall"										"20"
@@ -813,8 +791,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"command"									"UpdateAdditive"
 		"border"									"SteamWorkshopBorder"
 	}
@@ -840,7 +816,7 @@
 		"labelText"									""
 		"Font"										"Size 11"
 		"textAlignment"								"west"
-		"xpos"										"c+81" 
+		"xpos"										"c+81"
 		"ypos"										"293"
 		"wide"										"30"
 		"tall"										"20"
@@ -848,8 +824,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"command"									"UpdateTranslucent"
 		"border"									"SteamWorkshopBorder"
 	}
@@ -884,8 +858,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"0"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"command"									"UpdateAlphaTest"
 		"border"									"SteamWorkshopBorder"
 	}
@@ -1009,7 +981,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -1031,7 +1002,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -1053,7 +1023,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -1086,7 +1055,7 @@
 		"labelText"									""
 		"Font"										"Size 11"
 		"textAlignment"								"west"
-		"xpos"										"c+1" 
+		"xpos"										"c+1"
 		"ypos"										"357"
 		"wide"										"30"
 		"tall"										"20"
@@ -1094,8 +1063,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"command"									"UpdateSelfIllum"
 		"border"									"SteamWorkshopBorder"
 	}
@@ -1112,10 +1079,10 @@
 		"use_proportional_insets"					"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"center"
-					
+
 		"labelText"									"q"
-		"command"									"BrowseSelfIllumTexture"			
-					
+		"command"									"BrowseSelfIllumTexture"
+
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"border_default"							"BlueTransparent70"
@@ -1137,10 +1104,10 @@
 		"use_proportional_insets"					"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"center"
-					
+
 		"labelText"									"-"
-		"command"									"ClearSelfIllumTexture"				
-					
+		"command"									"ClearSelfIllumTexture"
+
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"border_default"							"BlueTransparent70"
@@ -1204,7 +1171,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -1226,7 +1192,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -1248,7 +1213,6 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"

@@ -2,7 +2,7 @@
 {
 	"MatchmakingGroupPanel"
 	{
-		"fieldName"					"ScrollableImageListEntry"
+		"fieldName"					"MatchmakingGroupPanel"
 		"xpos"						"2"
 		"ypos"						"0"
 		"wide"						"f0"

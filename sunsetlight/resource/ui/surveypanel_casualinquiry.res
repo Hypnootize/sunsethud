@@ -54,7 +54,7 @@
 				"Answer0" 
 				{
 					"ControlName"					"RadioButton"
-					"fieldName"						"Radio0"
+					"fieldName"						"Answer0"
 					"xpos"							"p0.2"
 					"ypos"							"15"
 					"zpos"							"1"
@@ -73,7 +73,7 @@
 				"Answer0Label"
 				{
 					"ControlName"					"Label"
-					"fieldName"						"Radio0Label"
+					"fieldName"						"Answer0Label"
 					"xpos"							"p0.3"
 					"ypos"							"15"
 					"zpos"							"1"
@@ -92,7 +92,7 @@
 				"Answer1"
 				{
 					"ControlName"					"RadioButton"
-					"fieldName"						"Radio1"
+					"fieldName"						"Answer1"
 					"xpos"							"p0.2"
 					"ypos"							"35"
 					"zpos"							"2"
@@ -111,7 +111,7 @@
 				"Answer1Label"
 				{
 					"ControlName"					"Label"
-					"fieldName"						"Radio1Label"
+					"fieldName"						"Answer1Label"
 					"xpos"							"p0.3"
 					"ypos"							"35"
 					"zpos"							"1"
@@ -128,7 +128,7 @@
 				"Answer2" 
 				{
 					"ControlName"					"RadioButton"
-					"fieldName"						"Radio2"
+					"fieldName"						"Answer2"
 					"xpos"							"p0.2"
 					"ypos"							"55"
 					"zpos"							"3"
@@ -147,7 +147,7 @@
 				"Answer2Label"
 				{
 					"ControlName"					"Label"
-					"fieldName"						"Radio2Label"
+					"fieldName"						"Answer2Label"
 					"xpos"							"p0.3"
 					"ypos"							"55"
 					"zpos"							"1"
@@ -165,7 +165,7 @@
 				"Answer3"
 				{
 					"ControlName"					"RadioButton"
-					"fieldName"						"Radio3"
+					"fieldName"						"Answer3"
 					"xpos"							"p0.2"
 					"ypos"							"75"
 					"zpos"							"4"
@@ -184,7 +184,7 @@
 				"Answer3Label"
 				{
 					"ControlName"					"Label"
-					"fieldName"						"Radio3Label"
+					"fieldName"						"Answer3Label"
 					"xpos"							"p0.3"
 					"ypos"							"75"
 					"zpos"							"1"
@@ -201,7 +201,7 @@
 				"Answer4"
 				{
 					"ControlName"					"RadioButton"
-					"fieldName"						"Radio4"
+					"fieldName"						"Answer4"
 					"xpos"							"p0.2"
 					"ypos"							"95"
 					"zpos"							"5"
@@ -220,7 +220,7 @@
 				"Answer4Label"
 				{
 					"ControlName"					"Label"
-					"fieldName"						"Radio4Label"
+					"fieldName"						"Answer4Label"
 					"xpos"							"p0.3"
 					"ypos"							"95"
 					"zpos"							"1"
@@ -237,7 +237,7 @@
 				"Answer5"
 				{
 					"ControlName"					"RadioButton"
-					"fieldName"						"Radio5"
+					"fieldName"						"Answer5"
 					"xpos"							"p0.2"
 					"ypos"							"115"
 					"zpos"							"5"
@@ -256,7 +256,7 @@
 				"Answer5Label"
 				{
 					"ControlName"					"Label"
-					"fieldName"						"Radio5Label"
+					"fieldName"						"Answer5Label"
 					"xpos"							"p0.3"
 					"ypos"							"115"
 					"zpos"							"1"

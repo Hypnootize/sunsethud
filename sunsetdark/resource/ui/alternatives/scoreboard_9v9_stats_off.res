@@ -3,16 +3,13 @@
 	"scores"
 	{
 		"ControlName"				"CTFClientScoreBoardDialog"
-		"fieldName"					"scoreinfo"
+		"fieldName"					"scores"
 		"xpos"						"0"
 		"ypos"						"0"
 		"wide"						"f0"
 		"tall"						"480"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"medal_width"				"15"
 		"avatar_width"				"55"
 		"spacer"					"2"
@@ -34,13 +31,11 @@
 		"zpos"						"3"
 		"wide"						"510"
 		"tall"						"151"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"border"					"BlackTransparent50"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -55,8 +50,6 @@
 		"zpos"						"2"
 		"wide"						"258"
 		"tall"						"35"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"border"					"BlueTransparent70"
@@ -65,7 +58,7 @@
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPLEFT"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -80,8 +73,6 @@
 		"zpos"						"2"
 		"wide"						"257"
 		"tall"						"35"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"border"					"RedTransparent70"
@@ -90,7 +81,7 @@
 		"pin_corner_to_sibling" 	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -109,14 +100,12 @@
 		"zpos"						"5"
 		"wide"						"50"
 		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		
 		"pin_to_sibling" 			"BlueScoreBG"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -134,8 +123,6 @@
 		"zpos"						"20"
 		"wide"						"100"
 		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"AllCaps"					"1"
@@ -144,7 +131,7 @@
 		"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -163,8 +150,6 @@
 		"zpos"						"5"
 		"wide"						"16"
 		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		
@@ -172,7 +157,7 @@
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -190,8 +175,6 @@
 		"zpos"						"5"
 		"wide"						"50"
 		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		
@@ -199,7 +182,7 @@
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 	"PIN_TOPLEFT"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -218,8 +201,6 @@
 		"zpos"						"5"
 		"wide"						"50"
 		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		
@@ -227,7 +208,7 @@
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -245,8 +226,6 @@
 		"zpos"						"20"
 		"wide"						"100"
 		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"AllCaps"					"1"
@@ -255,7 +234,7 @@
 		"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -274,14 +253,12 @@
 		"zpos"						"5"
 		"wide"						"16"
 		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		
 		"pin_to_sibling" 			"RedScoreBG"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -299,8 +276,6 @@
 		"zpos"						"5"
 		"wide"						"50"
 		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		
@@ -308,7 +283,7 @@
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -323,18 +298,15 @@
 		"zpos"						"20"
 		"wide"						"250"
 		"tall"						"143"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
-		"autoresize"				"3"
 		"linespacing"				"14"
 		"linegap"					"1"
 		"fgcolor"					"blue"
 		"show_columns"				"0"
 		"alpha"						"255"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -349,18 +321,15 @@
 		"zpos"						"20"
 		"wide"						"250"
 		"tall"						"143"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
-		"autoresize"				"3"
 		"linespacing"				"14"
 		"linegap"					"1"
 		"fgcolor"					"red"
 		"show_columns"				"0"
 		"alpha"						"255"
 
- 		if_mvm
+ 		"if_mvm"
  		{
  			"visible"				"0"
  		}
@@ -390,7 +359,7 @@
 		"draw_corner_height" 		"8"
 		"proportionaltoparent"		"1"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -410,7 +379,7 @@
 		"border"					"BlackTransparent70"
 		"proportionaltoparent"		"1"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -428,15 +397,13 @@
 		"zpos"						"5"
 		"wide"						"50"
 		"tall"						"24"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"fgcolor"					"White"
 		
 		"pin_to_sibling" 			"TimeBG"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -454,8 +421,6 @@
 		"zpos"						"4"
 		"wide"						"600"
 		"tall"						"10"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"fgcolor"					"White"
@@ -474,8 +439,6 @@
 		"zpos"						"4"
 		"wide"						"600"
 		"tall"						"10"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"fgcolor"					"White"
@@ -494,8 +457,6 @@
 		"zpos"						"3"
 		"wide"						"f0"
 		"tall"						"10"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"fgcolor"					"White"
@@ -514,13 +475,11 @@
 		"zpos"						"3"
 		"wide"						"f0"
 		"tall"						"10"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"fgcolor"					"White"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"				"0"
 		}
@@ -535,12 +494,10 @@
 		"zpos"						"3"
 		"wide"						"480"
 		"tall"						"30"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"xpos"					"c-232"
 			"ypos"					"r84"
@@ -561,14 +518,12 @@
 			"zpos"					"3"
 			"wide"					"15"
 			"tall"					"15"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"GreenLight"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"0"
 			}
@@ -586,8 +541,6 @@
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"15"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
@@ -596,7 +549,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"0"
 			}
@@ -614,8 +567,6 @@
 			"zpos"					"3"
 			"wide"					"15"
 			"tall"					"15"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"AllCaps"				"1"
@@ -625,7 +576,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"0"
 			}
@@ -642,8 +593,6 @@
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"15"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
@@ -652,7 +601,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"0"
 			}
@@ -674,14 +623,12 @@
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -698,8 +645,6 @@
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
@@ -708,7 +653,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -726,8 +671,6 @@
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"AllCaps"				"1"
@@ -737,7 +680,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -754,8 +697,6 @@
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
@@ -764,7 +705,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -782,8 +723,6 @@
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"AllCaps"				"1"
@@ -793,7 +732,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -810,8 +749,6 @@
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
@@ -820,7 +757,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -838,8 +775,6 @@
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"AllCaps"				"1"
@@ -849,7 +784,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -866,8 +801,6 @@
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
@@ -876,7 +809,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -894,8 +827,6 @@
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"AllCaps"				"1"
@@ -905,7 +836,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -922,8 +853,6 @@
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
@@ -932,7 +861,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -950,8 +879,6 @@
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"AllCaps"				"1"
@@ -961,7 +888,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -978,8 +905,6 @@
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
@@ -988,7 +913,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -1006,8 +931,6 @@
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"AllCaps"				"1"
@@ -1017,7 +940,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -1034,8 +957,6 @@
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
@@ -1044,7 +965,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -1062,8 +983,6 @@
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"AllCaps"				"1"
@@ -1073,7 +992,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -1090,8 +1009,6 @@
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
@@ -1100,7 +1017,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -1118,8 +1035,6 @@
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"AllCaps"				"1"
@@ -1129,7 +1044,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -1146,8 +1061,6 @@
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
@@ -1156,7 +1069,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -1174,8 +1087,6 @@
 			"zpos"					"3"
 			"wide"					"55"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"AllCaps"				"1"
@@ -1185,7 +1096,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -1202,8 +1113,6 @@
 			"zpos"					"3"
 			"wide"					"25"
 			"tall"					"10"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
@@ -1212,7 +1121,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-			if_mvm
+			"if_mvm"
 			{
 				"visible"			"1"
 			}
@@ -1233,7 +1142,7 @@
 		
 		"verbose"			"1"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"		"1"
 		}
@@ -1248,8 +1157,6 @@
 		"zpos"					"3"
 		"wide"					"510"
 		"tall"					"45"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"border"				"BlackTransparent50"
@@ -1258,7 +1165,7 @@
 		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 		
-		if_mvm
+		"if_mvm"
 		{
 			"visible"			"0"
 		}
@@ -1275,8 +1182,6 @@
 			"zpos"				"3"
 			"wide"				"100"
 			"tall"				"15"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"AllCaps"			"1"
@@ -1305,8 +1210,6 @@
 			"ypos"				"0"
 			"wide"				"f0"
 			"tall"				"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 	
@@ -1350,8 +1253,6 @@
 				"zpos"			"2"
 				"wide"			"130"
 				"tall"			"18"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"wrap"			"0"
@@ -1372,8 +1273,6 @@
 				"zpos"			"3"
 				"wide"			"130"
 				"tall"			"20"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"Size 24"
@@ -1388,8 +1287,6 @@
 			"ypos"				"0"
 			"wide"				"f0"
 			"tall"				"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 	
@@ -1433,8 +1330,6 @@
 				"zpos"			"2"
 				"wide"			"130"
 				"tall"			"18"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"AllCaps"		"1"
@@ -1456,8 +1351,6 @@
 				"zpos"			"3"
 				"wide"			"130"
 				"tall"			"20"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"Size 24"

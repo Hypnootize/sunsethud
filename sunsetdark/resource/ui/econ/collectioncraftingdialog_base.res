@@ -1,6 +1,6 @@
 "#base" "../../../resource/tools/ReloadSchemeButton.res"
 
-"Resource/UI/econ/StrangeCountTransferDialog.res"
+"Resource/UI/Econ/CollectionCraftingDialog_Base.res"
 {
 	"ReloadSchemeButton"
 	{
@@ -43,7 +43,7 @@
 
 		"ItemContainerKV"
 		{
-			"fieldName"								"ItemContainer"
+			"fieldName"								"ItemContainerKV"
 			"xpos"									"p0.08"
 			"ypos"									"p0.245"
 			"zpos"									"1"
@@ -88,12 +88,9 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"labeltext"							""
 				"font"								"Size 14"
 				"textAlignment"						"center"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"default"							"0"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
@@ -600,11 +597,11 @@
 			"actionsignallevel"						"2"
 
 			"paintbackground"						"0"
-		
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
-			
+
 			"border_default"						"RedTransparent70"
 			"border_armed"							"OrangeTransparent70"
 
@@ -642,7 +639,6 @@
 				"pinCorner"							"2"
 				"visible"							"0"
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"labelText"							""
 				"textAlignment"						"south-west"
 				"scaleImage"						"1"
@@ -827,7 +823,7 @@
 		"depressedFgColor_override"					"White"
 
 		"paintbackground" 							"0"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 	}
@@ -902,12 +898,9 @@
 				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"labelText"							"#TF_CollectionCrafting_Submit"
 				"font"								"Size 14"
 				"textAlignment"						"center"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"default"							"1"
 				"AllCaps"							"1"
 				"Command"							"doneselectingitems"
@@ -921,7 +914,7 @@
 				"depressedFgColor_override"			"White"
 
 				"paintbackground" 					"0"
-				
+
 				"border_default"					"BlueTransparent70"
 				"border_armed"						"OrangeTransparent70"
 			}
@@ -949,11 +942,11 @@
 		"actionsignallevel"							"2"
 
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-			
+
 		"border_default"							"RedTransparent70"
 		"border_armed"								"OrangeTransparent70"
 
@@ -985,7 +978,7 @@
 		"depressedFgColor_override"					"White"
 
 		"paintbackground" 							"0"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 	}
@@ -1003,12 +996,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"startexplanation1"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -1019,7 +1009,7 @@
 		"depressedFgColor_override"					"White"
 
 		"paintbackground" 							"0"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 	}
@@ -1037,12 +1027,9 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"?"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"reload"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -1053,7 +1040,7 @@
 		"depressedFgColor_override"					"White"
 
 		"paintbackground" 							"0"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 	}
@@ -1071,12 +1058,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"startexplanation2"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -1087,7 +1071,7 @@
 		"depressedFgColor_override"					"White"
 
 		"paintbackground" 							"0"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 	}
@@ -1166,19 +1150,16 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"%"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"proportionaltoparent"					"1"
 			"Command"								"close"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"BlueLight"
 			"armedFgColor_override"					"RedLight"
 			"depressedFgColor_override" 			"RedLight"
@@ -1216,19 +1197,16 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"$"
 			"font"									"Symbols 24"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"proportionaltoparent"					"1"
 			"Command"								"nextexplanation"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"BlueLight"
 			"armedFgColor_override" 				"OrangeLight"
 			"depressedFgColor_override" 			"OrangeLight"
@@ -1309,19 +1287,16 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"%"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"close"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"BlueLight"
 			"armedFgColor_override"					"RedLight"
 			"depressedFgColor_override" 			"RedLight"
@@ -1340,19 +1315,16 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"#"
 			"font"									"Symbols 24"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"prevexplanation"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"BlueLight"
 			"armedFgColor_override" 				"OrangeLight"
 			"depressedFgColor_override" 			"OrangeLight"
@@ -1454,18 +1426,15 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"%"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"close"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"BlueLight"
 			"armedFgColor_override"					"RedLight"
 			"depressedFgColor_override" 			"RedLight"
@@ -1504,19 +1473,16 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"$"
 			"font"									"Symbols 24"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"nextexplanation"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"BlueLight"
 			"armedFgColor_override" 				"OrangeLight"
 			"depressedFgColor_override" 			"OrangeLight"
@@ -1597,18 +1563,15 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"%"
 			"font"									"Symbols 18"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"close"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"BlueLight"
 			"armedFgColor_override"					"RedLight"
 			"depressedFgColor_override" 			"RedLight"
@@ -1627,19 +1590,16 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labeltext"								"#"
 			"font"									"Symbols 24"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"prevexplanation"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"BlueLight"
 			"armedFgColor_override" 				"OrangeLight"
 			"depressedFgColor_override" 			"OrangeLight"

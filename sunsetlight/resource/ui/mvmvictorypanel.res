@@ -13,7 +13,7 @@
 		"StatsBackground"
 		{
 			"ControlName"				"ScalableImagePanel"
-			"fieldName"					"SplashBackground"
+			"fieldName"					"StatsBackground"
 			"xpos"						"0"
 			"ypos"						"0"
 			"wide"						"530"

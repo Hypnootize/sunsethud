@@ -1,24 +1,24 @@
 #base "scout_red.res"
 
-"Resource/UI/disguise_menu/spy_blue.res"
+"Resource/UI/Disguise_Menu/Spy_Blue.res"
 {
 	"ItemBackground"
-	{	
-		"bgcolor_override"		"BlueLight"
+	{
+		"bgcolor_override"							"BlueLight"
 	}
-	
+
 	"ItemNameLabel"
-	{	
-		"labelText"				"#TF_Class_Name_Spy"
+	{
+		"labelText"									"#TF_Class_Name_Spy"
 	}
 
 	"NewNumberLabel"
-	{	
-		"labelText"				"3"
+	{
+		"labelText"									"3"
 	}
-	
+
 	"NumberLabel"
-	{	
-		"labelText"				"9"
+	{
+		"labelText"									"9"
 	}
 }

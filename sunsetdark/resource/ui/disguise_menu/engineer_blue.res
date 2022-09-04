@@ -1,24 +1,24 @@
 #base "scout_red.res"
 
-"Resource/UI/disguise_menu/engineer_blue.res"
+"Resource/UI/Disguise_Menu/Engineer_Blue.res"
 {
 	"ItemBackground"
-	{	
-		"bgcolor_override"		"BlueLight"
+	{
+		"bgcolor_override"							"BlueLight"
 	}
-	
+
 	"ItemNameLabel"
-	{	
-		"labelText"				"#TF_Class_Name_Engineer"
+	{
+		"labelText"									"#TF_Class_Name_Engineer"
 	}
-		
+
 	"NewNumberLabel"
-	{	
-		"labelText"				"3"
+	{
+		"labelText"									"3"
 	}
-	
+
 	"NumberLabel"
-	{	
-		"labelText"				"6"
+	{
+		"labelText"									"6"
 	}
 }

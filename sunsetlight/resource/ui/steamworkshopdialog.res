@@ -66,7 +66,7 @@
 			"DescLabel"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"TitleLabel"
+				"fieldName"							"DescLabel"
 				"xpos"								"cs-0.5"
 				"ypos"								"80"
 				"zpos"								"1"

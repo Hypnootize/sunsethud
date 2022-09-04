@@ -45,7 +45,7 @@
 		"proportionaltoparent"						"1"
 		"RoundedCorners"							"0"
 		"font"										"Size 22"
-		
+
 		"paintbackground"							"0"
 
 		"pinCorner"									"2"
@@ -66,14 +66,14 @@
 			{
 				"fgcolor_override"					"BlueLight"
 			}
-		
+
 			"UpButton"
 			{
 				"ControlName"						"Button"
 				"FieldName"							"UpButton"
 				"visible"							"0"
 			}
-		
+
 			"DownButton"
 			{
 				"ControlName"						"Button"
@@ -103,7 +103,7 @@
 
 		"pinCorner"									"2"
 		//"autoResize"								"1"
-		
+
 		"pin_to_sibling" 							"chatlog"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"

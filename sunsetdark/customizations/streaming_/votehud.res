@@ -1,12 +1,12 @@
 "Resource/UI/VoteHud.res"
-{	
+{
 	"VoteActive"
 	{
-		"Header"		
+		"Header"
 		{
-			"ypos"		"9999"
-			"wide"		"0"
-			"tall"		"0"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
 		}
 	}
 }

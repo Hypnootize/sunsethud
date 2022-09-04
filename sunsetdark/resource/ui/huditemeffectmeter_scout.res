@@ -2,9 +2,9 @@
 
 "Resource/UI/HudItemEffectMeter_Scout.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
-		"fieldName"		"HudItemEffectMeter"
-		"ypos"			"r85"
+		"fieldName"									"HudItemEffectMeter"
+		"ypos"										"r85"
 	}
 }

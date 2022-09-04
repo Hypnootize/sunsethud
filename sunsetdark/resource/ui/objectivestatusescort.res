@@ -1,5 +1,5 @@
 "Resource/UI/ObjectiveStatusEscort.res"
-{	
+{
 	"ObjectiveStatusEscort"
 	{
 		"ControlName"								"EditablePanel"
@@ -14,11 +14,11 @@
 		"progress_xpos"								""
 		"progress_wide"								""
 	}
-	
+
 	"ProgressBar"
 	{
 		"ControlName"								"CTFHudEscortProgressBar"
-		"fieldName"									"ProgressBar"	
+		"fieldName"									"ProgressBar"
 		"xpos"										"2"
 		"ypos"										"0"
 		"zpos"										"8"
@@ -27,35 +27,35 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		
+
 		"proportionaltoparent"						"1"
-		
+
 		"if_multiple_trains"
 		{
 			"tall"									"0"
 		}
 	}
-	
+
 	"TrackBG"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"TrackBG"	
+		"fieldName"									"TrackBG"
 		"xpos"										"2"
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"140"
-		"tall"										"8"	
+		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
 		"bgcolor_override"							"TransparentLightBlack"
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"LevelBar"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"LevelBar"	
+		"fieldName"									"LevelBar"
 		"xpos"										"2"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -70,7 +70,7 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"HomeCPIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -84,11 +84,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									""
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
-		
+
 		"if_team_red"
 		{
 			"fillcolor"								"RedLight"
@@ -102,7 +101,7 @@
 			"fillcolor"								"BlueLight"
 		}
 	}
-	
+
 	"SimpleControlPointTemplate"
 	{
 		"ControlName"								"ImagePanel"
@@ -116,7 +115,6 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									""
 		"image"										""
 		"scaleImage"								"1"
@@ -134,9 +132,9 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"proportionaltoparent"						"1"
-		
+
 		"EscortItemImageCustom"
 		{
 			"ControlName"							"ImagePanel"
@@ -150,21 +148,20 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								""
 			"fillcolor"								"BlueLight"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
-			
+
 			"if_multiple_trains_red"
 			{
-				
+
 				"fillcolor"							"RedLight"
 			}
 		}
-		
+
 		"CapNumPlayers"
-		{	
+		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CapNumPlayers"
 			"font"									"Size 9"
@@ -180,19 +177,17 @@
 			"enabled"								"1"
 			"labelText"								"#ControlPointIconCappers"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"fgcolor"								"white"
 			"paintbackground"						"0"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
 		}
-		
+
 		"RecedeTime"
-		{	
+		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"RecedeTime"	
-			"font"									"Size 9"		
+			"fieldName"								"RecedeTime"
+			"font"									"Size 9"
 			"xpos"									"122"
 			"ypos"									"0"
 			"zpos"									"30"
@@ -204,19 +199,17 @@
 			"enabled"								"1"
 			"labelText"								"%recede%"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"fgcolor"								"white"
 			"paintbackground"						"0"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
 			"textinsetx"							"0"
 		}
-		
+
 		"Speed_Backwards"
 		{
 			"ControlName"							"ImagePanel"
-			"fieldName"								"Speed_Backwards"	
+			"fieldName"								"Speed_Backwards"
 			"xpos"									"134"
 			"ypos"									"1"
 			"zpos"									"30"
@@ -226,16 +219,15 @@
 			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								""
 			"image"									"replay\thumbnails\cart_icons\cart_arrow_left"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 		}
 
 		"Blocked"
 		{
 			"ControlName"							"ImagePanel"
-			"fieldName"								"Blocked"	
+			"fieldName"								"Blocked"
 			"xpos"									"132"
 			"ypos"									"1"
 			"zpos"									"30"
@@ -245,12 +237,11 @@
 			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								""
 			"image"									"../hud/cart_blocked"
 			"scaleImage"							"1"
 		}
-		
+
 		"EscortItemImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -260,18 +251,18 @@
 		"EscortItemImageBottom"
 		{
 			"ControlName"							"ImagePanel"
-			"fieldName"								"EscortItemImageBottom"	
+			"fieldName"								"EscortItemImageBottom"
 			"xpos"									"9999"
 		}
 		"EscortItemImageAlert"
 		{
 			"ControlName"							"ImagePanel"
-			"fieldName"								"EscortItemImageAlert"	
+			"fieldName"								"EscortItemImageAlert"
 			"xpos"									"9999"
 		}
 		"CapPlayerImage"
 		{
-			"ControlName"							"ImagePanel"		
+			"ControlName"							"ImagePanel"
 			"fieldName"								"CapPlayerImage"
 			"xpos"									"9999"
 		}

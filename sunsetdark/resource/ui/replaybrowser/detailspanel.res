@@ -1,4 +1,4 @@
-"Resource/UI/DetailsPanel.res"
+"Resource/UI/ReplayBrowser/DetailsPanel.res"
 {
 	"DetailsPanel"
 	{
@@ -11,11 +11,10 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"bgcolor_override"							"Blank"
 		"margin_width"								"c-295"
 	}
-	
+
 	"InsetPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -24,7 +23,7 @@
 		"ypos"										"15"
 		"wide"										"590"
 		"tall"										"800"
-	
+
 		"PlaybackPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -34,7 +33,7 @@
 			"wide"									"320"
 			"tall"									"200"
 		}
-		
+
 		"TitleEditPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -43,7 +42,7 @@
 			"ypos"									"0"
 			"wide"									"590"
 		}
-		
+
 		"CutsPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -66,17 +65,14 @@
 		"autoResize"								"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Replay_ExportMovie"
 		"font"										"Size 11"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"exportmovie"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
@@ -84,7 +80,7 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}		
+	}
 
 	"ShowRenderInfoButton"
 	{
@@ -97,21 +93,18 @@
 		"autoResize"								"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									""
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"showrenderinfo"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-	
+
 		"paintbackground"							"1"
-		
+
 		"image_default"								"replay/info_button_small"
 		"image_armed"								"replay/info_button_over_small"
-		
+
 		"SubImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -124,7 +117,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"scaleImage"							"1"
-		}	
+		}
 	}
 
 	"YouTubeUploadButton"
@@ -138,17 +131,14 @@
 		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Replay_YouTubeUpload"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"youtubeupload"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
@@ -169,17 +159,14 @@
 		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"0"
-		"tabPosition"								"0"
 		"labelText"									"#Replay_YouTubeView"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"viewyoutube"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
@@ -200,17 +187,14 @@
 		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"0"
-		"tabPosition"								"0"
 		"labelText"									"#Replay_YouTubeShareURL"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"shareyoutubeurl"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
@@ -219,7 +203,7 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"DeleteButton"
 	{
 		"ControlName"								"CExButton"
@@ -237,13 +221,11 @@
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"delete_replayitem"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
@@ -251,8 +233,8 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}	
-	
+	}
+
 	"PlayButton"
 	{
 		"ControlName"								"CExButton"
@@ -266,17 +248,14 @@
 		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Replay_Watch"
 		"font"										"Size 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"play"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
@@ -284,8 +263,8 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}		
-	
+	}
+
 	"RenderButton"
 	{
 		"ControlName"								"CExButton"
@@ -303,13 +282,11 @@
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"render_replay_dlg"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
@@ -317,5 +294,5 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}	
+	}
 }

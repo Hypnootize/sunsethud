@@ -1,6 +1,6 @@
 #base "../../resource/tools/reloadschemebutton.res"
 
-"ImportFileDialog.res"
+"Resource/UI/ImportFileDialog.res"
 {
 	"ImportFileDialog"
 	{
@@ -18,7 +18,7 @@
 		"border"									"BlackTransparent70"
 	}
 
-	"Title"	
+	"Title"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
@@ -60,7 +60,6 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"editable"									"1"
 		"maxchars"									"128"
 		"NumericInputOnly"							"0"
@@ -201,7 +200,6 @@
 		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -239,7 +237,6 @@
 		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"128"
@@ -258,7 +255,7 @@
 		"labelText"									"Perforce"
 		"Font"										"Size 12"
 		"textAlignment"								"west"
-		"xpos"										"245" 
+		"xpos"										"245"
 		"ypos"										"85"
 		"wide"										"80"
 		"tall"										"20"
@@ -274,7 +271,7 @@
 		"labelText"									"Partner"
 		"Font"										"Size 12"
 		"textAlignment"								"west"
-		"xpos"										"325" 
+		"xpos"										"325"
 		"ypos"										"85"
 		"wide"										"80"
 		"tall"										"20"
@@ -295,7 +292,7 @@
 		"paintbackground" 							"1"
 		"paintbackgroundtype" 						"0"
 		"bgcolor_override" 							"0 0 0 100"
-				
+
 		"ButtonIconClear"
 		{
 			"ControlName"							"CExButton"
@@ -308,10 +305,10 @@
 			"use_proportional_insets" 				"1"
 			"font"									"Symbols 14"
 			"textAlignment"							"center"
-				
+
 			"labelText"								"-"
-			"command"								"ClearIcon"				
-				
+			"command"								"ClearIcon"
+
 			"paintbackground"						"0"
 			"paintborder"							"1"
 			"border_default"						"BlueTransparent70"
@@ -334,10 +331,10 @@
 			"use_proportional_insets" 				"1"
 			"font"									"Symbols 14"
 			"textAlignment"							"center"
-				
+
 			"labelText"								"q"
-			"command"								"BrowseIcon"					
-				
+			"command"								"BrowseIcon"
+
 			"paintbackground"						"0"
 			"paintborder"							"1"
 			"border_default"						"BlueTransparent70"
@@ -357,7 +354,7 @@
 			"zpos"									"1"
 			"wide"									"190"
 			"tall"									"122"
-		}	
+		}
 
 		"IconLabel"
 		{
@@ -376,7 +373,7 @@
 			"fgcolor"								"White"
 		}
 	}
-	
+
 	"ClassModelsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -393,7 +390,7 @@
 		"ClassesTitle"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"ClassModelsTitle"
+			"fieldName"								"ClassesTitle"
 			"xpos"									"4"
 			"ypos"									"-3"
 			"wide"									"100"
@@ -421,7 +418,7 @@
 		"ClassButton1"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass1"
+			"fieldName"								"ClassButton1"
 			"xpos"									"4"
 			"ypos"									"15"
 			"wide"									"63"
@@ -445,7 +442,7 @@
 		"ClassButton2"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass2"
+			"fieldName"								"ClassButton2"
 			"xpos"									"4"
 			"ypos"									"37"
 			"wide"									"63"
@@ -469,7 +466,7 @@
 		"ClassButton3"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass3"
+			"fieldName"								"ClassButton3"
 			"xpos"									"4"
 			"ypos"									"59"
 			"wide"									"63"
@@ -493,7 +490,7 @@
 		"ClassButton4"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass4"
+			"fieldName"								"ClassButton4"
 			"xpos"									"4"
 			"ypos"									"81"
 			"wide"									"63"
@@ -517,7 +514,7 @@
 		"ClassButton5"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass5"
+			"fieldName"								"ClassButton5"
 			"xpos"									"4"
 			"ypos"									"103"
 			"wide"									"63"
@@ -541,7 +538,7 @@
 		"ClassButton6"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass6"
+			"fieldName"								"ClassButton6"
 			"xpos"									"4"
 			"ypos"									"125"
 			"wide"									"63"
@@ -565,7 +562,7 @@
 		"ClassButton7"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass7"
+			"fieldName"								"ClassButton7"
 			"xpos"									"4"
 			"ypos"									"147"
 			"wide"									"63"
@@ -589,7 +586,7 @@
 		"ClassButton8"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass8"
+			"fieldName"								"ClassButton8"
 			"xpos"									"4"
 			"ypos"									"169"
 			"wide"									"63"
@@ -613,7 +610,7 @@
 		"ClassButton9"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass9"
+			"fieldName"								"ClassButton9"
 			"xpos"									"4"
 			"ypos"									"191"
 			"wide"									"63"
@@ -661,7 +658,7 @@
 			"labelText"								""
 			"Font"									"Size 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"18"
 			"wide"									"150"
 			"tall"									"20"
@@ -679,7 +676,7 @@
 			"labelText"								""
 			"Font"									"Size 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"38"
 			"wide"									"150"
 			"tall"									"20"
@@ -697,7 +694,7 @@
 			"labelText"								""
 			"Font"									"Size 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"58"
 			"wide"									"150"
 			"tall"									"20"
@@ -715,7 +712,7 @@
 			"labelText"								""
 			"Font"									"Size 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"78"
 			"wide"									"150"
 			"tall"									"20"
@@ -733,7 +730,7 @@
 			"labelText"								""
 			"Font"									"Size 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"98"
 			"wide"									"150"
 			"tall"									"20"
@@ -751,7 +748,7 @@
 			"labelText"								""
 			"Font"									"Size 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"118"
 			"wide"									"150"
 			"tall"									"20"
@@ -769,7 +766,7 @@
 			"labelText"								""
 			"Font"									"Size 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"138"
 			"wide"									"150"
 			"tall"									"20"
@@ -787,7 +784,7 @@
 			"labelText"								""
 			"Font"									"Size 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"158"
 			"wide"									"150"
 			"tall"									"20"
@@ -805,7 +802,7 @@
 			"labelText"								""
 			"Font"									"Size 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"178"
 			"wide"									"150"
 			"tall"									"20"
@@ -816,7 +813,7 @@
 			"border"								"SteamWorkshopBorder"
 		}
 	}
-	
+
 	"LODsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -827,7 +824,7 @@
 		"tall"										"270"
 		"visible"									"1"
 		"paintbackground" 							"0"
-	
+
 		"LOD0Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -865,10 +862,10 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"-"
-				"command"							"ClearLOD0"				
-				
+				"command"							"ClearLOD0"
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -889,10 +886,10 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"q"
-				"command"							"BrowseLOD0"				
-				
+				"command"							"BrowseLOD0"
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -927,7 +924,7 @@
 				"fgcolor"							"White"
 			}
 		}
-	
+
 		"LOD1Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -967,10 +964,10 @@
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
 				"enabled"							"0"
-				
+
 				"labelText"							"-"
-				"command"							"ClearLOD1"				
-				
+				"command"							"ClearLOD1"
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -992,10 +989,10 @@
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
 				"enabled"							"0"
-				
+
 				"labelText"							"q"
-				"command"							"BrowseLOD1"				
-				
+				"command"							"BrowseLOD1"
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -1032,7 +1029,7 @@
 				"fgcolor"							"White"
 			}
 		}
-	
+
 		"LOD2Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1071,10 +1068,10 @@
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
 				"enabled"							"0"
-				
+
 				"labelText"							"-"
-				"command"							"ClearLOD2"				
-				
+				"command"							"ClearLOD2"
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -1096,10 +1093,10 @@
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
 				"enabled"							"0"
-				
+
 				"labelText"							"q"
-				"command"							"BrowseLOD2"				
-				
+				"command"							"BrowseLOD2"
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -1178,7 +1175,7 @@
 		"paintbackground" 							"1"
 		"paintbackgroundtype" 						"0"
 		"bgcolor_override" 							"0 0 0 100"
-		
+
 		"SkinsTitle"
 		{
 			"ControlName"							"CExLabel"
@@ -1250,7 +1247,7 @@
 				"paintbackgroundtype"				"0"
 			}
 		}
-	
+
 		"Material0Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1285,10 +1282,10 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
-					
+
 				"labelText"							"|"
-				"command"							"EditMaterial0"				
-					
+				"command"							"EditMaterial0"
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -1311,7 +1308,7 @@
 				"fgcolor"							"White"
 			}
 		}
-		
+
 		"Material1Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1346,10 +1343,10 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
-					
+
 				"labelText"							"|"
-				"command"							"EditMaterial1"				
-					
+				"command"							"EditMaterial1"
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -1407,10 +1404,10 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
-					
+
 				"labelText"							"|"
 				"command"							"EditMaterial2"
-					
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -1468,10 +1465,10 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
-					
+
 				"labelText"							"|"
-				"command"							"EditMaterial3"				
-					
+				"command"							"EditMaterial3"
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -1502,14 +1499,14 @@
 			"labelText"								"#TF_ImportFile_Paintable0"
 			"Font"									"Size 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"190"
 			"wide"									"100"
 			"tall"									"20"
 			"visible"								"0"
 			"enabled"								"1"
 			"disabledfgcolor2_override"				"White"
-			"command"								"UpdatePaintable0"	
+			"command"								"UpdatePaintable0"
 			"border"								"SteamWorkshopBorder"
 		}
 
@@ -1520,14 +1517,14 @@
 			"labelText"								"#TF_ImportFile_Paintable1"
 			"Font"									"Size 11"
 			"textAlignment"							"west"
-			"xpos"									"100" 
+			"xpos"									"100"
 			"ypos"									"190"
 			"wide"									"100"
 			"tall"									"20"
 			"visible"								"0"
 			"enabled"								"1"
 			"disabledfgcolor2_override"				"White"
-			"command"								"UpdatePaintable1"	
+			"command"								"UpdatePaintable1"
 			"border"								"SteamWorkshopBorder"
 		}
 	}
@@ -1595,10 +1592,10 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"-"
 				"command"							"ClearAnimationSource"
-				
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -1619,10 +1616,10 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"q"
 				"command"							"BrowseAnimationSource"
-				
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -1695,10 +1692,10 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"-"
 				"command"							"ClearAnimationVCD"
-				
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -1719,10 +1716,10 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 14"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"q"
 				"command"							"BrowseAnimationVCD"
-				
+
 				"paintbackground"					"0"
 				"paintborder"						"1"
 				"border_default"					"BlueTransparent70"
@@ -1766,7 +1763,7 @@
 			"labelText"								"Loop"
 			"Font"									"Size 11"
 			"textAlignment"							"west"
-			"xpos"									"0" 
+			"xpos"									"0"
 			"ypos"									"140"
 			"wide"									"80"
 			"tall"									"20"
@@ -1801,7 +1798,6 @@
 			"proportionaltoparent"					"1"
 			"visible"								"1"
 			"enabled"								"0"
-			"tabPosition"							"1"
 			"textHidden"							"0"
 			"editable"								"1"
 			"maxchars"								"128"
@@ -1853,10 +1849,10 @@
 		"use_proportional_insets" 					"1"
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
-				
+
 		"labelText"									"q"
-		"command"									"Load"				
-				
+		"command"									"Load"
+
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"border_default"							"BlueTransparent70"
@@ -1988,24 +1984,23 @@
 	{
 		"ControlName"								"CTFPlayerModelPanel"
 		"fieldName"									"classmodelpanel"
-		
+
 		"xpos"										"c-290"
 		"ypos"										"c-182"
 		"zpos"										"1"
 		"wide"										"340"
 		"tall"										"313"
-		"autoResize"								"1"
 		"visible"									"0"
 		"enabled"									"1"
-		
+
 		"render_texture"							"0"
 		"fov"										"40"
 		"allow_manip"								"1"
 
-		"paintbackground" 							"1"		
+		"paintbackground" 							"1"
 		"paintbackgroundenabled" 					"1"
 		"bgcolor_override" 							"255 255 255 0"
-		
+
 		"model"
 		{
 			"force_pos"								"1"
@@ -2020,7 +2015,7 @@
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
 			"spotlight"								"1"
-		
+
 			"modelname"								""
 		}
 	}

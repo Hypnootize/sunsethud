@@ -1,4 +1,4 @@
-"resource/ui/basepage.res"
+"Resource/UI/ReplayBrowser/BasePage.res"
 {
 	"BasePage"
 	{
@@ -12,11 +12,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"PaintBackground"							"0"
 	}
-	
+
 	"SearchTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -30,7 +29,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"unicode"									"1"
@@ -56,10 +54,10 @@
 		"textAlignment"								"west"
 		"textinsetx"								"11"
 		"labeltext"									"q"
-		"fgcolor_override"							"White"
-		
+		"fgcolor"									"White"
+
 		"border"									"BlueTransparent70"
-		
+
 		"pin_to_sibling" 							"SearchTextEntry"
 	}
 	"NameFilterLine"
@@ -91,7 +89,6 @@
 		"tall"										"350"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"autohide_scrollbar" 						"1"
 		"paintbackground"							"0"
 		"paintborder"								"1"

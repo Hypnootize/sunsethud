@@ -1,4 +1,4 @@
-"StoreMapStampsInfoDialog.res"
+"Resource/UI/Econ/Store/V2/StoreMapStampsInfoDialog.res"
 {
 	"MapStampsInfoDialog"
 	{
@@ -87,7 +87,7 @@
 		"Command"									"close"
 
 		"paintbackground" 							"0"
-		
+
 		"border_default"							"RedTransparent70"
 		"border_armed"								"OrangeTransparent70"
 	}
@@ -114,7 +114,7 @@
 		"fgcolor"									"White"
 
 		"paintbackground" 							"0"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 	}

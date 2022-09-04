@@ -1,4 +1,4 @@
-"resource/ui/replaybrowser/thumbnailcollection.res"
+"Resource/UI/ReplayBrowser/ThumbnailCollection.res"
 {
 	"ThumbnailCollection"
 	{
@@ -10,10 +10,9 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -30,7 +29,7 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White"
 	}
-	
+
 	"DateLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -46,7 +45,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"White"
 	}
-	
+
 	"WarningLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -62,7 +61,7 @@
 		"fgcolor" 									"RedLight"
 		"wrap"										"1"
 	}
-	
+
 	"UnconvertedBg"
 	{
 		"ControlName"								"Panel"
@@ -72,9 +71,9 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"2"
-		"bgcolor_override"							"0 0 0 0"
+		"bgcolor_override"							"Blank"
 	}
-	
+
 	"NoReplayItemsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -88,9 +87,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"1"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 	}
-	
+
 	"ShowPrevButton"
 	{
 		"ControlName"								"CExButton"
@@ -104,23 +103,20 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%prevbuttontext%"
 		"font"										"Size 9"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"show_prev"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 	}
@@ -137,27 +133,24 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%nextbuttontext%"
-		"font"										"ItemFontNameSmall"
+		"font"										"Size 8"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"show_next"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 	}
-	
+
 	"RenderAllButton"
 	{
 		"ControlName"								"CExButton"
@@ -175,15 +168,15 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"								"CExLabel"

@@ -1,13 +1,13 @@
 #base "../../../resource/tools/reloadschemebutton.res"
 
-"Resource/UI/replaybrowser/mainpanel.res"
+"Resource/UI/ReplayBrowser/MainPanel.res"
 {
 	"ReloadSchemeButton"
 	{
 		"xpos"										"rs1"
 		"ypos"										"50"
 	}
-	
+
 	"ReplayBrowser"
 	{
 		"ControlName"								"EditablePanel"
@@ -20,14 +20,13 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"setclosebuttonvisible"						"0"
 		"settitlebarvisible"						"1"
 		"PaintBackground"							"0"
 		"bgcolor_override"							"Blank"
 		"infocus_bgcolor_override"					"Blank"
 		"outoffocus_bgcolor_override"				"Blank"
-		
+
 		"title"										"#Replay_Replay"
 		"title_font"								"Size 18"
 		"titletextinsetX"							"40"
@@ -35,7 +34,7 @@
 		"titlebarfgcolor_override"					"Blank"
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"
-		
+
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"24"
 	}
@@ -80,12 +79,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"border"									"BlueTransparent30"
-		
+
 		"pin_to_sibling" 							"TopWhiteBar"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
+
 	"PartyCover"
 	{
 		"ControlName"								"EditablePanel"
@@ -99,7 +98,7 @@
 		"enabled"									"1"
 		"border"									"BlueTransparent50"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"								"EditablePanel"
@@ -112,14 +111,14 @@
 		"tabxfittotext"								"1"
 		"transition_time" 							"0"
 		"yoffset"									"8"
-		
+
 		"tabskv"
 		{
 			"textinsetx"							"2"
 			"textinsety"							"0"
 			"font"									"Size 16"
 			"selectedcolor"							"White"
-			"unselectedcolor"						"210 210 210 255"	
+			"unselectedcolor"						"210 210 210 255"
 			"defaultBgColor_override"				"Blank"
 			"paintbackground"						"0"
 			"activeborder_override"					"NoBorder"
@@ -154,21 +153,18 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"Back (&Q)"
 		"font"										"Size 14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"back"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground" 							"0"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 	}
@@ -193,5 +189,5 @@
 		"fieldName"									"FooterLine"
 		"xpos"										"9999"
 		"wide"										"0"
-	}	
+	}
 }

@@ -824,7 +824,7 @@
 		"BotsOnBlueTeamCheckBox"
 		{
 			"ControlName"	"CheckButton"
-			"fieldName"		"AutoAddBotsCheckBox"
+			"fieldName"		"BotsOnBlueTeamCheckBox"
 			"labelText"		"#IT_Bot_BlueTeam"
 			"Font"			"Size 8"
 			"textAlignment"	"west"

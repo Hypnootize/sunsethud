@@ -13,11 +13,6 @@ event HudHealthBonusPulse
 	RunEvent HudHealthBonusPulseLoop			0.7
 }
 
-event HudHealthBonusPulseLoop
-{
-	RunEvent HudHealthBonusPulse				0.0
-}
-
 event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 				0.0
@@ -43,11 +38,6 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthValueSpectator	FgColor 	"Health Hurt Spec" 					Linear 	0.0		0.0
 
 	RunEvent HudHealthDyingPulseLoop			0.4
-}
-
-event HudHealthDyingPulseLoop
-{
-	RunEvent HudHealthDyingPulse				0.0
 }
 
 event HudHealthDyingPulseStop

@@ -6,7 +6,6 @@
 		"fieldName"									"MatchSummary"
 		"autoResize"								"0"
 		"pinCorner"									"0"
-		"tabPosition"								"0"
 		"paintbackground"							"0"
 		"zpos"										"20"
 		"visible"									"0"
@@ -37,7 +36,7 @@
 		"AnimRedTeamLabel12v12YPos"					"47"
 		"AnimStatsContainer12v12YPos"				"-20"
 
-		if_large
+		"if_large"
 		{
 			"AnimBlueMedalsYPos"					"50"
 			"AnimRedMedalsYPos"						"50"
@@ -58,7 +57,7 @@
 		"border"									"GrayBluBorderDark"
 		"proportionaltoparent"						"1"
 
-		if_uses_xp
+		"if_uses_xp"
 		{
 			"visible"								"1"
 		}
@@ -82,7 +81,7 @@
 		"show_sources_when_hidden"					"1"
 		"instantly_update"							"0"
 
-		if_uses_placement
+		"if_uses_placement"
 		{
 			"show_model"							"0"
 		}
@@ -108,7 +107,7 @@
 		"show_progress"								"0"
 		"instantly_update"							"0"
 
-		if_uses_xp
+		"if_uses_xp"
 		{
 			"visible"								"0"
 		}
@@ -181,7 +180,6 @@
 			"tall"									"15"
 			"visible"								"0"
 			"enabled"								"1"
-			"autoResize"							"0"
 
 			"StatsAndMedals"
 			{
@@ -262,7 +260,7 @@
 					"enabled"						"1"
 					"border"						"BlueTransparent90"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"39"
 					}
@@ -285,7 +283,7 @@
 					"enabled"						"1"
 					"fgcolor"						"White"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"43"
 					}
@@ -309,7 +307,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"44"
 					}
@@ -332,7 +330,7 @@
 					"enabled"						"1"
 					"fgcolor"						"White"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"43"
 					}
@@ -355,7 +353,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"44"
 					}
@@ -374,7 +372,7 @@
 					"image"							"../hud/team_blue"
 					"scaleImage"					"1"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"29"
 					}
@@ -409,10 +407,10 @@
 					"visible"						"0"
 					"enabled"						"1"
 					"image"							""
-					"scaleImage"					"1"	
+					"scaleImage"					"1"
 					"color_outline"					"White"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"40"
 					}
@@ -430,7 +428,7 @@
 					"PaintBackgroundType"			"0"
 					"bgcolor_override"				"BlackTransparent"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"38"
 					}
@@ -447,7 +445,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"77"
 						"tall"						"340"
@@ -464,8 +462,7 @@
 						"tall"						"205"
 						"visible"					"1"
 						"enabled"					"1"
-						"tabPosition"				"0"
-						"autoresize"				"0"
+						"autoResize"				"0"
 						"linespacing"				"26"
 						"linegap"					"4"
 						//"show_columns"			"1"
@@ -478,10 +475,10 @@
 						"award_width"				"s.04"
 						"stats_width"				"s.08"
 						"horiz_inset"				"5"
-						
+
 						"alpha"						"255"
 
-						if_large
+						"if_large"
 						{
 							"tall"					"340"
 							"linegap"				"1"
@@ -503,7 +500,7 @@
 					"enabled"						"1"
 					"border"						"BlackTransparent90"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"57"
 						"tall"						"360"
@@ -538,11 +535,11 @@
 					"enabled"						"1"
 					"border"						"RedTransparent90"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"39"
 					}
-				}						
+				}
 				"RedTeamScore"
 				{
 					"ControlName"					"CExLabel"
@@ -561,7 +558,7 @@
 					"enabled"						"1"
 					"fgcolor"						"White"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"43"
 					}
@@ -584,7 +581,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"44"
 					}
@@ -607,7 +604,7 @@
 					"enabled"						"1"
 					"fgcolor"						"White"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"43"
 					}
@@ -630,7 +627,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"44"
 					}
@@ -649,7 +646,7 @@
 					"image"							"../hud/team_red"
 					"scaleImage"					"1"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"20"
 					}
@@ -684,10 +681,10 @@
 					"visible"						"0"
 					"enabled"						"1"
 					"image"							""
-					"scaleImage"					"1"	
+					"scaleImage"					"1"
 					"color_outline"					"White"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"40"
 					}
@@ -705,7 +702,7 @@
 					"PaintBackgroundType"			"0"
 					"bgcolor_override"				"BlackTransparent"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"38"
 					}
@@ -722,12 +719,12 @@
 					"visible"						"1"
 					"enabled"						"1"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"77"
 						"tall"						"340"
 					}
-			
+
 					"RedPlayerList"
 					{
 						"ControlName"				"TFSectionedListPanel"
@@ -739,8 +736,7 @@
 						"tall"						"205"
 						"visible"					"1"
 						"enabled"					"1"
-						"tabPosition"				"0"
-						"autoresize"				"0"
+						"autoResize"				"0"
 						"linespacing"				"26"
 						"linegap"					"4"
 						//"show_columns"			"1"
@@ -753,10 +749,10 @@
 						"award_width"				"s.04"
 						"stats_width"				"s.08"
 						"horiz_inset"				"5"
-						
+
 						"alpha"						"255"
 
-						if_large
+						"if_large"
 						{
 							"tall"					"340"
 							"linegap"				"1"
@@ -778,7 +774,7 @@
 					"enabled"						"1"
 					"border"						"BlackTransparent90"
 
-					if_large
+					"if_large"
 					{
 						"ypos"						"57"
 						"tall"						"360"
@@ -797,7 +793,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 
-				if_large
+				"if_large"
 				{
 					"visible"						"0"
 				}
@@ -911,7 +907,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 
-				if_large
+				"if_large"
 				{
 					"visible"						"0"
 				}

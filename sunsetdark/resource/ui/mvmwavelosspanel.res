@@ -23,7 +23,7 @@
 		"wide"										"550"
 		"tall"										"145"
 		"visible"									"1"
-		
+
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"border"									"BlackTransparent70"
@@ -32,7 +32,7 @@
 	"WaveFailHeader"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"HeaderLabel"
+		"fieldName"									"WaveFailHeader"
 		"font"										"Size 24"
 		"labelText"									"%waveheader%"
 		"textAlignment" 							"center"
@@ -54,7 +54,7 @@
 		"visible"									"1"
 		"bgcolor_override"							"20 20 20 100"
 	}
-	
+
 	"SummaryHeader"
 	{
 		"ControlName"								"CExLabel"
@@ -68,7 +68,7 @@
 		"tall"										"30"
 		"fgcolor"									"WhiteGray"
 	}
-	
+
 	"CollectionContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -78,7 +78,7 @@
 		"wide"										"300"
 		"tall"										"100"
 		"visible"									"1"
-		
+
 		"Header"
 		{
 			"ControlName"							"CExLabel"
@@ -91,7 +91,7 @@
 			"wide"									"140"
 			"fgcolor"								"WhiteGray"
 		}
-	
+
 		"CollectedLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -116,7 +116,7 @@
 			"wide"									"30"
 			"fgcolor"								"GreenLight"
 		}
-		
+
 		"MissedLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -141,7 +141,7 @@
 			"wide"									"30"
 			"fgcolor"								"RedLight"
 		}
-		
+
 		"BonusLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -167,7 +167,7 @@
 			"fgcolor"								"GreenLight"
 		}
 	}
-	
+
 	"UsageContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -177,7 +177,7 @@
 		"wide"										"300"
 		"tall"										"100"
 		"visible"									"1"
-		
+
 		"Header"
 		{
 			"ControlName"							"CExLabel"
@@ -190,7 +190,7 @@
 			"wide"									"195"
 			"fgcolor"								"WhiteGray"
 		}
-	
+
 		"YouLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -203,7 +203,7 @@
 			"wide"									"35"
 			"fgcolor"								"WhiteGray"
 		}
-		
+
 		"TeamLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -216,7 +216,7 @@
 			"wide"									"35"
 			"fgcolor"								"WhiteGray"
 		}
-		
+
 		"BuybackLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -229,7 +229,7 @@
 			"wide"									"120"
 			"fgcolor"								"White"
 		}
-		
+
 		"BuybackCountYou"
 		{
 			"ControlName"							"CExLabel"
@@ -242,7 +242,7 @@
 			"wide"									"35"
 			"fgcolor"								"White"
 		}
-		
+
 		"BuybackCountTeam"
 		{
 			"ControlName"							"CExLabel"
@@ -255,7 +255,7 @@
 			"wide"									"35"
 			"fgcolor"								"White"
 		}
-		
+
 		"BottleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -268,7 +268,7 @@
 			"wide"									"120"
 			"fgcolor"								"White"
 		}
-		
+
 		"BottleCountYou"
 		{
 			"ControlName"							"CExLabel"
@@ -281,7 +281,7 @@
 			"wide"									"35"
 			"fgcolor"								"White"
 		}
-		
+
 		"BottleCountTeam"
 		{
 			"ControlName"							"CExLabel"
@@ -294,7 +294,7 @@
 			"wide"									"35"
 			"fgcolor"								"White"
 		}
-		
+
 		"InactiveLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -307,11 +307,11 @@
 			"wide"									"120"
 			"fgcolor"								"White"
 		}
-		
+
 		"InactiveCountYou"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"ActiveCountYou"
+			"fieldName"								"InactiveCountYou"
 			"font"									"Size 14"
 			"labelText"								"%inactiveupgradesyou%"
 			"textAlignment" 						"east"
@@ -320,11 +320,11 @@
 			"wide"									"35"
 			"fgcolor"								"RedLight"
 		}
-		
+
 		"InactiveCountTeam"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"ActiveCountTeam"
+			"fieldName"								"InactiveCountTeam"
 			"font"									"Size 14"
 			"labelText"								"%inactiveupgradesteam%"
 			"textAlignment" 						"east"
@@ -347,21 +347,18 @@
 		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_PVE_Vote_MissionRestart"
 		"font"										"Size 16"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"default"									"1"
 		"Command"									"vote_restart"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"							"255 255 255 255"
 		"paintbackground" 							"0"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 
@@ -369,7 +366,7 @@
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"ContinueButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -382,20 +379,17 @@
 		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#ConfirmButtonText"
 		"font"										"Size 16"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"continue"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"							"255 255 255 255"
 		"paintbackground" 							"0"
-		
+
 		"border_default"							"BlueTransparent70"
 		"border_armed"								"OrangeTransparent70"
 
@@ -403,7 +397,7 @@
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"HintContainer"
 	{
 		"ControlName"								"EditablePanel"
