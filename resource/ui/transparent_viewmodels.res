@@ -1,0 +1,17 @@
+"Resource/UI/Transparent_Viewmodels.res"
+{
+	"TransparentViewmodelMask"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"TransparentViewmodelMask"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-100"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/viewmodels/transparent_viewmodel_refract"
+		"scaleImage"								"1"
+	}
+}

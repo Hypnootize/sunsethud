@@ -1,0 +1,9 @@
+//=========================================================================================
+// RESOLUTION FIXES
+//=========================================================================================
+// Remove the underscore from the folder matching your aspect ratio
+// IMPORTANT: MAKE SURE ONLY ONE FOLDER STAYS WITHOUT UNDERSCORE!!
+//=========================================================================================
+// For more in depth information checkout the wiki:
+// https://github.com/Hypnootize/Sunset-Hud/wiki/Resolution-Fixes
+//=========================================================================================

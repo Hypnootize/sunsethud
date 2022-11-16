@@ -1,0 +1,13 @@
+event HasNotificationsBlink{}
+event HasNotificationsBlinkStop{}
+event TeamStatus_PlayerDead{}
+event TeamStatus_PlayerAlive{}
+event RDPositiveScorePulse{}
+event RDNegativeScorePulse{}
+event CompetitiveGame_LowerChatWindow{}
+event CompetitiveGame_RestoreChatWindow{}
+event HudTournament_MoveChatWindow{}
+event OvertimeLabelPulseRed{}
+event SuddenDeathLabelPulseRed{}
+event CollectionCrafting_OKBlink_Repeatable{}
+event CollectionCrafting_OKBlink{}

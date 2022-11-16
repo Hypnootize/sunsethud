@@ -1,0 +1,63 @@
+//====================================================================================================================
+
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"235"								Linear	0.0 	0.0
+
+	Animate PlayerStatusHealthValue				FgColor 	"Health Buff" 						Linear 	0.0		0.0
+
+	Animate PlayerStatusHealthValueTarget		FgColor 	"Health Buff Target" 				Linear 	0.0		0.0
+
+	Animate SpectatorHealthBG					BgColor 	"255 255 255 120" 					Linear 	0.0		0.0
+
+	Animate FreezeHealthBG						BgColor 	"255 255 255 120" 					Linear 	0.0		0.0
+
+	RunEvent HudHealthBonusPulseLoop			0.7
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 				0.0
+	StopEvent HudHealthBonusPulseLoop			0.0
+
+	Animate PlayerStatusHealthValue 			FgColor 	"Health" 							Linear 	0.0 	0.0
+
+	Animate PlayerStatusHealthValueTarget 		FgColor 	"Health" 							Linear 	0.0 	0.0
+
+	Animate SpectatorHealthBG					BgColor 	"BlackTransparent" 					Linear 	0.0		0.0
+
+	Animate FreezeHealthBG						BgColor 	"Blank" 							Linear 	0.0		0.0
+}
+
+//====================================================================================================================
+
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"235"								Linear 	0.0 	0.0
+
+	Animate PlayerStatusHealthValue				FgColor 	"Health Hurt" 						Linear 	0.0		0.0
+
+	Animate PlayerStatusHealthValueTarget		FgColor 	"Health Hurt Target" 				Linear 	0.0		0.0
+
+	Animate SpectatorHealthBG					BgColor 	"255 70 70 120" 					Linear 	0.0		0.0
+
+	Animate FreezeHealthBG						BgColor 	"255 70 70 120" 					Linear 	0.0		0.0
+
+	RunEvent HudHealthDyingPulseLoop			0.4
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse				0.0
+	StopEvent HudHealthDyingPulseLoop 			0.0
+
+	Animate PlayerStatusHealthValue 			FgColor 	"Health" 							Linear 	0.0 	0.0
+
+	Animate PlayerStatusHealthValueTarget 		FgColor 	"Health" 							Linear 	0.0 	0.0
+
+	Animate SpectatorHealthBG					BgColor 	"BlackTransparent" 					Linear 	0.0		0.0
+
+	Animate FreezeHealthBG						BgColor 	"Blank" 							Linear 	0.0		0.0
+}
+
+//====================================================================================================================

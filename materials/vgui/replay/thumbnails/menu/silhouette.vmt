@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$baseTexture"				"vgui\replay\thumbnails\menu\silhouette"
+	"$vertexalpha"				"1"
+	"$alpha"					"0.5"
+	"$translucent"				"1"
+	"$vertexcolor"				"1"
+	"$no_fullbright"			"1"
+	"$color"					"{235 235 235}"
+}
