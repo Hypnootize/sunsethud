@@ -115,7 +115,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"4"
-		"wide"										"281"
+		"wide"										"310"
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
@@ -128,7 +128,7 @@
 			"xpos"									"0"
 			"ypos"									"cs-0.5"
 			"zpos"									"0"
-			"wide"									"140"
+			"wide"									"155"
 			"tall"									"8"
 			"visible"								"1"
 			"enabled"								"1"
@@ -147,7 +147,7 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"EscortItemImage"
-			"xpos"									"130"
+			"xpos"									"144"
 			"ypos"									"cs-0.5"
 			"zpos"									"1"
 			"wide"									"11"
@@ -172,7 +172,7 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"EscortItemImageBottom"
-			"xpos"									"130"
+			"xpos"									"144"
 			"ypos"									"cs-0.5"
 			"zpos"									"1"
 			"wide"									"11"
@@ -197,7 +197,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CapNumPlayers"
-			"xpos"									"130"
+			"xpos"									"144"
 			"ypos"									"cs-0.5"
 			"zpos"									"2"
 			"wide"									"11"
@@ -216,7 +216,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RecedeTime"
-			"xpos"									"130"
+			"xpos"									"144"
 			"ypos"									"cs-0.5"
 			"zpos"									"2"
 			"wide"									"11"
@@ -228,14 +228,13 @@
 			"textAlignment"							"center"
 			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets"				"1"
 		}
 
 		"Speed_Backwards"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Speed_Backwards"
-			"xpos"									"132"
+			"xpos"									"146"
 			"ypos"									"cs-0.5"
 			"zpos"									"2"
 			"wide"									"6"
@@ -252,7 +251,7 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Blocked"
-			"xpos"									"132"
+			"xpos"									"146"
 			"ypos"									"cs-0.5"
 			"zpos"									"2"
 			"wide"									"7"
