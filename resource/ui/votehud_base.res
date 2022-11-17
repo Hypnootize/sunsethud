@@ -533,12 +533,12 @@
 		"header_font"								"Size 13"
 		"header_fgcolor"							"White"
 
-		"issue_width"								"180"
+		"issue_width"								"138"
 		"issue_font"								"Size 10"
 		"issue_fgcolor"								"White"
 		"issue_fgcolor_disabled"					"WhiteDark"
 
-		"parameter_width"							"200"
+		"parameter_width"							"141"
 
 		"TitleLabel"
 		{
