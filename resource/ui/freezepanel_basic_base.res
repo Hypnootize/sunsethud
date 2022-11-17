@@ -33,8 +33,8 @@
 			"image"									"replay/thumbnails/panels/gradient_neutral"
 			"scaleImage"							"1"
 			"teambg_1"								"replay/thumbnails/panels/gradient_neutral"
-			"teambg_2"								"replay/thumbnails/panels/gradient_red"
-			"teambg_3"								"replay/thumbnails/panels/gradient_blue"
+			"teambg_2"								"replay/thumbnails/panels/gradient_blue"		//INVERTING THESE COLORS
+			"teambg_3"								"replay/thumbnails/panels/gradient_red"			//NOT SURE WHY THEY ARE INVERTED FOR CUSTOM ELEMENTS BUT OK
 
 			"src_corner_height"						"8"
 			"src_corner_width"						"8"
