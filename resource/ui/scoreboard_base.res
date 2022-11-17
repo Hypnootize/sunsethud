@@ -1562,7 +1562,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"BlackTransparent50"
 
 		"pin_to_sibling"							"LocalPlayerStatsPanel"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
@@ -1728,7 +1728,7 @@
 			{
 				"ControlName"						"CAvatarImagePanel"
 				"fieldName"							"AvatarImage"
-				"xpos"								"cs-0.5-55"
+				"xpos"								"cs-0.5+55"
 				"ypos"								"cs-0.5"
 				"zpos"								"0"
 				"wide"								"25"
