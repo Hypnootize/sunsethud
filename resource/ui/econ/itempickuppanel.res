@@ -310,7 +310,7 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"font"										"Symbols 16"
-		"labelText"									"-"
+		"labelText"									"+"
 		"textAlignment"								"center"
 		"fgcolor"		 							"White"
 		"Paintborder"		 						"1"

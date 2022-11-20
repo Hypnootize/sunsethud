@@ -170,7 +170,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"BlackLightestTransparent"
+			"fillcolor"								"OrangeDark"
 			"visible"								"1"
 		}
 
@@ -219,7 +219,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"BlackLightestTransparent"
+			"fillcolor"								"OrangeDark"
 			"visible"								"1"
 		}
 
@@ -268,7 +268,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"BlackLightestTransparent"
+			"fillcolor"								"OrangeDark"
 			"visible"								"0"
 		}
 
@@ -299,7 +299,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"BlackLightestTransparent"
+			"fillcolor"								"OrangeDark"
 			"visible"								"0"
 		}
 
@@ -330,7 +330,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"BlackLightestTransparent"
+			"fillcolor"								"OrangeDark"
 			"visible"								"0"
 		}
 
