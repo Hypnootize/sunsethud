@@ -1,10 +1,10 @@
 "UnlitGeneric"
 {
-	"$baseTexture"				"vgui/replay/thumbnails/game/capture_icon"
+	"$baseTexture"				"vgui/replay/thumbnails/cp_icons/capture_icon"
 	"$vertexalpha"				"1"
 	"$alpha"					"1"
 	"$translucent"				"1"
 	"$vertexcolor"				"1"
 	"$no_fullbright"			"1"
-	"$color"					"{255 255 255}"
+	"$color"					"{35 35 35}"
 }

@@ -37,7 +37,7 @@
 		"tall"										"16"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										"replay/thumbnails/game/capture_icon"
+		"image"										"replay/thumbnails/cp_icons/capture_icon"
 		"scaleImage"								"1"
 	}
 
@@ -55,7 +55,7 @@
 		"enabled"									"0"
 		"labelText"									"#ControlPointIconCappers"
 		"textAlignment"								"center"
-		"disabledfgcolor2_override"					"WhiteSolid"
+		"disabledfgcolor2_override"					"Black"
 	}
 
 	"OverlayImage"

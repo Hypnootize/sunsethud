@@ -207,7 +207,7 @@
 			"font"									"Size 8"
 			"labelText"								"#ControlPointIconCappers"
 			"textAlignment"							"center"
-			"fgcolor"								"white"
+			"fgcolor"								"Black"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
 		}
@@ -226,7 +226,7 @@
 			"font"									"Size 8"
 			"labelText"								"%recede%"
 			"textAlignment"							"center"
-			"fgcolor"								"White"
+			"fgcolor"								"Black"
 			"proportionaltoparent"					"1"
 		}
 
