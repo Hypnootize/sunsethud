@@ -302,24 +302,24 @@
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"BlackTransparent"
 			}
-			"AmmoLabel"
+			"AmmoIcon"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"AmmoLabel"
+				"ControlName"						"ImagePanel"
+				"fieldName"							"AmmoIcon"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"1"
-				"wide"								"f0"
+				"wide"								"25"
 				"tall"								"6"
 				"visible"							"1"
 				"enabled"							"1"
-				"labelText"							"Ammo"
-				"textAlignment"						"center"
-				"font"								"Size 7"
-				"AllCaps"							"1"
-				"fgcolor"							"GrayMedium"
-				"proportionaltoparent"				"1"
+				"scaleImage"						"1"
+				"image"								"replay/thumbnails/game/buildingstatus_ammo"
+				"drawcolor"							"GrayMedium"
+
 				"pin_to_sibling" 					"Ammo"
+				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
 
 			"Upgrade"
@@ -335,13 +335,6 @@
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"BlackTransparent"
-			}
-
-			"AmmoIcon"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"AmmoIcon"
-				"xpos"								"9999"
 			}
 			"UpgradeIcon"
 			{

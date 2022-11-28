@@ -303,12 +303,24 @@
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"BlackTransparent"
 			}
-
 			"UpgradeIcon"
 			{
 				"ControlName"						"CIconPanel"
 				"fieldName"							"UpgradeIcon"
-				"xpos"								"9999"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"3"
+				"wide"								"25"
+				"tall"								"6"
+				"visible"							"1"
+				"enabled"							"1"
+				"scaleImage"						"1"
+				"icon"								"ico_metal"
+				"iconColor"							"GrayMedium"
+
+				"pin_to_sibling" 					"Upgrade"
+				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
 		}
 

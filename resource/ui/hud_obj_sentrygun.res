@@ -368,24 +368,24 @@
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"BlackTransparent"
 			}
-			"ShellsLabel"
+			"ShellIcon"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"ShellsLabel"
+				"ControlName"						"ImagePanel"
+				"fieldName"							"ShellIcon"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"1"
-				"wide"								"f0"
+				"wide"								"25"
 				"tall"								"6"
 				"visible"							"1"
 				"enabled"							"1"
-				"labelText"							"Ammo"
-				"textAlignment"						"center"
-				"AllCaps"							"1"
-				"font"								"Size 7"
-				"fgcolor"							"GrayMedium"
-				"proportionaltoparent"				"1"
+				"scaleImage"						"1"
+				"image"								"replay/thumbnails/game/buildingstatus_ammo"
+				"drawcolor"							"GrayMedium"
+
 				"pin_to_sibling" 					"Shells"
+				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
 
 			"Rockets"
@@ -401,24 +401,23 @@
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"BlackTransparent"
 			}
-			"RocketsLabel"
+			"RocketIcon"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"RocketsLabel"
+				"ControlName"						"ImagePanel"
+				"fieldName"							"RocketIcon"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"1"
-				"wide"								"f0"
+				"wide"								"25"
 				"tall"								"6"
-				"visible"							"1"
+				"visible"							"0"
 				"enabled"							"1"
-				"labelText"							"Rockets"
-				"textAlignment"						"center"
-				"font"								"Size 7"
-				"AllCaps"							"1"
-				"fgcolor"							"GrayMedium"
-				"proportionaltoparent"				"1"
+				"scaleImage"						"1"
+				"image"								"replay/thumbnails/game/buildingstatus_rockets"
+				"drawcolor"							"GrayMedium"
 				"pin_to_sibling" 					"Rockets"
+				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
 
 			"Upgrade"
@@ -433,50 +432,32 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"bgcolor_override"					"Black"
+				"bgcolor_override"					"BlackTransparent"
 			}
-			"UpgradeLabel"
+			"UpgradeIcon"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"UpgradeLabel"
+				"ControlName"						"CIconPanel"
+				"fieldName"							"UpgradeIcon"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"3"
-				"wide"								"f0"
+				"wide"								"25"
 				"tall"								"6"
-				"visible"							"0"
+				"visible"							"1"
 				"enabled"							"1"
-				"labelText"							"Upgrade"
-				"textAlignment"						"center"
-				"font"								"Size 7"
-				"AllCaps"							"1"
-				"fgcolor"							"GrayMedium"
-				"proportionaltoparent"				"1"
+				"scaleImage"						"1"
+				"icon"								"ico_metal"
+				"iconColor"							"GrayMedium"
+
 				"pin_to_sibling" 					"Upgrade"
+				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
 
 			"KillIcon"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"KillIcon"
-				"xpos"								"9999"
-			}
-			"ShellIcon"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"ShellIcon"
-				"xpos"								"9999"
-			}
-			"RocketIcon"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"RocketIcon"
-				"xpos"								"9999"
-			}
-			"UpgradeIcon"
-			{
-				"ControlName"						"CIconPanel"
-				"fieldName"							"UpgradeIcon"
 				"xpos"								"9999"
 			}
 		}

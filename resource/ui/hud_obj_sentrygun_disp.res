@@ -294,36 +294,30 @@
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"BlackTransparent"
 			}
-			"ShellsLabel"
+			"ShellIcon"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"ShellsLabel"
+				"ControlName"						"ImagePanel"
+				"fieldName"							"ShellIcon"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"1"
-				"wide"								"f0"
+				"wide"								"25"
 				"tall"								"6"
 				"visible"							"1"
 				"enabled"							"1"
-				"labelText"							"Ammo"
-				"textAlignment"						"center"
-				"AllCaps"							"1"
-				"font"								"Size 7"
-				"fgcolor"							"GrayMedium"
-				"proportionaltoparent"				"1"
+				"scaleImage"						"1"
+				"image"								"replay/thumbnails/game/buildingstatus_ammo"
+				"drawcolor"							"GrayMedium"
+
 				"pin_to_sibling" 					"Shells"
+				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
 
 			"KillIcon"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"KillIcon"
-				"xpos"								"9999"
-			}
-			"ShellIcon"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"ShellIcon"
 				"xpos"								"9999"
 			}
 		}
