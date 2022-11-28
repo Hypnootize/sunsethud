@@ -31,7 +31,7 @@
 		"labelText"									"#Hud_Menu_Disguise_Title"
 		"textAlignment"								"west"
 		"AllCaps"				          			"1"
-		"proportionaltoparent"	          			"1"
+		"proportionaltoparent"						"1"
 	}
 	"TitleIcon"
 	{
@@ -47,9 +47,28 @@
 		"font"										"Class Symbols 14"
 		"labelText"									"i"
 		"textAlignment"								"center"
-		"proportionaltoparent"	          			"1"
+		"proportionaltoparent"						"1"
 		"paintborder"	          					"1"
 		"border"	          						"BlackTransparent50"
+	}
+
+	"ToggleLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ToggleLabel"
+		"xpos"										"rs1-5"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"f120"
+		"tall"										"20"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"AllCaps"									"1"
+		"font"										"Size 8"
+		"labelText"									"#Hud_Menu_Spy_Minus_Toggle"
+		"textAlignment"								"east"
+		"fgcolor"									"WhiteTransparent"
 	}
 
 	"class_item_red_1"
@@ -378,12 +397,6 @@
 		"fieldName"									"Divider"
 		"xpos"										"9999"
 	}
-	"ToggleLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ToggleLabel"
-		"xpos"										"9999"
-	}
 	"CancelLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -393,19 +406,19 @@
 	"NumberBg1"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
+		"fieldName"									"NumberBg1"
 		"xpos"										"9999"
 	}
 	"NumberBg2"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
+		"fieldName"									"NumberBg2"
 		"xpos"										"9999"
 	}
 	"NumberBg3"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
+		"fieldName"									"NumberBg3"
 		"xpos"										"9999"
 	}
 }
