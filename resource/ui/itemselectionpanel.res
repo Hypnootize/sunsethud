@@ -55,7 +55,7 @@
 			"PaintBackgroundType"					"2"
 			"paintborder"							"1"
 
-			"model_xpos"							"2"
+			"model_xpos"							"6"
 			"model_ypos"							"5"
 			"model_wide"							"42"
 			"model_tall"							"30"

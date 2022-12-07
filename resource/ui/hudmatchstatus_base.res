@@ -113,6 +113,56 @@
 		}
 	}
 
+	"RoundCounter"
+	{
+		"fieldName"									"RoundCounter"
+		"xpos"										"cs-0.5"
+		"ypos"										"19"
+		"zpos"										"7"
+		"wide"										"54"
+		"tall"										"15"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+
+		"starting_width"							"0"
+		"width_per_round"							"0"
+		"indicator_start_offset"					"2"
+		"indicator_max_wide"						"24"
+
+		"RoundIndicatorPanel_kv"
+		{
+			"ypos"									"0"
+			"wide"									"4"
+			"tall"									"2"
+			"zpos"									"7"
+			"image"									"../vgui/replay/thumbnails/panels/Material_Transparent_Black_70"
+			"scaleimage"							"1"
+		}
+		"RoundWinPanelRed_kv"
+		{
+			"ypos"									"0"
+			"wide"									"4"
+			"tall"									"2"
+			"zpos"									"8"
+			"image"									"../vgui/replay/thumbnails/panels/flat_red"
+			"scaleimage"							"1"
+		}
+		"RoundWinPanelBlue_kv"
+		{
+			"ypos"									"0"
+			"wide"									"4"
+			"tall"									"2"
+			"zpos"									"8"
+			"image"									"../vgui/replay/thumbnails/panels/flat_blue"
+			"scaleimage"							"1"
+		}
+		"Background"
+		{
+			"ypos"									"9999"
+		}
+	}
+
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -120,7 +170,7 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"50"
+		"wide"										"54"
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
@@ -645,13 +695,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
-		"xpos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-	}
-	"RoundCounter"
-	{
-		"fieldName"									"RoundCounter"
 		"xpos"										"9999"
 		"wide"										"0"
 		"tall"										"0"

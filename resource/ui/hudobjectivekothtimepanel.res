@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BlueBG"
-		"xpos"										"0"
+		"xpos"										"4"
 		"ypos"										"-10"
 		"zpos"										"3"
 		"wide"										"50"
@@ -19,7 +19,7 @@
 	{
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"BlueTimer"
-		"xpos"										"cs-1"
+		"xpos"										"4"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"50"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"RedBG"
-		"xpos"										"50"
+		"xpos"										"53"
 		"ypos"										"-10"
 		"zpos"										"3"
 		"wide"										"50"
@@ -74,7 +74,7 @@
 	{
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"RedTimer"
-		"xpos"										"cs+0"
+		"xpos"										"53"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"50"
