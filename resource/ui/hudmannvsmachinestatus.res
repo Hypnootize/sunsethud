@@ -44,17 +44,6 @@
 		"pin_to_sibling_corner"						"6"
 	}
 
-	"CurrencyStatusPanel"
-	{
-		"ControlName"								"CCurrencyStatusPanel"
-		"fieldName"									"CurrencyStatusPanel"
-		"xpos"										"rs1"
-		"ypos"										"rs1"
-		"wide"										"60"
-		"tall"										"16"
-		"visible" 									"1"
-		"enabled" 									"1"
-	}
 	"InWorldCurrencyPanel"
 	{
 		"ControlName"								"CInWorldCurrencyStatus"

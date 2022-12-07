@@ -40,12 +40,12 @@
 		"enabled" 									"1"
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
-		"wide"										"100"
+		"wide"										"106"
 		"tall"										"50"
 
-		"blue_active_xpos"							"5"
+		"blue_active_xpos"							"9"
 
-		"red_active_xpos"							"55"
+		"red_active_xpos"							"58"
 	}
 
 	"HudItemEffectMeter"
@@ -301,6 +301,18 @@
 		"tall"			 							"f0"
 
 		"PaintBackgroundType"		 				"2"
+	}
+
+	"CurrencyStatusPanel"
+	{
+		"ControlName"								"CCurrencyStatusPanel"
+		"fieldName"									"CurrencyStatusPanel"
+		"xpos"										"rs1"
+		"ypos"										"rs1"
+		"wide"										"60"
+		"tall"										"16"
+		"visible" 									"1"
+		"enabled" 									"1"
 	}
 
 	"HudProgressBar"
