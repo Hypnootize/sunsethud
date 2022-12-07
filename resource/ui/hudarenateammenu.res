@@ -128,7 +128,7 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 			"drawcolor"								"WhiteDark"
-			"image"									"replay/thumbnails/panels/panel_circle"
+			"image"									"replay/thumbnails/panels/circle_generic"
 			"src_corner_height"						"0"
 			"src_corner_width"						"0"
 			"draw_corner_width"						"0"
