@@ -48,9 +48,12 @@
 			"paintborder"							"1"
 
 			"model_center_x"						"1"
+			"model_center_y"						"0"
+			"model_xpos"							"0"
 			"model_ypos"							"5"
 			"model_tall"							"55"
-			"model_wide"							"82"
+			"model_wide"							"80"
+
 			"text_ypos"								"56"
 			"text_center"							"1"
 			"name_only"								"1"
@@ -66,6 +69,7 @@
 				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
+				"useparentbg"						"0"
 			}
 		}
 
