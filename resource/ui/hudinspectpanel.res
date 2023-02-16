@@ -32,6 +32,13 @@
 
 		"noitem_use_fullpanel"						"0"
 
+		"attriblabel"
+        {
+            "ypos"									"9999"
+            "visible"								"0"
+            "enabled"								"0"
+        }
+
 		"itemmodelpanel"
 		{
 			"fieldName"								"itemmodelpanel"
