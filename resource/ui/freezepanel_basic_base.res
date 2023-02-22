@@ -8,6 +8,11 @@
 		"screenshot_move_panel_to_corner"			"0"
 	}
 
+	"itempanel"
+	{
+		"xpos"										"r200"
+	}
+
 	"FreezePanelBase"
 	{
 		"ControlName"								"EditablePanel"
