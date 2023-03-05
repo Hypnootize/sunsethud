@@ -14,7 +14,7 @@
 		"paintborder"								"0"
 		"PaintBackgroundType"						"2"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackDarkTransparent"
+		"bgcolor_override"							"MainThemeDarkest"
 	}
 
 	"TitleLabel"
