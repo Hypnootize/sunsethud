@@ -312,11 +312,12 @@
 		"RichText.SelectedTextColor"						"White"
 		"RichText.SelectedBgColor"							"MainTheme"
 
-		"ScrollBarButton.FgColor"							"TanDark"
+		"ScrollBar.Wide"									"10"
+		"ScrollBarButton.FgColor"							"Blank"
 		"ScrollBarButton.BgColor"							"Blank"
-		"ScrollBarButton.ArmedFgColor"						"White"
+		"ScrollBarButton.ArmedFgColor"						"Blank"
 		"ScrollBarButton.ArmedBgColor"						"Blank"
-		"ScrollBarButton.DepressedFgColor"					"TanDark"
+		"ScrollBarButton.DepressedFgColor"					"Blank"
 		"ScrollBarButton.DepressedBgColor"					"Blank"
 
 		"ScrollBarSlider.FgColor"							"White"
