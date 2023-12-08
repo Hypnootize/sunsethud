@@ -679,7 +679,7 @@
 			"default"								"1"
 			"NumericInputOnly"						"1"
 			"bgcolor_override"						"Blank"
-			"maxchars"								"18"
+			"maxchars"								"20"
 
 			"pin_to_sibling" 						"SeedTextEntryBG"
 			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
