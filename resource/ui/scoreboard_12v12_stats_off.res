@@ -54,7 +54,7 @@
 		{
 			"visible"								"0"
 		}
-		"Killss"
+		"Kills"
 		{
 			"visible"								"0"
 		}
@@ -62,7 +62,7 @@
 		{
 			"visible"								"0"
 		}
-		"Deathss"
+		"Deaths"
 		{
 			"visible"								"0"
 		}
@@ -70,7 +70,7 @@
 		{
 			"visible"								"0"
 		}
-		"Assistss"
+		"Assists"
 		{
 			"visible"								"0"
 		}
@@ -78,7 +78,7 @@
 		{
 			"visible"								"0"
 		}
-		"Capturess"
+		"Captures"
 		{
 			"visible"								"0"
 		}
@@ -86,7 +86,7 @@
 		{
 			"visible"								"0"
 		}
-		"Defensess"
+		"Defenses"
 		{
 			"visible"								"0"
 		}
@@ -94,7 +94,7 @@
 		{
 			"visible"								"0"
 		}
-		"Destructionss"
+		"Destructions"
 		{
 			"visible"								"0"
 		}
@@ -102,7 +102,7 @@
 		{
 			"visible"								"0"
 		}
-		"Dominationss"
+		"Dominations"
 		{
 			"visible"								"0"
 		}
@@ -110,7 +110,7 @@
 		{
 			"visible"								"0"
 		}
-		"Revengess"
+		"Revenges"
 		{
 			"visible"								"0"
 		}
@@ -118,7 +118,7 @@
 		{
 			"visible"								"0"
 		}
-		"Teleportss"
+		"Teleports"
 		{
 			"visible"								"0"
 		}
@@ -126,7 +126,7 @@
 		{
 			"visible"								"0"
 		}
-		"Headshotss"
+		"Headshots"
 		{
 			"visible"								"0"
 		}
@@ -134,7 +134,7 @@
 		{
 			"visible"								"0"
 		}
-		"Backstabss"
+		"Backstabs"
 		{
 			"visible"								"0"
 		}
@@ -142,7 +142,7 @@
 		{
 			"visible"								"0"
 		}
-		"Bonuss"
+		"Bonus"
 		{
 			"visible"								"0"
 		}
@@ -150,7 +150,7 @@
 		{
 			"visible"								"0"
 		}
-		"Invulnss"
+		"Invulns"
 		{
 			"visible"								"0"
 		}
@@ -158,7 +158,7 @@
 		{
 			"visible"								"0"
 		}
-		"Healingss"
+		"Healings"
 		{
 			"visible"								"0"
 		}
@@ -166,7 +166,7 @@
 		{
 			"visible"								"0"
 		}
-		"Damagess"
+		"Damages"
 		{
 			"visible"								"0"
 		}
