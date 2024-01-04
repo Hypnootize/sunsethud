@@ -86,14 +86,13 @@
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 		}
-
 		"ScrollBar"
 		{
 			"ControlName"							"ScrollBar"
 			"FieldName"								"ScrollBar"
 			"xpos"									"rs1"
-			"ypos"									"0"
-			"tall"									"f0"
+			"ypos"									"2"
+			"tall"									"f4"
 			"wide"									"5"
 			"zpos"									"1000"
 			"nobuttons"								"1"
