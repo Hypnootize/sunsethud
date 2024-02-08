@@ -12,7 +12,7 @@
 		"settitlebarvisible"						"0"
 		"paintborder"								"1"
 		"paintbackground"							"0"
-		"border"									"ThemeBorder"
+		"border"									"Theme_Border"
 	}
 	"InnerBG"
 	{
@@ -27,7 +27,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 
 	"mouseoveritempanel"
@@ -52,7 +52,7 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
@@ -76,12 +76,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									""
 		"textAlignment"								"east"
 		"paintbackground"							"0"
 		"border"									"BackpackItemBorder_SelfMade"
-		"pin_to_sibling" 							"tool_modelpanel"
+		"pin_to_sibling"							"tool_modelpanel"
 	}
 	"tool_modelpanel"
 	{
@@ -105,11 +105,11 @@
 		"text_ypos"									"100"
 		"text_center"								"1"
 		"name_only"									"1"
-		"paint_icon_hide" 							"1"
+		"paint_icon_hide"							"1"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -126,12 +126,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									""
 		"textAlignment"								"east"
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 		"border"									"BackpackItemBorder_Vintage"
-		"pin_to_sibling" 							"subject_modelpanel"
+		"pin_to_sibling"							"subject_modelpanel"
 	}
 	"subject_modelpanel"
 	{
@@ -158,7 +158,7 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -175,7 +175,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"labelText"									"dynamic"
 		"textAlignment"								"center"
 		"centerwrap"								"1"
@@ -235,7 +235,7 @@
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#ToolCustomizeTextureStep1"
 			"textAlignment"							"west"
 		}
@@ -249,7 +249,7 @@
 			"wide"									"350"
 			"tall"									"90"
 			"proportionaltoparent"					"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
 			"UseAvatarRadio"
 			{
@@ -261,7 +261,7 @@
 				"tall"								"20"
 				"labelText"							"#ToolCustomizeTextureUseAvatarImage"
 				"textAlignment"						"west"
-				"font"								"Size 15"
+				"font"								"Size_15"
 				"proportionaltoparent"				"1"
 			}
 			"UseAnyImageRadio"
@@ -274,7 +274,7 @@
 				"tall"								"20"
 				"labelText"							"#ToolCustomizeTextureUseAnyImage"
 				"textAlignment"						"west"
-				"font"								"Size 15"
+				"font"								"Size_15"
 				"proportionaltoparent"				"1"
 			}
 			"BrowseForNewImageButton"
@@ -287,7 +287,7 @@
 				"wide"								"300"
 				"tall"								"20"
 				"labelText"							"#ToolCustomizeTextureBrowseButton"
-				"font"								"Size 12"
+				"font"								"Size_12"
 				"textinsetx"						"10"
 				"AllCaps"							"1"
 				"proportionaltoparent"				"1"
@@ -299,17 +299,17 @@
 				"paintbackground"					"0"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
-				"border_default"					"ThemeTransparent50"
-				"border_armed"						"OrangeTransparent50"
+				"border_default"					"Theme_Transparent_50"
+				"border_armed"						"Orange_Transparent_50"
 			}
 			"ForBestResultsLabel"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"ForBestResultsLabel"
-				"font"								"Size 10"
+				"font"								"Size_10"
 				"xpos"								"43"
 				"ypos"								"rs1-4"
 				"wide"								"f10"
@@ -331,7 +331,7 @@
 			"zpos"									"-1"
 			"wide"									"90"
 			"tall"									"90"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 			"proportionaltoparent"					"1"
 
 			"PreviewCroppedImage"
@@ -355,13 +355,13 @@
 				"wide"								"f6"
 				"tall"								"15"
 				"editable"							"0"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"paintborder"						"0"
 				"proportionaltoparent"				"1"
 				"paintbackgroundtype"				"0"
 
-				"bgcolor_override"					"MainThemeDarkest"
-				"disabledBgColor_override"			"MainThemeDarkest"
+				"bgcolor_override"					"Main_Theme_Darkest"
+				"disabledBgColor_override"			"Main_Theme_Darkest"
 				"selectionColor_override"			"Blank"
 				"selectionTextColor_override"		"White"
 				"defaultSelectionBG2Color_override"	"Blank"
@@ -377,7 +377,7 @@
 			"wide"									"110"
 			"tall"									"26"
 			"labelText"								"#Cancel"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
 			"textinsetx"							"36"
@@ -391,11 +391,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 		}
 		"CancelButtonIcon"
 		{
@@ -410,12 +410,12 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"labelText"								"-"
 			"textAlignment"							"Center"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
 			"pin_to_sibling"						"CancelButton"
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
@@ -431,7 +431,7 @@
 			"wide"									"110"
 			"tall"									"26"
 			"labelText"								"#TF_NextCarat"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"AllCaps"								"1"
 			"textAlignment"							"east"
 			"textinsetx"							"36"
@@ -445,11 +445,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 		}
 		"NextButtonIcon"
 		{
@@ -464,12 +464,12 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"labelText"								"$"
 			"textAlignment"							"Center"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
 			"pin_to_sibling"						"NextButton"
 			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
@@ -499,7 +499,7 @@
 			"wide"									"f20"
 			"tall"									"0"		//15
 			"AllCaps"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#ToolCustomizeTextureStep2"
 			"textAlignment"							"west"
 			"fgcolor"								"White"
@@ -514,7 +514,7 @@
 			"zpos"									"-1"
 			"wide"									"160"
 			"tall"									"120"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"PreviewImageGroupBox"
@@ -525,7 +525,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"FilterLabel"
-				"font"								"Size 12"
+				"font"								"Size_12"
 				"xpos"								"cs-0.5"
 				"ypos"								"68"
 				"wide"								"f14"
@@ -545,16 +545,16 @@
 				"wide"								"f14"
 				"tall"								"15"
 				"editable"							"0"
-				"font"								"Size 12"
+				"font"								"Size_12"
 				"visible"							"0"
 				"AllCaps"							"1"
 				"paintborder"						"0"
 				"proportionaltoparent"				"1"
 
 				"fgcolor_override"					"White"
-				"bgcolor_override"					"BlackLightestTransparent"
+				"bgcolor_override"					"Black_Lightest_Transparent"
 				"disabledFgColor_override"			"White"
-				"disabledBgColor_override"			"BlackLightestTransparent"
+				"disabledBgColor_override"			"Black_Lightest_Transparent"
 				"selectionColor_override"			"Blank"
 				"selectionTextColor_override"		"White"
 				"defaultSelectionBG2Color_override"	"Blank"
@@ -564,6 +564,11 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"PainterlyOptions"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"StencilOptions"
 			{
@@ -592,7 +597,7 @@
 					"tall"							"12"
 					"labelText"						"#ToolCustomizeTextureColorPalette"
 					"textAlignment"					"west"
-					"font"							"Size 12"
+					"font"							"Size_12"
 					"AllCaps"						"1"
 					"fgcolor"						"White"
 					"proportionaltoparent"			"1"
@@ -607,7 +612,7 @@
 					"wide"							"18"
 					"tall"							"18"
 					"labelText"						"<"
-					"font"							"Symbols 12"
+					"font"							"Symbols_12"
 					"AllCaps"						"1"
 					"proportionaltoparent"			"1"
 					"textAlignment"					"center"
@@ -619,11 +624,11 @@
 					"paintbackground"				"0"
 
 					"defaultFgColor_override"		"White"
-					"armedFgColor_override"			"WhiteSolid"
-					"depressedFgColor_override"		"WhiteSolid"
+					"armedFgColor_override"			"White_Solid"
+					"depressedFgColor_override"		"White_Solid"
 
-					"border_default"				"ThemeTransparent50"
-					"border_armed"					"OrangeTransparent50"
+					"border_default"				"Theme_Transparent_50"
+					"border_armed"					"Orange_Transparent_50"
 				}
 				"StencilGradientMap"
 				{
@@ -646,7 +651,7 @@
 					"wide"							"18"
 					"tall"							"18"
 					"labelText"						">"
-					"font"							"symbols 12"
+					"font"							"Symbols_12"
 					"textAlignment"					"center"
 					"AllCaps"						"1"
 					"proportionaltoparent"			"1"
@@ -658,11 +663,11 @@
 					"paintbackground"				"0"
 
 					"defaultFgColor_override"		"White"
-					"armedFgColor_override"			"WhiteSolid"
-					"depressedFgColor_override"		"WhiteSolid"
+					"armedFgColor_override"			"White_Solid"
+					"depressedFgColor_override"		"White_Solid"
 
-					"border_default"				"ThemeTransparent50"
-					"border_armed"					"OrangeTransparent50"
+					"border_default"				"Theme_Transparent_50"
+					"border_armed"					"Orange_Transparent_50"
 				}
 				"StencilModeComboBox"
 				{
@@ -674,15 +679,15 @@
 					"wide"							"f4"
 					"tall"							"13"
 					"editable"						"0"
-					"font"							"Size 12"
+					"font"							"Size_12"
 					"AllCaps"						"1"
 					"paintborder"					"0"
 					"proportionaltoparent"			"1"
 
 					"fgcolor_override"				"White"
-					"bgcolor_override"				"BlackLightestTransparent"
+					"bgcolor_override"				"Black_Lightest_Transparent"
 					"disabledFgColor_override"		"White"
-					"disabledBgColor_override"		"BlackLightestTransparent"
+					"disabledBgColor_override"		"Black_Lightest_Transparent"
 					"selectionColor_override"		"Blank"
 					"selectionTextColor_override"	"White"
 					"defaultSelectionBG2Color_override"	"Blank"
@@ -698,7 +703,7 @@
 			"zpos"									"-1"
 			"wide"									"120"
 			"tall"									"120"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 			"proportionaltoparent"					"1"
 
 			"PreviewFilteredImage"
@@ -722,7 +727,7 @@
 			"zpos"									"-1"
 			"wide"									"120"
 			"tall"									"120"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"PreviewImageGroupBox"
@@ -758,7 +763,7 @@
 				"tall"								"15"
 				"centerwrap"						"1"
 				"AllCaps"							"1"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"labelText"							"#ToolCustomizeTextureDragToRotate"
 				"textAlignment"						"center"
 				"fgcolor"							"White"
@@ -775,7 +780,7 @@
 			"wide"									"110"
 			"tall"									"26"
 			"labelText"								"#Cancel"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
 			"textinsetx"							"36"
@@ -789,11 +794,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 		}
 		"CancelButtonIcon"
 		{
@@ -808,12 +813,12 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"labelText"								"-"
 			"textAlignment"							"Center"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
 			"pin_to_sibling"						"CancelButton"
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
@@ -829,7 +834,7 @@
 			"wide"									"110"
 			"tall"									"26"
 			"labelText"								"#TF_NextCarat"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"AllCaps"								"1"
 			"textAlignment"							"east"
 			"textinsetx"							"36"
@@ -843,11 +848,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 		}
 		"NextButtonIcon"
 		{
@@ -862,12 +867,12 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"labelText"								"$"
 			"textAlignment"							"Center"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
 			"pin_to_sibling"						"NextButton"
 			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
@@ -883,7 +888,7 @@
 			"wide"									"130"
 			"tall"									"26"
 			"labelText"								"#TF_BackCarat"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"textAlignment"							"west"
 			"textinsetx"							"36"
 			"AllCaps"								"1"
@@ -897,11 +902,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 
 			"pin_to_sibling"						"CancelButton"
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
@@ -920,12 +925,12 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"labelText"								"#"
 			"textAlignment"							"Center"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
 			"pin_to_sibling"						"BackButton"
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
@@ -950,6 +955,11 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"PageTitleLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"WarningTextGroupBox"
 		{
@@ -960,7 +970,7 @@
 			"zpos"									"-1"
 			"wide"									"350"
 			"tall"									"120"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 			"proportionaltoparent"					"1"
 
 			"WarningText"
@@ -973,7 +983,7 @@
 				"tall"								"f10"
 				"labelText"							"#ToolCustomizeTextureConfirmWarning"
 				"textAlignment"						"west"
-				"font"								"Size 10"
+				"font"								"Size_10"
 				"wrap"								"1"
 				"AllCaps"							"1"
 				"fgcolor"							"White"
@@ -989,7 +999,7 @@
 			"zpos"									"-1"
 			"wide"									"120"
 			"tall"									"120"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"WarningTextGroupBox"
@@ -1025,7 +1035,7 @@
 				"tall"								"15"
 				"centerwrap"						"1"
 				"AllCaps"							"1"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"labelText"							"#ToolCustomizeTextureDragToRotate"
 				"textAlignment"						"center"
 				"fgcolor"							"White"
@@ -1043,7 +1053,7 @@
 			"wide"									"110"
 			"tall"									"26"
 			"labelText"								"#Cancel"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
 			"textinsetx"							"36"
@@ -1057,11 +1067,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 		}
 		"CancelButtonIcon"
 		{
@@ -1076,12 +1086,12 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"labelText"								"-"
 			"textAlignment"							"Center"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
 			"pin_to_sibling"						"CancelButton"
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
@@ -1097,7 +1107,7 @@
 			"wide"									"110"
 			"tall"									"26"
 			"labelText"								"#ToolCustomizeTextureOKButton"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"AllCaps"								"1"
 			"textAlignment"							"east"
 			"textinsetx"							"36"
@@ -1111,11 +1121,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 		}
 		"OkButtonIcon"
 		{
@@ -1130,12 +1140,12 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"labelText"								"+"
 			"textAlignment"							"Center"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
 			"pin_to_sibling"						"OkButton"
 			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
@@ -1151,7 +1161,7 @@
 			"wide"									"130"
 			"tall"									"26"
 			"labelText"								"#TF_BackCarat"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"textAlignment"							"west"
 			"textinsetx"							"36"
 			"AllCaps"								"1"
@@ -1165,11 +1175,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 
 			"pin_to_sibling"						"CancelButton"
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
@@ -1188,12 +1198,12 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"labelText"								"#"
 			"textAlignment"							"Center"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
 			"pin_to_sibling"						"BackButton"
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
@@ -1217,7 +1227,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PleaseWaitLabel"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"labelText"								"#ToolCustomizeTexturePleaseWait"
 			"textAlignment"							"center"
 			"xpos"									"10"
@@ -1239,7 +1249,7 @@
 			"zpos"									"-1"
 			"wide"									"120"
 			"tall"									"120"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 			"proportionaltoparent"					"1"
 
 			"GradientBgPanel"
@@ -1271,7 +1281,7 @@
 				"tall"								"15"
 				"centerwrap"						"1"
 				"AllCaps"							"1"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"labelText"							"#ToolCustomizeTextureDragToRotate"
 				"textAlignment"						"center"
 				"fgcolor"							"White"
@@ -1285,11 +1295,21 @@
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"tool_icon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"subject_icon"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"subject_icon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

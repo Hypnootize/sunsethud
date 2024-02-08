@@ -13,7 +13,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
-		"font"										"Size 24 Shadow"
+		"font"										"Size_24_Shadow"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.1"
 		"wide"										"40"
@@ -49,11 +49,11 @@
 		{
 			"0"
 			{
-				"particle_xpos" 					"c0"
-				"particle_ypos" 					"c0"
+				"particle_xpos"						"c0"
+				"particle_ypos"						"c0"
 				"particle_scale"					"2"
 				"particleName"						"versus_door_slam"
-				"start_activated" 					"0"
+				"start_activated"					"0"
 				"loop"								"0"
 			}
 		}
@@ -136,7 +136,7 @@
 			"wide"									"4"
 			"tall"									"2"
 			"zpos"									"7"
-			"image"									"../vgui/replay/thumbnails/panels/Material_Transparent_Black_70"
+			"image"									"replay/thumbnails/panels/material_transparent_black_70"
 			"scaleimage"							"1"
 		}
 		"RoundWinPanelRed_kv"
@@ -145,7 +145,7 @@
 			"wide"									"4"
 			"tall"									"2"
 			"zpos"									"8"
-			"image"									"../vgui/replay/thumbnails/panels/flat_red"
+			"image"									"replay/thumbnails/panels/flat_red"
 			"scaleimage"							"1"
 		}
 		"RoundWinPanelBlue_kv"
@@ -154,7 +154,7 @@
 			"wide"									"4"
 			"tall"									"2"
 			"zpos"									"8"
-			"image"									"../vgui/replay/thumbnails/panels/flat_blue"
+			"image"									"replay/thumbnails/panels/flat_blue"
 			"scaleimage"							"1"
 		}
 		"Background"
@@ -197,7 +197,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
@@ -220,11 +220,11 @@
 		"6v6_gap"									"4"
 		"12v12_gap"									"1"
 
-		"team1_grow_dir" 							"west"
+		"team1_grow_dir"							"west"
 		"team1_base_x"								"c-55"
 		"team1_max_expand"							"133"
 
-		"team2_grow_dir" 							"east"
+		"team2_grow_dir"							"east"
 		"team2_base_x"								"c55"
 		"team2_max_expand"							"133"
 
@@ -238,15 +238,15 @@
 
 			"color_portrait_bg_red"					"255 80 80 255"
 			"color_portrait_bg_blue"				"135 180 200 255"
-			"color_portrait_bg_red_dead"			"GrayTransparent"
-			"color_portrait_bg_blue_dead"			"GrayTransparent"
+			"color_portrait_bg_red_dead"			"Gray_Transparent"
+			"color_portrait_bg_blue_dead"			"Gray_Transparent"
 			"color_bar_health_high"					"White"
 			"color_bar_health_med"					"Gray"
 			"percentage_health_med"					"0.6"
 			"color_bar_health_low"					"Gray"
 			"percentage_health_low"					"0.3"
 			"color_portrait_blend_dead_red"			"White"
-			"color_portrait_blend_dead_blue" 		"White"
+			"color_portrait_blend_dead_blue"		"White"
 			"color_portrait_bg_red_local_player"	"255 80 80 255"
 			"color_portrait_bg_blue_local_player"	"135 180 200 255"
 
@@ -293,15 +293,15 @@
 				"visible"							"1"
 				"textinsetx"						"1"
 				"labelText"							"%playername%"
-				"font"								"UltraSmall"
+				"font"								"Ultra_Small"
 				"textAlignment"						"center"
-				"bgcolor_override"					"BlackDarkTransparent"
+				"bgcolor_override"					"Black_Dark_Transparent"
 				"proportionaltoparent"				"1"
 				"alpha"								"255"
 
-				"pin_to_sibling" 					"classimagebg"
-				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
-				"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
+				"pin_to_sibling"					"classimagebg"
+				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
+				"pin_to_sibling_corner"				"PIN_CENTER_BOTTOM"
 			}
 
 			"healthbar"
@@ -315,7 +315,7 @@
 				"tall"								"2"
 				"visible"							"1"
 				"enabled"							"1"
-				"bgcolor_override"	   				"80 80 80 255"
+				"bgcolor_override"					"80 80 80 255"
 				"proportionaltoparent"				"1"
 			}
 
@@ -330,8 +330,8 @@
 				"tall"								"2"
 				"visible"							"1"
 				"enabled"							"1"
-				"bgcolor_override"	   				"Blank"
-				"fgcolor_override"	   				"GreenLight"
+				"bgcolor_override"					"Blank"
+				"fgcolor_override"					"Green_Light"
 				"proportionaltoparent"				"1"
 			}
 
@@ -339,7 +339,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"respawntime"
-				"font"								"Size 12 Shadow"
+				"font"								"Size_12_Shadow"
 				"xpos"								"cs-0.5"
 				"ypos"								"0"
 				"zpos"								"10"
@@ -357,43 +357,77 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
 				"visible"							"0"
+				"enabled"							"0"
 			}
 			"chargeamount"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"chargeamount"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"DeathPanel"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"DeathPanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"ReadyBG"
 			{
 				"ControlName"						"ScalableImagePanel"
 				"fieldName"							"ReadyBG"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"ReadyImage"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ReadyImage"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"specindex"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"specindex"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"SkullPanel"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"SkullPanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 	}
@@ -426,8 +460,6 @@
 			"zpos"									"2"
 			"wide"									"147"
 			"tall"									"36"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"border"								"TFFatLineBorderBlueBGOpaque"
@@ -460,8 +492,6 @@
 			"zpos"									"20"
 			"wide"									"95"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"centerwrap"							"1"
@@ -506,8 +536,6 @@
 			"zpos"									"1"
 			"wide"									"136"
 			"tall"									"205"
-			"autoResize"							"3"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"linespacing"							"26"
@@ -529,8 +557,6 @@
 			"zpos"									"0"
 			"wide"									"139"
 			"tall"									"215"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"border"								"TFFatLineBorderClearBG"
@@ -570,8 +596,6 @@
 			"zpos"									"2"
 			"wide"									"147"
 			"tall"									"36"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"border"								"TFFatLineBorderRedBGOpaque"
@@ -604,8 +628,6 @@
 			"zpos"									"20"
 			"wide"									"95"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"centerwrap"							"1"
@@ -650,8 +672,6 @@
 			"zpos"									"1"
 			"wide"									"136"
 			"tall"									"205"
-			"autoResize"							"3"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"linespacing"							"26"
@@ -673,8 +693,6 @@
 			"zpos"									"0"
 			"wide"									"139"
 			"tall"									"215"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"border"								"TFFatLineBorderClearBG"
@@ -691,38 +709,54 @@
 		"ControlName"								"CModelPanel"
 		"fieldName"									"RoundSignModel"
 		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CountdownLabelShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BGFrame"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BGFrame"
 		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"RankUpLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"RankUpShadowLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpShadowLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

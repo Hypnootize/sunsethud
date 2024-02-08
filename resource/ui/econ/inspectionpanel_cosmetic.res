@@ -9,9 +9,7 @@
 		"zpos"										"1000"
 		"wide"										"f0"
 		"tall"										"f0"
-		"autoResize"								"0"
 		"skip_autoresize"							"1"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"small_vertical_break_size"					"0"
@@ -73,7 +71,7 @@
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
 				"labelText"							"<"
-				"font"								"Symbols 48"
+				"font"								"Symbols_48"
 				"textAlignment"						"center"
 				"alpha"								"150"
 
@@ -83,8 +81,8 @@
 				"paintbackground"					"0"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"OrangeLight"
-				"depressedFgColor_override"			"OrangeLight"
+				"armedFgColor_override"				"Orange_Light"
+				"depressedFgColor_override"			"Orange_Light"
 			}
 
 			"RotateRightButton"
@@ -100,7 +98,7 @@
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
 				"labelText"							">"
-				"font"								"Symbols 48"
+				"font"								"Symbols_48"
 				"textAlignment"						"center"
 				"alpha"								"150"
 
@@ -110,8 +108,8 @@
 				"paintbackground"					"0"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"OrangeLight"
-				"depressedFgColor_override"			"OrangeLight"
+				"armedFgColor_override"				"Orange_Light"
+				"depressedFgColor_override"			"Orange_Light"
 			}
 			"ZoomButton"
 			{
@@ -126,7 +124,7 @@
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
 				"labeltext"							"r"
-				"font"								"Symbols 28"
+				"font"								"Symbols_28"
 				"textAlignment"						"center"
 				"default"							"0"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -136,11 +134,11 @@
 				"paintbackground"					"0"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
-				"border_default"					"ThemeTransparent50"
-				"border_armed"						"OrangeTransparent50"
+				"border_default"					"Theme_Transparent_50"
+				"border_armed"						"Orange_Transparent_50"
 			}
 			"CloseButton"
 			{
@@ -155,7 +153,7 @@
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
 				"labeltext"							")"
-				"font"								"Symbols 28"
+				"font"								"Symbols_28"
 				"textAlignment"						"center"
 				"default"							"0"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -165,11 +163,11 @@
 				"paintbackground"					"0"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
-				"border_default"					"ThemeTransparent50"
-				"border_armed"						"OrangeTransparent50"
+				"border_default"					"Theme_Transparent_50"
+				"border_armed"						"Orange_Transparent_50"
 			}
 		}
 	}
@@ -238,7 +236,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
 		"PaintBorder"								"1"
-		"border"									"ThemeBorder"
+		"border"									"Theme_Border"
 
 		"InnerBG"
 		{
@@ -253,7 +251,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 		"PreviewViewportBg"
 		{
@@ -282,7 +280,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"%itemname%"
 			"textAlignment"							"west"
 			"wrap"									"1"
@@ -302,7 +300,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"DetailsView"
@@ -318,7 +316,6 @@
 			"proportionaltoparent"					"1"
 			"PaintBackground"						"0"
 			"skip_autoresize"						"1"
-			"autoresize"							"0"
 
 			"ScrollableChild"
 			{
@@ -343,7 +340,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"proportionaltoparent"			"1"
-					"font"							"Size 10"
+					"font"							"Size_10"
 					"labelText"						"%item_level_info%"
 					"textAlignment"					"north-west"
 					"wrap"							"1"
@@ -358,11 +355,11 @@
 					"visible"						"0"
 					"enabled"						"1"
 					"proportionaltoparent"			"1"
-					"font"							"Size 10"
+					"font"							"Size_10"
 					"labelText"						"#Store_ItemDesc_Restrictions"
 					"textAlignment"					"north-west"
 					"wrap"							"1"
-					"fgcolor"						"RedLight"
+					"fgcolor"						"Red_Light"
 				}
 				"RestrictionsTextLabel"
 				{
@@ -373,11 +370,11 @@
 					"visible"						"0"
 					"enabled"						"1"
 					"proportionaltoparent"			"1"
-					"font"							"Size 10"
+					"font"							"Size_10"
 					"labelText"						"#Store_HolidayRestrictionText"
 					"textAlignment"					"north-west"
 					"wrap"							"1"
-					"fgcolor"						"RedLight"
+					"fgcolor"						"Red_Light"
 				}
 				"UsedByLabel"
 				{
@@ -388,7 +385,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"proportionaltoparent"			"1"
-					"font"							"Size 10"
+					"font"							"Size_10"
 					"labelText"						"#Store_ItemDesc_UsedBy"
 					"textAlignment"					"north-west"
 					"wrap"							"1"
@@ -403,7 +400,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"proportionaltoparent"			"1"
-					"font"							"Size 10"
+					"font"							"Size_10"
 					"labelText"						"%used_by_classes%"
 					"textAlignment"					"north-west"
 					"wrap"							"1"
@@ -418,7 +415,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"proportionaltoparent"			"1"
-					"font"							"Size 10"
+					"font"							"Size_10"
 					"labelText"						"#Store_ItemDesc_Slot"
 					"textAlignment"					"north-west"
 					"wrap"							"1"
@@ -433,7 +430,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"proportionaltoparent"			"1"
-					"font"							"Size 10"
+					"font"							"Size_10"
 					"labelText"						"%slot%"
 					"textAlignment"					"north-west"
 					"wrap"							"1"
@@ -448,7 +445,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"proportionaltoparent"			"1"
-					"font"							"Size 10"
+					"font"							"Size_10"
 					"textAlignment"					"north-west"
 					"wrap"							"1"
 					"labeltext"						"%armory_text%"
@@ -463,7 +460,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"proportionaltoparent"			"1"
-					"font"							"Size 10"
+					"font"							"Size_10"
 					"textAlignment"					"north-west"
 					"wrap"							"1"
 					"fgcolor"						"White"
@@ -493,7 +490,7 @@
 					"enabled"						"1"
 					"proportionaltoparent"			"1"
 					"labelText"						"#Store_ItemDesc_ItemWikiPage"
-					"font"							"Size 15"
+					"font"							"Size_15"
 					"textAlignment"					"center"
 					"AllCaps"						"1"
 					"command"						"viewwikipage"
@@ -504,11 +501,11 @@
 					"paintbackground"				"0"
 
 					"defaultFgColor_override"		"White"
-					"armedFgColor_override"			"WhiteSolid"
-					"depressedFgColor_override"		"WhiteSolid"
+					"armedFgColor_override"			"White_Solid"
+					"depressedFgColor_override"		"White_Solid"
 
-					"border_default"				"ThemeTransparent50"
-					"border_armed"					"OrangeTransparent50"
+					"border_default"				"Theme_Transparent_50"
+					"border_armed"					"Orange_Transparent_50"
 				}
 			}
 		}
@@ -526,7 +523,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"DialogFrame"
 	}
@@ -615,7 +612,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"<"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"Command"									"-1"
 
@@ -626,11 +623,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"pin_to_sibling"							"ItemBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -645,13 +642,11 @@
 		"zpos"										"20"
 		"wide"										"20"
 		"tall"										"40"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									">"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"Command"									"1"
 
@@ -662,11 +657,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"pin_to_sibling"							"ItemBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -778,7 +773,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"ItemBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -953,7 +948,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"<"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"command"									"icons_left"
 
@@ -962,11 +957,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 	"IconsMoveRightButton"
 	{
@@ -981,7 +976,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									">"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"command"									"icons_right"
 
@@ -990,25 +985,23 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 	"ClassUsageMouseoverLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassUsageMouseoverLabel"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textAlignment"								"center"
 		"xpos"										"c-265"
 		"ypos"										"c125"
 		"zpos"										"100"
 		"wide"										"230"
 		"tall"										"55"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"bgcolor_override"							"Blank"
@@ -1016,7 +1009,7 @@
 		"centerwrap"								"1"
 		"paintborder"								"1"
 		"textinsetx"								"100"
-		"border"									"BlueTransparent70"
+		"border"									"Blue_Transparent_70"
 	}
 	"GoFullscreenButton"
 	{
@@ -1031,7 +1024,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labeltext"									"*"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"default"									"0"
 
@@ -1042,11 +1035,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"pin_to_sibling"							"ItemBG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -1061,13 +1054,11 @@
 		"zpos"										"20"
 		"wide"										"22"
 		"tall"										"22"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labeltext"									"r"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"default"									"0"
 
@@ -1078,11 +1069,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"pin_to_sibling"							"GoFullscreenButton"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -1101,7 +1092,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labeltext"									"}"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"default"									"0"
 
@@ -1112,11 +1103,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"pin_to_sibling"							"ZoomButton"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -1133,7 +1124,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									""
 		"textAlignment"								"north"
 		"wrap"										"1"
@@ -1150,15 +1141,13 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PaintNameLabel"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"#Store_NoPaint"
 		"textAlignment"								"left"
 		"xpos"										"c-186"
 		"ypos"										"-1000"
 		"wide"										"138"
 		"tall"										"28"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -1171,15 +1160,13 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StyleNameLabel"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"None"
 		"textAlignment"								"west"
 		"xpos"										"132"
 		"ypos"										"-1000"
 		"wide"										"110"
 		"tall"										"25"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -1202,7 +1189,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"labeltext"									"Back"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"default"									"0"
 
@@ -1213,11 +1200,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"BlackTransparent30"
-		"border_armed"								"OrangeTransparent70"
+		"border_default"							"Black_Transparent_30"
+		"border_armed"								"Orange_Transparent_70"
 
 		"pin_to_sibling"							"FilterBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -1236,12 +1223,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 		"labelText"									"#"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"CloseButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"

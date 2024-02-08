@@ -12,7 +12,7 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"ClassNameLabel"
 		{
@@ -25,7 +25,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 24"
+			"font"									"Size_24"
 			"labelText"								"%classname%"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
@@ -43,13 +43,13 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"labelText"								"%description%"
 			"textAlignment"							"center"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 		}
 
 		"WeaponSetLabel"
@@ -63,10 +63,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"#TR_StandardWeaponSet"
 			"textAlignment"							"center"
-			"fgcolor" 								"MainTheme"
+			"fgcolor"								"Main_Theme"
 			"AllCaps"								"1"
 		}
 
@@ -82,7 +82,7 @@
 			"enabled"								"1"
 			"paintbackground"						"0"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 		"WeaponImage0"
 		{
@@ -97,9 +97,9 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"WeaponImage0BG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_TOP"
+			"pin_to_sibling"						"WeaponImage0BG"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_TOP"
 		}
 		"PrimaryLabel"
 		{
@@ -112,17 +112,17 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"labelText"								"#TR_Primary"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"WeaponImage0BG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
+			"pin_to_sibling"						"WeaponImage0BG"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 
 		"WeaponImage1BG"
@@ -137,11 +137,11 @@
 			"enabled"								"1"
 			"paintbackground"						"0"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"WeaponImage0BG"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"WeaponImage0BG"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"WeaponImage1"
 		{
@@ -156,9 +156,9 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"WeaponImage1BG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_TOP"
+			"pin_to_sibling"						"WeaponImage1BG"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_TOP"
 		}
 		"SecondaryLabel"
 		{
@@ -171,17 +171,17 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"labelText"								"#TR_Secondary"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"WeaponImage1BG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
+			"pin_to_sibling"						"WeaponImage1BG"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 
 		"WeaponImage2BG"
@@ -196,11 +196,11 @@
 			"enabled"								"1"
 			"paintbackground"						"0"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"WeaponImage1BG"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"WeaponImage1BG"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"WeaponImage2"
 		{
@@ -215,9 +215,9 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"WeaponImage2BG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_TOP"
+			"pin_to_sibling"						"WeaponImage2BG"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_TOP"
 		}
 		"MeleeLabel"
 		{
@@ -230,17 +230,17 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"labelText"								"#TR_Melee"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"WeaponImage2BG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
+			"pin_to_sibling"						"WeaponImage2BG"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 	}
 
@@ -255,7 +255,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Training_StartTraining"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"Command"									"startbasictraining"
 
@@ -266,16 +266,16 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"				 	"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"pin_to_sibling" 							"OverlayPanel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"OverlayPanel"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 	"ClassImage"

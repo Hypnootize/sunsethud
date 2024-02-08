@@ -12,7 +12,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"MainThemeDarkest"
+		"bgcolor_override"							"Main_Theme_Darkest"
 	}
 	
 	"ReturnButton"
@@ -38,15 +38,15 @@
 		"labelText"									">"
 
 		"textAlignment"								"center"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 
 		"paintbackground"							"0"
 
-		"FgColor"									"WhiteSolid"
-		"FgColor_override"							"WhiteSolid"
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"OrangeDark"
-		"depressedFgColor_override"					"OrangeDark"
+		"FgColor"									"White_Solid"
+		"FgColor_override"							"White_Solid"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"Orange_Dark"
+		"depressedFgColor_override"					"Orange_Dark"
 	}
 	
 
@@ -55,29 +55,54 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Shade"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TitleGradient"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"TitleGradient"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"InnerGradient"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"InnerGradient"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"OuterGradient"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"OuterGradient"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CloseButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

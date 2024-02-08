@@ -32,6 +32,6 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
-		"font"										"Size 12"
+		"font"										"Size_12"
 	}
 }

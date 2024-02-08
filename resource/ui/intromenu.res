@@ -11,7 +11,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackTransparent"
+		"bgcolor_override"							"Black_Transparent"
 	}
 
 	"VideoBackground"
@@ -26,7 +26,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 	}
 
 	"VideoPanel"
@@ -43,7 +43,7 @@
 		"start_delay"								"0"
 		"end_delay"									"0"
 
-		"pin_to_sibling" 							"VideoBackground"
+		"pin_to_sibling"							"VideoBackground"
 	}
 
 	"CaptionBackground"
@@ -58,11 +58,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
-		"pin_to_sibling" 							"VideoBackground"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"VideoBackground"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"VideoCaption"
@@ -78,12 +78,12 @@
 		"enabled"									"1"
 		"labelText"									" "
 		"textAlignment"								"center"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"fgcolor"									"White"
 		"wrap"										"1"
 		"centerwrap"								"1"
 
-		"pin_to_sibling" 							"CaptionBackground"
+		"pin_to_sibling"							"CaptionBackground"
 	}
 
 	"Skip"
@@ -101,22 +101,22 @@
 		"textAlignment"								"center"
 		"wrap"										"0"
 		"command"									"skip"
-		"font"										"Size 15"
+		"font"										"Size_15"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"BlackTransparent70"
-		"border_armed"								"OrangeTransparent70"
+		"border_default"							"Black_Transparent_70"
+		"border_armed"								"Orange_Transparent_70"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"pin_to_sibling" 							"CaptionBackground"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"CaptionBackground"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"SkipShortKey"
 	{
@@ -140,12 +140,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"labelText"									"$"
 		"textAlignment"								"Center"
 		"fgcolor"									"Black"
 		"paintborder"								"1"
-		"border"									"WhiteDarkBorder"
+		"border"									"White_Dark_Border"
 
 		"pin_to_sibling"							"Skip"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -166,22 +166,22 @@
 		"labelText"									"#TF_Back"
 		"textAlignment"								"center"
 		"command"									"back"
-		"font"										"Size 15"
+		"font"										"Size_15"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"BlackTransparent70"
-		"border_armed"								"OrangeTransparent70"
+		"border_default"							"Black_Transparent_70"
+		"border_armed"								"Orange_Transparent_70"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"pin_to_sibling" 							"Skip"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"Skip"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"BackShortKey"
 	{
@@ -199,23 +199,43 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MenuBG"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"MenuBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Continue"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"Continue"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ReplayVideo"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ReplayVideo"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

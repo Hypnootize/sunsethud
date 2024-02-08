@@ -4,8 +4,6 @@
 	{
 		"ControlName"								"CTFMatchSummary"
 		"fieldName"									"MatchSummary"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"paintbackground"							"0"
 		"zpos"										"20"
 		"visible"									"0"
@@ -54,7 +52,7 @@
 		"tall"										"43"
 		"visible"									"0"
 		"PaintBackgroundType"						"0"
-		"border"									"ThemeDarkestBorder"
+		"border"									"Theme_Darkest_Border"
 		"proportionaltoparent"						"1"
 
 		"if_uses_xp"
@@ -125,7 +123,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"PaintBackgroundType"						"1"
-		"bgcolor_override" 							"0 0 0 250"
+		"bgcolor_override"							"0 0 0 250"
 	}
 
 	"DrawingPanel"
@@ -141,7 +139,7 @@
 		"enabled"									"1"
 		"keyboardinputenabled"						"0"
 
-		"linecolor"									"RedLight"
+		"linecolor"									"Red_Light"
 		"team_colors"								"1"
 	}
 
@@ -185,7 +183,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"StatsAndMedals"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"labelText"							"#TF_StatsAndMedals"
 				"textAlignment"						"center"
 				"xpos"								"0"
@@ -193,18 +191,16 @@
 				"zpos"								"4"
 				"wide"								"200"
 				"tall"								"15"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"fgcolor"							"White"
 			}
 
- 			"StatsAndMedalsShadow"
+			"StatsAndMedalsShadow"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"StatsAndMedalsShadow"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"labelText"							"#TF_StatsAndMedals"
 				"fgcolor"							"Black"
 				"textAlignment"						"center"
@@ -213,8 +209,6 @@
 				"zpos"								"3"
 				"wide"								"200"
 				"tall"								"15"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 			}
@@ -234,7 +228,7 @@
 
 			"BlueTeamPanel"
 			{
-	 			"ControlName"						"EditablePanel"
+				"ControlName"						"EditablePanel"
 				"fieldName"							"BlueTeamPanel"
 				"xpos"								"-320"
 				"ypos"								"0"
@@ -254,11 +248,9 @@
 					"zpos"							"2"
 					"wide"							"p.213"
 					"tall"							"36"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
-					"border"						"BlueTransparent90"
+					"border"						"Blue_Transparent_90"
 
 					"if_large"
 					{
@@ -269,7 +261,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamScore"
-					"font"							"Size 36"
+					"font"							"Size_36"
 					"labelText"						"%blueteamscore%"
 					"textAlignment"					"east"
 					"xpos"							"5"
@@ -277,8 +269,6 @@
 					"zpos"							"4"
 					"wide"							"p.19"
 					"tall"							"30"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"fgcolor"						"White"
@@ -293,7 +283,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamScoreDropshadow"
-					"font"							"Size 36"
+					"font"							"Size_36"
 					"fgcolor"						"Black"
 					"labelText"						"%blueteamscore%"
 					"textAlignment"					"east"
@@ -302,8 +292,6 @@
 					"zpos"							"3"
 					"wide"							"p.19"
 					"tall"							"30"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 
@@ -316,7 +304,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamWinner"
-					"font"							"Size 20"
+					"font"							"Size_20"
 					"labelText"						"%blueteamwinner%"
 					"textAlignment"					"east"
 					"xpos"							"5"
@@ -324,8 +312,6 @@
 					"zpos"							"4"
 					"wide"							"p.19"
 					"tall"							"30"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"fgcolor"						"White"
@@ -339,7 +325,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamWinnerDropshadow"
-					"font"							"Size 20"
+					"font"							"Size_20"
 					"fgcolor"						"Black"
 					"labelText"						"%blueteamwinner%"
 					"textAlignment"					"east"
@@ -348,8 +334,6 @@
 					"zpos"							"3"
 					"wide"							"p.19"
 					"tall"							"30"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 
@@ -381,7 +365,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamLabel"
-					"font"							"Size 14"
+					"font"							"Size_14"
 					"labelText"						"%blueteamname%"
 					"textAlignment"					"west"
 					"xpos"							"60"
@@ -389,8 +373,6 @@
 					"zpos"							"20"
 					"wide"							"195"
 					"tall"							"20"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"fgcolor"						"White"
@@ -426,7 +408,7 @@
 					"tall"							"38"
 					"visible"						"1"
 					"PaintBackgroundType"			"0"
-					"bgcolor_override"				"BlackMediumTransparent"
+					"bgcolor_override"				"Black_Medium_Transparent"
 
 					"if_large"
 					{
@@ -462,7 +444,6 @@
 						"tall"						"205"
 						"visible"					"1"
 						"enabled"					"1"
-						"autoResize"				"0"
 						"linespacing"				"26"
 						"linegap"					"4"
 						//"show_columns"			"1"
@@ -494,11 +475,9 @@
 					"zpos"							"0"
 					"wide"							"p.2"
 					"tall"							"225"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
-					"border"						"BlackTransparent90"
+					"border"						"Black_Transparent_90"
 
 					"if_large"
 					{
@@ -509,7 +488,7 @@
 			}
 			"RedTeamPanel"
 			{
-	 			"ControlName"						"EditablePanel"
+				"ControlName"						"EditablePanel"
 				"fieldName"							"RedTeamPanel"
 				"xpos"								"320"
 				"ypos"								"0"
@@ -529,11 +508,9 @@
 					"zpos"							"2"
 					"wide"							"p.213"
 					"tall"							"36"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
-					"border"						"RedTransparent90"
+					"border"						"Red_Transparent_90"
 
 					"if_large"
 					{
@@ -544,7 +521,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamScore"
-					"font"							"Size 36"
+					"font"							"Size_36"
 					"labelText"						"%redteamscore%"
 					"textAlignment"					"west"
 					"xpos"							"r5-p.19"
@@ -552,8 +529,6 @@
 					"zpos"							"4"
 					"wide"							"p.19"
 					"tall"							"30"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"fgcolor"						"White"
@@ -567,7 +542,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamScoreDropshadow"
-					"font"							"Size 36"
+					"font"							"Size_36"
 					"fgcolor"						"Black"
 					"labelText"						"%redteamscore%"
 					"textAlignment"					"west"
@@ -576,8 +551,6 @@
 					"zpos"							"3"
 					"wide"							"p.19"
 					"tall"							"30"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 
@@ -590,7 +563,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamWinner"
-					"font"							"Size 20"
+					"font"							"Size_20"
 					"labelText"						"%redteamwinner%"
 					"textAlignment"					"west"
 					"xpos"							"r5-p.19"
@@ -598,8 +571,6 @@
 					"zpos"							"4"
 					"wide"							"p.19"
 					"tall"							"30"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"fgcolor"						"White"
@@ -613,7 +584,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamWinnerDropshadow"
-					"font"							"Size 20"
+					"font"							"Size_20"
 					"fgcolor"						"Black"
 					"labelText"						"%redteamwinner%"
 					"textAlignment"					"west"
@@ -622,8 +593,6 @@
 					"zpos"							"3"
 					"wide"							"p.19"
 					"tall"							"30"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 
@@ -655,7 +624,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamLabel"
-					"font"							"Size 14"
+					"font"							"Size_14"
 					"labelText"						"%redteamname%"
 					"textAlignment"					"east"
 					"xpos"							"r255"
@@ -663,8 +632,6 @@
 					"zpos"							"20"
 					"wide"							"195"
 					"tall"							"20"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"fgcolor"						"White"
@@ -700,7 +667,7 @@
 					"tall"							"38"
 					"visible"						"1"
 					"PaintBackgroundType"			"0"
-					"bgcolor_override"				"BlackMediumTransparent"
+					"bgcolor_override"				"Black_Medium_Transparent"
 
 					"if_large"
 					{
@@ -736,7 +703,6 @@
 						"tall"						"205"
 						"visible"					"1"
 						"enabled"					"1"
-						"autoResize"				"0"
 						"linespacing"				"26"
 						"linegap"					"4"
 						//"show_columns"			"1"
@@ -768,11 +734,9 @@
 					"zpos"							"0"
 					"wide"							"p.2"
 					"tall"							"225"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
-					"border"						"BlackTransparent90"
+					"border"						"Black_Transparent_90"
 
 					"if_large"
 					{
@@ -783,7 +747,7 @@
 			}
 			"BlueMedals"
 			{
-	 			"ControlName"						"EditablePanel"
+				"ControlName"						"EditablePanel"
 				"fieldName"							"BlueMedals"
 				"xpos"								"c-250"
 				"ypos"								"-20"
@@ -816,7 +780,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueGoldMedalValue"
-					"font"							"Size 14"
+					"font"							"Size_14"
 					"labelText"						"%blueteammedals_gold%"
 					"textAlignment"					"center"
 					"xpos"							"15"
@@ -824,8 +788,6 @@
 					"zpos"							"6"
 					"wide"							"15"
 					"tall"							"15"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"fgcolor"						"White"
@@ -848,7 +810,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueSilverMedalValue"
-					"font"							"Size 14"
+					"font"							"Size_14"
 					"labelText"						"%blueteammedals_silver%"
 					"textAlignment"					"center"
 					"xpos"							"70"
@@ -856,8 +818,6 @@
 					"zpos"							"6"
 					"wide"							"15"
 					"tall"							"15"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"fgcolor"						"White"
@@ -880,7 +840,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueBronzeMedalValue"
-					"font"							"Size 14"
+					"font"							"Size_14"
 					"labelText"						"%blueteammedals_bronze%"
 					"textAlignment"					"center"
 					"xpos"							"125"
@@ -888,8 +848,6 @@
 					"zpos"							"6"
 					"wide"							"15"
 					"tall"							"15"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"fgcolor"						"White"
@@ -897,7 +855,7 @@
 			}
 			"RedMedals"
 			{
-	 			"ControlName"						"EditablePanel"
+				"ControlName"						"EditablePanel"
 				"fieldName"							"RedMedals"
 				"xpos"								"c100"
 				"ypos"								"-20"
@@ -930,7 +888,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedGoldMedalValue"
-					"font"							"Size 14"
+					"font"							"Size_14"
 					"labelText"						"%redteammedals_gold%"
 					"textAlignment"					"center"
 					"xpos"							"15"
@@ -938,8 +896,6 @@
 					"zpos"							"6"
 					"wide"							"15"
 					"tall"							"15"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"fgcolor"						"White"
@@ -962,7 +918,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedSilverMedalValue"
-					"font"							"Size 14"
+					"font"							"Size_14"
 					"labelText"						"%redteammedals_silver%"
 					"textAlignment"					"center"
 					"xpos"							"70"
@@ -970,8 +926,6 @@
 					"zpos"							"6"
 					"wide"							"15"
 					"tall"							"15"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"fgcolor"						"White"
@@ -994,7 +948,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedBronzeMedalValue"
-					"font"							"Size 14"
+					"font"							"Size_14"
 					"labelText"						"%redteammedals_bronze%"
 					"textAlignment"					"center"
 					"xpos"							"125"
@@ -1002,8 +956,6 @@
 					"zpos"							"6"
 					"wide"							"15"
 					"tall"							"15"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"fgcolor"						"White"

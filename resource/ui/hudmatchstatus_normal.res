@@ -45,7 +45,7 @@
 				"zpos"							"6"
 				"wide"							"f0"
 				"tall"							"2"
-				"fgcolor_override"	   			"GreenLight"
+				"fgcolor_override"				"Green_Light"
 			}
 			
 			"respawntime"

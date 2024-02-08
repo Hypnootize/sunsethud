@@ -29,7 +29,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"K"
 		"textAlignment"								"east"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"fgcolor"									"White"
 	}
 	"SkullIconShadow"
@@ -46,7 +46,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"K"
 		"textAlignment"								"east"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"fgcolor"									"Shadows"
 		"pin_to_sibling"							"SkullIcon"
 	}
@@ -66,7 +66,7 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
 		"fgcolor"									"White"
-		"font"										"Size 20"
+		"font"										"Size_20"
 	}
 	"ItemEffectMeterCountShadow"
 	{
@@ -82,7 +82,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
-		"font"										"Size 20"
+		"font"										"Size_20"
 		"fgcolor"									"Shadows"
 		"pin_to_sibling"							"ItemEffectMeterCount"
 	}
@@ -104,11 +104,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ItemEffectMeterBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

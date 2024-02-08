@@ -28,7 +28,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"1"
 		"end_x"										"r515"
@@ -54,7 +54,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"1"
 		"end_x"										"r280"
@@ -80,7 +80,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"1"
 		"end_x"										"r515"
@@ -106,7 +106,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"1"
 		"end_x"										"r280"
@@ -132,7 +132,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"1"
 		"end_x"										"r515"
@@ -158,7 +158,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"0"
 		"end_x"										"r515"
@@ -184,7 +184,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"1"
 		"end_x"										"r515"
@@ -210,7 +210,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"1"
 		"end_x"										"r515"
@@ -236,7 +236,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"1"
 		"end_x"										"r515"
@@ -262,7 +262,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"1"
 		"end_x"										"r515"
@@ -288,7 +288,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"1"
 		"end_x"										"r515"
@@ -314,7 +314,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"1"
 		"end_x"										"r515"
@@ -339,7 +339,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"1"
 		"end_x"										"r100"
@@ -364,7 +364,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"start_x"									"c-85"
 		"start_y"									"185"
@@ -385,11 +385,9 @@
 			"ypos"									"10"
 			"wide"									"210"
 			"tall"									"60"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"%highlighttext%"
 			"textAlignment"							"center"
 			"wrap"									"1"
@@ -404,11 +402,9 @@
 			"ypos"									"60"
 			"wide"									"210"
 			"tall"									"40"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#MMenu_TutorialHighlight_Text"
 			"textAlignment"							"south-west"
 			"wrap"									"1"
@@ -426,7 +422,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 22"
+			"font"									"Symbols_22"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -436,7 +432,7 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"RedLight"
+			"defaultFgColor_override"				"Red_Light"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override"				"Red"
 		}
@@ -451,7 +447,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"start_x"									"c-85"
 		"start_y"									"185"
@@ -474,7 +470,7 @@
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"#MMenu_PracticeHighlight_Title"
 			"textAlignment"							"center"
 			"wrap"									"1"
@@ -489,11 +485,9 @@
 			"ypos"									"50"
 			"wide"									"210"
 			"tall"									"40"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#MMenu_PracticeHighlight_Text"
 			"textAlignment"							"north-west"
 			"fgcolor"								"White"
@@ -507,12 +501,10 @@
 			"zpos"									"10"
 			"wide"									"22"
 			"tall"									"22"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 22"
+			"font"									"Symbols_22"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -522,7 +514,7 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"RedLight"
+			"defaultFgColor_override"				"Red_Light"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override"				"Red"
 		}
@@ -539,7 +531,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"start_x"									"c-112"
 		"start_y"									"437"
@@ -559,11 +551,9 @@
 			"ypos"									"10"
 			"wide"									"210"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"#MMenu_NewUserForumHighlight_Title"
 			"textAlignment"							"north-west"
 			"xpos"									"10"
@@ -581,7 +571,7 @@
 			"tall"									"90"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#MMenu_NewUserForumHighlight_Text"
 			"textAlignment"							"north-west"
 			"wrap"									"1"
@@ -599,7 +589,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 22"
+			"font"									"Symbols_22"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -609,7 +599,7 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"RedLight"
+			"defaultFgColor_override"				"Red_Light"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override"				"Red"
 		}
@@ -626,7 +616,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"start_x"									"c238"
 		"start_y"									"437"
@@ -647,11 +637,9 @@
 			"ypos"									"10"
 			"wide"									"210"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"#MMenu_OptionsHighlightPanel_Title"
 			"textAlignment"							"north-west"
 			"wrap"									"1"
@@ -668,7 +656,7 @@
 			"tall"									"90"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#MMenu_OptionsHighlightPanel_Text"
 			"textAlignment"							"north-west"
 			"wrap"									"1"
@@ -683,12 +671,10 @@
 			"zpos"									"10"
 			"wide"									"22"
 			"tall"									"22"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 22"
+			"font"									"Symbols_22"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -698,7 +684,7 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"RedLight"
+			"defaultFgColor_override"				"Red_Light"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override"				"Red"
 		}
@@ -715,7 +701,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"start_x"									"c-190"
 		"start_y"									"267"
@@ -738,7 +724,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"#MMenu_LoadoutHighlightPanel_Title"
 			"textAlignment"							"north-west"
 			"wrap"									"1"
@@ -753,11 +739,9 @@
 			"ypos"									"30"
 			"wide"									"210"
 			"tall"									"190"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#MMenu_LoadoutHighlightPanel_Text"
 			"textAlignment"							"north-west"
 			"wrap"									"1"
@@ -772,12 +756,10 @@
 			"zpos"									"10"
 			"wide"									"22"
 			"tall"									"22"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 22"
+			"font"									"Symbols_22"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -787,7 +769,7 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"RedLight"
+			"defaultFgColor_override"				"Red_Light"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override"				"Red"
 		}
@@ -805,7 +787,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"start_x"									"c20"
 		"start_y"									"285"
@@ -828,7 +810,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"#MMenu_StoreHighlightPanel_Title"
 			"textAlignment"							"north-west"
 			"wrap"									"1"
@@ -845,7 +827,7 @@
 			"tall"									"190"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%highlighttext%"
 			"textAlignment"							"north-west"
 			"wrap"									"1"
@@ -860,12 +842,10 @@
 			"zpos"									"10"
 			"wide"									"22"
 			"tall"									"22"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 22"
+			"font"									"Symbols_22"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -875,7 +855,7 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"RedLight"
+			"defaultFgColor_override"				"Red_Light"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override"				"Red"
 		}
@@ -892,7 +872,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"0"
 		"end_x"										"r300"
@@ -917,7 +897,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"0"
 		"end_x"										"r450"
@@ -943,7 +923,7 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"ThemeDarkBorder"
+		"border"									"Theme_Dark_Border"
 
 		"force_close"								"0"
 		"end_x"										"r600"

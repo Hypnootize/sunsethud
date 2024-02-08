@@ -21,9 +21,9 @@
 		"QuestMap_BGImages"									"56 58 60 255"
 
 		"PartyMember1"										"124 173 255 255"
-		"PartyMember2"										"99  232 167 255"
+		"PartyMember2"										"99 232 167 255"
 		"PartyMember3"										"229 255 121 255"
-		"PartyMember4"										"232 184 99  255"
+		"PartyMember4"										"232 184 99 255"
 		"PartyMember5"										"255 118 108 255"
 		"PartyMember6"										"255 133 255 255"
 
@@ -31,7 +31,7 @@
 		"Yellow"											"235 235 235 255"
 		"TransparentYellow"									"235 235 235 255"
 		"BrightYellow"										"251 235 0 255"
-		"GreenSolid"		 								"76 107 34 255"
+		"GreenSolid"										"76 107 34 255"
 
 		"FooterBGBlack"										"52 48 55 255"
 		"TransparentBlack"									"0 0 0 200"
@@ -92,9 +92,9 @@
 		"DisguiseMenuIconRed"								"192 56 63 255"
 		"DisguiseMenuIconBlue"								"92 128 166 255"
 
- 		"MatchmakingDialogTitleColor"						"235 235 235 255"
- 		"MatchmakingMenuItemBackground"						"46 43 42 255"
- 		"MatchmakingMenuItemBackgroundActive"				"150 71 0 255"
+		"MatchmakingDialogTitleColor"						"235 235 235 255"
+		"MatchmakingMenuItemBackground"						"46 43 42 255"
+		"MatchmakingMenuItemBackgroundActive"				"150 71 0 255"
 		"MatchmakingMenuItemTitleColor"						"235 235 235 255"
 		"MatchmakingMenuItemDescriptionColor"				"235 235 235 255"
 
@@ -153,9 +153,9 @@
 		"QualityColorrarity3_GreyedOut"						"51 51 62 255"
 		"QualityColorrarity4_GreyedOut"						"36 20 43 255"
 		"QualityColorVintage_GreyedOut"						"18 25 36 255"
-		"QualityColorUnique_GreyedOut"						"64 54 0  255"
+		"QualityColorUnique_GreyedOut"						"64 54 0 255"
 		"QualityColorCommunity_GreyedOut"					"28 44 19 255"
-		"QualityColorDeveloper_GreyedOut"					"41 4  30  255"
+		"QualityColorDeveloper_GreyedOut"					"41 4 30 255"
 		"QualityColorSelfMade_GreyedOut"					"28 44 74 255"
 		"QualityColorCustomized_GreyedOut"					"71 98 19 255"
 		"QualityColorStrange_GreyedOut"						"52 27 13 255"
@@ -186,10 +186,10 @@
 	"BaseSettings"
 	{
 		"ReplayBrowser.BgColor"								"DarkBrown"
-		"ReplayBrowser.Details.TitleEdit.Carat.FgColor"		"OrangeDark"
-		"ReplayBrowser.Button.ArmedBgColor"					"OrangeDark"
-		"ReplayBrowser.Button.DepressedBgColor"				"OrangeDark"
-		"ReplayBrowser.CollectionTitle.FgColor"				"OrangeDark"
+		"ReplayBrowser.Details.TitleEdit.Carat.FgColor"		"Orange_Dark"
+		"ReplayBrowser.Button.ArmedBgColor"					"Orange_Dark"
+		"ReplayBrowser.Button.DepressedBgColor"				"Orange_Dark"
+		"ReplayBrowser.CollectionTitle.FgColor"				"Orange_Dark"
 		"ReplayBrowser.Warning.FgColor"						"White"
 		"ReplayBrowser.ScrollBar.SliderButton.FgColor"		"White"
 		"ReplayBrowser.Search.BgColor"						"Gray"
@@ -197,40 +197,40 @@
 
 		"Replay.RenderDialog.BgColor"						"LighterDarkBrown"
 
-		"Econ.Dialog.BgColor"								"MainThemeDark"
-		"Econ.Button.BgColor"								"MainTheme"
+		"Econ.Dialog.BgColor"								"Main_Theme_Dark"
+		"Econ.Button.BgColor"								"Main_Theme"
 		"Econ.Button.FgColor"								"White"
-		"Econ.Button.ArmedBgColor"							"OrangeDark"
-		"Econ.Button.ArmedFgColor"							"WhiteSolid"
-		"Econ.Button.DepressedBgColor"						"OrangeDark"
-		"Econ.Button.DepressedFgColor"						"WhiteSolid"
+		"Econ.Button.ArmedBgColor"							"Orange_Dark"
+		"Econ.Button.ArmedFgColor"							"White_Solid"
+		"Econ.Button.DepressedBgColor"						"Orange_Dark"
+		"Econ.Button.DepressedFgColor"						"White_Solid"
 
 		"Econ.Button.PresetDefaultColorFg"					"White"
-		"Econ.Button.PresetArmedColorFg"					"WhiteSolid"
-		"Econ.Button.PresetDepressedColorFg"				"WhiteSolid"
+		"Econ.Button.PresetArmedColorFg"					"White_Solid"
+		"Econ.Button.PresetDepressedColorFg"				"White_Solid"
 
-		"Econ.Button.PresetDefaultColorBg"					"OrangeDark"
-		"Econ.Button.PresetArmedColorBg"					"OrangeDark"
-		"Econ.Button.PresetDepressedColorBg"				"OrangeDark"
+		"Econ.Button.PresetDefaultColorBg"					"Orange_Dark"
+		"Econ.Button.PresetArmedColorBg"					"Orange_Dark"
+		"Econ.Button.PresetDepressedColorBg"				"Orange_Dark"
 
 		"Border.Bright"										"Blank"
 		"Border.Dark"										"Black"
 		"Border.Selection"									"White"
 
 		"Button.TextColor"									"White"
-		"Button.BgColor"									"MainTheme"
-		"Button.ArmedTextColor"								"WhiteSolid"
-		"Button.ArmedBgColor"								"OrangeDark"
-		"Button.SelectedTextColor"							"WhiteSolid"
-		"Button.SelectedBgColor"							"OrangeDark"
-		"Button.DepressedTextColor"							"WhiteSolid"
-		"Button.DepressedBgColor"							"OrangeDark"
+		"Button.BgColor"									"Main_Theme"
+		"Button.ArmedTextColor"								"White_Solid"
+		"Button.ArmedBgColor"								"Orange_Dark"
+		"Button.SelectedTextColor"							"White_Solid"
+		"Button.SelectedBgColor"							"Orange_Dark"
+		"Button.DepressedTextColor"							"White_Solid"
+		"Button.DepressedBgColor"							"Orange_Dark"
 
 		"CheckButton.TextColor"								"White"
 		"CheckButton.SelectedTextColor"						"White"
-		"CheckButton.BgColor"								"BlackDarkTransparent"
-		"CheckButton.Border1"  								"White"
-		"CheckButton.Border2"  								"White"
+		"CheckButton.BgColor"								"Black_Dark_Transparent"
+		"CheckButton.Border1"								"White"
+		"CheckButton.Border2"								"White"
 		"CheckButton.Check"									"White"
 		"CheckButton.HighlightFgColor"						"White"
 
@@ -239,8 +239,8 @@
 		"ComboBoxButton.BgColor"							"Blank"
 		"ComboBoxButton.DisabledBgColor"					"Blank"
 
-		"Frame.BgColor"										"BlackDarkTransparent"
-		"Frame.OutOfFocusBgColor"							"BlackDarkTransparent"
+		"Frame.BgColor"										"Black_Dark_Transparent"
+		"Frame.OutOfFocusBgColor"							"Black_Dark_Transparent"
 		"Frame.FocusTransitionEffectTime"					"0.0"
 		"Frame.TransitionEffectTime"						"0.0"
 		"Frame.AutoSnapRange"								"0"
@@ -254,13 +254,13 @@
 		"FrameSystemButton.BgColor"							"Blank"
 		"FrameSystemButton.Icon"							""
 		"FrameSystemButton.DisabledIcon"					""
-		"FrameTitleBar.TextColor"							"OrangeDark"
+		"FrameTitleBar.TextColor"							"Orange_Dark"
 		"FrameTitleBar.BgColor"								"Blank"
-		"FrameTitleBar.DisabledTextColor"					"OrangeDark"
+		"FrameTitleBar.DisabledTextColor"					"Orange_Dark"
 		"FrameTitleBar.DisabledBgColor"						"Blank"
 
-		"GraphPanel.FgColor"								"OrangeDark"
-		"GraphPanel.BgColor"								"BlackDarkTransparent"
+		"GraphPanel.FgColor"								"Orange_Dark"
+		"GraphPanel.BgColor"								"Black_Dark_Transparent"
 
 		"Label.TextDullColor"								"White"
 		"Label.TextColor"									"White"
@@ -271,16 +271,16 @@
 		"Label.DisabledFgColor2"							"Black"
 
 		"ListPanel.TextColor"								"White"
-		"ListPanel.BgColor"									"BlackDarkTransparent"
+		"ListPanel.BgColor"									"Black_Dark_Transparent"
 		"ListPanel.SelectedTextColor"						"Black"
-		"ListPanel.SelectedBgColor"							"MainTheme"
-		"ListPanel.SelectedOutOfFocusBgColor"				"OrangeDark"
+		"ListPanel.SelectedBgColor"							"Main_Theme"
+		"ListPanel.SelectedOutOfFocusBgColor"				"Orange_Dark"
 		"ListPanel.EmptyListInfoTextColor"					"White"
 
 		"Menu.TextColor"									"White"
-		"Menu.BgColor"										"MainThemeDark"
-		"Menu.ArmedTextColor"								"WhiteSolid"
-		"Menu.ArmedBgColor"									"OrangeDark"
+		"Menu.BgColor"										"Main_Theme_Dark"
+		"Menu.ArmedTextColor"								"White_Solid"
+		"Menu.ArmedBgColor"									"Orange_Dark"
 		"Menu.TextInset"									"6"
 
 		"Chat.TypingText"									"White"
@@ -291,7 +291,7 @@
 		"HTML.BgColor"										"Blank"
 
 		"ProgressBar.FgColor"								"White"
-		"ProgressBar.BgColor"								"BlackLightTransparent"
+		"ProgressBar.BgColor"								"Black_Light_Transparent"
 
 		"CircularProgressBar.FgColor"						"White"
 		"CircularProgressBar.BgColor"						"White"
@@ -301,16 +301,16 @@
 		"BuildingHealthBar.LowHealth"						"LowHealthRed"
 
 		"PropertySheet.TextColor"							"White"
-		"PropertySheet.SelectedTextColor"					"OrangeDark"
+		"PropertySheet.SelectedTextColor"					"Orange_Dark"
 		"PropertySheet.TransitionEffectTime"				"0.25"
 
 		"RadioButton.TextColor"								"White"
-		"RadioButton.SelectedTextColor"						"OrangeDark"
+		"RadioButton.SelectedTextColor"						"Orange_Dark"
 
 		"RichText.TextColor"								"White"
 		"RichText.BgColor"									"Blank"
 		"RichText.SelectedTextColor"						"White"
-		"RichText.SelectedBgColor"							"MainTheme"
+		"RichText.SelectedBgColor"							"Main_Theme"
 
 		"ScrollBar.Wide"									"10"
 		"ScrollBarButton.FgColor"							"Blank"
@@ -327,10 +327,10 @@
 		"SectionedListPanel.HeaderBgColor"					"Blank"
 		"SectionedListPanel.DividerColor"					"Black"
 		"SectionedListPanel.TextColor"						"White"
-		"SectionedListPanel.BrightTextColor"				"OrangeDark"
-		"SectionedListPanel.BgColor"						"BlackLightestTransparent"
+		"SectionedListPanel.BrightTextColor"				"Orange_Dark"
+		"SectionedListPanel.BgColor"						"Black_Lightest_Transparent"
 		"SectionedListPanel.SelectedTextColor"				"Black"
-		"SectionedListPanel.SelectedBgColor"				"OrangeDark"
+		"SectionedListPanel.SelectedBgColor"				"Orange_Dark"
 		"SectionedListPanel.OutOfFocusSelectedTextColor"	"Black"
 		"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 255 255 30"
 
@@ -346,7 +346,7 @@
 		"TextEntry.DisabledTextColor"						"White"
 		"TextEntry.DisabledBgColor"							"Blank"
 		"TextEntry.SelectedTextColor"						"White"
-		"TextEntry.SelectedBgColor"							"MainTheme"
+		"TextEntry.SelectedBgColor"							"Main_Theme"
 		"TextEntry.OutOfFocusSelectedBgColor"				"Blank"
 		"TextEntry.FocusEdgeColor"							"Blank"
 
@@ -355,7 +355,7 @@
 		"Tooltip.TextColor"									"White"
 		"Tooltip.BgColor"									"Main Theme"
 
-		"TreeView.BgColor"									"BlackDarkTransparent"
+		"TreeView.BgColor"									"Black_Dark_Transparent"
 
 		"WizardSubPanel.BgColor"							"Blank"
 
@@ -376,11 +376,11 @@
 		"HudCaptureProgressBar.InActive"					"HudProgressBarInActive"
 
 		"FgColor"											"White"
-		"BgColor"											"BlackLightestTransparent"
+		"BgColor"											"Black_Lightest_Transparent"
 
 		"ViewportBG"										"Blank"
 		"TeamSpec"											"White"
-		"TeamRed"											"RedLight"
+		"TeamRed"											"Red_Light"
 		"TeamBlue"											"Blue"
 
 		"MapDescriptionText"								"Gray"
@@ -389,18 +389,18 @@
 
 		"ItemColor"											"White"
 		"MenuColor"											"White"
-		"MenuBoxBg"											"BlackLightestTransparent"
+		"MenuBoxBg"											"Black_Lightest_Transparent"
 
 		"SelectionNumberFg"									"White"
 		"SelectionTextFg"									"White"
-		"SelectionEmptyBoxBg" 								"BlackLightestTransparent"
-		"SelectionBoxBg" 									"BlackLightestTransparent"
-		"SelectionSelectedBoxBg" 							"BlackDarkTransparent"
+		"SelectionEmptyBoxBg"								"Black_Lightest_Transparent"
+		"SelectionBoxBg"									"Black_Lightest_Transparent"
+		"SelectionSelectedBoxBg"							"Black_Dark_Transparent"
 
 		"HintMessageFg"										"White"
-		"HintMessageBg" 									"BlackLightestTransparent"
+		"HintMessageBg"										"Black_Lightest_Transparent"
 
-		"ProgressBarFg"										"RedLight"
+		"ProgressBarFg"										"Red_Light"
 
 		"Main.Menu.X"										"32"
 		"Main.Menu.Y"										"248"

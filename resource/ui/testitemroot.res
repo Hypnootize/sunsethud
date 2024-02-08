@@ -1,4 +1,4 @@
-#base "../../resource/tools/reloadschemebutton.res"
+#base "../tools/reloadschemebutton.res"
 
 "Resource/UI/TestItemRoot.res"
 {
@@ -49,7 +49,7 @@
 		"tall"										"38"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 
 	"TitleLabel"
@@ -61,14 +61,14 @@
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"40"
-		"font"										"Size 36"
+		"font"										"Size_36"
 		"labelText"									"#IT_Title"
 		"textAlignment"								"north"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"White"
-		"alpha" 									"175"
+		"fgcolor"									"White"
+		"Alpha"										"175"
 	}
 
 	"MainBG"
@@ -82,7 +82,7 @@
 		"tall"										"262"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 
 	"ClassUsagePanel"
@@ -96,7 +96,7 @@
 		"tall"										"75"
 		"visible"									"1"
 		"paintbackground"							"0"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"ClassUsageLabel"
 		{
@@ -110,13 +110,13 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#IT_ClassUsage"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"ClassCheckBox0"
@@ -132,7 +132,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"All"
-			"Font"									"Size 8"
+			"Font"									"Size_8"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White"
@@ -150,14 +150,14 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_Class_Name_Scout"
-			"Font"									"Size 8"
+			"Font"									"Size_8"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White"
 
-			"pin_to_sibling" 						"ClassCheckBox0"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"ClassCheckBox0"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"ClassCheckBox2"
 		{
@@ -172,14 +172,14 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_Class_Name_Sniper"
-			"Font"									"Size 8"
+			"Font"									"Size_8"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White"
 
-			"pin_to_sibling" 						"ClassCheckBox5"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"ClassCheckBox5"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"ClassCheckBox3"
 		{
@@ -194,14 +194,14 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_Class_Name_Soldier"
-			"Font"									"Size 8"
+			"Font"									"Size_8"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White"
 
-			"pin_to_sibling" 						"ClassCheckBox1"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"ClassCheckBox1"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"ClassCheckBox4"
 		{
@@ -216,14 +216,14 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_Class_Name_Demoman"
-			"Font"									"Size 8"
+			"Font"									"Size_8"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White"
 
-			"pin_to_sibling" 						"ClassCheckBox7"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"ClassCheckBox7"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"ClassCheckBox5"
 		{
@@ -238,14 +238,14 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_Class_Name_Medic"
-			"Font"									"Size 8"
+			"Font"									"Size_8"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White"
 
-			"pin_to_sibling" 						"ClassCheckBox9"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"ClassCheckBox9"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"ClassCheckBox6"
 		{
@@ -260,14 +260,14 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_Class_Name_HWGuy"
-			"Font"									"Size 8"
+			"Font"									"Size_8"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White"
 
-			"pin_to_sibling" 						"ClassCheckBox0"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"ClassCheckBox0"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"ClassCheckBox7"
 		{
@@ -282,14 +282,14 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_Class_Name_Pyro"
-			"Font"									"Size 8"
+			"Font"									"Size_8"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White"
 
-			"pin_to_sibling" 						"ClassCheckBox3"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"ClassCheckBox3"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"ClassCheckBox8"
 		{
@@ -304,14 +304,14 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_Class_Name_Spy"
-			"Font"									"Size 8"
+			"Font"									"Size_8"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White"
 
-			"pin_to_sibling" 						"ClassCheckBox2"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"ClassCheckBox2"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"ClassCheckBox9"
 		{
@@ -326,14 +326,14 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_Class_Name_Engineer"
-			"Font"									"Size 8"
+			"Font"									"Size_8"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White"
 
-			"pin_to_sibling" 						"ClassCheckBox6"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"ClassCheckBox6"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 	}
 
@@ -350,11 +350,11 @@
 		"proportionaltoparent"						"1"
 		"PaintBorder"								"1"
 		"PaintBackground"							"0"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
-		"pin_to_sibling" 							"ClassUsagePanel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"ClassUsagePanel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
 		"CurrentlyTestingLabel"
 		{
@@ -368,13 +368,13 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#IT_CurrentlyTesting"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"TestingWeaponLabel"
@@ -388,7 +388,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#IT_TestingSlot_Weapon"
 			"textAlignment"							"east"
 			"textinsetx"							"5"
@@ -398,7 +398,7 @@
 			"fgcolor"								"White"
 
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 		"TestItemEntry0"
 		{
@@ -411,18 +411,18 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"labelText"								"#IT_TestingSlot_Empty"
 			"textAlignment"							"center"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"TestingWeaponLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TestingWeaponLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"TestItemButton0"
 		{
@@ -437,7 +437,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#IT_Item_Add"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"item_test0"
@@ -449,15 +449,15 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 
-			"pin_to_sibling" 						"TestItemEntry0"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TestItemEntry0"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"RemoveItemButton0"
 		{
@@ -472,7 +472,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labeltext"								"-"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"item_remove0"
@@ -483,15 +483,15 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"RedTransparent70"
-			"border_armed"							"RedDarkTransparent70"
+			"border_default"						"Red_Transparent_70"
+			"border_armed"							"Red_Dark_Transparent_70"
 
-			"pin_to_sibling" 						"TestItemButton0"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TestItemButton0"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"TestingHeadgearLabel"
 		{
@@ -504,7 +504,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#IT_TestingSlot_Headgear"
 			"textAlignment"							"east"
 			"textinsetx"							"5"
@@ -513,17 +513,17 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"TestingWeaponLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"TestingWeaponLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"TestItemEntry1"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TestItemEntry1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"labelText"								"#IT_TestingSlot_Empty"
 			"textAlignment"							"center"
 			"xpos"									"5"
@@ -535,13 +535,13 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"TestingHeadgearLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TestingHeadgearLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"TestItemButton1"
 		{
@@ -556,7 +556,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#IT_Item_Add"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"item_test1"
@@ -568,15 +568,15 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 
-			"pin_to_sibling" 						"TestItemEntry1"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TestItemEntry1"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"RemoveItemButton1"
 		{
@@ -591,7 +591,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labeltext"								"-"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"item_remove1"
@@ -602,15 +602,15 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"RedTransparent70"
-			"border_armed"							"RedDarkTransparent70"
+			"border_default"						"Red_Transparent_70"
+			"border_armed"							"Red_Dark_Transparent_70"
 
-			"pin_to_sibling" 						"TestItemButton1"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TestItemButton1"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"TestingMisc1Label"
 		{
@@ -623,7 +623,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#IT_TestingSlot_Misc1"
 			"textAlignment"							"east"
 			"textinsetx"							"5"
@@ -632,11 +632,11 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"TestingHeadgearLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"TestingHeadgearLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"TestItemEntry2"
 		{
@@ -650,17 +650,17 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"labelText"								"#IT_TestingSlot_Empty"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"TestingMisc1Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TestingMisc1Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"TestItemButton2"
 		{
@@ -675,7 +675,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#IT_Item_Add"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"item_test2"
@@ -687,15 +687,15 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 
-			"pin_to_sibling" 						"TestItemEntry2"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TestItemEntry2"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"RemoveItemButton2"
 		{
@@ -710,7 +710,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labeltext"								"-"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"item_remove2"
@@ -721,15 +721,15 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"RedTransparent70"
-			"border_armed"							"RedDarkTransparent70"
+			"border_default"						"Red_Transparent_70"
+			"border_armed"							"Red_Dark_Transparent_70"
 
-			"pin_to_sibling" 						"TestItemButton2"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TestItemButton2"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"TestingMisc2Label"
 		{
@@ -742,7 +742,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#IT_TestingSlot_Misc2"
 			"textAlignment"							"east"
 			"textinsetx"							"5"
@@ -751,11 +751,11 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"TestingMisc1Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"TestingMisc1Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"TestItemEntry3"
 		{
@@ -769,17 +769,17 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"labelText"								"#IT_TestingSlot_Empty"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"TestingMisc2Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TestingMisc2Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"TestItemButton3"
 		{
@@ -794,7 +794,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#IT_Item_Add"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"item_test3"
@@ -806,15 +806,15 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 
-			"pin_to_sibling" 						"TestItemEntry3"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TestItemEntry3"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"RemoveItemButton3"
 		{
@@ -829,7 +829,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labeltext"								"-"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"item_remove3"
@@ -840,15 +840,15 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"RedTransparent70"
-			"border_armed"							"RedDarkTransparent70"
+			"border_default"						"Red_Transparent_70"
+			"border_armed"							"Red_Dark_Transparent_70"
 
-			"pin_to_sibling" 						"TestItemButton3"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"TestItemButton3"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 	}
 
@@ -865,11 +865,11 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
-		"pin_to_sibling" 							"ClassUsagePanel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"ClassUsagePanel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"TitleLabel"
 		{
@@ -883,13 +883,13 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#IT_BotControl_Title"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"AutoAddBotsCheckBox"
@@ -904,7 +904,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#IT_Bot_AutoAdd"
-			"Font"									"Size 8"
+			"Font"									"Size_8"
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
@@ -923,15 +923,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#IT_Bot_BlueTeam"
-			"Font"									"Size 8"
+			"Font"									"Size_8"
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White"
 
-			"pin_to_sibling" 						"AutoAddBotsCheckBox"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"AutoAddBotsCheckBox"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"KickAllBotsButton"
@@ -947,7 +947,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"Remove all"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"bot_removeall"
@@ -959,15 +959,15 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 
-			"pin_to_sibling" 						"BotsOnBlueTeamCheckBox"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"BotsOnBlueTeamCheckBox"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"AddBotButton"
@@ -979,13 +979,11 @@
 			"zpos"									"1"
 			"wide"									"70"
 			"tall"									"22"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#IT_Bot_Add"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"bot_add"
@@ -997,11 +995,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 
 		"BotSelectionComboBox"
@@ -1013,8 +1011,6 @@
 			"zpos"									"1"
 			"wide"									"121"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"textHidden"							"0"
@@ -1023,22 +1019,22 @@
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
 			"AllCaps"								"1"
-			"Font"									"Size 11"
+			"Font"									"Size_11"
 			"proportionaltoparent"					"1"
 			"paintborder"							"0"
 			"paintbackgroundtype"					"0"
 
 			"fgcolor_override"						"White"
-			"bgcolor_override"						"BlackLightestTransparent"
-			"disabledFgColor_override" 				"White"
-			"disabledBgColor_override" 				"BlackLightestTransparent"
-			"selectionColor_override" 				"Blank"
-			"selectionTextColor_override" 			"White"
-			"defaultSelectionBG2Color_override" 	"Blank"
+			"bgcolor_override"						"Black_Lightest_Transparent"
+			"disabledFgColor_override"				"White"
+			"disabledBgColor_override"				"Black_Lightest_Transparent"
+			"selectionColor_override"				"Blank"
+			"selectionTextColor_override"			"White"
+			"defaultSelectionBG2Color_override"		"Blank"
 
-			"pin_to_sibling" 						"AddBotButton"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
+			"pin_to_sibling"						"AddBotButton"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_RIGHT"
 		}
 	}
 
@@ -1056,11 +1052,11 @@
 		"PaintBackgroundType"						"2"
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
-		"pin_to_sibling" 							"TestingPanel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"TestingPanel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"ExportButton"
@@ -1077,7 +1073,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
 		"labelText"									"#IT_ExportLoadout"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"export"
@@ -1089,15 +1085,15 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
-		"pin_to_sibling" 							"TestingPanel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"TestingPanel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"ExportButtonIcon"
 	{
@@ -1112,12 +1108,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"a"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"ExportButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -1137,7 +1133,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
 		"labelText"									"#IT_ImportLoadout"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"import"
@@ -1148,16 +1144,16 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
-		"pin_to_sibling" 							"ExportButton"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"ExportButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"ImportButtonIcon"
 	{
@@ -1172,12 +1168,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"e"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"ImportButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -1197,7 +1193,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
 		"labelText"									"#IT_ImportLast"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"importrecent"
@@ -1208,16 +1204,16 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
-		"pin_to_sibling" 							"ExportButton"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"ExportButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"ImportRecentButtonIcon"
 	{
@@ -1232,12 +1228,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"t"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"ImportRecentButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -1258,7 +1254,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
 		"labelText"									"#Cancel"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"cancel"
@@ -1269,16 +1265,16 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"RedTransparent70"
-		"border_armed"								"RedDarkTransparent70"
+		"border_default"							"Red_Transparent_70"
+		"border_armed"								"Red_Dark_Transparent_70"
 
-		"pin_to_sibling" 							"OkButton"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"OkButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"CancelButtonIcon"
 	{
@@ -1293,12 +1289,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"-"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"CancelButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -1318,7 +1314,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
 		"labelText"									"#IT_Ok"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"ok"
@@ -1329,16 +1325,16 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"GreenTransparent70"
-		"border_armed"								"GreenDarkTransparent70"
+		"border_default"							"Green_Transparent_70"
+		"border_armed"								"Green_Dark_Transparent_70"
 
-		"pin_to_sibling" 							"ImportButton"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"ImportButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"OkButtonIcon"
 	{
@@ -1353,12 +1349,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"+"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"OkButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -1376,9 +1372,9 @@
 		"tall"										"30"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"ImportRecentButton"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"ImportRecentButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"SteamWorkshopButtonSubButton"
 		{
@@ -1390,9 +1386,9 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"textAlignment"							"center"
 			"default"								"1"
 			"command"								"steamworkshop"
@@ -1405,12 +1401,12 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteSolid"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Solid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 		"SteamWorkshopButtonSubButtonIcon"
 		{
@@ -1425,12 +1421,12 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"labelText"								"{"
 			"textAlignment"							"Center"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
 			"pin_to_sibling"						"SteamWorkshopButtonSubButton"
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"

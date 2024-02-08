@@ -19,7 +19,7 @@
 		"src_corner_height"							"8"
 		"src_corner_width"							"8"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"TitleLabel"
@@ -34,7 +34,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"font"										"Size 16"
+		"font"										"Size_16"
 		"labelText"									"#Hud_Menu_Taunt_Title"
 		"textAlignment"								"east"
 		"fgcolor"									"White"
@@ -56,14 +56,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"rotation"									"3"
-		"drawcolor"									"BlackSolid"
+		"drawcolor"									"Black_Solid"
 		"image"										"replay/thumbnails/panels/gradient_generic"
 		"scaleImage"								"1"
 
 		"src_corner_height"							"8"
 		"src_corner_width"							"8"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 	"Row2BG"
 	{
@@ -84,7 +84,7 @@
 		"src_corner_height"							"8"
 		"src_corner_width"							"8"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 
 		"pin_to_sibling"							"Row1BG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -109,7 +109,7 @@
 		"src_corner_height"							"8"
 		"src_corner_width"							"8"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 
 		"pin_to_sibling"							"Row2BG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -134,7 +134,7 @@
 		"src_corner_height"							"8"
 		"src_corner_width"							"8"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 
 		"pin_to_sibling"							"Row3BG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -169,13 +169,13 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"visible"								"0"
 		}
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -193,11 +193,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"1"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"pin_to_sibling"							"TauntModelPanel1"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -234,13 +234,13 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"visible"								"0"
 		}
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -258,11 +258,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"2"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"pin_to_sibling"							"TauntModelPanel2"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -297,7 +297,7 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"visible"								"0"
 		}
 
@@ -321,11 +321,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"3"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"pin_to_sibling"							"TauntModelPanel3"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -362,13 +362,13 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"visible"								"0"
 		}
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -386,11 +386,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"4"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"pin_to_sibling"							"TauntModelPanel4"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -425,13 +425,13 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"visible"								"0"
 		}
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -449,11 +449,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"5"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"pin_to_sibling"							"TauntModelPanel5"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -490,13 +490,13 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"visible"								"0"
 		}
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -514,11 +514,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"6"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"pin_to_sibling"							"TauntModelPanel6"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -553,13 +553,13 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"visible"								"0"
 		}
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -577,11 +577,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"7"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"pin_to_sibling"							"TauntModelPanel7"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -618,13 +618,13 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"visible"								"0"
 		}
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -642,11 +642,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"8"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"pin_to_sibling"							"TauntModelPanel8"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -658,35 +658,65 @@
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MainBackground"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Divider"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"Divider"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"IcoReelIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"IcoReelIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TitleLabelDropshadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabelDropshadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"WeaponTauntLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WeaponTauntLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CancelLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

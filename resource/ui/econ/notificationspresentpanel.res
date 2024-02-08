@@ -11,7 +11,7 @@
 		"tall"										"16"
 		"visible"									"0"
 		"enabled"									"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 	}
 
 	"TextLabel"
@@ -28,7 +28,7 @@
 		"wrap"										"0"
 		"labelText"									"#Notifications_Present"
 		"textAlignment"								"center"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 	}

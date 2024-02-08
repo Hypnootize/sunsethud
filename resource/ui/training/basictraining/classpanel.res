@@ -14,7 +14,7 @@
 		"proportionaltoparent"						"1"
 		"PaintBackground"							"0"
 		"PaintBorder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 	
 	"Image"
@@ -35,7 +35,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%selectbuttontext%"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"Command"									"%selectcommand%"
 		"AllCaps"									"1"
@@ -46,12 +46,12 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"ProgressLabel"
@@ -65,7 +65,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									""
 		"textAlignment"								"center"
 		"AllCaps"									"1"

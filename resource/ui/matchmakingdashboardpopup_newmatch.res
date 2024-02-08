@@ -17,14 +17,17 @@
 		"collapsed_height"							"0"
 		"expanded_height"							"60"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"OuterShadow"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"OuterShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"BGPanel"
@@ -38,9 +41,8 @@
 			"tall"									"f5"
 			"visible"								"1"
 			"PaintBackgroundType"					"2"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 			"proportionaltoparent"					"1"
-			"pinCorner"								"3"
 
 			"DescLabel"
 			{
@@ -53,18 +55,17 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"fgcolor_override"					"White"
 				"textAlignment"						"center"
 				"labelText"							"%match_type%"
 				"proportionaltoparent"				"1"
-				"pinCorner"							"3"
 
 				"fonts"
 				{
-					"0"								"Size 11"
-					"1"								"Size 10"
-					"2"								"Size 9"
+					"0"								"Size_11"
+					"1"								"Size_10"
+					"2"								"Size_9"
 				}
 			}
 
@@ -79,13 +80,12 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"fgcolor"							"White"
 				"textAlignment"						"center"
 				"labelText"							"%auto_join%"
 				"AllCaps"							"1"
 				"proportionaltoparent"				"1"
-				"pinCorner"							"3"
 			}
 
 			"AbandonButton"
@@ -100,7 +100,7 @@
 				"visible"							"1"
 
 				"enabled"							"1"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"textAlignment"						"center"
 				"Command"							"abandon_match"
 				"proportionaltoparent"				"1"
@@ -116,11 +116,11 @@
 				"paintbackground"					"0"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
-				"border_default"					"RedTransparent70"
-				"border_armed"						"RedDarkTransparent70"
+				"border_default"					"Red_Transparent_70"
+				"border_armed"						"Red_Dark_Transparent_70"
 			}
 
 			"SmallJoinButton"
@@ -139,11 +139,9 @@
 					"wide"							"150"
 				}
 
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"textAlignment"						"center"
 				"Command"							"join_match"
 				"proportionaltoparent"				"1"
@@ -158,12 +156,12 @@
 
 				"paintbackground"					"0"
 
-				"defaultFgColor_override"			"WhiteSolid"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Solid"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
-				"border_default"					"GreenTransparent70"
-				"border_armed"						"GreenDarkTransparent70"
+				"border_default"					"Green_Transparent_70"
+				"border_armed"						"Green_Dark_Transparent_70"
 			}
 
 			"WideJoinButton"
@@ -176,11 +174,9 @@
 				"zpos"								"105"
 				"tall"								"18"
 
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"textAlignment"						"center"
 				"Command"							"join_match"
 				"proportionaltoparent"				"1"
@@ -195,12 +191,12 @@
 
 				"paintbackground"					"0"
 
-				"defaultFgColor_override"			"WhiteSolid"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Solid"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
-				"border_default"					"GreenTransparent70"
-				"border_armed"						"GreenDarkTransparent70"
+				"border_default"					"Green_Transparent_70"
+				"border_armed"						"Green_Dark_Transparent_70"
 			}
 
 			"JoiningLabel"
@@ -214,12 +210,11 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"fgcolor"							"White"
 				"textAlignment"						"east"
 				"labelText"							"#TF_Matchmaking_RollingQueue_MatchReadyJoining"
 				"proportionaltoparent"				"1"
-				"pinCorner"							"3"
 			}
 
 			"Spinner"
@@ -239,7 +234,7 @@
 
 				"radius"							"10"
 				"velocity"							"250"
-				"fgcolor_override"					"MainTheme"
+				"fgcolor_override"					"Main_Theme"
 			}
 		}
 	}

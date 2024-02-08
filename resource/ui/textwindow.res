@@ -2,15 +2,15 @@
 {
 	"info"
 	{
-		"ControlName"			  					"CTFTextWindow"
-		"fieldName"				  					"info"
-		"xpos"					  					"0"
-		"ypos"					  					"0"
-		"wide"					  					"f0"
-		"tall"					  					"480"
-		"visible"				  					"1"
-		"enabled"				  					"1"
-		"settitlebarvisible"	  					"0"
+		"ControlName"								"CTFTextWindow"
+		"fieldName"									"info"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
+		"visible"									"1"
+		"enabled"									"1"
+		"settitlebarvisible"						"0"
 		"paintbackground"							"0"
 	}
 	"FullScreenBG"
@@ -25,13 +25,13 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackTransparent"
+		"bgcolor_override"							"Black_Transparent"
 	}
 
 	"TitleFrame"
 	{
-		"ControlName"     		  					"EditablePanel"
-		"fieldName"	        	  					"TitleFrame"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TitleFrame"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -41,11 +41,11 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
-		"pin_to_sibling" 							"Background"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Background"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"TitleIcon"
 	{
@@ -60,12 +60,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"L"
 		"textAlignment"								"Center"
 		"fgcolor"									"Black"
 		"paintborder"								"1"
-		"border"									"WhiteDarkBorder"
+		"border"									"White_Dark_Border"
 
 		"pin_to_sibling"							"TitleFrame"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -86,12 +86,12 @@
 		"labelText"									"#TF_WELCOME"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"TitleIcon"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"TitleIcon"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 
 	"Background"
@@ -107,7 +107,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"InnerBG"
 		{
@@ -122,7 +122,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlackTransparent50"
+			"border"								"Black_Transparent_50"
 		}
 	}
 
@@ -139,7 +139,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"0"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
@@ -149,26 +149,26 @@
 		"image_down_arrow"							"replay/thumbnails/menu/chalkboard_scroll_down"
 		"image_up_arrow"							"replay/thumbnails/menu/chalkboard_scroll_up"
 
-		"pin_to_sibling" 							"Background"
+		"pin_to_sibling"							"Background"
 	}
 
 	"HTMLMessage"
 	{
-		"ControlName"	 							"HTML"
-		"fieldName"		 							"HTMLMessage"
+		"ControlName"								"HTML"
+		"fieldName"									"HTMLMessage"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
 		"wide"										"600"
 		"tall"										"325"
-		"visible"		 							"1"
-		"enabled"		 							"1"
-		"paintborder"	 							"1"
-		"border"									"BlackTransparent70"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintborder"								"1"
+		"border"									"Black_Transparent_70"
 
-		"pin_to_sibling" 							"TitleFrame"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"TitleFrame"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"ok"
@@ -187,21 +187,21 @@
 		"textAlignment"								"center"
 		"command"									"okay"
 		"default"									"1"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"BlackTransparent70"
-		"border_armed"								"OrangeTransparent70"
+		"border_default"							"Black_Transparent_70"
+		"border_armed"								"Orange_Transparent_70"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"pin_to_sibling" 							"Background"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"Background"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"okBG"
 	{
@@ -214,11 +214,11 @@
 		"tall"										"26"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
-		"pin_to_sibling" 							"Background"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"Background"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"OKShortKey"
 	{
@@ -242,12 +242,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"$"
 		"textAlignment"								"Center"
 		"fgcolor"									"Black"
 		"paintborder"								"1"
-		"border"									"WhiteDarkBorder"
+		"border"									"White_Dark_Border"
 
 		"pin_to_sibling"							"ok"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -263,23 +263,43 @@
 		"ControlName"								"TextEntry"
 		"fieldName"									"TextMessage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MenuBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"MenuBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ShadedBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MessageTitle"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MessageTitle"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

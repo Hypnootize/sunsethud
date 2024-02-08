@@ -20,10 +20,10 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"labelText"									"#ToolPaintKitPreview"
 		"textAlignment"								"center"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 		"centerwrap"								"1"
 		"mouseinputenabled"							"0"
 	}
@@ -44,7 +44,7 @@
 		"proportionaltoparent"						"1"
 
 		"force_use_model"							"1"
-		"use_item_rendertarget" 					"0"
+		"use_item_rendertarget"						"0"
 		"allow_rot"									"1"
 		"allow_pitch"								"1"
 		"max_pitch"									"30"
@@ -56,16 +56,16 @@
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"7"
-			"angles_y" 								"130"
-			"angles_z" 								"0"
-			"origin_x" 								"175"
-			"origin_y" 								"0"
-			"origin_z" 								"0"
+			"angles_x"								"7"
+			"angles_y"								"130"
+			"angles_z"								"0"
+			"origin_x"								"175"
+			"origin_y"								"0"
+			"origin_z"								"0"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
-			"spotlight" 							"1"
+			"spotlight"								"1"
 
 			"modelname"								""
 		}

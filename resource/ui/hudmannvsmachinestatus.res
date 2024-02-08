@@ -52,8 +52,8 @@
 		"ypos"										"rs1-17"
 		"wide"										"60"
 		"tall"										"16"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"visible"									"1"
+		"enabled"									"1"
 	}
 
 	"WarningSwoop"
@@ -212,7 +212,7 @@
 			"src_corner_width"						"32"
 
 			"draw_corner_width"						"8"
-			"draw_corner_height" 					"8"
+			"draw_corner_height"					"8"
 		}
 
 		"ServerChangeLabel"
@@ -225,7 +225,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"center"
 			"labelText"								"%servermessage%"
 			"AllCaps"								"1"

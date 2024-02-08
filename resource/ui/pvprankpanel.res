@@ -47,11 +47,11 @@
 			{
 				"0"
 				{
-					"particle_xpos" 				"c0"
-					"particle_ypos" 				"c0"
-					"particle_scale" 				"3"
+					"particle_xpos"					"c0"
+					"particle_ypos"					"c0"
+					"particle_scale"				"3"
 					"particleName"					"rankup_base"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 			}
@@ -68,8 +68,6 @@
 			"zpos"									"0"
 			"wide"									"23"
 			"tall"									"23"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fov"									"45"
@@ -150,27 +148,27 @@
 			{
 				"0"
 				{
-					"particle_xpos" 				"c0"
-					"particle_ypos" 				"c0"
+					"particle_xpos"					"c0"
+					"particle_ypos"					"c0"
 					"particle_scale"				"5"
 					"particleName"					"rankup_glitter"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 				"1"
 				{
 					"particle_xpos"					"c0"
 					"particle_ypos"					"c0"
-					"particle_scale" 				"4"
+					"particle_scale"				"4"
 					"particleName"					"badgepress_base"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 				"2"
 				{
-					"particle_xpos" 				"c-8"
-					"particle_ypos" 				"c0"
-					"particle_scale" 				"4"
+					"particle_xpos"					"c-8"
+					"particle_ypos"					"c0"
+					"particle_scale"				"4"
 					"particleName"					"rankdown_base"
 					"start_activated"				"0"
 					"loop"							"0"
@@ -240,7 +238,7 @@
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 40"
+			"font"									"Size_40"
 			"fgcolor"								"White"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
@@ -264,7 +262,7 @@
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 40"
+			"font"									"Size_40"
 			"fgcolor_override"						"White"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
@@ -273,9 +271,9 @@
 
 			"fonts"									//This actually works for custom elements POG
 			{
-				"0"									"Size 40"
-				"1"									"Size 40"
-				"2"									"Size 24"
+				"0"									"Size_40"
+				"1"									"Size_40"
+				"2"									"Size_24"
 			}
 
 			"if_mini"
@@ -295,7 +293,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"fgcolor_override"						"White"
 			"textAlignment"							"north-west"
 			"AllCaps"								"1"
@@ -309,9 +307,9 @@
 
 			"fonts"
 			{
-				"0"									"Size 14"
-				"1"									"Size 12"
-				"2"									"Size 10"
+				"0"									"Size_14"
+				"1"									"Size_12"
+				"2"									"Size_10"
 			}
 		}
 
@@ -326,7 +324,7 @@
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 40"
+			"font"									"Size_40"
 			"fgcolor_override"						"White"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
@@ -335,9 +333,9 @@
 
 			"fonts"									//This actually works for custom elements POG
 			{
-				"0"									"Size 40"
-				"1"									"Size 40"
-				"2"									"Size 24"
+				"0"									"Size_40"
+				"1"									"Size_40"
+				"2"									"Size_24"
 			}
 
 			"if_mini"
@@ -357,7 +355,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 40"
+			"font"									"Size_40"
 			"fgcolor_override"						"White"
 			"textAlignment"							"north-west"
 			"AllCaps"								"1"
@@ -371,9 +369,9 @@
 
 			"fonts"
 			{
-				"0"									"Size 14"
-				"1"									"Size 12"
-				"2"									"Size 10"
+				"0"									"Size_14"
+				"1"									"Size_12"
+				"2"									"Size_10"
 			}
 
 			"colors"
@@ -430,7 +428,7 @@
 					"tall"							"0"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 8"
+					"font"							"Size_8"
 					"fgcolor"						"White"
 					"textAlignment"					"south-west"
 					"labelText"						"%current_xp%"
@@ -453,7 +451,7 @@
 					"tall"							"0"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 8"
+					"font"							"Size_8"
 					"fgcolor"						"White"
 					"textAlignment"					"south-east"
 					"labelText"						"%next_level_xp%"
@@ -512,7 +510,7 @@
 						"proportionaltoparent"		"1"
 						"progress"					"0"
 
-						"fgcolor_override"			"BlueLight"
+						"fgcolor_override"			"Blue_Light"
 					}
 
 					"Frame"
@@ -577,7 +575,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_games%"
@@ -595,7 +593,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_kills%"
@@ -613,7 +611,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_deaths%"
@@ -632,7 +630,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_damage%"
@@ -650,7 +648,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_healing%"
@@ -668,7 +666,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_support%"
@@ -687,7 +685,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor"						"White"
 					"textAlignment"					"north-west"
 					"labelText"						"%stat_score%"

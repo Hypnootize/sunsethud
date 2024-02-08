@@ -13,7 +13,7 @@
 		"enabled"									"1"
 		"labelText"									"%capturetime%"
 		"textAlignment"								"center"
-		"font"										"Size 20"
+		"font"										"Size_20"
 		"fgcolor"									"White"
 	}
 }

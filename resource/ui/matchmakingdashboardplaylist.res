@@ -28,7 +28,7 @@
 		"textAlignment"								"center"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
@@ -69,6 +69,11 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PlayListDropShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"DashboardDimmer"
 	{

@@ -19,17 +19,17 @@
 			"wide"									"10"
 			"tall"									"10"
 			"textAlignment"							"center"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"image"									"pve/upgrade_unowned"
 			"scaleImage"							"1"
 
 			"defaultFgColor_override"				"White"
 			"defaultBgColor_override"				"Blank"
-			"armedFgColor_override"					"OrangeSolid"
+			"armedFgColor_override"					"Orange_Solid"
 			"armedBgColor_override"					"Blank"
-			"depressedFgColor_override"				"OrangeSolid"
+			"depressedFgColor_override"				"Orange_Solid"
 			"depressedBgColor_override"				"Blank"
-			"selectedFgColor_override"				"OrangeSolid"
+			"selectedFgColor_override"				"Orange_Solid"
 			"selectedBgColor_override"				"Blank"
 			"disabledfgcolor2_override"				"White"
 		}
@@ -48,9 +48,9 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
-		"PaintBackground" 							"0"
-		"PaintBorder" 								"1"
-		"border" 									"BlackTransparent70"
+		"paintbackground"							"0"
+		"paintborder"								"1"
+		"border"									"Black_Transparent_70"
 	}
 
 	"IconBorder"
@@ -66,7 +66,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
-		"PaintBackgroundType" 						"0"
+		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"TanDark"
 	}
 	"Icon"
@@ -102,7 +102,7 @@
 
 		"labelText"									""
 		"textAlignment"								"center"
-		"font"										"Size 13"
+		"font"										"Size_13"
 		"fgcolor"									"TanDark"
 	}
 
@@ -121,7 +121,7 @@
 
 		"labelText"									""
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"fgcolor_override"							"White"
 	}
 
@@ -138,7 +138,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
-		"PaintBackgroundType" 						"0"
+		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Blank"
 	}
 
@@ -165,11 +165,11 @@
 
 		"defaultFgColor_override"					"White"
 		"defaultBgColor_override"					"Blank"
-		"armedFgColor_override"						"OrangeSolid"
+		"armedFgColor_override"						"Orange_Solid"
 		"armedBgColor_override"						"Blank"
 		"depressedFgColor_override"					"White"
 		"depressedBgColor_override"					"Blank"
-		"selectedFgColor_override"					"OrangeSolid"
+		"selectedFgColor_override"					"Orange_Solid"
 		"selectedBgColor_override"					"Blank"
 		"disabledfgcolor2_override"					"White"
 	}
@@ -197,11 +197,11 @@
 
 		"defaultFgColor_override"					"White"
 		"defaultBgColor_override"					"Blank"
-		"armedFgColor_override"						"OrangeSolid"
+		"armedFgColor_override"						"Orange_Solid"
 		"armedBgColor_override"						"Blank"
 		"depressedFgColor_override"					"White"
 		"depressedBgColor_override"					"Blank"
-		"selectedFgColor_override"					"OrangeSolid"
+		"selectedFgColor_override"					"Orange_Solid"
 		"selectedBgColor_override"					"Blank"
 		"disabledfgcolor2_override"					"White"
 	}

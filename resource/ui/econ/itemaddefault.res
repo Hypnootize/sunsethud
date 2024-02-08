@@ -55,7 +55,7 @@
 		"paintbackground"							"0"
 		"bgcolor_override"							"255 0 0 100"
 
-		"allow_mouse_wheel_to_scroll" 				"0"
+		"allow_mouse_wheel_to_scroll"				"0"
 		"mouseinputenabled"							"1"
 		"bottom_buffer"								"0"
 
@@ -106,7 +106,7 @@
 			"proportionaltoparent"					"1"
 
 			"font"									"AdFont_AdText"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor_override"						"White_Dark"
 			"textinsetx"							"0"
 			"textinsety"							"0"
 			"textAlignment"							"west"
@@ -161,16 +161,16 @@
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 		"command"									"purchase"
-		"actionsignallevel" 						"2"
+		"actionsignallevel"							"2"
 
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Green"
-		"armedBgColor_override"						"GreenLight"
-		"selectedBgColor_override"					"GreenLight"
+		"armedBgColor_override"						"Green_Light"
+		"selectedBgColor_override"					"Green_Light"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"selectedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"selectedFgColor_override"					"White_Solid"
 
 		"sound_armed"								"ui/item_info_mouseover.wav"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -193,16 +193,16 @@
 
 		"proportionaltoparent"						"1"
 		"command"									"market"
-		"actionsignallevel" 						"2"
+		"actionsignallevel"							"2"
 
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Green"
-		"armedBgColor_override"						"GreenLight"
-		"selectedBgColor_override"					"GreenLight"
+		"armedBgColor_override"						"Green_Light"
+		"selectedBgColor_override"					"Green_Light"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"selectedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"selectedFgColor_override"					"White_Solid"
 
 		"sound_armed"								"ui/item_info_mouseover.wav"
 		"sound_depressed"							"UI/buttonclick.wav"

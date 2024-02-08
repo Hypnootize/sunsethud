@@ -14,7 +14,7 @@
 		"paintborder"								"0"
 		"PaintBackgroundType"						"2"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackDarkTransparent"
+		"bgcolor_override"							"Black_Dark_Transparent"
 	}
 
 	"TitleLabel"
@@ -29,11 +29,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"#ConfirmTitle"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 	}
 
 	"ExplanationLabel"
@@ -48,12 +48,12 @@
 		"visible"									"0"		//disabled
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"%text%"
 		"textAlignment"								"north-west"
 		"wrap"										"1"
 		"AllCaps"									"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 	}
 
 	"ExplanationLabel2"
@@ -68,12 +68,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"and earn the world traveler's hat to track contributions: "
 		"textAlignment"								"center"
 		"wrap"										"0"
 		"AllCaps"									"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 	}
 
 	"ItemImagePanel"
@@ -118,7 +118,7 @@
 		"proportionaltoparent"						"1"
 
 		"paintbackground"							"0"
-		"border"									"GreenTransparent50"
+		"border"									"Green_Transparent_50"
 
 		"pin_to_sibling"							"ConfirmButton"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -136,10 +136,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"labelText"									"%price%"
 		"textAlignment"								"center"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 		"pin_to_sibling"							"PriceLabelBG"
 	}
 
@@ -155,7 +155,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"#Store_Nope"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"Command"									"nope"
 
@@ -166,12 +166,12 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"pin_to_sibling"							"PriceLabelBG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -191,7 +191,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"#Store_AddToCart"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"Command"									"add_stamp_to_cart"
 
@@ -202,11 +202,11 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 }

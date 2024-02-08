@@ -21,7 +21,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"MainThemeDarkest"
+		"bgcolor_override"							"Main_Theme_Darkest"
 		"proportionaltoparent"						"1"
 	}
 
@@ -39,7 +39,7 @@
 		"smallcheckimage"							"1"
 		"AllCaps"									"1"
 		"fgcolor"									"White"
-		"font"										"Size 15"
+		"font"										"Size_15"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"

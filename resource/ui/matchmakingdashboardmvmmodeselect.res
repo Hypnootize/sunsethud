@@ -27,7 +27,7 @@
 		"enable"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"ThemeTransparent50"
+		"border"									"Theme_Transparent_50"
 		"mouseinputenabled"							"0"
 	}
 	"Title"
@@ -42,7 +42,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Mann vs Machine"
 		"textAlignment"								"west"
-		"font"										"Size 30"
+		"font"										"Size_30"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
@@ -64,7 +64,7 @@
 		"enable"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"ThemeTransparent50"
+		"border"									"Theme_Transparent_50"
 		"mouseinputenabled"							"0"
 	}
 	
@@ -92,7 +92,7 @@
 			"tall"									"o1"
 			"visible"								"1"
 			"enabled"								"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 			"image"									"replay/thumbnails/menu/mannup"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
@@ -107,12 +107,10 @@
 			"zpos"									"20"
 			"wide"									"f10"
 			"tall"									"25"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_MvM_MannUp"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"Command"								"mannup"
@@ -125,18 +123,18 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent70"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Theme_Transparent_70"
+			"border_armed"							"Orange_Transparent_70"
 		}
 
 		"PlayForBraggingRightsExplanation"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PlayForBraggingRightsExplanation"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"fgcolor"								"White"
 			"labelText"								"#TF_MvM_BraggingRightsExplaination"
 			"textAlignment"							"center"
@@ -145,14 +143,14 @@
 			"zpos"									"5"
 			"wide"									"f0"
 			"tall"									"26"
-			"wrap" 									"1"
-			"centerwrap" 							"1"
+			"wrap"									"1"
+			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"MainThemeDarkest"
+			"bgcolor_override"						"Main_Theme_Darkest"
 		}
 
 		"DropShadow"
@@ -160,12 +158,22 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"DropShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Gradient"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Gradient"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -193,7 +201,7 @@
 			"tall"									"o1"
 			"visible"								"1"
 			"enabled"								"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 			"image"									"replay/thumbnails/menu/bootcamp"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
@@ -211,7 +219,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_MvM_BootCamp"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"Command"								"bootcamp"
@@ -224,18 +232,18 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent70"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Theme_Transparent_70"
+			"border_armed"							"Orange_Transparent_70"
 		}
 
 		"PlayOnCommunityServerExplanation"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PlayOnCommunityServerExplanation"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"fgcolor"								"White"
 			"labelText"								"#TF_MvM_PracticeExplaination"
 			"textAlignment"							"center"
@@ -244,14 +252,14 @@
 			"zpos"									"5"
 			"wide"									"f0"
 			"tall"									"15"
-			"wrap" 									"1"
-			"centerwrap" 							"1"
+			"wrap"									"1"
+			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"MainThemeDarkest"
+			"bgcolor_override"						"Main_Theme_Darkest"
 		}
 
 		"DropShadow"
@@ -259,12 +267,22 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"DropShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Gradient"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Gradient"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -273,5 +291,10 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"MvMLogoImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

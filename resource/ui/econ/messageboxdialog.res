@@ -8,22 +8,20 @@
 		"ypos"										"140"
 		"wide"										"300"
 		"tall"										"230"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"paintborder"								"0"
 		"PaintBackgroundType"						"2"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackDarkTransparent"
+		"bgcolor_override"							"Black_Dark_Transparent"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"#ConfirmTitle"
 		"textAlignment"								"north"
 		"xpos"										"0"
@@ -31,19 +29,17 @@
 		"zpos"										"1"
 		"wide"										"300"
 		"tall"										"30"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 	}
 
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ExplanationLabel"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"labelText"									"%text%"
 		"textAlignment"								"north"
 		"xpos"										"10"
@@ -51,13 +47,11 @@
 		"zpos"										"1"
 		"wide"										"280"
 		"tall"										"170"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 	}
 
 	"ConfirmButton"
@@ -69,12 +63,10 @@
 		"zpos"										"20"
 		"wide"										"175"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#ConfirmButtonText"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"confirm"
@@ -86,12 +78,12 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"Icon"
@@ -99,5 +91,10 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"Icon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -47,7 +47,7 @@
 		"tall"										"6"
 		"visible"									"1"
 		"enabled"									"1"
-		"bgcolor_override"							"BlackTransparent"
+		"bgcolor_override"							"Black_Transparent"
 	}
 
 	"NameLabel"
@@ -66,7 +66,7 @@
 		"wrap"										"0"
 		"labelText"									"%name%"
 		"proportionaltoparent"						"1"
-		"font"										"Size 7"
+		"font"										"Size_7"
 		"fgcolor"									"White"
 		"mouseinputenabled"							"0"
 		"alpha"										"255"
@@ -87,7 +87,7 @@
 		"wrap"										"0"
 		"labelText"									"%status%"
 		"proportionaltoparent"						"1"
-		"font"										"Size 7"
+		"font"										"Size_7"
 		"fgcolor_override"							"TanDark"
 		"mouseinputenabled"							"0"
 	}

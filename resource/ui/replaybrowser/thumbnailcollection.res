@@ -10,7 +10,7 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 
 	"TitleLabel"
@@ -18,12 +18,10 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"zpos"										"2"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"wide"										"f0"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									"%titleandcount%"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
@@ -34,31 +32,27 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DateLabel"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"textAlignment"								"west"
 		"zpos"										"2"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"wide"										"f0"
 		"AllCaps"									"1"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 	}
 
 	"WarningLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WarningLabel"
-		"font"										"Size 9"
+		"font"										"Size_9"
 		"textAlignment"								"west"
 		"zpos"										"1"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"RedLight"
+		"fgcolor"									"Red_Light"
 		"wrap"										"1"
 	}
 
@@ -78,12 +72,10 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NoReplayItemsLabel"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"wide"										"400"
 		"tall"										"40"
 		"zpos"										"5"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"1"
@@ -99,12 +91,10 @@
 		"zpos"										"100"
 		"wide"										"100"
 		"tall"										"12"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%prevbuttontext%"
-		"font"										"Size 9"
+		"font"										"Size_9"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"show_prev"
@@ -114,11 +104,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 	"ShowNextButton"
 	{
@@ -129,12 +119,10 @@
 		"zpos"										"100"
 		"wide"										"100"
 		"tall"										"12"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%nextbuttontext%"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"show_next"
@@ -144,11 +132,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 
 	"RenderAllButton"
@@ -160,7 +148,7 @@
 		"zpos"										"100"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"text"										"#Replay_RenderAll"
 		"Command"									"render_queued_replays"
@@ -170,23 +158,33 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 
 	"CaratLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CaratLabel"
-		"alpha"										"0"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Line"
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"Line"
-		"alpha"										"0"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

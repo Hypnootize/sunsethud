@@ -13,7 +13,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"TimePanelValue"
 		{
@@ -28,7 +28,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"fgcolor"								"White"
 		}
 
@@ -37,6 +37,11 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"TimeBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -52,13 +57,13 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									"%scoretobeat%"
 		"textAlignment"								"center"
 
-		"pin_to_sibling" 							"ObjectiveStatusTimePanel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"ObjectiveStatusTimePanel"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 
 	"StopWatchPointsLabel"
@@ -73,13 +78,13 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Symbols 10"
+		"font"										"Symbols_10"
 		"labelText"									"Y"
 		"textAlignment"								"center"
 
-		"pin_to_sibling" 							"StopWatchScoreToBeat"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"StopWatchScoreToBeat"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 
@@ -88,29 +93,54 @@
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"HudStopWatchBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"StopWatchImageCaptureTime"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"StopWatchImageCaptureTime"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"StopWatchLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HudStopWatchDescriptionBG"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"HudStopWatchDescriptionBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"StopWatchDescriptionLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchDescriptionLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

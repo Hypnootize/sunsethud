@@ -1,4 +1,4 @@
-#base	"../../customizations/streaming/hudmatchstatus.res"
-#base	"../../customizations/matchstatus.res"
-#base	"../../customizations/roundcounter.res"
-#base 	"hudmatchstatus_base.res"
+#base "../../customizations/streaming/hudmatchstatus.res"
+#base "../../customizations/match_status.res"
+#base "../../customizations/round_counter.res"
+#base "hudmatchstatus_base.res"

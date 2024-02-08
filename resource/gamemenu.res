@@ -1,4 +1,4 @@
-#base "../customizations/menu background.res"
+#base "../customizations/menu_background.res"
 
 "Resource/GameMenu.res"
 {

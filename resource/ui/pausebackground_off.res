@@ -2,7 +2,7 @@
 {
 	"Sunset"
 	{
-		"command" 									"engine"
+		"command"									"engine"
 		"OnlyAtMenu"								"1"
 	}
 }

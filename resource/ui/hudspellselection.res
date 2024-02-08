@@ -21,14 +21,14 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"rotation"									"3"
-		"drawcolor"									"BlackSolid"
+		"drawcolor"									"Black_Solid"
 		"image"										"replay/thumbnails/panels/gradient_generic"
 		"scaleImage"								"1"
 
 		"src_corner_height"							"8"
 		"src_corner_width"							"8"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"SpellIcon"
@@ -59,9 +59,9 @@
 		"tall"										"f0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
-		"font"										"Size 20"
+		"font"										"Size_20"
 		"labelText"									"%counttext%"
-		"textAlignment" 							"east"
+		"textAlignment"								"east"
 	}
 
 
@@ -71,29 +71,54 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"ActionText"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CountTextShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountTextShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemEffectMeterBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ItemEffectMeterBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Spellbook"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"Spellbook"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SpellText"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SpellText"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

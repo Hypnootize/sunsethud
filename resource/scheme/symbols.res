@@ -2,7 +2,7 @@
 {
 	"Fonts"
 	{
-		"Symbols 8"
+		"Symbols_8"
 		{
 			"1"
 			{
@@ -11,7 +11,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols 10"
+		"Symbols_10"
 		{
 			"1"
 			{
@@ -20,7 +20,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols 12"
+		"Symbols_12"
 		{
 			"1"
 			{
@@ -29,7 +29,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols 14"
+		"Symbols_14"
 		{
 			"1"
 			{
@@ -38,7 +38,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols 16"
+		"Symbols_16"
 		{
 			"1"
 			{
@@ -47,7 +47,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols 18"
+		"Symbols_18"
 		{
 			"1"
 			{
@@ -56,7 +56,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols 20"
+		"Symbols_20"
 		{
 			"1"
 			{
@@ -65,7 +65,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols 22"
+		"Symbols_22"
 		{
 			"1"
 			{
@@ -74,7 +74,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols 24"
+		"Symbols_24"
 		{
 			"1"
 			{
@@ -83,7 +83,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols 28"
+		"Symbols_28"
 		{
 			"1"
 			{
@@ -92,7 +92,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols 30"
+		"Symbols_30"
 		{
 			"1"
 			{
@@ -101,7 +101,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols 34"
+		"Symbols_34"
 		{
 			"1"
 			{
@@ -110,7 +110,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols 48"
+		"Symbols_48"
 		{
 			"1"
 			{
@@ -119,7 +119,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Symbols 72"
+		"Symbols_72"
 		{
 			"1"
 			{
@@ -128,7 +128,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Blocks 64"
+		"Blocks_64"
 		{
 			"1"
 			{
@@ -136,7 +136,7 @@
 				"tall"										"64"
 			}
 		}
-		"Class Symbols 14"
+		"Class_Symbols_14"
 		{
 			"1"
 			{
@@ -145,7 +145,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Class Symbols 16"
+		"Class_Symbols_16"
 		{
 			"1"
 			{
@@ -154,7 +154,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Class Symbols 24"
+		"Class_Symbols_24"
 		{
 			"1"
 			{
@@ -163,7 +163,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Class Symbols 50"
+		"Class_Symbols_50"
 		{
 			"1"
 			{
@@ -172,7 +172,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Class Symbols 72"
+		"Class_Symbols_72"
 		{
 			"1"
 			{
@@ -181,7 +181,7 @@
 				"antialias"									"1"
 			}
 		}
-		"ReadyUp 24"
+		"ReadyUp_24"
 		{
 			"1"
 			{
@@ -196,20 +196,20 @@
 	{
 		"20"
 		{
-			"font"	"resource/scheme/fonts/Hypnotize Icons.ttf" [$WINDOWS]
-			"font"	"resource/scheme/fonts/Hypnotize Icons Linux.ttf" [$POSIX]
+			"font"	"resource/scheme/fonts/Hypnotize_Icons.ttf"				[$WINDOWS]
+			"font"	"resource/scheme/fonts/Hypnotize_Icons_Linux.ttf"		[$POSIX]
 			"name"	"Hypnotize Icons V7s"
 		}
 		"21"
 		{
-			"font"	"resource/scheme/fonts/TF2 Class Icons.ttf" [$WINDOWS]
-			"font"	"resource/scheme/fonts/TF2 Class Icons Linux.ttf" [$POSIX]
+			"font"	"resource/scheme/fonts/TF2_Class_Icons.ttf"				[$WINDOWS]
+			"font"	"resource/scheme/fonts/TF2_Class_Icons_Linux.ttf"		[$POSIX]
 			"name"	"TF2 Class Icons V3"
 		}
 		"22"
 		{
-			"font"	"resource/scheme/fonts/Readyup Symbols.otf" [$WINDOWS]
-			"font"	"resource/scheme/fonts/Readyup Symbols Linux.otf" [$POSIX]
+			"font"	"resource/scheme/fonts/Readyup_Symbols.otf"				[$WINDOWS]
+			"font"	"resource/scheme/fonts/Readyup_Symbols_Linux.otf"		[$POSIX]
 			"name"	"ReadyUp Symbols"
 		}
 		"23"

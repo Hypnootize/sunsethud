@@ -83,14 +83,14 @@
 		"AllCaps"									"1"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"labelText"									"#Store_Maps_Title"
 		"textAlignment"								"west"
 		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"FiltersBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"FiltersBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 
 	"SubTitleLabel"
@@ -104,7 +104,7 @@
 		"tall"										"25"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"#Store_Maps_SubTitle"
 		"textAlignment"								"south-west"
 		"AllCaps"									"1"
@@ -123,7 +123,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Store_LearnMore"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"Command"									"maps_learnmore"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -132,14 +132,14 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
-		"pin_to_sibling" 							"FiltersBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"FiltersBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 }

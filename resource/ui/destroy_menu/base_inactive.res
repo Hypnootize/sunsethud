@@ -4,7 +4,7 @@
 {
 	"ItemBackground"
 	{
-		"border"									"RedGradient"
+		"border"									"Red_Gradient"
 	}
 	"ItemNameLabel"
 	{

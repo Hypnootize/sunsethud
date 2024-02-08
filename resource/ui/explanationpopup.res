@@ -10,7 +10,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 16"
+		"font"										"Size_16"
 		"labelText"									"%title%"
 		"textAlignment"								"north"
 		"wrap"										"1"
@@ -30,12 +30,12 @@
 		"tall"										"135"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"%body%"
 		"textAlignment"								"north-west"
 		"wrap"										"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 		"auto_tall_tocontents"						"1"
 	}
 
@@ -51,21 +51,20 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"%"
-		"font"										"Symbols 22"
+		"font"										"Symbols_22"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"close"
 		"proportionaltoparent"						"1"
-		"autoresize"								"0"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"RedLight"
+		"defaultFgColor_override"					"Red_Light"
 		"armedFgColor_override"						"Red"
-		"depressedFgColor_override" 				"Red"
+		"depressedFgColor_override"					"Red"
 	}
 
 	"PrevButton"
@@ -80,7 +79,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"#"
-		"font"										"Symbols 24"
+		"font"										"Symbols_24"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"prevexplanation"
@@ -92,9 +91,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"OrangeLight"
-		"depressedFgColor_override" 				"OrangeLight"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Orange_Light"
+		"depressedFgColor_override"					"Orange_Light"
 	}
 	"NextButton"
 	{
@@ -105,11 +104,10 @@
 		"zpos"										"10"
 		"wide"										"30"
 		"tall"										"30"
-		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"$"
-		"font"										"Symbols 24"
+		"font"										"Symbols_24"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"nextexplanation"
@@ -121,9 +119,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"OrangeLight"
-		"depressedFgColor_override" 				"OrangeLight"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Orange_Light"
+		"depressedFgColor_override"					"Orange_Light"
 	}
 	"PositionLabel"
 	{
@@ -136,10 +134,10 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"%explanationnumber%"
 		"textAlignment"								"center"
-		"fgcolor"		 							"OrangeLight"
+		"fgcolor"									"Orange_Light"
 		"proportionaltoparent"						"1"
 		"skip_autoresize"							"1"
 	}

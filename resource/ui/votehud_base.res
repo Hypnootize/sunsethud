@@ -10,7 +10,7 @@
 		"tall"										"67"
 		"visible"									"0"
 		"enabled"									"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"PassedIcon"
 		{
@@ -38,7 +38,7 @@
 			"enabled"								"1"
 			"labelText"								"#GameUI_vote_passed"
 			"textAlignment"							"west"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"wrap"									"1"
 			"AllCaps"								"1"
 			"fgcolor"								"Green"
@@ -56,11 +56,11 @@
 			"enabled"								"1"
 			"labelText"								"%passedresult%"
 			"textAlignment"							"north-west"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"wrap"									"1"
 			"AllCaps"								"1"
 			"fgcolor"								"White"
-			"noshortcutsyntax" 						"1"
+			"noshortcutsyntax"						"1"
 		}
 	}
 
@@ -74,7 +74,7 @@
 		"tall"										"144"
 		"visible"									"0"
 		"enabled"									"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"Header"
 		{
@@ -88,7 +88,7 @@
 			"enabled"								"1"
 			"labelText"								"%header%"
 			"textAlignment"							"north-west"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"wrap"									"1"
 			"AllCaps"								"1"
 			"fgcolor"								"White"
@@ -106,11 +106,11 @@
 			"enabled"								"1"
 			"labelText"								"%voteissue%"
 			"textAlignment"							"north-west"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"fgcolor"								"White"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"noshortcutsyntax" 						"1"
+			"noshortcutsyntax"						"1"
 		}
 
 		"TargetAvatarImage"
@@ -157,7 +157,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"AllCaps"								"1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"fgcolor"								"White"
 		}
 
@@ -170,7 +170,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"OrangeDark"
+			"fillcolor"								"Orange_Dark"
 			"visible"								"1"
 		}
 
@@ -188,7 +188,7 @@
 			"labelText"								"Yes"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"fgcolor"								"White"
 		}
 
@@ -206,7 +206,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"AllCaps"								"1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"fgcolor"								"White"
 		}
 
@@ -219,7 +219,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"OrangeDark"
+			"fillcolor"								"Orange_Dark"
 			"visible"								"1"
 		}
 
@@ -237,7 +237,7 @@
 			"labelText"								"No"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"fgcolor"								"White"
 		}
 
@@ -255,7 +255,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"AllCaps"								"1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"fgcolor"								"White"
 		}
 
@@ -268,7 +268,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"OrangeDark"
+			"fillcolor"								"Orange_Dark"
 			"visible"								"0"
 		}
 
@@ -286,7 +286,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"AllCaps"								"1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"fgcolor"								"White"
 		}
 
@@ -299,7 +299,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"OrangeDark"
+			"fillcolor"								"Orange_Dark"
 			"visible"								"0"
 		}
 
@@ -317,7 +317,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"AllCaps"								"1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"fgcolor"								"White"
 		}
 
@@ -330,7 +330,7 @@
 			"wide"									"130"
 			"tall"									"16"
 			"zpos"									"1"
-			"fillcolor"								"OrangeDark"
+			"fillcolor"								"Orange_Dark"
 			"visible"								"0"
 		}
 
@@ -360,7 +360,7 @@
 			"labelText"								"#GameUI_vote_current_vote_count"
 			"textAlignment"							"north-west"
 			"AllCaps"								"1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"fgcolor"								"White"
 		}
 
@@ -395,7 +395,7 @@
 		"tall"										"67"
 		"visible"									"0"
 		"enabled"									"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"FailedIcon"
 		{
@@ -423,10 +423,10 @@
 			"enabled"								"1"
 			"labelText"								"#GameUI_vote_failed"
 			"textAlignment"							"west"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"RedLight"
+			"fgcolor"								"Red_Light"
 		}
 
 		"FailedReason"
@@ -441,7 +441,7 @@
 			"enabled"								"1"
 			"labelText"								"%FailedReason%"
 			"textAlignment"							"north-west"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"wrap"									"1"
 			"AllCaps"								"1"
 			"fgcolor"								"White"
@@ -459,7 +459,7 @@
 		"tall"										"67"
 		"visible"									"0"
 		"enabled"									"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"FailedIcon"
 		{
@@ -487,10 +487,10 @@
 			"enabled"								"1"
 			"labelText"								"#GameUI_vote_failed"
 			"textAlignment"							"west"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"RedLight"
+			"fgcolor"								"Red_Light"
 		}
 
 		"FailedReason"
@@ -505,7 +505,7 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"north-west"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"wrap"									"1"
 			"AllCaps"								"1"
 			"fgcolor"								"White"
@@ -528,15 +528,15 @@
 
 		"PaintBackground"							"0"
 		"PaintBorder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
-		"header_font"								"Size 13"
+		"header_font"								"Size_13"
 		"header_fgcolor"							"White"
 
 		"issue_width"								"138"
-		"issue_font"								"Size 10"
+		"issue_font"								"Size_10"
 		"issue_fgcolor"								"White"
-		"issue_fgcolor_disabled"					"WhiteDark"
+		"issue_fgcolor_disabled"					"White_Dark"
 
 		"parameter_width"							"141"
 
@@ -553,13 +553,13 @@
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
 			"AllCaps"								"1"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"labelText"								"#TF_Vote_Title"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"VoteSetupList"
@@ -575,7 +575,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
-			"bgcolor_override"						"BlackTransparent"
+			"bgcolor_override"						"Black_Transparent"
 
 			"linespacing"							"16"
 		}
@@ -592,8 +592,8 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintboder"							"1"
-			"border"								"BlackTransparent30"
-			"pin_to_sibling" 						"VoteSetupList"
+			"border"								"Black_Transparent_30"
+			"pin_to_sibling"						"VoteSetupList"
 		}
 
 		"VoteParameterList"
@@ -623,11 +623,11 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintboder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"VoteParameterList"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"VoteParameterList"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"ComboLabel"
@@ -635,6 +635,11 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"ComboLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ComboBox"
 		{
@@ -653,17 +658,17 @@
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
-			"Font"									"Size 12"
+			"Font"									"Size_12"
 			"paintborder"							"0"
 			"paintbackground"						"1"
 
 			"fgcolor_override"						"White"
 			"bgcolor_override"						"Blank"
-			"disabledFgColor_override" 				"WhiteDark"
-			"disabledBgColor_override" 				"Blank"
-			"selectionColor_override" 				"Blank"
-			"selectionTextColor_override" 			"White"
-			"defaultSelectionBG2Color_override" 	"WhiteDark"
+			"disabledFgColor_override"				"White_Dark"
+			"disabledBgColor_override"				"Blank"
+			"selectionColor_override"				"Blank"
+			"selectionTextColor_override"			"White"
+			"defaultSelectionBG2Color_override"		"White_Dark"
 		}
 		"ComboBoxBG"
 		{
@@ -678,11 +683,11 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintboder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"ComboBox"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+			"pin_to_sibling"						"ComboBox"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 
 		"CallVoteButton"
@@ -701,7 +706,7 @@
 			"textAlignment"							"center"
 			"Command"								"CallVote"
 			"Default"								"0"
-			"font"									"Size 15"
+			"font"									"Size_15"
 
 			"AllCaps"								"1"
 
@@ -712,8 +717,8 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 		"CallVoteButtonBG"
 		{
@@ -728,8 +733,8 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintboder"							"1"
-			"border"								"ThemeTransparent50"
-			"pin_to_sibling" 						"CallVoteButton"
+			"border"								"Theme_Transparent_50"
+			"pin_to_sibling"						"CallVoteButton"
 		}
 
 		"Button1"
@@ -748,7 +753,7 @@
 			"textAlignment"							"center"
 			"Command"								"Close"
 			"Default"								"0"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 
 			"AllCaps"								"1"
 
@@ -759,8 +764,8 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 		"Button1BG"
 		{
@@ -775,8 +780,8 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"RedTransparent70"
-			"pin_to_sibling" 						"Button1"
+			"border"								"Red_Transparent_70"
+			"pin_to_sibling"						"Button1"
 		}
 	}
 }

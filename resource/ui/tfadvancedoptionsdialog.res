@@ -13,7 +13,7 @@
 		"settitlebarvisible"						""
 		"paintborder"								"1"
 		"paintbackground"							"0"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"control_w"									"500"
 		"control_h"									"25"
@@ -34,7 +34,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 	"TitleLabel"
 	{
@@ -49,13 +49,13 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
-		"font"										"Size 22"
+		"font"										"Size_22"
 		"labelText"									"#TF_AdvancedOptions"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 		"paintborder"								"0"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 
 	"PanelListPanel"
@@ -84,13 +84,13 @@
 		"tall"										"50"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"%tiptext%"
 			"textAlignment"							"center"
 			"xpos"									"20"
@@ -98,8 +98,6 @@
 			"zpos"									"2"
 			"wide"									"200"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"White"
@@ -121,7 +119,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"-"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 		"textAlignment"								"center"
 		"default"									"1"
 		"AllCaps"									"1"
@@ -132,11 +130,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"RedTransparent70"
-		"border_armed"								"RedDarkTransparent70"
+		"border_default"							"Red_Transparent_70"
+		"border_armed"								"Red_Dark_Transparent_70"
 
 		"pin_to_sibling"							"TitleBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -156,7 +154,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"Apply changes!"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"default"									"1"
 		"AllCaps"									"1"
@@ -167,11 +165,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 	"OkButtonIcon"
 	{
@@ -186,12 +184,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"+"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"OkButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"

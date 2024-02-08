@@ -1,4 +1,4 @@
-#base "../../../resource/tools/ReloadSchemeButton.res"
+#base "../../tools/reloadschemebutton.res"
 
 "Resource/UI/Econ/PaintkitConsumeDialog.res"
 {
@@ -25,7 +25,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"#TF_UsePaintkit_Panel_Title"
 		"textAlignment"								"north"
 		"fgcolor"									"White"
@@ -43,7 +43,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 13"
+		"font"										"Size_13"
 		"labelText"									"#TF_UsePaintkit_Panel_Desc"
 		"textAlignment"								"north"
 		"fgcolor"									"White"
@@ -60,7 +60,7 @@
 		"wide"										"f0"
 		"tall"										"f0"
 		"proportionaltoparent"						"1"
-		"border"									"ThemeDarkestBorder"
+		"border"									"Theme_Darkest_Border"
 	}
 
 	"RedeemingPanel"
@@ -74,7 +74,7 @@
 		"tall"										"150"
 		"proportionaltoparent"						"1"
 		"visible"									"0"
-		"border"									"ThemeBorder"
+		"border"									"Theme_Border"
 
 		"InnerBG"
 		{
@@ -89,7 +89,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"CTFLogoPanel"
@@ -118,7 +118,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"labelText"								"#TF_UsePaintkit_Working"
 			"textAlignment"							"north"
 			"fgcolor"								"White"
@@ -137,7 +137,7 @@
 		"tall"										"150"
 		"proportionaltoparent"						"1"
 		"visible"									"0"
-		"border"									"ThemeBorder"
+		"border"									"Theme_Border"
 
 		"InnerBG"
 		{
@@ -152,7 +152,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"CTFLogoPanel"
@@ -167,7 +167,7 @@
 			"proportionaltoparent"					"1"
 			"velocity"								"0"
 			"radius"								"30"
-			"fgcolor_override"						"GreenLight"
+			"fgcolor_override"						"Green_Light"
 		}
 
 		"SuccessText"
@@ -181,10 +181,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 24"
+			"font"									"Size_24"
 			"labelText"								"#AbuseReport_SucceededTitle"
 			"textAlignment"							"north"
-			"fgcolor"		 						"White"
+			"fgcolor"								"White"
 			"AllCaps"								"1"
 		}
 	}
@@ -200,7 +200,7 @@
 		"tall"										"150"
 		"proportionaltoparent"						"1"
 		"visible"									"0"
-		"border"									"ThemeBorder"
+		"border"									"Theme_Border"
 
 		"InnerBG"
 		{
@@ -215,7 +215,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"CTFLogoPanel"
@@ -230,7 +230,7 @@
 			"proportionaltoparent"					"1"
 			"velocity"								"0"
 			"radius"								"30"
-			"fgcolor_override"						"RedLight"
+			"fgcolor_override"						"Red_Light"
 		}
 
 		"FailureText"
@@ -244,10 +244,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"labelText"								"#TF_UsePaintkit_Failed"
 			"textAlignment"							"north"
-			"fgcolor"		 						"White"
+			"fgcolor"								"White"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 		}
@@ -276,7 +276,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#GameUI_CancelBold"
-		"font"										"Size 16"
+		"font"										"Size_16"
 		"textAlignment"								"west"
 		"textinsetx"								"38"
 		"AllCaps"									"1"
@@ -289,11 +289,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 	"CancelButtonIcon"
 	{
@@ -308,12 +308,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"-"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"CancelButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -333,7 +333,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_QuestView_RedeemReward"
-		"font"										"Size 16"
+		"font"										"Size_16"
 		"textAlignment"								"west"
 		"textinsetx"								"41"
 		"AllCaps"									"1"
@@ -346,11 +346,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 	"ConfirmButtonIcon"
 	{
@@ -365,12 +365,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"+"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"ConfirmButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -382,5 +382,10 @@
 		"fieldName"									"Shade"
 		"controlname"								"EditablePanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -10,11 +10,11 @@
 		"wide"										"f100"
 		"tall"										"256"
 		"visible"									"1"
-		"enabled"								 	"1"
+		"enabled"									"1"
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"proportionaltoparent"						"1"
-		"border"								 	"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 
 	"MapImagePanel"
@@ -48,7 +48,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"<"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
 		"Command"									"goprev"
@@ -60,16 +60,16 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"pin_to_sibling" 							"BG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"BG"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 
 	"NextButton"
@@ -85,7 +85,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									">"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
 		"Command"									"gonext"
@@ -97,16 +97,16 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"pin_to_sibling" 							"BG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"BG"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 
 	"DescBG"
@@ -119,15 +119,15 @@
 		"wide"										"f115"
 		"tall"										"26"
 		"visible"									"1"
-		"enabled"								 	"1"
+		"enabled"									"1"
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"proportionaltoparent"						"1"
-		"border"								 	"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
-		"pin_to_sibling" 							"BG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"BG"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 	"MapNameLabel"
@@ -142,15 +142,15 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 16"
+		"font"										"Size_16"
 		"labelText"									"%mapname%"
 		"textAlignment"								"west"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"DescBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"DescBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 
 	"CurPageLabel"
@@ -165,15 +165,15 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"labelText"									"%curpage%"
 		"textAlignment"								"center"
-		"fgcolor"									"MainTheme"
+		"fgcolor"									"Main_Theme"
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"DescBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"DescBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"StartOfflinePracticeButton"
@@ -188,7 +188,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_StartPractice"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"Command"									"startofflinepractice"
 
@@ -199,16 +199,16 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"pin_to_sibling" 							"BG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"BG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 	"DifficultyLabel"
@@ -222,7 +222,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"#TF_Bot_Difficulty"
 		"textAlignment"								"east"
 		"fgcolor"									"White"
@@ -233,7 +233,7 @@
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"DifficultyComboBox"
-		"Font"										"Size 11"
+		"Font"										"Size_11"
 		"xpos"										"-5"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -251,19 +251,19 @@
 		"paintborder"								"0"
 
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackMediumTransparent"
+		"bgcolor_override"							"Black_Medium_Transparent"
 
-		"disabledFgColor_override" 					"White"
-		"disabledBgColor_override" 					"BlackMediumTransparent"
-		"selectionColor_override" 					"BlackMediumTransparent"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"BlackMediumTransparent"
+		"disabledFgColor_override"					"White"
+		"disabledBgColor_override"					"Black_Medium_Transparent"
+		"selectionColor_override"					"Black_Medium_Transparent"
+		"selectionTextColor_override"				"White"
+		"defaultSelectionBG2Color_override"			"Black_Medium_Transparent"
 
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"DescBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"DescBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 
 	"BotCountBG"
@@ -276,15 +276,15 @@
 		"wide"										"f115"
 		"tall"										"22"
 		"visible"									"1"
-		"enabled"								 	"1"
+		"enabled"									"1"
 		"paintbackground"							"0"
 		"paintborder"								"1"
 		"proportionaltoparent"						"1"
-		"border"								 	"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
-		"pin_to_sibling" 							"DescBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"DescBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 	"PlayersLabel"
@@ -297,7 +297,7 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"#IT_BotAddition_Title"
 		"textAlignment"								"east"
 		"proportionaltoparent"						"1"
@@ -305,9 +305,9 @@
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"NumPlayersTextEntry"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"NumPlayersTextEntry"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 
 	"NumPlayersTextEntry"
@@ -322,7 +322,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textHidden"								"0"
 		"textAlignment"								"west"
 		"unicode"									"1"
@@ -331,14 +331,14 @@
 		"NumericInputOnly"							"1"
 		"selectallonfirstfocus"						"1"
 
-		"bgcolor_override"							"BlackMediumTransparent"
+		"bgcolor_override"							"Black_Medium_Transparent"
 		"fgcolor_override"							"White"
 
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"BotCountBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"BotCountBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"SuggestedPlayerCountLabel"
@@ -350,12 +350,10 @@
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"15"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									""
 		"textAlignment"								"west"
 		"wrap"										"0"
@@ -363,9 +361,9 @@
 
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"NumPlayersTextEntry"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"NumPlayersTextEntry"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 
 	"HackCoverBottomOfMapImagePanel"
@@ -376,11 +374,18 @@
 		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"GradientPanel"
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"GradientPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

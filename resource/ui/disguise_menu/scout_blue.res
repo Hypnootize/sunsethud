@@ -4,6 +4,6 @@
 {
 	"TitleBG"
 	{
-		"border"									"BlueTransparent70"
+		"border"									"Blue_Transparent_70"
 	}
 }

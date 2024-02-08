@@ -34,7 +34,7 @@
 		"AllCaps"									"1"
 		"textAlignment"								"center"
 		"labelText"									"%wave_count%"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"fgcolor"									"White"
 	}
 	"WaveCountLabelShadow"
@@ -51,7 +51,7 @@
 		"AllCaps"									"1"
 		"textAlignment"								"center"
 		"labelText"									"%wave_count%"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"fgcolor"									"Shadows"
 		"pin_to_sibling"							"WaveCountLabel"
 	}
@@ -74,7 +74,7 @@
 		"src_corner_width"							"32"
 
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 	"ProgressBarBG"
 	{
@@ -111,7 +111,7 @@
 		"AllCaps"									"1"
 		"textAlignment"								"west"
 		"labelText"									"#TF_MVM_Support"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"fgcolor"									"White"
 
 		"if_verbose"
@@ -125,6 +125,10 @@
 		"ControlName"								"Panel"
 		"fieldName"									"SeparatorBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
 		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

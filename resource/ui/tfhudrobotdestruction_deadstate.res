@@ -33,9 +33,9 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RespawnTimeLabel"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"%time%"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"10"

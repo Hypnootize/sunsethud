@@ -26,7 +26,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"drawcolor"									"BlackSolid"
+		"drawcolor"									"Black_Solid"
 		"scaleImage"								"1"
 		"image"										"replay/thumbnails/panels/gradient_generic"
 		"src_corner_height"							"8"
@@ -50,7 +50,7 @@
 		"labelText"									"Streak:"
 		"textAlignment"								"east"
 		"AllCaps"									"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 	}
 
 	"ItemEffectMeterCount"
@@ -67,7 +67,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
-		"font"										"Size 16"
+		"font"										"Size_16"
 
 		"pin_to_sibling"							"KillstreakLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -83,17 +83,32 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ItemEffectMeterBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemEffectMeter"
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

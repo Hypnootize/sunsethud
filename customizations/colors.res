@@ -18,32 +18,32 @@
 		//=============================================================================
 
 		"Crosshair"											"235 235 235 255"
-		"Crosshair Shadow"									"0 0 0 255"
-		"Crosshair Pulse"									"245 70 70 255"
+		"Crosshair_Shadow"									"0 0 0 255"
+		"Crosshair_Pulse"									"245 70 70 255"
 
 		"HitMarker"											"235 235 235 255"
 
 		"Health"											"235 235 235 255"
 
-		"Health Buff"										"235 235 235 255"
-		"Health Buff Target"								"235 235 235 255"
+		"Health_Buff"										"235 235 235 255"
+		"Health_Buff_Target"								"235 235 235 255"
 
-		"Health Hurt"										"235 235 235 255"
-		"Health Hurt Target"								"235 235 235 255"
+		"Health_Hurt"										"235 235 235 255"
+		"Health_Hurt_Target"								"235 235 235 255"
 
-		"Ammo In Clip"										"235 235 235 255"
-		"Ammo In Reserve"									"235 235 235 255"
-		"Ammo No Clip"										"235 235 235 255"
+		"Ammo_In_Clip"										"235 235 235 255"
+		"Ammo_In_Reserve"									"235 235 235 255"
+		"Ammo_No_Clip"										"235 235 235 255"
 
-		"Ammo In Clip Low"									"245 70 70 255"
-		"Ammo In Reserve Low"								"245 70 70 255"
-		"Ammo No Clip Low"									"245 70 70 255"
+		"Ammo_In_Clip_Low"									"245 70 70 255"
+		"Ammo_In_Reserve_Low"								"245 70 70 255"
+		"Ammo_No_Clip_Low"									"245 70 70 255"
 
 		"Ubercharge"										"235 235 235 255"
-		"Ubercharge Full"									"150 200 220 255"
+		"Ubercharge_Full"									"150 200 220 255"
 
-		"Heal Numbers"										"0 255 0 255"
-		"Last Damage Done"									"235 235 235 255"
+		"Heal_Numbers"										"0 255 0 255"
+		"Last_Damage_Done"									"235 235 235 255"
 
 		"Shadows"											"0 0 0 150"
 
@@ -51,48 +51,47 @@
 		// MENU COLORS
 		//=============================================================================
 
-		"MainThemeLight"									"190 200 255 255"
-		"MainTheme"											"180 190 255 255"
-		"MainThemeDark"										"155 165 220 255"
-		"MainThemeDarkest"									"125 135 165 255"
+		"Main_Theme_Light"									"190 200 255 255"
+		"Main_Theme"										"180 190 255 255"
+		"Main_Theme_Dark"									"155 165 220 255"
+		"Main_Theme_Darkest"								"125 135 165 255"
 
 		"White"												"235 235 235 255"
-		"WhiteSolid"										"255 255 255 255"
-		"WhiteDark"											"200 200 210 255"
-		"WhiteGray"											"185 185 185 255"
-		"WhiteTransparent"									"235 235 235 180"
-		"WhiteMoreTransparent"								"235 235 235 150"
+		"White_Solid"										"255 255 255 255"
+		"White_Dark"										"200 200 210 255"
+		"White_Gray"										"185 185 185 255"
+		"White_Transparent"									"235 235 235 180"
 
 		"Black"												"35 35 35 255"
-		"BlackSolid"										"0 0 0 255"
-		"BlackDarkTransparent"								"0 0 0 200"
-		"BlackMediumTransparent"							"0 0 0 150"
-		"BlackTransparent"									"0 0 0 100"
-		"BlackLightTransparent"								"0 0 0 75"
-		"BlackLightestTransparent"							"0 0 0 50"
+		"Black_Solid"										"0 0 0 255"
+		"Black_Dark_Transparent"							"0 0 0 200"
+		"Black_Medium_Transparent"							"0 0 0 150"
+		"Black_Transparent"									"0 0 0 100"
+		"Black_Light_Transparent"							"0 0 0 75"
+		"Black_Lightest_Transparent"						"0 0 0 50"
 
 		"Gray"												"150 150 150 255"
-		"GrayMedium"										"130 130 130 255"
-		"GrayDark"											"100 100 100 255"
-		"GrayTransparent"									"175 175 175 150"
-		"GrayBlue"											"100 110 120 255"
-		"GrayBlu"											"165 175 200 255"
-		"GrayBluDark"										"145 155 180 255"
+		"Gray_Medium"										"130 130 130 255"
+		"Gray_Dark"											"100 100 100 255"
+		"Gray_Transparent"									"175 175 175 150"
+		"Gray_Blue"											"100 110 120 255"
+		"Gray_Blu"											"165 175 200 255"
+		"Gray_Blu_Dark"										"145 155 180 255"
 
 		"Blue"												"135 185 230 255"
-		"BlueLight"											"150 200 220 255"
-		"BlueDark"											"130 175 195 255"
+		"Blue_Light"										"150 200 220 255"
+		"Blue_Dark"											"130 175 195 255"
 
 		"Red"												"185 70 70 255"
-		"RedLight"											"245 70 70 255"
+		"Red_Light"											"245 70 70 255"
 
-		"OrangeBright"										"255 225 115 255"
-		"OrangeSolid"										"255 200 55 255"
-		"OrangeLight"										"255 215 140 255"
-		"OrangeDark"										"230 195 165 255"
+		"Orange_Bright"										"255 225 115 255"
+		"Orange_Solid"										"255 200 55 255"
+		"Orange_Light"										"255 215 140 255"
+		"Orange_Dark"										"230 195 165 255"
 
 		"Green"												"155 190 25 255"
-		"GreenLight"										"185 220 25 255"
+		"Green_Light"										"185 220 25 255"
 
 		//=============================================================================
 		// ITEM QUALITY COLORS

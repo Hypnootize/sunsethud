@@ -11,14 +11,14 @@
 		"tall"										"360"
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"textAlignment"								"center"
 		"labelText"									"#Frame_Untitled"
 		"xpos"										"10"
@@ -38,10 +38,10 @@
 		"zpos"										"-1"
 		"wide"										"540"
 		"tall"										"280"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"north-west"
 		"labelText"									""
-		"bgcolor_override"							"BlackTransparent"
+		"bgcolor_override"							"Black_Transparent"
 		"fgcolor_override"							"White"
 	}
 
@@ -59,16 +59,16 @@
 		"textAlignment"								"center"
 		"Command"									"Close"
 		"Default"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"ButtonDone"
@@ -85,15 +85,15 @@
 		"textAlignment"								"center"
 		"Command"									"Done"
 		"Default"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 }

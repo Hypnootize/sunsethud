@@ -70,8 +70,8 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
-		"font"										"Size 40"
-		"font_minmode"								"Size 50"
+		"font"										"Size_40"
+		"font_minmode"								"Size_50"
 		"fgcolor"									"Health"
 
 		"pin_to_sibling"							"HealthAnchor"
@@ -95,11 +95,11 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
-		"font"										"Size 40"
-		"font_minmode"								"Size 50"
+		"font"										"Size_40"
+		"font_minmode"								"Size_50"
 		"fgcolor"									"Shadows"
 
-		"pin_to_sibling" 							"PlayerStatusHealthValue"
+		"pin_to_sibling"							"PlayerStatusHealthValue"
 	}
 
 	"PlayerStatusHealthImage"
@@ -176,10 +176,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"image"										"../vgui/bleed_drop"
+		"image"										"bleed_drop"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -197,10 +197,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"image"										"../vgui/bleed_drop_grapple"
+		"image"										"bleed_drop_grapple"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -218,10 +218,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"image"										"../vgui/bleed_drop"
+		"image"										"bleed_drop"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -239,10 +239,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"image"										"../vgui/covered_in_gas"
+		"image"										"covered_in_gas"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -260,10 +260,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"image"										"../vgui/marked_for_death"
+		"image"										"marked_for_death"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -281,10 +281,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"image"										"../vgui/marked_for_death"
+		"image"										"marked_for_death"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -305,7 +305,7 @@
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -326,7 +326,7 @@
 		"image"										"../HUD/defense_buff_explosion_blue"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -347,7 +347,7 @@
 		"image"										"../HUD/defense_buff_fire_blue"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -368,7 +368,7 @@
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -389,7 +389,7 @@
 		"image"										"../HUD/defense_buff_explosion_blue"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -410,7 +410,7 @@
 		"image"										"../HUD/defense_buff_fire_blue"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -431,7 +431,7 @@
 		"image"										"../signs/death_wheel_whammy"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -452,7 +452,7 @@
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -474,7 +474,7 @@
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -496,7 +496,7 @@
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -517,7 +517,7 @@
 		"image"										""
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -538,7 +538,7 @@
 		"image"										""
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -559,7 +559,7 @@
 		"image"										"../Effects/powerup_strength_hud"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -580,7 +580,7 @@
 		"image"										"../Effects/powerup_haste_hud"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -601,7 +601,7 @@
 		"image"										"../Effects/powerup_regen_hud"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -622,7 +622,7 @@
 		"image"										"../Effects/powerup_resist_hud"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -643,7 +643,7 @@
 		"image"										"../Effects/powerup_vampire_hud"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -664,7 +664,7 @@
 		"image"										"../Effects/powerup_reflect_hud"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -685,7 +685,7 @@
 		"image"										"../Effects/powerup_precision_hud"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -706,7 +706,7 @@
 		"image"										"../Effects/powerup_agility_hud"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -727,7 +727,7 @@
 		"image"										"../Effects/powerup_knockout_hud"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -748,7 +748,7 @@
 		"image"										"../Effects/powerup_king_hud"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -769,7 +769,7 @@
 		"image"										"../Effects/powerup_plague_hud"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -790,7 +790,7 @@
 		"image"										"../Effects/powerup_supernova_hud"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -808,10 +808,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"image"										"../vgui/slowed"
+		"image"										"slowed"
 		"fgcolor"									"TanDark"
 
-		"pin_to_sibling" 							"StatusIconsAnchor"
+		"pin_to_sibling"							"StatusIconsAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
@@ -821,5 +821,10 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusMaxHealthValue"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

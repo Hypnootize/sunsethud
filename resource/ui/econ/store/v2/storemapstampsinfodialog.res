@@ -27,7 +27,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
 		"PaintBorder"								"1"
-		"border"									"ThemeBorder"
+		"border"									"Theme_Border"
 
 		"InnerBG"
 		{
@@ -42,7 +42,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"MapsDescLabel"
@@ -57,7 +57,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"#Store_MapsDesc"
 			"textAlignment"							"north"
 			"wrap"									"1"
@@ -94,20 +94,20 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labeltext"									"-"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		"Command"									"close"
 
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"RedTransparent70"
-		"border_armed"								"RedDarkTransparent70"
+		"border_default"							"Red_Transparent_70"
+		"border_armed"								"Red_Dark_Transparent_70"
 	}
 
 	"BackButton"
@@ -123,20 +123,20 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_BackCarat"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"BlackTransparent30"
-		"border_armed"								"OrangeTransparent70"
+		"border_default"							"Black_Transparent_30"
+		"border_armed"								"Orange_Transparent_70"
 	}
 }

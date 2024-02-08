@@ -34,7 +34,7 @@
 		"ypos"										"rs1"
 		"zpos"										"-1"
 		"wide"										"160"
-		"tall"	 									"22"
+		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -47,7 +47,7 @@
 		"src_corner_height"							"8"
 		"src_corner_width"							"8"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"Separator"
@@ -58,7 +58,7 @@
 		"ypos"										"-3"
 		"zpos"										"0"
 		"wide"										"1"
-		"tall"	 									"16"
+		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -80,15 +80,15 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 9"
+		"font"										"Size_9"
 		"labelText"									"%disguisename%"
 		"textAlignment"								"West"
 		"fgcolor"									"White"
 		"alpha"										"255"
 
 		"pin_to_sibling"							"Separator"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"WeaponNameLabel"
@@ -103,14 +103,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 9"
+		"font"										"Size_9"
 		"labelText"									"%weaponname%"
 		"textAlignment"								"West"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"Separator"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 
 	"SpectatorGUIHealth"
@@ -127,7 +127,7 @@
 		"proportionaltoparent"						"1"
 		"HealthBonusPosAdj"							"10"
 		"HealthDeathWarning"						"0.49"
-		"TFFont"									"Size 14"
+		"TFFont"									"Size_14"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
 	}

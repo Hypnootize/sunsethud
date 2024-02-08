@@ -1,4 +1,4 @@
-#base "../../resource/tools/reloadschemebutton.res"
+#base "../tools/reloadschemebutton.res"
 
 "Resource/UI/DynamicRecipePanel.res"
 {
@@ -12,14 +12,12 @@
 		"tall"										"480"
 		"zpos"										"501"
 		"visible"									"1"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Blank"
-		"infocus_bgcolor_override" 					"Blank"
-		"outoffocus_bgcolor_override" 				"Blank"
+		"infocus_bgcolor_override"					"Blank"
+		"outoffocus_bgcolor_override"				"Blank"
 
 		"item_ypos"									"50"
 		"output_item_ypos"							"255"
@@ -50,15 +48,15 @@
 			"model_tall"							"35"
 			"text_center"							"1"
 			"name_only"								"1"
-			"text_forcesize" 						"3"
-			"noitem_use_fullpanel" 					"1"
+			"text_forcesize"						"3"
+			"noitem_use_fullpanel"					"1"
 
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -113,13 +111,13 @@
 		"tall"										"350"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"RecipeTitle"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RecipeTitle"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"%recipetitle%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5"
@@ -140,7 +138,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"InputLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#Craft_Recipe_Inputs"
 			"textAlignment"							"west"
 			"xpos"									"9"
@@ -151,14 +149,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"RedLight"
+			"fgcolor"								"Red_Light"
 		}
 
 		"OutputLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OutputLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#Dynamic_Recipe_Outputs_Not_Complete"
 			"textAlignment"							"west"
 			"xpos"									"9"
@@ -166,8 +164,6 @@
 			"zpos"									"1"
 			"wide"									"f0"
 			"tall"									"25"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"0"
 			"AllCaps"								"1"
@@ -178,7 +174,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"UntradableLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#Dynamic_Recipe_Outputs_Not_Tradable"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -204,7 +200,7 @@
 			"visible"								"1"
 			"enabled"								"0"
 			"labelText"								"#CraftConfirm"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"Command"								"craft"
@@ -215,11 +211,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 
 		"PrevInputPageButton"
@@ -234,7 +230,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"<"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"Command"								"previnputpage"
 			"proportionaltoparent"					"1"
@@ -244,18 +240,18 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 
 		"CurInputPageLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CurInputPageLabel"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"labelText"								"%inputpage%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5"
@@ -266,7 +262,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"NextInputPageButton"
@@ -281,7 +277,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								">"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"Command"								"nextinputpage"
 			"proportionaltoparent"					"1"
@@ -291,11 +287,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 	}
 
@@ -309,13 +305,13 @@
 		"wide"										"300"
 		"tall"										"350"
 		"paintbackground"							"0"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"NoMatches"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NoMatches"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#Dynamic_Recipe_No_Matching_Items"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5"
@@ -323,11 +319,9 @@
 			"zpos"									"1"
 			"wide"									"280"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
-			"fgcolor"								"RedLight"
+			"fgcolor"								"Red_Light"
 			"AllCaps"								"1"
 			"centerwrap"							"1"
 			"wrap"									"1"
@@ -339,15 +333,13 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"UntradableCheckBox"
 			"labelText"								"#Dynamic_Recipe_Untradable_Checkbox"
-			"Font"									"Size 12"
+			"Font"									"Size_12"
 			"textAlignment"							"west"
 			"xpos"									"5"
 			"ypos"									"7"
 			"zpos"									"1"
 			"wide"									"280"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -359,7 +351,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BackpackItems"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#Dynamic_Recipe_Matching_Items"
 			"textAlignment"							"west"
 			"xpos"									"9"
@@ -367,8 +359,6 @@
 			"zpos"									"1"
 			"wide"									"280"
 			"tall"									"25"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"White"
@@ -386,12 +376,10 @@
 			"zpos"									"20"
 			"wide"									"p0.97"
 			"tall"									"24"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#Cancel"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
 			"Command"								"cancel"
@@ -404,11 +392,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 
 		"PrevPageButton"
@@ -423,7 +411,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"<"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"Command"								"prevpage"
 			"proportionaltoparent"					"1"
@@ -433,18 +421,18 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 
 		"CurPageLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CurPageLabel"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"labelText"								"%backpackpage%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5"
@@ -454,7 +442,7 @@
 			"tall"									"25"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
 
@@ -470,7 +458,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								">"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"Command"								"nextpage"
 			"proportionaltoparent"					"1"
@@ -480,11 +468,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 	}
 
@@ -511,7 +499,7 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
@@ -550,7 +538,7 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}

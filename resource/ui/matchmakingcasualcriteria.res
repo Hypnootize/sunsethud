@@ -13,8 +13,6 @@
 		"PaintBackgroundType"						"2"
 		"proportionaltoparent"						"1"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"TitleBG"
 		{
@@ -29,7 +27,7 @@
 			"enable"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"ThemeTransparent50"
+			"border"								"Theme_Transparent_50"
 			"mouseinputenabled"						"0"
 		}
 
@@ -45,7 +43,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"d"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"restore_search_criteria"
@@ -59,11 +57,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 
 			"pin_to_sibling"						"SaveCasualSearchCriteria"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
@@ -82,7 +80,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"a"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"save_search_criteria"
@@ -95,11 +93,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 
 			"pin_to_sibling"						"ShowExplanationsButton"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
@@ -118,7 +116,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"1"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"show_explanations"
@@ -131,11 +129,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 
 			"pin_to_sibling"						"TitleBG"
 			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
@@ -154,7 +152,7 @@
 			"proportionaltoparent"					"1"
 			"labeltext"								"%selected_maps_count%"
 			"textAlignment"							"west"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"fgcolor"								"White"
 			"AllCaps"								"1"
 
@@ -177,7 +175,7 @@
 			"proportionaltoparent"					"1"
 			"labeltext"								"#TF_Casual_QueueEstimation"
 			"textAlignment"							"east"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"fgcolor"								"White"
 			"AllCaps"								"1"
 			"textinsetx"							"5"
@@ -198,7 +196,7 @@
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 			"PaintBackground"						"0"
-			"border"								"ThemeTransparent50"
+			"border"								"Theme_Transparent_50"
 		}
 
 		"GameModesList"
@@ -212,10 +210,10 @@
 			"tall"									"310"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
-			"restrict_width" 						"0"
-			"paintbackground" 						"0"
-			"paintbackgroundtype" 					"0"
-			"bgcolor_override"						"MainTheme"
+			"restrict_width"						"0"
+			"paintbackground"						"0"
+			"PaintBackgroundType"					"0"
+			"bgcolor_override"						"Main_Theme"
 			"alpha"									"255"
 
 			"ScrollBar"
@@ -232,7 +230,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"				"WhiteDark"
+					"fgcolor_override"				"White_Dark"
 				}
 
 				"UpButton"
@@ -291,12 +289,22 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"PlayListDropShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Title"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Title"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

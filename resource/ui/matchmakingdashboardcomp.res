@@ -27,7 +27,7 @@
 		"enable"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"ThemeTransparent50"
+		"border"									"Theme_Transparent_50"
 		"mouseinputenabled"							"0"
 	}
 	"Title"
@@ -42,7 +42,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"								"west"
-		"font"										"Size 30"
+		"font"										"Size_30"
 		"AllCaps"									"1"
 		"fgcolor"									"White"
 
@@ -60,12 +60,10 @@
 		"zpos"										"200"
 		"wide"										"18"
 		"tall"										"18"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"1"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"show_explanations"
@@ -80,11 +78,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"BlackTransparent30"
-		"border_armed"								"OrangeTransparent70"
+		"border_default"							"Black_Transparent_30"
+		"border_armed"								"Orange_Transparent_70"
 
 		"pin_to_sibling"							"TitleBG"
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
@@ -105,7 +103,7 @@
 		"mouseinputenabled"							"1"
 		"image"										"info"
 		"scaleImage"								"1"
-		"drawcolor"									"MainThemeDark"
+		"drawcolor"									"Main_Theme_Dark"
 
 		"pin_to_sibling"							"TitleBG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -138,7 +136,7 @@
 		"mouseinputenabled"							"1"
 		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 	}
 
 	"QueueButton"
@@ -150,11 +148,9 @@
 		"zpos"										"300"
 		"wide"										"f14"
 		"tall"										"26"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"Command"									"find_game"
 		"proportionaltoparent"						"1"
@@ -170,12 +166,12 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"GreenTransparent70"
-		"border_armed"								"GreenDarkTransparent70"
+		"border_default"							"Green_Transparent_70"
+		"border_armed"								"Green_Dark_Transparent_70"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 	"QueueButtonIcon"
 	{
@@ -190,12 +186,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"q"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"QueueButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"

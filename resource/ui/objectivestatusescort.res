@@ -28,7 +28,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"BlackLightTransparent"
+		"bgcolor_override"							"Black_Light_Transparent"
 		"proportionaltoparent"						"1"
 	}
 
@@ -133,13 +133,13 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								""
-			"fillcolor"								"BlueLight"
+			"fillcolor"								"Blue_Light"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 
 			"if_multiple_trains_red"
 			{
-				"fillcolor"							"RedLight"
+				"fillcolor"							"Red_Light"
 			}
 		}
 
@@ -204,7 +204,7 @@
 			"tall"									"8"
 			"visible"								"0"
 			"enabled"								"1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"labelText"								"#ControlPointIconCappers"
 			"textAlignment"							"center"
 			"fgcolor"								"Black"
@@ -223,7 +223,7 @@
 			"tall"									"8"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"labelText"								"%recede%"
 			"textAlignment"							"center"
 			"fgcolor"								"Black"
@@ -268,18 +268,33 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"EscortItemImageAlert"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"CapPlayerImage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"CapPlayerImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"EscortTeardrop"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"EscortTeardrop"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

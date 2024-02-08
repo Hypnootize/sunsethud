@@ -39,7 +39,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"PaintBackgroundType" 						"0"
+		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"White"
 	}
 
@@ -55,11 +55,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"PaintBackgroundType" 						"0"
-		//"bgcolor" 								"Yellow"
+		"PaintBackgroundType"						"0"
+		//"bgcolor"									"Yellow"
 		//"bgcolor_override"						"Yellow"
 		//"fgcolor_override"						"Yellow"
-		//"PaintBackgroundType" 					"2"
+		//"PaintBackgroundType"						"2"
 		"image"										"../hud/leaderboard_class_critical"
 	}
 
@@ -76,7 +76,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labelText"									"%enemy_count%"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"fgcolor"									"White"
 	}
 	"EnemyCountShadow"
@@ -92,7 +92,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labelText"									"%enemy_count%"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"fgcolor"									"Shadows"
 		"pin_to_sibling"							"EnemyCount"
 	}

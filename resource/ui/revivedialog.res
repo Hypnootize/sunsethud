@@ -13,7 +13,7 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"2"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackDarkTransparent"
+		"bgcolor_override"							"Black_Dark_Transparent"
 
 		"TitleLabel"
 		{
@@ -26,7 +26,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"labelText"								"#ConfirmTitle"
 			"textAlignment"							"north"
 			"AllCaps"								"1"
@@ -44,12 +44,12 @@
 			"tall"									"170"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"labelText"								"%text%"
 			"textAlignment"							"north"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
-			"fgcolor"		 						"White"
+			"fgcolor"								"White"
 		}
 
 		"ConfirmButton"
@@ -61,12 +61,10 @@
 			"zpos"									"20"
 			"wide"									"100"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#ConfirmButtonText"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"center"
 			"Command"								"confirm"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -75,11 +73,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 
 		"SpectatorGUIHealth"
@@ -95,10 +93,9 @@
 			"enabled"								"1"
 			"HealthBonusPosAdj"						"10"
 			"HealthDeathWarning"					"0.49"
-			"TFFont"								"Size 11"
+			"TFFont"								"Size_11"
 			"HealthDeathWarningColor"				"HUDDeathWarning"
 			"TextColor"								"HudOffWhite"
-			"autoResize"							"1"
 		}
 	}
 }

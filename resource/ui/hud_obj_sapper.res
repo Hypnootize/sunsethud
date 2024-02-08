@@ -20,7 +20,7 @@
 		"ypos"										"0"
 		"zpos"										"-2"
 		"wide"										"f0"
-		"tall"	 									"f2"
+		"tall"										"f2"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -33,7 +33,7 @@
 		"src_corner_height"							"8"
 		"src_corner_width"							"8"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"Icon"
@@ -77,7 +77,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"labelText"								"not built"
 			"textAlignment"							"center"
 			"centerwrap"							"1"
@@ -112,7 +112,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"BlackTransparent"
+			"bgcolor_override"						"Black_Transparent"
 		}
 
 		"Health"
@@ -128,8 +128,8 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"BuildingBG"
-			"pin_corner_to_sibling" 				"PIN_BOTTOMRIGHT"
+			"pin_to_sibling"						"BuildingBG"
+			"pin_corner_to_sibling"					"PIN_BOTTOMRIGHT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMRIGHT"
 		}
 
@@ -157,7 +157,7 @@
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
 				"Allcaps"							"1"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"labelText"							"#Building_hud_building"
 				"textAlignment"						"west"
 				"fgcolor"							"White"
@@ -216,7 +216,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"bgcolor_override"					"BlackTransparent"
+				"bgcolor_override"					"Black_Transparent"
 			}
 		}
 	}
@@ -226,5 +226,10 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Background"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

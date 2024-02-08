@@ -45,7 +45,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CapNumPlayers"
-		"font"										"ControlPoint Cap"
+		"font"										"ControlPoint_Cap"
 		"xpos"										"10"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -87,7 +87,7 @@
 		"labelText"									"60"
 		"textAlignment"								"center"
 		"wrap"										"0"
-		"font"										"Size 12"
+		"font"										"Size_12"
 	}
 
 	"CPTimerBG"

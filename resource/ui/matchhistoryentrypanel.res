@@ -39,13 +39,13 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
 
-			"defaultBgColor_override" 				"0 0 0 125"
-			"armedBgColor_override" 				"0 0 0 175"
-			"depressedBgColor_override" 			"0 0 0 175"
+			"defaultBgColor_override"				"0 0 0 125"
+			"armedBgColor_override"					"0 0 0 175"
+			"depressedBgColor_override"				"0 0 0 175"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"sound_armed"							"ui/item_info_mouseover.wav"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -65,8 +65,8 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"#TF_Competitive_MatchHistory_Win"
-			"font"									"Size 11"
-			"fgcolor"								"GreenLight"
+			"font"									"Size_11"
+			"fgcolor"								"Green_Light"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 		}
@@ -84,8 +84,8 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"#TF_Competitive_MatchHistory_Loss"
-			"font"									"Size 11"
-			"fgcolor"								"RedLight"
+			"font"									"Size_11"
+			"fgcolor"								"Red_Light"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
 		}
@@ -103,7 +103,7 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"%match_date%"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"fgcolor"								"White"
 			"textAlignment"							"west"
 		}
@@ -121,7 +121,7 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"%map_name%"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"fgcolor"								"White"
 			"textAlignment"							"west"
 		}
@@ -139,7 +139,7 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"%kd_ratio%"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"fgcolor"								"White"
 			"textAlignment"							"west"
 		}
@@ -154,7 +154,7 @@
 		"wide"										"f0"
 		"tall"										"0"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"BlackTransparent"
+		"bgcolor_override"							"Black_Transparent"
 		"autoresize"								"2"
 		"pincorner"									"3"
 
@@ -239,7 +239,7 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_kills%"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
@@ -257,7 +257,7 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_deaths%"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
@@ -288,7 +288,7 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_damage%"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
@@ -320,7 +320,7 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_healing%"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
@@ -351,7 +351,7 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_support%"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}
@@ -383,7 +383,7 @@
 
 
 				"labeltext"							"%stat_score%"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 			}

@@ -5,10 +5,10 @@
 		"delta_item_x"								"125"
 		"delta_item_start_y"						"9"
 		"delta_item_end_y"							"9"
-		"PositiveColor"								"GreenLight"
+		"PositiveColor"								"Green_Light"
 		"NegativeColor"								"White"			//DEAD
 		"delta_lifetime"							"1.5"
-		"delta_item_font"							"Size 13"
+		"delta_item_font"							"Size_13"
 	}
 
 	"AccountValue"
@@ -25,7 +25,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"font"										"Size 18"
+		"font"										"Size_18"
 	}
 	"AccountValueShadow"
 	{
@@ -41,7 +41,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"fgcolor"									"Shadows"
 		"pin_to_sibling"							"AccountValue"
 	}
@@ -51,11 +51,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"AccountBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MetalIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MetalIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

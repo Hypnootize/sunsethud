@@ -1,4 +1,4 @@
-#base "../../resource/tools/reloadschemebutton.res"
+#base "../tools/reloadschemebutton.res"
 
 "Resource/UI/CraftingPanel.res"
 {
@@ -12,14 +12,12 @@
 		"tall"										"400"
 		"zpos"										"501"
 		"visible"									"1"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Blank"
-		"infocus_bgcolor_override" 					"Blank"
-		"outoffocus_bgcolor_override" 				"Blank"
+		"infocus_bgcolor_override"					"Blank"
+		"outoffocus_bgcolor_override"				"Blank"
 
 		"item_ypos"									"45"
 		"output_item_ypos"							"205"
@@ -52,8 +50,8 @@
 
 			"text_center"							"1"
 			"name_only"								"1"
-			"text_forcesize" 						"3"
-			"noitem_use_fullpanel" 					"1"
+			"text_forcesize"						"3"
+			"noitem_use_fullpanel"					"1"
 
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
@@ -85,8 +83,6 @@
 					"zpos"							"2"
 					"wide"							"50"
 					"tall"							"30"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"labelText"						"%itemname%"
@@ -100,30 +96,28 @@
 
 		"recipebuttons_kv"
 		{
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"1"
 			"wide"									"280"
 			"tall"									"24"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"wrap"									"0"
 			"centerwrap"							"0"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 
 			"paintbackground"						"0"
 
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"filter_xoffset"							"-225"
@@ -136,8 +130,6 @@
 			"zpos"									"2"
 			"wide"									"26"
 			"tall"									"26"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								""
@@ -163,7 +155,7 @@
 		"PaintBackgroundType"						"2"
 		"fgcolor_override"							"Blank"		// Set a color to make the scroll bar visible
 		"bgcolor_override"							"Blank"
-		"autohide_buttons" 							"1"
+		"autohide_buttons"							"1"
 
 		"ScrollBar"
 		{
@@ -181,13 +173,13 @@
 
 	"recipecontainer"
 	{
-		"ControlName"	 							"EditablePanel"
-		"fieldName"		 							"recipecontainer"
-		"xpos"			 							"0"
-		"ypos"			 							"0"
-		"zpos"			 							"5"
-		"wide"			 							"284"
-		"tall"			 							"258"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"recipecontainer"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"5"
+		"wide"										"284"
+		"tall"										"258"
 		"PaintBackgroundType"						"2"
 		"bgcolor_override"							"Blank"
 	}
@@ -219,7 +211,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"FiltersBG"
 		{
@@ -234,7 +226,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 	}
 
@@ -242,7 +234,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassLabel"
-		"font"										"Size 36"
+		"font"										"Size_36"
 		"labelText"									"crafting"
 		"textAlignment"								"west"
 		"xpos"										"c-293"
@@ -250,8 +242,6 @@
 		"zpos"										"1"
 		"wide"										"240"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
@@ -268,7 +258,7 @@
 		"zpos"										"10"
 		"wide"										"295"
 		"tall"										"307"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"RecipeTitle"
 		{
@@ -281,7 +271,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RecipeInputStringLabel"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"%recipeinputstring%"
 			"textAlignment"							"west"
 			"xpos"									"cs-0.5"
@@ -289,8 +279,6 @@
 			"zpos"									"1"
 			"wide"									"f16"
 			"tall"									"25"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -302,7 +290,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"InputLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#Craft_Recipe_Inputs"
 			"textAlignment"							"west"
 			"xpos"									"cs-0.5"
@@ -310,19 +298,17 @@
 			"zpos"									"1"
 			"wide"									"f16"
 			"tall"									"25"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"RedLight"
+			"fgcolor"								"Red_Light"
 		}
 
 		"OutputLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OutputLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#Craft_Recipe_Outputs"
 			"textAlignment"							"west"
 			"xpos"									"cs-0.5"
@@ -330,12 +316,10 @@
 			"zpos"									"1"
 			"wide"									"f16"
 			"tall"									"25"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"GreenLight"
+			"fgcolor"								"Green_Light"
 		}
 
 		"CraftButton"
@@ -347,13 +331,11 @@
 			"zpos"									"20"
 			"wide"									"f10"
 			"tall"									"26"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"0"
 			"proportionaltoparent"					"1"
 			"labelText"								"#CraftConfirm"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"Command"								"craft"
@@ -363,19 +345,19 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"border_default"						"GreenTransparent70"
-			"border_armed"							"GreenDarkTransparent70"
+			"border_default"						"Green_Transparent_70"
+			"border_armed"							"Green_Dark_Transparent_70"
 
-			"defaultFgColor_override" 				"WhiteSolid"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White_Solid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"FreeAccountLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreeAccountLabel"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#Craft_PremiumRecipe"
 			"textAlignment"							"west"
 			"xpos"									"20"
@@ -386,7 +368,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"RedLight"
+			"fgcolor"								"Red_Light"
 		}
 
 		"UpgradeButton"
@@ -402,7 +384,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_Trial_Upgrade"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"Command"								"upgrade"
@@ -412,12 +394,12 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"border_default"						"RedTransparent70"
-			"border_armed"							"RedDarkTransparent70"
+			"border_default"						"Red_Transparent_70"
+			"border_armed"							"Red_Dark_Transparent_70"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -444,14 +426,12 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
 			"wide"									"140"
 			"tall"									"60"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%attriblist%"
@@ -502,13 +482,13 @@
 		"tall"										"50"
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
-		"border"									"ThemeDarkestBorder"
+		"border"									"Theme_Darkest_Border"
 
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%tiptext%"
 			"textAlignment"							"center"
 			"xpos"									"20"
@@ -516,8 +496,6 @@
 			"zpos"									"2"
 			"wide"									"100"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"White"

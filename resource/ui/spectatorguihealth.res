@@ -28,8 +28,8 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"Size 16"
-		"fgcolor"		  							"Health"
+		"font"										"Size_16"
+		"fgcolor"									"Health"
 	}
 	"PlayerStatusHealthValueTargetShadow"
 	{
@@ -45,7 +45,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"Size 16"
+		"font"										"Size_16"
 		"fgcolor"									"Shadows"
 
 		"pin_to_sibling"							"PlayerStatusHealthValueTarget"
@@ -56,36 +56,43 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
 		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImageBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
 		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BuildingStatusHealthImageBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
 		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
-
-	"PlayerStatusPlayerLevel"						//I legit can't remember what this is HELP
+	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusPlayerLevel"
-		"xpos"										"8"
-		"ypos"										"9"
-		"zpos"										"5"
-		"wide"										"16"
-		"tall"										"12"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
 		"visible"									"0"
-		"enabled"									"1"
-		"textAlignment"								"center"
-		"font"										"Size 8"
-		"fgcolor"									"TFOrange"
+		"enabled"									"0"
 	}
 }

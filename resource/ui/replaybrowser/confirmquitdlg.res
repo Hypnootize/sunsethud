@@ -8,8 +8,6 @@
 		"ypos"										"c-95"
 		"wide"										"400"
 		"tall"										"275"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
@@ -27,7 +25,7 @@
 		"visible"									"1"
 		"PaintBackgroundType"						"2"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackDarkTransparent"
+		"bgcolor_override"							"Black_Dark_Transparent"
 	}
 
 	"TitleLabel"
@@ -39,12 +37,12 @@
 		"zpos"										"1"
 		"wide"										"400"
 		"tall"										"50"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"#Replay_ConfirmQuitTitle"
 		"textAlignment"								"north"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 	}
 
 	"ExplanationLabel"
@@ -58,11 +56,11 @@
 		"tall"										"100"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"#Replay_ConfirmQuit"
 		"textAlignment"								"north"
 		"centerwrap"								"1"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 	}
 
 	"RenderButton"
@@ -77,7 +75,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Replay_RenderNow"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"rendernow"
@@ -88,12 +86,12 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"ReplaysButton"
@@ -108,7 +106,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Replay_TakeMeToReplays"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"gotoreplays"
@@ -119,12 +117,12 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"QuitButton"
@@ -139,7 +137,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Replay_YesReallyQuit"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"quit"
@@ -150,12 +148,12 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"DontShowThisAgainCheckbox"
@@ -163,7 +161,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"DontShowThisAgainCheckbox"
 		"labelText"									"#Replay_DontShowThisAgain"
-		"Font"										"Size 8"
+		"Font"										"Size_8"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"130"

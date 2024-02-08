@@ -47,10 +47,10 @@
 		"CheckButton.HighlightFgColor"					"CheckButtonTextArmed"
 		"CheckButton.ArmedBgColor"						"Blank"
 		"CheckButton.DepressedBgColor"					"Blank"
-		"CheckButton.Border1"  							"Blank"
-		"CheckButton.Border2"  							"Blank"
+		"CheckButton.Border1"							"Blank"
+		"CheckButton.Border2"							"Blank"
 		"CheckButton.Check"								"CheckButtonFG"
-		"CheckButton.DisabledBgColor"	   				"CheckButtonBG"
+		"CheckButton.DisabledBgColor"					"CheckButtonBG"
 
 		"ComboBoxButton.ArrowColor"						"White"
 		"ComboBoxButton.ArmedArrowColor"				"White"

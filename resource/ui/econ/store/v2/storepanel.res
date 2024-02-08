@@ -1,4 +1,4 @@
-#base "../../../../../resource/tools/reloadschemebutton.res"
+#base "../../../../tools/reloadschemebutton.res"
 
 "Resource/UI/Econ/Store/V2/StorePanel.res"
 {
@@ -17,8 +17,6 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
@@ -65,7 +63,7 @@
 		"tall"										"38"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 
 	"TopBlueBar"
@@ -79,11 +77,11 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"ThemeTransparent30"
+		"border"									"Theme_Transparent_30"
 
-		"pin_to_sibling" 							"TopBar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"TopBar"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"BottomBar"
@@ -98,7 +96,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		
-		"drawcolor"									"BlackSolid"
+		"drawcolor"									"Black_Solid"
 		"Scaleimage"								"1"
 		"image"										"replay/thumbnails/panels/material_generic_bottom_30"
 		"src_corner_height"							"32"
@@ -117,7 +115,7 @@
 		"tabwidth"									"240"
 		"tabheight"									"18"
 		"tabxfittotext"								"1"
-		"transition_time" 							"0"
+		"transition_time"							"0"
 		"yoffset"									"13"
 
 		"HeaderLine"
@@ -131,14 +129,14 @@
 		{
 			"textinsetx"							"2"
 			"textinsety"							"0"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"selectedcolor"							"White"
 			"unselectedcolor"						"190 200 215 255"
 			"defaultBgColor_override"				"Blank"
 			"paintbackground"						"0"
 			"activeborder_override"					"NoBorder"
-			"normalborder_override" 				"NoBorder"
-			"AllCaps"				 				"1"
+			"normalborder_override"					"NoBorder"
+			"AllCaps"								"1"
 		}
 	}
 
@@ -156,7 +154,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
 		"labelText"									"Back"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"west"
 		"textinsetx"								"25"
 		"AllCaps"									"1"
@@ -166,10 +164,10 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 	"CloseButtonIcon"
 	{
@@ -184,12 +182,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 12"
+		"font"										"Symbols_12"
 		"labelText"									"#"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"CloseButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -219,7 +217,7 @@
 		"use_proportional_insets"					"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"Checkout"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"east"
 		"textinsetx"								"25"
 		"AllCaps"									"1"
@@ -229,10 +227,10 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 	"CheckoutButtonIcon"
 	{
@@ -247,12 +245,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 12"
+		"font"										"Symbols_12"
 		"labelText"									"x"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"CheckoutButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -302,7 +300,7 @@
 		"zpos"										"5"
 		"wide"										"25"
 		"tall"										"25"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									""
 		"visible"									"0"
 		"smallcheckimage"							"1"
@@ -318,7 +316,7 @@
 		"wide"										"130"
 		"tall"										"20"
 		"visible"									"0"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"Support Map Makers"
 		"textAlignment"								"east"
 		"textinsetx"								"25"
@@ -328,11 +326,11 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
-		"pin_to_sibling" 							"SupportCommunityMapMakersCheckButton"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"SupportCommunityMapMakersCheckButton"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 
 	"BackgroundHeader"
@@ -340,17 +338,32 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BackgroundHeader"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BackgroundFooter"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BackgroundFooter"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"FooterLine"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"FooterLine"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -12,13 +12,13 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackTransparent"
+		"bgcolor_override"							"Black_Transparent"
 	}
 
 	"MapFrame"
 	{
-		"ControlName"     		  					"EditablePanel"
-		"fieldName"	        	  					"MapFrame"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"MapFrame"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -28,11 +28,11 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
-		"pin_to_sibling" 							"Background"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Background"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"MapInfoTitleIcon"
 	{
@@ -47,12 +47,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"E"
 		"textAlignment"								"Center"
 		"fgcolor"									"Black"
 		"paintborder"								"1"
-		"border"									"WhiteDarkBorder"
+		"border"									"White_Dark_Border"
 
 		"pin_to_sibling"							"MapFrame"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -73,12 +73,12 @@
 		"labelText"									"%mapname%"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"MapInfoTitleIcon"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"MapInfoTitleIcon"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 
 	"Background"
@@ -94,7 +94,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"InnerBG"
 		{
@@ -109,7 +109,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlackTransparent50"
+			"border"								"Black_Transparent_50"
 		}
 	}
 
@@ -125,7 +125,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
@@ -135,7 +135,7 @@
 		"image_down_arrow"							"replay/thumbnails/menu/chalkboard_scroll_down"
 		"image_up_arrow"							"replay/thumbnails/menu/chalkboard_scroll_up"
 
-		"pin_to_sibling" 							"Background"
+		"pin_to_sibling"							"Background"
 	}
 
 	"ok"
@@ -154,21 +154,21 @@
 		"textAlignment"								"center"
 		"command"									"continue"
 		"default"									"1"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"BlackTransparent70"
-		"border_armed"								"OrangeTransparent70"
+		"border_default"							"Black_Transparent_70"
+		"border_armed"								"Orange_Transparent_70"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"pin_to_sibling" 							"Background"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"Background"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"OKShortKey"
 	{
@@ -192,12 +192,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"$"
 		"textAlignment"								"Center"
 		"fgcolor"									"Black"
 		"paintborder"								"1"
-		"border"									"WhiteDarkBorder"
+		"border"									"White_Dark_Border"
 
 		"pin_to_sibling"							"ok"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -221,21 +221,21 @@
 		"command"									"intro"
 		"default"									"1"
 		"paintbackground"							"0"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"BlackTransparent70"
-		"border_armed"								"OrangeTransparent70"
+		"border_default"							"Black_Transparent_70"
+		"border_armed"								"Orange_Transparent_70"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"pin_to_sibling" 							"ok"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"ok"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 
@@ -247,35 +247,65 @@
 		"ControlName"								"CTFButton"
 		"fieldName"									"MapInfoBack"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapInfoType"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapInfoType"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapInfoContinue"
 	{
 		"ControlName"								"CTFButton"
 		"fieldName"									"MapInfoContinue"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MenuBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"MenuBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"MapImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -124,8 +124,6 @@
 		"zpos"										"200"
 		"wide"										"f1"
 		"tall"										"f1"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"PlayerPanelPlayerName"
@@ -163,6 +161,6 @@
 
 		"radius"									"26"
 		"velocity"									"60"
-		"fgcolor_override"							"OrangeSolid"
+		"fgcolor_override"							"Orange_Solid"
 	}
 }

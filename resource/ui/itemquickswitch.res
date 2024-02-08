@@ -15,7 +15,7 @@
 
 		"PaintBackground"							"0"
 		"PaintBorder"								"1"
-		"Border"									"BlackTransparent50"
+		"Border"									"Black_Transparent_50"
 
 		"itempanel_xpos"							"0"
 		"itempanel_ydelta"							"0"
@@ -27,7 +27,7 @@
 			"bgcolor_override"						"Blank"
 			"PaintBackground"						"1"
 			"paintborder"							"0"
-			"text_forcesize" 						"2"
+			"text_forcesize"						"2"
 
 			"model_xpos"							"0"
 			"model_ypos"							"5"
@@ -51,7 +51,7 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"f0"
-		"tall"	 									"20"
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -64,7 +64,7 @@
 		"src_corner_height"							"32"
 		"src_corner_width"							"32"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 	"ItemSlotLabel"
 	{
@@ -78,11 +78,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 13"
+		"font"										"Size_13"
 		"labelText"									"#PrimaryWeapon"
 		"textAlignment"								"west"
 		"fgcolor"									"White"
-		"pin_to_sibling" 							"ItemSlotLabelBG"
+		"pin_to_sibling"							"ItemSlotLabelBG"
 	}
 
 	"itemcontainerscroller"
@@ -95,7 +95,7 @@
 		"tall"										"f24"
 		"fgcolor_override"							"White"
 		"PaintBackground"							"0"
-		"autohide_buttons" 							"1"
+		"autohide_buttons"							"1"
 		"proportionaltoparent"						"1"
 
 		"ScrollBar"
@@ -154,10 +154,10 @@
 			"wide"									"30"
 			"tall"									"30"
 			"visible"								"1"
-			"font"									"Size 12 Shadow"
+			"font"									"Size_12_Shadow"
 			"labelText"								"ON"
 			"textAlignment"							"west"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
 	}
@@ -176,7 +176,7 @@
 		"proportionaltoparent"						"1"
 
 		"PaintBorder"								"1"
-		"Border"									"BlackTransparent50"
+		"Border"									"Black_Transparent_50"
 	}
 	"loadout_preset_panel"
 	{
@@ -198,17 +198,32 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CaratLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NoItemsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NoItemsLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

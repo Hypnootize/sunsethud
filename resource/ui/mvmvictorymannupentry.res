@@ -29,7 +29,6 @@
 			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			"AutoResize"							"0"
 			"skip_autoresize"						"1"
 
 			"model_center_x"						"1"
@@ -93,7 +92,7 @@
 
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"2"
-			"bgcolor_override"						"BlackTransparent"
+			"bgcolor_override"						"Black_Transparent"
 
 			"proportionalToParent"					"1"
 
@@ -128,7 +127,7 @@
 
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"2"
-			"bgcolor_override"						"BlackTransparent"
+			"bgcolor_override"						"Black_Transparent"
 
 			"pin_to_sibling"						"PanelListPanel"
 			"pin_corner_to_sibling"					"0"
@@ -157,8 +156,6 @@
 			"ypos"									"50"
 			"wide"									"427"
 			"tall"									"225"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 
@@ -191,7 +188,7 @@
 
 				"PaintBackground"					"1"
 				"PaintBackgroundType"				"2"
-				"bgcolor_override"					"BlackTransparent"
+				"bgcolor_override"					"Black_Transparent"
 			}
 			"ItemBackground2"
 			{
@@ -207,7 +204,7 @@
 
 				"PaintBackground"					"1"
 				"PaintBackgroundType"				"2"
-				"bgcolor_override"					"BlackTransparent"
+				"bgcolor_override"					"Black_Transparent"
 			}
 			"ItemBackground3"
 			{
@@ -223,7 +220,7 @@
 
 				"PaintBackground"					"1"
 				"PaintBackgroundType"				"2"
-				"bgcolor_override"					"BlackTransparent"
+				"bgcolor_override"					"Black_Transparent"
 			}
 			"ItemBackground4"
 			{
@@ -239,7 +236,7 @@
 
 				"PaintBackground"					"1"
 				"PaintBackgroundType"				"2"
-				"bgcolor_override"					"BlackTransparent"
+				"bgcolor_override"					"Black_Transparent"
 			}
 			"ItemBackground5"
 			{
@@ -255,7 +252,7 @@
 
 				"PaintBackground"					"1"
 				"PaintBackgroundType"				"2"
-				"bgcolor_override"					"BlackTransparent"
+				"bgcolor_override"					"Black_Transparent"
 			}
 			"ItemBackground6"
 			{
@@ -271,7 +268,7 @@
 
 				"PaintBackground"					"1"
 				"PaintBackgroundType"				"2"
-				"bgcolor_override"					"BlackTransparent"
+				"bgcolor_override"					"Black_Transparent"
 			}
 		}
 	}
@@ -306,7 +303,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"LevelLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%level%"
 			"textAlignment"							"center"
 			"xpos"									"-1"
@@ -321,7 +318,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"LevelLabelDropShadow"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"%level%"
 			"textAlignment"							"center"
 			"xpos"									"9999"
@@ -336,7 +333,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TourProgressLabel"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"#TF_MVM_Victory_TourProgress"
 			"textAlignment"							"south-west"
 			"xpos"									"0"
@@ -359,7 +356,7 @@
 
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"2"
-			"bgcolor_override"						"BlackTransparent"
+			"bgcolor_override"						"Black_Transparent"
 
 			"LevelProgressBarFGAnim"
 			{
@@ -373,7 +370,7 @@
 				"visible"							"0"
 				"PaintBackground"					"1"
 				"PaintBackgroundType"				"2"
-				"bgcolor_override"					"GreenLight"
+				"bgcolor_override"					"Green_Light"
 				"proportionalToParent"				"1"
 				"visible"							"1"
 			}
@@ -398,7 +395,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MissingVoucher"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									"#TF_PVE_Server_SquadVoucherMissing"
 		"textAlignment"								"center"
 		"xpos"										"320"
@@ -429,7 +426,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MannUpLabel"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									"#TF_MVM_Victory_MannUpLoot"
 		"textAlignment"								"south-west"
 		"xpos"										"-2"
@@ -450,7 +447,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SquadSurplusLabel"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									"#TF_MVM_Victory_SquadSurplus"
 		"textAlignment"								"south-west"
 		"xpos"										"10"
@@ -471,7 +468,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TourOfDutyLabel"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									"#TF_MvM_TourLootTitle"
 		"textAlignment"								"south-west"
 		"xpos"										"18"
@@ -492,7 +489,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"VeteranBonusLabel"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									"#TF_MVM_Victory_VeteranBonus"
 		"textAlignment"								"south-west"
 		"xpos"										"0"
@@ -506,7 +503,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerNameLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"%name%"
 		"textAlignment"								"south"
 		"xpos"										"-10"
@@ -529,8 +526,6 @@
 		"zpos"										"128"
 		"wide"										"300"
 		"tall"										"280"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"render_texture"							"0"

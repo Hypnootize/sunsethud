@@ -16,9 +16,9 @@
 		"tall"										"19"
 		"proportionaltoparent"						"1"
 
-		"pin_to_sibling" 							"BottomLeftBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"BottomLeftBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 
 		"SubButton"
 		{
@@ -31,8 +31,8 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
-			"font"									"Symbols 16"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"default"								"1"
 			"actionsignallevel"						"2"
@@ -42,12 +42,12 @@
 			"paintbackground"						"0"
 			"paintborder"							"1"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"BlackTransparent50"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Black_Transparent_50"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -63,9 +63,9 @@
 		"visible"									"0"
 		"PaintBackground"							"0"
 
-		"pin_to_sibling" 							"BottomLeftBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"BottomLeftBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 
 		"BG"
 		{
@@ -80,7 +80,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
-			"border"								"BlackTransparent30Soft"
+			"border"								"Black_Transparent_30_Soft"
 		}
 
 		"CloseButton"
@@ -94,8 +94,8 @@
 			"tall"									"19"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
-			"font"									"Symbols 16"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"labeltext"								"V"
 			"AllCaps"								"1"
@@ -108,12 +108,12 @@
 			"paintbackground"						"0"
 			"paintborder"							"1"
 
-			"border_default"						"RedBorder"
-			"border_armed"							"RedDarkBorder"
+			"border_default"						"Red_Border"
+			"border_armed"							"Red_Dark_Border"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"DamageBG"
@@ -129,7 +129,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"DamagePresetsLabel"
@@ -145,16 +145,16 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"textAlignment"							"center"
 			"labelText"								"Damage Color Presets"
 			"AllCaps"								"1"
 			"wrap"									"0"
 			"fgcolor"								"White"
 
-			"pin_to_sibling" 						"DamageBG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_TOP"
+			"pin_to_sibling"						"DamageBG"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_TOP"
 		}
 
 		"DamageWhite"
@@ -169,9 +169,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"labelText"								"v"
 			"command"								"engine hud_combattext 1; hud_combattext_red 235; hud_combattext_green 235; hud_combattext_blue 235"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -182,9 +182,9 @@
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
 
-			"pin_to_sibling" 						"DamageYellow"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+			"pin_to_sibling"						"DamageYellow"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 		"DamageYellow"
 		{
@@ -198,9 +198,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"labelText"								"v"
 			"command"								"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 230; hud_combattext_blue 60"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -211,9 +211,9 @@
 			"armedFgColor_override"					"255 230 60 255"
 			"depressedFgColor_override"				"255 230 60 255"
 
-			"pin_to_sibling" 						"DamageOrange"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+			"pin_to_sibling"						"DamageOrange"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 		"DamageOrange"
 		{
@@ -227,22 +227,22 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"labelText"								"v"
 			"command"								"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 200; hud_combattext_blue 55"
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"OrangeSolid"
-			"armedFgColor_override"					"OrangeSolid"
-			"depressedFgColor_override"				"OrangeSolid"
+			"defaultFgColor_override"				"Orange_Solid"
+			"armedFgColor_override"					"Orange_Solid"
+			"depressedFgColor_override"				"Orange_Solid"
 
-			"pin_to_sibling" 						"DamageRed"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+			"pin_to_sibling"						"DamageRed"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 		"DamageRed"
 		{
@@ -256,22 +256,22 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"labelText"								"v"
 			"command"								"engine hud_combattext 1; hud_combattext_red 245; hud_combattext_green 70; hud_combattext_blue 70"
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"RedLight"
-			"armedFgColor_override"					"RedLight"
-			"depressedFgColor_override"				"RedLight"
+			"defaultFgColor_override"				"Red_Light"
+			"armedFgColor_override"					"Red_Light"
+			"depressedFgColor_override"				"Red_Light"
 
-			"pin_to_sibling" 						"DamagePresetsLabel"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
+			"pin_to_sibling"						"DamagePresetsLabel"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 		"DamageBlue"
 		{
@@ -285,22 +285,22 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"labelText"								"v"
 			"command"								"engine hud_combattext 1; hud_combattext_red 150; hud_combattext_green 200; hud_combattext_blue 220"
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"BlueLight"
-			"armedFgColor_override"					"BlueLight"
-			"depressedFgColor_override"				"BlueLight"
+			"defaultFgColor_override"				"Blue_Light"
+			"armedFgColor_override"					"Blue_Light"
+			"depressedFgColor_override"				"Blue_Light"
 
-			"pin_to_sibling" 						"DamageRed"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"DamageRed"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"DamageTheme"
 		{
@@ -314,22 +314,22 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"labelText"								"v"
 			"command"								"engine hud_combattext 1; hud_combattext_red 190; hud_combattext_green 200; hud_combattext_blue 255"
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"MainTheme"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"Main_Theme"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 
-			"pin_to_sibling" 						"DamageBlue"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"DamageBlue"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"DamageGreen"
 		{
@@ -343,22 +343,22 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"labelText"								"v"
 			"command"								"engine hud_combattext 1; hud_combattext_red 185; hud_combattext_green 220; hud_combattext_blue 25"
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"GreenLight"
-			"armedFgColor_override"					"GreenLight"
-			"depressedFgColor_override"				"GreenLight"
+			"defaultFgColor_override"				"Green_Light"
+			"armedFgColor_override"					"Green_Light"
+			"depressedFgColor_override"				"Green_Light"
 
-			"pin_to_sibling" 						"DamageTheme"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"DamageTheme"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"ClosedCaptionsBG"
@@ -374,11 +374,11 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"DamageBG"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"DamageBG"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"ClosedCaptionsLabel"
 		{
@@ -393,16 +393,16 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"textAlignment"							"west"
 			"labelText"								"Closed Captions :"
 			"AllCaps"								"1"
 			"wrap"									"0"
 			"fgcolor"								"White"
 
-			"pin_to_sibling" 						"ClosedCaptionsBG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+			"pin_to_sibling"						"ClosedCaptionsBG"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 		"ClosedCaptionsON"
 		{
@@ -416,10 +416,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
 			"textAlignment"							"center"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"labelText"								"ON"
 			"command"								"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -427,16 +427,16 @@
 			"paintbackground"						"0"
 			"paintborder"							"1"
 
-			"border_default"						"BlackTransparent50"
-			"border_armed"							"ThemeTransparent50"
+			"border_default"						"Black_Transparent_50"
+			"border_armed"							"Theme_Transparent_50"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"pin_to_sibling" 						"ClosedCaptionsBG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_RIGHT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
+			"pin_to_sibling"						"ClosedCaptionsBG"
+			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
+			"pin_to_sibling_corner"					"PIN_CENTER_RIGHT"
 		}
 		"ClosedCaptionsOFF"
 		{
@@ -450,10 +450,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
 			"textAlignment"							"center"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"labelText"								"OFF"
 			"command"								"engine closecaption 0; cc_predisplay_time 0"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -461,16 +461,16 @@
 			"paintbackground"						"0"
 			"paintborder"							"1"
 
-			"border_default"						"BlackTransparent50"
-			"border_armed"							"ThemeTransparent50"
+			"border_default"						"Black_Transparent_50"
+			"border_armed"							"Theme_Transparent_50"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"pin_to_sibling" 						"ClosedCaptionsBG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_RIGHT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
+			"pin_to_sibling"						"ClosedCaptionsBG"
+			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
+			"pin_to_sibling_corner"					"PIN_CENTER_RIGHT"
 		}
 
 		"MinmodeToggle"
@@ -485,10 +485,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
 			"textAlignment"							"center"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"labelText"								"Toggle Minmode"
 			"command"								"engine toggle cl_hud_minmode"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -496,16 +496,16 @@
 			"paintbackground"						"0"
 			"paintborder"							"1"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"ThemeTransparent50"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Theme_Transparent_50"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"pin_to_sibling" 						"ClosedCaptionsBG"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"ClosedCaptionsBG"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"MatchHudToggle"
 		{
@@ -519,10 +519,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
 			"textAlignment"							"center"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"labelText"								"Toggle MatchHUD"
 			"command"								"engine toggle tf_use_match_hud"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -530,16 +530,16 @@
 			"paintbackground"						"0"
 			"paintborder"							"1"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"ThemeTransparent50"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Theme_Transparent_50"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"pin_to_sibling" 						"ClosedCaptionsBG"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMRIGHT"
+			"pin_to_sibling"						"ClosedCaptionsBG"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMRIGHT"
 		}
 		"ChatToggle"
 		{
@@ -553,10 +553,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
 			"textAlignment"							"center"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"labelText"								"Toggle Chat"
 			"command"								"engine toggle hud_saytext_time 0 6"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -564,16 +564,16 @@
 			"paintbackground"						"0"
 			"paintborder"							"1"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"ThemeTransparent50"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Theme_Transparent_50"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"pin_to_sibling" 						"MinmodeToggle"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"MinmodeToggle"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"NetGraphToggle"
 		{
@@ -587,10 +587,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
 			"textAlignment"							"center"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"labelText"								"Toggle NetGraph"
 			"command"								"engine toggle net_graph"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -598,16 +598,16 @@
 			"paintbackground"						"0"
 			"paintborder"							"1"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"ThemeTransparent50"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Theme_Transparent_50"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"pin_to_sibling" 						"MatchHudToggle"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMRIGHT"
+			"pin_to_sibling"						"MatchHudToggle"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMRIGHT"
 		}
 		"ReloadHUD"
 		{
@@ -621,10 +621,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
 			"textAlignment"							"center"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"labelText"								"Reload HUD"
 			"command"								"engine hud_reloadscheme"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -632,16 +632,16 @@
 			"paintbackground"						"0"
 			"paintborder"							"1"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"ThemeTransparent50"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Theme_Transparent_50"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"pin_to_sibling" 						"ChatToggle"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"ChatToggle"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"ReloadSound"
 		{
@@ -655,10 +655,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
 			"textAlignment"							"center"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"labelText"								"Reload Sound"
 			"command"								"engine snd_restart"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -666,16 +666,16 @@
 			"paintbackground"						"0"
 			"paintborder"							"1"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"ThemeTransparent50"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Theme_Transparent_50"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"pin_to_sibling" 						"NetGraphToggle"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMRIGHT"
+			"pin_to_sibling"						"NetGraphToggle"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMRIGHT"
 		}
 		"FixInvisiblePlayers"
 		{
@@ -689,10 +689,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"actionsignallevel"						"2"
 			"textAlignment"							"center"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"labelText"								"Fix Invisible Players"
 			"command"								"engine stop; record fix"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -700,16 +700,16 @@
 			"paintbackground"						"0"
 			"paintborder"							"1"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"ThemeTransparent50"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Theme_Transparent_50"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"pin_to_sibling" 						"ReloadHUD"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"ReloadHUD"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 	}
 }

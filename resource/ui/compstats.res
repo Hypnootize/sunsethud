@@ -12,7 +12,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"PaintBackground"							"0"
-		"border"									"ThemeTransparent50"
+		"border"									"Theme_Transparent_50"
 	}
 
 	"ScrollableContainer"
@@ -42,7 +42,7 @@
 			"actionsignallevel"						"2"
 			"command"								"show_match_history"
 			"labeltext"								"#TF_Competitive_ViewMatches"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 
@@ -52,11 +52,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 		}
 		"ShowLeaderboardsButton"
 		{
@@ -73,7 +73,7 @@
 			"actionsignallevel"						"2"
 			"command"								"show_leaderboards"
 			"labeltext"								"#TF_Competitive_ViewLeaderboards"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 
@@ -83,11 +83,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 
 			"pin_to_sibling"						"ShowMatchHistoryButton"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -105,8 +105,6 @@
 			"tall"									"f31"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
-			"pinCorner"								"2"
-			"autoResize"							"1"
 
 			"paintbackground"						"0"
 			"paintborder"							"0"
@@ -135,6 +133,11 @@
 					"ControlName"					"EditablePanel"
 					"fieldName"						"BGPanel"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 
 				"SortArrow"
@@ -154,9 +157,9 @@
 					"font"							""
 					"textAlignment"					"west"
 
-					"defaultFgColor_override" 		"Blank"
+					"defaultFgColor_override"		"Blank"
 					"armedFgColor_override"			"Blank"
-					"selectedFgColor_override" 		"Blank"
+					"selectedFgColor_override"		"Blank"
 				}
 
 				"ResultButton"
@@ -171,19 +174,19 @@
 					"visible"						"1"
 
 					"labeltext"						"#TF_Competitive_Result"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor_override"				"White"
 					"textAlignment"					"center"
 					"AllCaps"						"1"
 
-					"defaultFgColor_override" 		"White"
-					"armedFgColor_override"			"WhiteSolid"
-					"selectedFgColor_override" 		"WhiteSolid"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"			"White_Solid"
+					"selectedFgColor_override"		"White_Solid"
 
 					"paintbackground"				"1"
-					"defaultBgColor_override" 		"BlackLightTransparent"
+					"defaultBgColor_override"		"Black_Light_Transparent"
 					"armedBgColor_override"			"0 0 0 125"
-					"selectedBgColor_override" 		"0 0 0 125"
+					"selectedBgColor_override"		"0 0 0 125"
 
 					"image_selectedcolor"			"150 150 150 255"
 					"image_armedcolor"				"0 0 0 0"
@@ -208,19 +211,19 @@
 					"visible"						"1"
 
 					"labeltext"						"#TF_Competitive_Date"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor_override"				"White"
 					"textAlignment"					"center"
 					"AllCaps"						"1"
 
-					"defaultFgColor_override" 		"White"
-					"armedFgColor_override"			"WhiteSolid"
-					"selectedFgColor_override" 		"WhiteSolid"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"			"White_Solid"
+					"selectedFgColor_override"		"White_Solid"
 
 					"paintbackground"				"1"
-					"defaultBgColor_override" 		"BlackLightTransparent"
+					"defaultBgColor_override"		"Black_Light_Transparent"
 					"armedBgColor_override"			"0 0 0 125"
-					"selectedBgColor_override" 		"0 0 0 125"
+					"selectedBgColor_override"		"0 0 0 125"
 
 					"image_selectedcolor"			"150 150 150 255"
 					"image_armedcolor"				"0 0 0 0"
@@ -249,19 +252,19 @@
 					"visible"						"1"
 
 					"labeltext"						"#TF_Competitive_Map"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor_override"				"White"
 					"textAlignment"					"center"
 					"AllCaps"						"1"
 
-					"defaultFgColor_override" 		"White"
-					"armedFgColor_override"			"WhiteSolid"
-					"selectedFgColor_override" 		"WhiteSolid"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"			"White_Solid"
+					"selectedFgColor_override"		"White_Solid"
 
 					"paintbackground"				"1"
-					"defaultBgColor_override" 		"BlackLightTransparent"
+					"defaultBgColor_override"		"Black_Light_Transparent"
 					"armedBgColor_override"			"0 0 0 125"
-					"selectedBgColor_override" 		"0 0 0 125"
+					"selectedBgColor_override"		"0 0 0 125"
 
 					"image_selectedcolor"			"150 150 150 255"
 					"image_armedcolor"				"0 0 0 0"
@@ -290,19 +293,19 @@
 					"visible"						"1"
 
 					"labeltext"						"#TF_Competitive_KDR"
-					"font"							"Size 11"
+					"font"							"Size_11"
 					"fgcolor_override"				"White"
 					"textAlignment"					"center"
 					"AllCaps"						"1"
 
-					"defaultFgColor_override" 		"White"
-					"armedFgColor_override"			"WhiteSolid"
-					"selectedFgColor_override" 		"WhiteSolid"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"			"White_Solid"
+					"selectedFgColor_override"		"White_Solid"
 
 					"paintbackground"				"1"
-					"defaultBgColor_override" 		"BlackLightTransparent"
+					"defaultBgColor_override"		"Black_Light_Transparent"
 					"armedBgColor_override"			"0 0 0 125"
-					"selectedBgColor_override" 		"0 0 0 125"
+					"selectedBgColor_override"		"0 0 0 125"
 
 					"image_selectedcolor"			"150 150 150 255"
 					"image_armedcolor"				"0 0 0 0"
@@ -330,7 +333,7 @@
 				"tall"								"f16"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
-				"restrict_width" 					"0"
+				"restrict_width"					"0"
 
 				"ScrollBar"
 				{
@@ -376,7 +379,7 @@
 				"tall"								"f20"
 				"visible"							"0"
 				"enabled"							"1"
-				"mouseinputenabled" 				"1"
+				"mouseinputenabled"					"1"
 				"scaleImage"						"1"
 				"entry_step"						"23"
 				"proportionaltoparent"				"1"

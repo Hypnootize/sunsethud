@@ -26,8 +26,8 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"								"west"
-		"font"										"Size 30"
-		"fgcolor"									"WhiteSolid"
+		"font"										"Size_30"
+		"fgcolor"									"White_Solid"
 		"AllCaps"									"1"
 
 		"mouseinputenabled"							"0"
@@ -60,7 +60,7 @@
 		"mouseinputenabled"							"1"
 		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 	}
 
 	"QueueButton"
@@ -72,11 +72,9 @@
 		"zpos"										"300"
 		"wide"										"255"
 		"tall"										"26"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"Command"									"find_game"
 		"proportionaltoparent"						"1"
@@ -92,12 +90,12 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"GreenTransparent70"
-		"border_armed"								"GreenDarkTransparent70"
+		"border_default"							"Green_Transparent_70"
+		"border_armed"								"Green_Dark_Transparent_70"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 	"QueueButtonIcon"
 	{
@@ -112,12 +110,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"q"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"QueueButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"

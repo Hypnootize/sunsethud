@@ -1,4 +1,4 @@
-#base "../../../resource/tools/reloadschemebutton.res"
+#base "../../tools/reloadschemebutton.res"
 
 "Resource/UI/Training/Main.res"
 {
@@ -28,19 +28,29 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"GradientBgPanel"
 		{
 			"ControlName"							"ImagePanel"
 			"FieldName"								"GradientBgPanel"
+			"xpos"									"9999"
+			"ypos"									"9999"
 			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Background"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"Background"
+			"xpos"									"9999"
+			"ypos"									"9999"
 			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"TitleLabel"
@@ -56,7 +66,7 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 30"
+			"font"									"Size_30"
 			"labelText"								"%title%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
@@ -75,7 +85,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%subtitle%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
@@ -93,7 +103,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"back"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"AllCaps"								"1"
 			"textAlignment"							"center"
 			"Command"								"prevpage"
@@ -103,12 +113,12 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"CancelButton"
@@ -124,7 +134,7 @@
 			"proportionaltoparent"					"1"
 			"labelText"								"quit"
 			"AllCaps"								"1"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"textAlignment"							"center"
 			"Command"								"cancel"
 
@@ -133,12 +143,12 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"ModeSelectionPanel"

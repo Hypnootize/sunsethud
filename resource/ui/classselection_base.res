@@ -24,7 +24,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackTransparent"
+		"bgcolor_override"							"Black_Transparent"
 	}
 
 	"ClassButtonsBG"
@@ -99,12 +99,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"bgcolor_override"							"BlackTransparent"
+		"bgcolor_override"							"Black_Transparent"
 
 		"PlayerModelCircleBG"
 		{
-			"ControlName"     		  				"ScalableImagePanel"
-			"fieldName"	        	  				"PlayerModelCircleBG"
+			"ControlName"							"ScalableImagePanel"
+			"fieldName"								"PlayerModelCircleBG"
 			"xpos"									"cs-0.5"
 			"ypos"									"rs1+35"
 			"zpos"									"0"
@@ -115,7 +115,7 @@
 			"proportionaltoparent"					"1"
 
 			"scaleImage"							"1"
-			"drawcolor"								"WhiteDark"
+			"drawcolor"								"White_Dark"
 			"image"									"replay/thumbnails/panels/material_circle_generic"
 			"src_corner_height"						"0"
 			"src_corner_width"						"0"
@@ -124,8 +124,8 @@
 		}
 		"PlayerModelInnerCircleBG"
 		{
-			"ControlName"     		  				"ScalableImagePanel"
-			"fieldName"	        	  				"PlayerModelInnerCircleBG"
+			"ControlName"							"ScalableImagePanel"
+			"fieldName"								"PlayerModelInnerCircleBG"
 			"xpos"									"0"
 			"ypos"									"-5"
 			"zpos"									"1"
@@ -143,9 +143,9 @@
 			"draw_corner_width"						"0"
 			"draw_corner_height"					"0"
 
-			"pin_to_sibling" 						"PlayerModelCircleBG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_TOP"
+			"pin_to_sibling"						"PlayerModelCircleBG"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_TOP"
 		}
 	}
 
@@ -181,13 +181,13 @@
 		"paintborder"								"1"
 
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
-		"selectedFgColor_override" 					"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
 
-		"border_default"							"BlackTransparentCircleBorder"
-		"border_Selected"							"OrangeCircleBorder"
+		"border_default"							"Black_Transparent_Circle_Border"
+		"border_Selected"							"Orange_Circle_Border"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -197,9 +197,9 @@
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
-		"pin_to_sibling" 							"PlayerModelBG"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"PlayerModelBG"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 	"ScoutIcon"
 	{
@@ -218,13 +218,13 @@
 		"textAlignment"								"center"
 		"textinsety"								"0"
 		"mouseinputenabled"							"0"
-		"font"										"Class Symbols 24"
+		"font"										"Class_Symbols_24"
 		"fgcolor"									"Black"
 		"alpha"										"255"
 
-		"pin_to_sibling" 							"Scout"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Scout"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"ScoutCircle"
 	{
@@ -239,16 +239,16 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"drawcolor"									"WhiteDark"
+		"drawcolor"									"White_Dark"
 		"image"										"replay/thumbnails/panels/circle_generic"
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
 
-		"pin_to_sibling" 							"Scout"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Scout"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"numScoutBG"
 	{
@@ -265,12 +265,12 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"v"
 		"textAlignment"								"center"
-		"font"										"Symbols 22"
+		"font"										"Symbols_22"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling" 							"scout"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"scout"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 	"numScout"
 	{
@@ -287,9 +287,9 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"%numScout%"
 		"textAlignment"								"center"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
-		"pin_to_sibling" 							"numScoutBG"
+		"pin_to_sibling"							"numScoutBG"
 	}
 	"MvMUpgradeImageScout"
 	{
@@ -306,7 +306,7 @@
 		"mouseinputenabled"							"0"
 		"image"										"replay/thumbnails/mvm/money"
 		"scaleImage"								"1"
-		"pin_to_sibling" 							"scout"
+		"pin_to_sibling"							"scout"
 	}
 
 	//===========================================================================================
@@ -341,13 +341,13 @@
 		"paintborder"								"1"
 
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
-		"selectedFgColor_override" 					"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
 
-		"border_default"							"BlackTransparentCircleBorder"
-		"border_Selected"							"OrangeCircleBorder"
+		"border_default"							"Black_Transparent_Circle_Border"
+		"border_Selected"							"Orange_Circle_Border"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -357,9 +357,9 @@
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
-		"pin_to_sibling" 							"scout"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"scout"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"SoldierIcon"
 	{
@@ -378,13 +378,13 @@
 		"textAlignment"								"center"
 		"textinsety"								"0"
 		"mouseinputenabled"							"0"
-		"font"										"Class Symbols 24"
+		"font"										"Class_Symbols_24"
 		"fgcolor"									"Black"
 		"alpha"										"255"
 
-		"pin_to_sibling" 							"Soldier"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Soldier"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"SoldierCircle"
 	{
@@ -400,16 +400,16 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"paintborder"								"0"
-		"drawcolor"									"WhiteDark"
+		"drawcolor"									"White_Dark"
 		"image"										"replay/thumbnails/panels/circle_generic"
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
 
-		"pin_to_sibling" 							"Soldier"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Soldier"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"numSoldierBG"
 	{
@@ -426,12 +426,12 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"v"
 		"textAlignment"								"center"
-		"font"										"Symbols 22"
+		"font"										"Symbols_22"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling" 							"soldier"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"soldier"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 	"numSoldier"
 	{
@@ -448,9 +448,9 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"%numSoldier%"
 		"textAlignment"								"center"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
-		"pin_to_sibling" 							"numSoldierBG"
+		"pin_to_sibling"							"numSoldierBG"
 	}
 	"MvMUpgradeImageSolider"
 	{
@@ -467,7 +467,7 @@
 		"mouseinputenabled"							"0"
 		"image"										"replay/thumbnails/mvm/money"
 		"scaleImage"								"1"
-		"pin_to_sibling" 							"soldier"
+		"pin_to_sibling"							"soldier"
 	}
 
 	//===========================================================================================
@@ -502,13 +502,13 @@
 		"paintborder"								"1"
 
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
-		"selectedFgColor_override" 					"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
 
-		"border_default"							"BlackTransparentCircleBorder"
-		"border_Selected"							"OrangeCircleBorder"
+		"border_default"							"Black_Transparent_Circle_Border"
+		"border_Selected"							"Orange_Circle_Border"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -518,9 +518,9 @@
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
-		"pin_to_sibling" 							"soldier"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"soldier"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"PyroIcon"
 	{
@@ -539,13 +539,13 @@
 		"textAlignment"								"center"
 		"textinsety"								"0"
 		"mouseinputenabled"							"0"
-		"font"										"Class Symbols 24"
+		"font"										"Class_Symbols_24"
 		"fgcolor"									"Black"
 		"alpha"										"255"
 
-		"pin_to_sibling" 							"Pyro"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Pyro"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"PyroCircle"
 	{
@@ -561,16 +561,16 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"paintborder"								"0"
-		"drawcolor"									"WhiteDark"
+		"drawcolor"									"White_Dark"
 		"image"										"replay/thumbnails/panels/circle_generic"
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
 
-		"pin_to_sibling" 							"Pyro"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Pyro"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"numPyroBG"
 	{
@@ -587,12 +587,12 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"v"
 		"textAlignment"								"center"
-		"font"										"Symbols 22"
+		"font"										"Symbols_22"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling" 							"pyro"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"pyro"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 	"numPyro"
 	{
@@ -609,9 +609,9 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"%numPyro%"
 		"textAlignment"								"center"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
-		"pin_to_sibling" 							"numPyroBG"
+		"pin_to_sibling"							"numPyroBG"
 	}
 	"MvMUpgradeImagePyro"
 	{
@@ -628,7 +628,7 @@
 		"mouseinputenabled"							"0"
 		"image"										"replay/thumbnails/mvm/money"
 		"scaleImage"								"1"
-		"pin_to_sibling" 							"pyro"
+		"pin_to_sibling"							"pyro"
 	}
 
 	//===========================================================================================
@@ -663,13 +663,13 @@
 		"paintborder"								"1"
 
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
-		"selectedFgColor_override" 					"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
 
-		"border_default"							"BlackTransparentCircleBorder"
-		"border_Selected"							"OrangeCircleBorder"
+		"border_default"							"Black_Transparent_Circle_Border"
+		"border_Selected"							"Orange_Circle_Border"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -679,9 +679,9 @@
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
-		"pin_to_sibling" 							"pyro"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"pyro"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"DemomanIcon"
 	{
@@ -700,13 +700,13 @@
 		"textAlignment"								"center"
 		"textinsety"								"0"
 		"mouseinputenabled"							"0"
-		"font"										"Class Symbols 24"
+		"font"										"Class_Symbols_24"
 		"fgcolor"									"Black"
 		"alpha"										"255"
 
-		"pin_to_sibling" 							"demoman"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"demoman"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"DemomanCircle"
 	{
@@ -722,16 +722,16 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"paintborder"								"0"
-		"drawcolor"									"WhiteDark"
+		"drawcolor"									"White_Dark"
 		"image"										"replay/thumbnails/panels/circle_generic"
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
 
-		"pin_to_sibling" 							"demoman"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"demoman"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"numDemomanBG"
 	{
@@ -748,12 +748,12 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"v"
 		"textAlignment"								"center"
-		"font"										"Symbols 22"
+		"font"										"Symbols_22"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling" 							"demoman"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"demoman"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 	"numDemoman"
 	{
@@ -770,9 +770,9 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"%numDemoman%"
 		"textAlignment"								"center"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
-		"pin_to_sibling" 							"numDemomanBG"
+		"pin_to_sibling"							"numDemomanBG"
 	}
 	"MvMUpgradeImageDemoman"
 	{
@@ -789,7 +789,7 @@
 		"mouseinputenabled"							"0"
 		"image"										"replay/thumbnails/mvm/money"
 		"scaleImage"								"1"
-		"pin_to_sibling" 							"demoman"
+		"pin_to_sibling"							"demoman"
 	}
 
 	//===========================================================================================
@@ -814,7 +814,7 @@
 		"textinsety"								"0"
 		"Command"									"select 6"
 		"Default"									"0"
-		"font"										"Class Symbols 24"
+		"font"										"Class_Symbols_24"
 		"scaleImage"								"1"
 
 		"image_default"								""
@@ -824,13 +824,13 @@
 		"paintborder"								"1"
 
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
-		"selectedFgColor_override" 					"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
 
-		"border_default"							"BlackTransparentCircleBorder"
-		"border_Selected"							"OrangeCircleBorder"
+		"border_default"							"Black_Transparent_Circle_Border"
+		"border_Selected"							"Orange_Circle_Border"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -840,9 +840,9 @@
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
-		"pin_to_sibling" 							"demoman"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"demoman"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"HeavyIcon"
 	{
@@ -861,13 +861,13 @@
 		"textAlignment"								"center"
 		"textinsety"								"0"
 		"mouseinputenabled"							"0"
-		"font"										"Class Symbols 24"
+		"font"										"Class_Symbols_24"
 		"fgcolor"									"Black"
 		"alpha"										"255"
 
-		"pin_to_sibling" 							"heavyweapons"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"heavyweapons"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"HeavyCircle"
 	{
@@ -883,16 +883,16 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"paintborder"								"0"
-		"drawcolor"									"WhiteDark"
+		"drawcolor"									"White_Dark"
 		"image"										"replay/thumbnails/panels/circle_generic"
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
 
-		"pin_to_sibling" 							"heavyweapons"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"heavyweapons"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"numHeavyBG"
 	{
@@ -909,12 +909,12 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"v"
 		"textAlignment"								"center"
-		"font"										"Symbols 22"
+		"font"										"Symbols_22"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling" 							"heavyweapons"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"heavyweapons"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 	"numHeavy"
 	{
@@ -931,9 +931,9 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"%numHeavy%"
 		"textAlignment"								"center"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
-		"pin_to_sibling" 							"numHeavyBG"
+		"pin_to_sibling"							"numHeavyBG"
 	}
 	"MvMUpgradeImageHeavy"
 	{
@@ -950,7 +950,7 @@
 		"mouseinputenabled"							"0"
 		"image"										"replay/thumbnails/mvm/money"
 		"scaleImage"								"1"
-		"pin_to_sibling" 							"heavyweapons"
+		"pin_to_sibling"							"heavyweapons"
 	}
 
 	//===========================================================================================
@@ -985,13 +985,13 @@
 		"paintborder"								"1"
 
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
-		"selectedFgColor_override" 					"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
 
-		"border_default"							"BlackTransparentCircleBorder"
-		"border_Selected"							"OrangeCircleBorder"
+		"border_default"							"Black_Transparent_Circle_Border"
+		"border_Selected"							"Orange_Circle_Border"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -1001,9 +1001,9 @@
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
-		"pin_to_sibling" 							"heavyweapons"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"heavyweapons"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"EngineerIcon"
 	{
@@ -1022,13 +1022,13 @@
 		"textAlignment"								"center"
 		"textinsety"								"0"
 		"mouseinputenabled"							"0"
-		"font"										"Class Symbols 24"
+		"font"										"Class_Symbols_24"
 		"fgcolor"									"Black"
 		"alpha"										"255"
 
-		"pin_to_sibling" 							"engineer"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"engineer"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"EngineerCircle"
 	{
@@ -1044,16 +1044,16 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"paintborder"								"0"
-		"drawcolor"									"WhiteDark"
+		"drawcolor"									"White_Dark"
 		"image"										"replay/thumbnails/panels/circle_generic"
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
 
-		"pin_to_sibling" 							"engineer"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"engineer"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"numEngineerBG"
 	{
@@ -1070,12 +1070,12 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"v"
 		"textAlignment"								"center"
-		"font"										"Symbols 22"
+		"font"										"Symbols_22"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling" 							"engineer"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"engineer"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 	"numEngineer"
 	{
@@ -1092,9 +1092,9 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"%numEngineer%"
 		"textAlignment"								"center"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
-		"pin_to_sibling" 							"numEngineerBG"
+		"pin_to_sibling"							"numEngineerBG"
 	}
 	"MvMUpgradeImageEngineer"
 	{
@@ -1111,7 +1111,7 @@
 		"mouseinputenabled"							"0"
 		"image"										"replay/thumbnails/mvm/money"
 		"scaleImage"								"1"
-		"pin_to_sibling" 							"engineer"
+		"pin_to_sibling"							"engineer"
 	}
 
 	//===========================================================================================
@@ -1146,13 +1146,13 @@
 		"paintborder"								"1"
 
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
-		"selectedFgColor_override" 					"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
 
-		"border_default"							"BlackTransparentCircleBorder"
-		"border_Selected"							"OrangeCircleBorder"
+		"border_default"							"Black_Transparent_Circle_Border"
+		"border_Selected"							"Orange_Circle_Border"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -1162,9 +1162,9 @@
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
-		"pin_to_sibling" 							"engineer"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"engineer"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"MedicIcon"
 	{
@@ -1183,13 +1183,13 @@
 		"textAlignment"								"center"
 		"textinsety"								"0"
 		"mouseinputenabled"							"0"
-		"font"										"Class Symbols 24"
+		"font"										"Class_Symbols_24"
 		"fgcolor"									"Black"
 		"alpha"										"255"
 
-		"pin_to_sibling" 							"Medic"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Medic"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"MedicCircle"
 	{
@@ -1205,16 +1205,16 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"paintborder"								"0"
-		"drawcolor"									"WhiteDark"
+		"drawcolor"									"White_Dark"
 		"image"										"replay/thumbnails/panels/circle_generic"
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
 
-		"pin_to_sibling" 							"Medic"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Medic"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"numMedicBG"
 	{
@@ -1231,12 +1231,12 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"v"
 		"textAlignment"								"center"
-		"font"										"Symbols 22"
+		"font"										"Symbols_22"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling" 							"medic"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"medic"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 	"numMedic"
 	{
@@ -1253,9 +1253,9 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"%numMedic%"
 		"textAlignment"								"center"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
-		"pin_to_sibling" 							"numMedicBG"
+		"pin_to_sibling"							"numMedicBG"
 	}
 	"MvMUpgradeImageMedic"
 	{
@@ -1272,7 +1272,7 @@
 		"mouseinputenabled"							"0"
 		"image"										"replay/thumbnails/mvm/money"
 		"scaleImage"								"1"
-		"pin_to_sibling" 							"medic"
+		"pin_to_sibling"							"medic"
 	}
 
 	//===========================================================================================
@@ -1307,13 +1307,13 @@
 		"paintborder"								"1"
 
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
-		"selectedFgColor_override" 					"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
 
-		"border_default"							"BlackTransparentCircleBorder"
-		"border_Selected"							"OrangeCircleBorder"
+		"border_default"							"Black_Transparent_Circle_Border"
+		"border_Selected"							"Orange_Circle_Border"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -1323,9 +1323,9 @@
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
-		"pin_to_sibling" 							"medic"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"medic"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"SniperIcon"
 	{
@@ -1344,13 +1344,13 @@
 		"textAlignment"								"center"
 		"textinsety"								"0"
 		"mouseinputenabled"							"0"
-		"font"										"Class Symbols 24"
+		"font"										"Class_Symbols_24"
 		"fgcolor"									"Black"
 		"alpha"										"255"
 
-		"pin_to_sibling" 							"Sniper"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Sniper"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"SniperCircle"
 	{
@@ -1366,16 +1366,16 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"paintborder"								"0"
-		"drawcolor"									"WhiteDark"
+		"drawcolor"									"White_Dark"
 		"image"										"replay/thumbnails/panels/circle_generic"
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
 
-		"pin_to_sibling" 							"Sniper"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Sniper"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"numSniperBG"
 	{
@@ -1392,12 +1392,12 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"v"
 		"textAlignment"								"center"
-		"font"										"Symbols 22"
+		"font"										"Symbols_22"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling" 							"sniper"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"sniper"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 	"numSniper"
 	{
@@ -1414,9 +1414,9 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"%numSniper%"
 		"textAlignment"								"center"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
-		"pin_to_sibling" 							"numSniperBG"
+		"pin_to_sibling"							"numSniperBG"
 	}
 	"MvMUpgradeImageSniper"
 	{
@@ -1433,7 +1433,7 @@
 		"mouseinputenabled"							"0"
 		"image"										"replay/thumbnails/mvm/money"
 		"scaleImage"								"1"
-		"pin_to_sibling" 							"sniper"
+		"pin_to_sibling"							"sniper"
 	}
 
 	//===========================================================================================
@@ -1468,13 +1468,13 @@
 		"paintborder"								"1"
 
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
-		"selectedFgColor_override" 					"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
 
-		"border_default"							"BlackTransparentCircleBorder"
-		"border_Selected"							"OrangeCircleBorder"
+		"border_default"							"Black_Transparent_Circle_Border"
+		"border_Selected"							"Orange_Circle_Border"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -1484,9 +1484,9 @@
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
-		"pin_to_sibling" 							"sniper"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"sniper"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"SpyIcon"
 	{
@@ -1505,13 +1505,13 @@
 		"textAlignment"								"center"
 		"textinsety"								"0"
 		"mouseinputenabled"							"0"
-		"font"										"Class Symbols 24"
+		"font"										"Class_Symbols_24"
 		"fgcolor"									"Black"
 		"alpha"										"255"
 
-		"pin_to_sibling" 							"Spy"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Spy"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"SpyCircle"
 	{
@@ -1527,16 +1527,16 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"paintborder"								"0"
-		"drawcolor"									"WhiteDark"
+		"drawcolor"									"White_Dark"
 		"image"										"replay/thumbnails/panels/circle_generic"
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
 
-		"pin_to_sibling" 							"Spy"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Spy"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"numSpyBG"
 	{
@@ -1553,12 +1553,12 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"v"
 		"textAlignment"								"center"
-		"font"										"Symbols 22"
+		"font"										"Symbols_22"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling" 							"spy"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"spy"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 	"numSpy"
 	{
@@ -1575,9 +1575,9 @@
 		"mouseinputenabled"							"0"
 		"labelText"									"%numSpy%"
 		"textAlignment"								"center"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
-		"pin_to_sibling" 							"numSpyBG"
+		"pin_to_sibling"							"numSpyBG"
 	}
 	"MvMUpgradeImageSpy"
 	{
@@ -1594,7 +1594,7 @@
 		"mouseinputenabled"							"0"
 		"image"										"replay/thumbnails/mvm/money"
 		"scaleImage"								"1"
-		"pin_to_sibling" 							"spy"
+		"pin_to_sibling"							"spy"
 	}
 
 	//===========================================================================================
@@ -1616,11 +1616,11 @@
 		"mouseinputenabled"							"0"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"White_Dark"
 
-		"pin_to_sibling" 							"spy"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"spy"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	//===========================================================================================
@@ -1655,13 +1655,13 @@
 		"paintborder"								"1"
 
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
-		"selectedFgColor_override" 					"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
 
-		"border_default"							"BlackTransparentCircleBorder"
-		"border_Selected"							"OrangeCircleBorder"
+		"border_default"							"Black_Transparent_Circle_Border"
+		"border_Selected"							"Orange_Circle_Border"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -1671,9 +1671,9 @@
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 
-		"pin_to_sibling" 							"Separator"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"Separator"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"RandomIcon"
 	{
@@ -1692,13 +1692,13 @@
 		"textAlignment"								"center"
 		"textinsety"								"2"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 28"
+		"font"										"Symbols_28"
 		"fgcolor"									"Black"
 		"alpha"										"255"
 
-		"pin_to_sibling" 							"Random"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Random"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"RandomCircle"
 	{
@@ -1714,16 +1714,16 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"paintborder"								"0"
-		"drawcolor"									"WhiteDark"
+		"drawcolor"									"White_Dark"
 		"image"										"replay/thumbnails/panels/circle_generic"
 		"src_corner_height"							"0"
 		"src_corner_width"							"0"
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
 
-		"pin_to_sibling" 							"Random"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"Random"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"RandomSelectNumber"
 	{
@@ -1754,7 +1754,7 @@
 		"textAlignment"								"center"
 		"Command"									"openloadout"
 		"Default"									"0"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"scaleImage"								"1"
 
 		"image_default"								""
@@ -1765,9 +1765,9 @@
 		"fgcolor"									"White"
 		"fgcolor_override"							"White"
 
-		"border_default"							"BlackTransparent30"
-		"border_armed"								"OrangeTransparent70"
-		"border_Selected"							"BlackTransparent30"
+		"border_default"							"Black_Transparent_30"
+		"border_armed"								"Orange_Transparent_70"
+		"border_Selected"							"Black_Transparent_30"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -1776,10 +1776,6 @@
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
-
-		"pin_to_sibling" 							"ClassSelectFrame"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
 	}
 	"EditaLoadoutSelectNumber"
 	{
@@ -1815,27 +1811,27 @@
 		"mouseinputenabled"							"0"
 
 		"paintbackground"							"0"
-		"paintbackgroundenabled" 					"1"
-		"bgcolor_override" 							"BlackMediumTransparent"
+		"paintbackgroundenabled"					"1"
+		"bgcolor_override"							"Black_Medium_Transparent"
 
-		"pin_to_sibling" 							"PlayerModelBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"PlayerModelBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 
 		"model"
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"0"
-			"angles_y" 								"180"
-			"angles_z" 								"0"
-			"origin_x" 								"300"
-			"origin_y" 								"0"
-			"origin_z" 								"-40"
+			"angles_x"								"0"
+			"angles_y"								"180"
+			"angles_z"								"0"
+			"origin_x"								"300"
+			"origin_y"								"0"
+			"origin_z"								"-40"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
-			"spotlight" 							"1"
+			"spotlight"								"1"
 
 			"modelname"								""
 			"vcd"									"class_select.vcd"
@@ -1849,92 +1845,92 @@
 			"Scout"
 			{
 				"fov"								"26"		// Use as main resize control
-				"angles_x" 							"0"			// Rotates X axis (Keep Default)
-				"angles_y" 							"180"		// Rotates Y axis
-				"angles_z" 							"0"			// Rotates Z axis (Keep Default)
-				"origin_x" 							"300"		// Moves model closer/further away from the camera (Same effect as FOV)
-				"origin_y" 							"-3"		// Moves model left/right
-				"origin_z" 							"-78"		// Moves model up/down
+				"angles_x"							"0"			// Rotates X axis (Keep Default)
+				"angles_y"							"180"		// Rotates Y axis
+				"angles_z"							"0"			// Rotates Z axis (Keep Default)
+				"origin_x"							"300"		// Moves model closer/further away from the camera (Same effect as FOV)
+				"origin_y"							"-3"		// Moves model left/right
+				"origin_z"							"-78"		// Moves model up/down
 			}
 			"Sniper"
 			{
 				"fov"								"26"
-				"angles_x" 							"0"
-				"angles_y" 							"180"
-				"angles_z" 							"0"
-				"origin_x" 							"300"
-				"origin_y" 							"1"
-				"origin_z" 							"-80"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"300"
+				"origin_y"							"1"
+				"origin_z"							"-80"
 			}
 			"Soldier"
 			{
 				"fov"								"28"
-				"angles_x" 							"0"
-				"angles_y" 							"180"
-				"angles_z" 							"0"
-				"origin_x" 							"300"
-				"origin_y" 							"-2"
-				"origin_z" 							"-80"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"300"
+				"origin_y"							"-2"
+				"origin_z"							"-80"
 			}
 			"Demoman"
 			{
 				"fov"								"26"
-				"angles_x" 							"0"
-				"angles_y" 							"180"
-				"angles_z" 							"0"
-				"origin_x" 							"300"
-				"origin_y" 							"-7"
-				"origin_z" 							"-74"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"300"
+				"origin_y"							"-7"
+				"origin_z"							"-74"
 			}
 			"Medic"
 			{
 				"fov"								"26"
-				"angles_x" 							"0"
-				"angles_y" 							"180"
-				"angles_z" 							"0"
-				"origin_x" 							"300"
-				"origin_y" 							"-2"
-				"origin_z" 							"-78"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"300"
+				"origin_y"							"-2"
+				"origin_z"							"-78"
 			}
 			"Heavy"
 			{
 				"fov"								"26"
-				"angles_x" 							"0"
-				"angles_y" 							"180"
-				"angles_z" 							"0"
-				"origin_x" 							"300"
-				"origin_y" 							"-3"
-				"origin_z" 							"-76"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"300"
+				"origin_y"							"-3"
+				"origin_z"							"-76"
 			}
 			"Pyro"
 			{
 				"fov"								"26"
-				"angles_x" 							"0"
-				"angles_y" 							"180"
-				"angles_z" 							"0"
-				"origin_x" 							"300"
-				"origin_y" 							"-2"
-				"origin_z" 							"-70"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"300"
+				"origin_y"							"-2"
+				"origin_z"							"-70"
 			}
 			"Spy"
 			{
 				"fov"								"26"
-				"angles_x" 							"0"
-				"angles_y" 							"180"
-				"angles_z" 							"0"
-				"origin_x" 							"300"
-				"origin_y" 							"-7"
-				"origin_z" 							"-78"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"300"
+				"origin_y"							"-7"
+				"origin_z"							"-78"
 			}
 			"Engineer"
 			{
 				"fov"								"26"
-				"angles_x" 							"0"
-				"angles_y" 							"180"
-				"angles_z" 							"0"
-				"origin_x" 							"300"
-				"origin_y" 							"-3"
-				"origin_z" 							"-72"
+				"angles_x"							"0"
+				"angles_y"							"180"
+				"angles_z"							"0"
+				"origin_x"							"300"
+				"origin_y"							"-3"
+				"origin_z"							"-72"
 			}
 		}
 	}
@@ -1944,161 +1940,296 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"Offense"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Defense"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Defense"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Support"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Support"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ResetButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ResetButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassMenuSelect"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassMenuSelect"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MenuBG"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"MenuBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Hint"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Hint"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SysMenu"
 	{
 		"ControlName"								"Menu"
 		"fieldName"									"SysMenu"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"localPlayerImage"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"localPlayerImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"localPlayerBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"localPlayerBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage0"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage0"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage1"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage1"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage2"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage2"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage3"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage3"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage4"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage4"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage5"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage5"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage6"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage6"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage7"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage7"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage8"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage8"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage9"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage9"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"countImage10"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"countImage10"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CountLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CancelButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"StartExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
 		"fieldName"									"StartExplanation"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassTipsPanel"
 	{
 		"ControlName"								"CTFClassTipsPanel"
 		"fieldName"									"ClassTipsPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassHighlightPanel"
 	{
 		"ControlName"								"CExplanationPopup"
 		"fieldName"									"ClassHighlightPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

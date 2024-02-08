@@ -8,7 +8,7 @@
 		"tall"										"35"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 		"paintbackground"							"0"
 	}
 
@@ -51,21 +51,21 @@
 		{
 			"1"
 			{
-				"font"								"Size 10"
+				"font"								"Size_10"
 			}
 
 			"2"
 			{
-				"font"								"Size 9"
+				"font"								"Size_9"
 			}
 			"3"
 			{
-				"font"								"Size 8"
+				"font"								"Size_8"
 			}
 
 			"4"
 			{
-				"font"								"Size 8"
+				"font"								"Size_8"
 			}
 		}
 
@@ -99,7 +99,7 @@
 
 		"radius"									"10"
 		"velocity"									"60"
-		"fgcolor_override"							"MainTheme"
+		"fgcolor_override"							"Main_Theme"
 	}
 
 	"AcceptButton"
@@ -115,7 +115,7 @@
 		"visible"									"1"
 
 		"enabled"									"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textAlignment"								"center"
 		"Command"									"accept"
 		"proportionaltoparent"						"1"
@@ -130,12 +130,12 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"GreenTransparent70"
-		"border_armed"								"GreenDarkTransparent70"
+		"border_default"							"Green_Transparent_70"
+		"border_armed"								"Green_Dark_Transparent_70"
 	}
 
 	"DeclineButton"
@@ -158,7 +158,7 @@
 		"visible"									"1"
 
 		"enabled"									"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textAlignment"								"center"
 		"Command"									"decline"
 		"proportionaltoparent"						"1"
@@ -174,10 +174,10 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"RedTransparent70"
-		"border_armed"								"RedDarkTransparent70"
+		"border_default"							"Red_Transparent_70"
+		"border_armed"								"Red_Dark_Transparent_70"
 	}
 }

@@ -4,10 +4,8 @@
 	{
 		"ControlName"								"CPlaybackPanel"
 		"fieldName"									"PlaybackPanel"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 }

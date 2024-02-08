@@ -14,6 +14,6 @@
 
 	"NameFilterBG"
 	{
-		"pin_to_sibling" 							"SortFilterBG"
+		"pin_to_sibling"							"SortFilterBG"
 	}
 }

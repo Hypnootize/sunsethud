@@ -11,7 +11,7 @@
 		"tall"										"24"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"labelText"									"%capturetime%"
 		"textAlignment"								"center"
 		"fgcolor"									"White"

@@ -1,6 +1,6 @@
 "Resource/UI/TrainingComplete.res"
 {
- 	"TrainingComplete"
+	"TrainingComplete"
 	{
 		"ControlName"								"CTFTrainingComplete"
 		"fieldName"									"TrainingComplete"
@@ -27,18 +27,18 @@
 			"labelText"								"#Button_NextTraining"
 			"textAlignment"							"center"
 			"command"								"next"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"paintbackground" 						"0"
+			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent70"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_70"
+			"border_armed"							"Orange_Transparent_70"
 		}
 
 		"Quit"
@@ -56,18 +56,18 @@
 			"labelText"								"#Button_QuitTraining"
 			"textAlignment"							"center"
 			"command"								"quit"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"paintbackground" 						"0"
+			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent70"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_70"
+			"border_armed"							"Orange_Transparent_70"
 		}
 
 		"Replay"
@@ -85,19 +85,19 @@
 			"labelText"								"#Button_ReplayTraining"
 			"textAlignment"							"center"
 			"command"								"replay"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"fgcolor"								"Black"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"paintbackground" 						"0"
+			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent70"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_70"
+			"border_armed"							"Orange_Transparent_70"
 		}
 
 		"BottomBar"
@@ -161,7 +161,7 @@
 		"mouseinputenabled"							"0"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"ResultsLabel"
 		{
@@ -175,7 +175,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"%wintext%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
@@ -197,13 +197,18 @@
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"textAlignment"							"north"
-			"font"									"Size 13"
+			"font"									"Size_13"
 		}
 		"ResultsBG"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"ResultsBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

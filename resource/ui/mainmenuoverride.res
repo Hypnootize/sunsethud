@@ -1,4 +1,4 @@
 #base "mainmenu.res"
 #base "mainmenu_tools.res"
-#base "../../resource/tools/reloadmenubutton.res"
-#base "../../resource/tools/vtf preload.res"
+#base "../tools/reloadmenubutton.res"
+#base "../tools/vtf_preload.res"

@@ -27,8 +27,8 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
-		"font"										"Size 30"
-		"fgcolor"									"BlueLight"
+		"font"										"Size_30"
+		"fgcolor"									"Blue_Light"
 	}
 	"BlueScoreShadow"
 	{
@@ -44,7 +44,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
-		"font"										"Size 30"
+		"font"										"Size_30"
 		"fgcolor"									"Shadows"
 
 		"pin_to_sibling"							"BlueScore"
@@ -64,8 +64,8 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"west"
 		"labelText"									"%redscore%"
-		"font"										"Size 30"
-		"fgcolor"									"RedLight"
+		"font"										"Size_30"
+		"fgcolor"									"Red_Light"
 	}
 	"RedScoreShadow"
 	{
@@ -81,7 +81,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"west"
 		"labelText"									"%redscore%"
-		"font"										"Size 30"
+		"font"										"Size_30"
 		"fgcolor"									"Shadows"
 
 		"pin_to_sibling"							"RedScore"
@@ -115,7 +115,7 @@
 			"AllCaps"								"1"
 			"labelText"								"#TF_PlayingTo"
 			"textAlignment"							"center"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"fgcolor"								"White"
 		}
 
@@ -124,6 +124,11 @@
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"PlayingToBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -134,17 +139,32 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"LeftSideBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"RightSideBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"RightSideBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"OutlineBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"OutlineBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

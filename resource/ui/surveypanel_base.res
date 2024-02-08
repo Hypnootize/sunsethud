@@ -10,7 +10,7 @@
 		"tall"										"150"
 		"visible"									"1"
 		"PaintBackgroundType"						"0"
-		"border"									"ThemeDarkestBorder"
+		"border"									"Theme_Darkest_Border"
 		"proportionaltoparent"						"1"
 
 		"InnerBG"
@@ -25,7 +25,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 			"proportionaltoparent"					"1"
 		}
 
@@ -63,7 +63,7 @@
 				"tall"								"25"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"fgcolor"							"White"
 				"textAlignment"						"center"
 				"labelText"							"#TF_SurveyQuestion_Submitting"
@@ -108,7 +108,7 @@
 				"tall"								"25"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"fgcolor"							"White"
 				"textAlignment"						"center"
 				"labelText"							"#TF_SurveyQuestion_ThankYouTitle"
@@ -126,7 +126,7 @@
 				"tall"								"50"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"fgcolor"							"White"
 				"textAlignment"						"center"
 				"wrap"								"0"
@@ -148,11 +148,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"-"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"close"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 			"actionsignallevel"						"1"
 			
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -160,12 +160,12 @@
 
 			"paintbackground"						"0"
 
-			"border_default"						"RedTransparent70"
-			"border_armed"							"RedDarkTransparent70"
+			"border_default"						"Red_Transparent_70"
+			"border_armed"							"Red_Dark_Transparent_70"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 }

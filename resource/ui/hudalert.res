@@ -14,7 +14,7 @@
 		"AllCaps"									"1"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									""
 		"fgcolor"									"White"
 		"textAlignment"								"center"
@@ -33,11 +33,11 @@
 		"AllCaps"									"1"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									""
 		"fgcolor"									"Shadow"
 		"textAlignment"								"center"
-		"pin_to_sibling" 							"AlertLabel"
+		"pin_to_sibling"							"AlertLabel"
 	}
 
 	//REMOVED
@@ -46,11 +46,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"HudAlertBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"AlertImage"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"AlertImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

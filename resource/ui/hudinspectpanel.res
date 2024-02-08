@@ -12,7 +12,7 @@
 		"visible"									"0"
 		"PaintBackground"							"0"
 		"PaintBorder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"model_ypos"								"15"
 		"model_center_x"							"1"
@@ -33,16 +33,16 @@
 		"noitem_use_fullpanel"						"0"
 
 		"attriblabel"
-        {
-            "ypos"									"9999"
-            "visible"								"0"
-            "enabled"								"0"
-        }
+		{
+			"ypos"									"9999"
+			"visible"								"0"
+			"enabled"								"0"
+		}
 
 		"itemmodelpanel"
 		{
 			"fieldName"								"itemmodelpanel"
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"allow_rot"								"0"
 			"useparentbg"							"1"
 			"inventory_image_type"					"1"
@@ -60,7 +60,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"labelText"								"#FreezePanel_Item"
 			"textAlignment"							"west"
 		}

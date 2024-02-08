@@ -12,7 +12,7 @@
 		"zpos"										"4"
 		"textinsetx"								"5"
 		"fgcolor"									"White"
-		"font"										"Size 9"
+		"font"										"Size_9"
 		//"wrap"									"1"
 		"TextAlignment"								"north-east"
 		"proportionaltoparent"						"1"
@@ -47,7 +47,7 @@
 			"font"									"QuestObjectiveTracker_Desc"
 			//"wrap"								"1"
 			"TextAlignment"							"north-east"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 		}
 	}
 }

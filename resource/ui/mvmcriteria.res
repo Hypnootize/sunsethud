@@ -23,7 +23,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"ThemeTransparent50"
+			"border"								"Theme_Transparent_50"
 		}
 
 		"ChallengeLabel"
@@ -37,7 +37,7 @@
 			"tall"									"25"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"labelText"								"#TF_MvM_TourOfDuty"
 			"textAlignment"							"west"
 			"fgcolor"								"White"
@@ -56,7 +56,7 @@
 			"zpos"									"0"
 			"wide"									"65"
 			"tall"									"25"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#TF_MvM_Difficulty"
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
@@ -72,7 +72,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CompleteLabel"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#TF_MvM_TourOfDutyProgress"
 			"textAlignment"							"center"
 			"xpos"									"5"
@@ -98,7 +98,7 @@
 			"zpos"									"0"
 			"wide"									"45"
 			"tall"									"25"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#TF_MvM_TourNumber"
 			"textAlignment"							"center"
 			"proportionaltoparent"					"1"
@@ -123,7 +123,7 @@
 			"tall"									"f25"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
-			"border"								"ThemeTransparent50"
+			"border"								"Theme_Transparent_50"
 
 			"InnerBG"
 			{
@@ -138,7 +138,7 @@
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
 				"paintborder"						"1"
-				"border"							"BlackTransparent30"
+				"border"							"Black_Transparent_30"
 			}
 
 			"TourList"
@@ -151,7 +151,7 @@
 				"wide"								"f20"
 				"tall"								"f20"
 				"proportionaltoparent"				"1"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"linespacing"						"12"
 				"paintbackground"					"0"
 			}
@@ -169,10 +169,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#TF_MVM_Tour_ExpertDifficulty_Warning"
 			"textAlignment"							"north-west"
-			"fgcolor_override"						"RedLight"
+			"fgcolor_override"						"Red_Light"
 		}
 	}
 
@@ -187,7 +187,7 @@
 		"tall"										"120"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
-		"border"									"ThemeTransparent50"
+		"border"									"Theme_Transparent_50"
 
 		"InnerBG"
 		{
@@ -202,7 +202,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"TourLootImage"
@@ -217,7 +217,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 			"image"									"pve/mvm_loot_image"
 			"scaleImage"							"1"
 		}
@@ -231,7 +231,7 @@
 			"zpos"									"0"
 			"wide"									"f100"
 			"tall"									"20"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"labelText"								"#TF_MvM_TourLootTitle"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
@@ -248,7 +248,7 @@
 			"zpos"									"0"
 			"wide"									"f130"
 			"tall"									"100"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"%tour_loot_detail%"
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
@@ -267,7 +267,7 @@
 		"wide"										"400"
 		"tall"										"120"
 		"paintbackground"							"0"
-		"border"									"ThemeTransparent50"
+		"border"									"Theme_Transparent_50"
 
 		"InnerBG"
 		{
@@ -282,7 +282,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"InventoryTitleLabel"
@@ -296,7 +296,7 @@
 			"tall"									"20"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"#TF_MvM_InventoryTitle"
 			"textAlignment"							"west"
 			"fgcolor"								"White"
@@ -315,7 +315,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"MainThemeDarkest"
+			"bgcolor_override"						"Main_Theme_Darkest"
 
 			"pin_to_sibling"						"Slot1"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
@@ -334,7 +334,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"MainThemeDarkest"
+			"bgcolor_override"						"Main_Theme_Darkest"
 
 			"pin_to_sibling"						"Slot2"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
@@ -353,7 +353,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"MainThemeDarkest"
+			"bgcolor_override"						"Main_Theme_Darkest"
 
 			"pin_to_sibling"						"Slot3"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
@@ -372,7 +372,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"MainThemeDarkest"
+			"bgcolor_override"						"Main_Theme_Darkest"
 
 			"pin_to_sibling"						"Slot4"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
@@ -391,7 +391,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"MainThemeDarkest"
+			"bgcolor_override"						"Main_Theme_Darkest"
 
 			"pin_to_sibling"						"Slot5"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
@@ -410,7 +410,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"MainThemeDarkest"
+			"bgcolor_override"						"Main_Theme_Darkest"
 		}
 
 		"MannUpTicketAd"
@@ -424,10 +424,10 @@
 			"tall"									"44"
 			"visible"								"1"
 			"enabled"								"1"
-			"mouseinputenabled" 					"1"
+			"mouseinputenabled"						"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"MainThemeDarkest"
+			"bgcolor_override"						"Main_Theme_Darkest"
 
 			"items"
 			{
@@ -452,14 +452,14 @@
 			"tall"									"12"
 			"mouseinputenabled"						"0"
 			"proportionaltoparent"					"1"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"labelText"								"%ticket_count%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
 			"paintbackground"						"1"
-			"bgcolor_override"						"MainTheme"
+			"bgcolor_override"						"Main_Theme"
 
-			"pin_to_sibling" 						"MannUpTicketAd"
+			"pin_to_sibling"						"MannUpTicketAd"
 		}
 
 		"SquadSurplusTicketAd"
@@ -473,10 +473,10 @@
 			"tall"									"44"
 			"visible"								"1"
 			"enabled"								"1"
-			"mouseinputenabled" 					"1"
+			"mouseinputenabled"						"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"MainThemeDarkest"
+			"bgcolor_override"						"Main_Theme_Darkest"
 
 			"items"
 			{
@@ -505,14 +505,14 @@
 			"tall"									"12"
 			"mouseinputenabled"						"0"
 			"proportionaltoparent"					"1"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"labelText"								"%voucher_count%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
 			"paintbackground"						"1"
-			"bgcolor_override"						"MainTheme"
+			"bgcolor_override"						"Main_Theme"
 
-			"pin_to_sibling" 						"SquadSurplusTicketAd"
+			"pin_to_sibling"						"SquadSurplusTicketAd"
 		}
 
 		"SquadSurplusCheckButton"
@@ -532,7 +532,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ActivateSquadSurplusLabel"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#TF_MvM_ActivateSquadSurplus"
 			"textAlignment"							"west"
 			"wrap"									"1"
@@ -544,9 +544,9 @@
 			"tall"									"25"
 			"fgcolor"								"White"
 
-			"pin_to_sibling" 						"SquadSurplusCheckButton"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
+			"pin_to_sibling"						"SquadSurplusCheckButton"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_RIGHT"
 		}
 		"SquadSurplusCheckButtonBG"
 		{
@@ -563,9 +563,9 @@
 			"paintbackground"						"1"
 			"paintborder"							"0"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"MainThemeDarkest"
+			"bgcolor_override"						"Main_Theme_Darkest"
 
-			"pin_to_sibling" 						"SquadSurplusCheckButton"
+			"pin_to_sibling"						"SquadSurplusCheckButton"
 		}
 
 		"MissingTicketsLabel"
@@ -577,7 +577,7 @@
 			"zpos"									"-1"
 			"wide"									"182"
 			"tall"									"18"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"fgcolor"								"White"
 			"labelText"								"#TF_Matchmaking_CantQueue_NoTicket"
 			"textAlignment"							"center"
@@ -588,7 +588,7 @@
 
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"MainThemeDarkest"
+			"bgcolor_override"						"Main_Theme_Darkest"
 		}
 		"MissingTicketsAlertImage"
 		{
@@ -621,7 +621,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"ThemeTransparent50"
+			"border"								"Theme_Transparent_50"
 		}
 
 		"ChallengeLabel"
@@ -633,7 +633,7 @@
 			"zpos"									"0"
 			"wide"									"240"
 			"tall"									"25"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"labelText"								"%tour_name%"
 			"textAlignment"							"west"
 			"AllCaps"								"1"
@@ -653,7 +653,7 @@
 			"zpos"									"0"
 			"wide"									"100"
 			"tall"									"25"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"%complete_heading%"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
@@ -684,7 +684,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TourLevelLabel"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"labelText"								"%tour_level%"
 			"textAlignment"							"south"
 			"xpos"									"357"
@@ -706,7 +706,7 @@
 			"tall"									"f25"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
-			"border"								"ThemeTransparent50"
+			"border"								"Theme_Transparent_50"
 
 			"InnerBG"
 			{
@@ -721,7 +721,7 @@
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
 				"paintborder"						"1"
-				"border"							"BlackTransparent30"
+				"border"							"Black_Transparent_30"
 			}
 
 			"ChallengeList"
@@ -734,7 +734,7 @@
 				"wide"								"315"
 				"tall"								"f20"
 				"linespacing"						"12"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"proportionaltoparent"				"1"
 			}
 		}
@@ -750,7 +750,7 @@
 		"wide"										"400"
 		"tall"										"120"
 		"paintbackground"							"0"
-		"border"									"ThemeTransparent50"
+		"border"									"Theme_Transparent_50"
 
 		"InnerBG"
 		{
@@ -765,7 +765,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"NoMannUpImage"
@@ -780,7 +780,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 			"image"									"pve/mvm_loot_image"
 			"scaleImage"							"1"
 
@@ -800,7 +800,7 @@
 			"tall"									"20"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"#TF_MvM_NoMannUpTitle"
 			"textAlignment"							"west"
 			"fgcolor"								"White"
@@ -815,7 +815,7 @@
 			"zpos"									"0"
 			"wide"									"f130"
 			"tall"									"50"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#TF_MvM_NoMannUpDescription"
 			"textAlignment"							"west"
 			"wrap"									"1"
@@ -836,21 +836,21 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_MvM_MannUpNow"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"command" 								"mann_up_now"
+			"command"								"mann_up_now"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"BlackTransparent30"
-			"border_armed"							"OrangeTransparent70"
+			"border_default"						"Black_Transparent_30"
+			"border_armed"							"Orange_Transparent_70"
 		}
 	}
 }

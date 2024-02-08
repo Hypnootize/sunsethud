@@ -13,14 +13,14 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"rotation"									"3"
-		"drawcolor"									"BlackSolid"
+		"drawcolor"									"Black_Solid"
 		"image"										"replay/thumbnails/panels/gradient_generic"
 		"scaleImage"								"1"
 
 		"src_corner_height"							"8"
 		"src_corner_width"							"8"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"CurrencyGood"
@@ -37,8 +37,8 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"east"
 		"labelText"									"%currency%"
-		"font"										"Size 16"
-		"fgcolor"									"GreenLight"
+		"font"										"Size_16"
+		"fgcolor"									"Green_Light"
 	}
 	"CurrencyBad"
 	{
@@ -54,8 +54,8 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"east"
 		"labelText"									"%currency%"
-		"font"										"Size 16"
-		"fgcolor"									"RedLight"
+		"font"										"Size_16"
+		"fgcolor"									"Red_Light"
 	}
 	"CurrencyShadow"
 	{
@@ -71,7 +71,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"east"
 		"labelText"									"%currency%"
-		"font"										"Size 16"
+		"font"										"Size_16"
 		"fgcolor"									"Shadows"
 	}
 
@@ -80,17 +80,32 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BackgroundGood"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BorderBG"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BorderBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MoneyImagePanel"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"MoneyImagePanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

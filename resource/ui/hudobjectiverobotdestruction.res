@@ -39,8 +39,7 @@
 			"bgcolor_override"						"Blank"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			"AutoResize" 							"1"
-			"skip_autoresize" 						"1"
+			"skip_autoresize"						"1"
 		}
 	}
 
@@ -57,7 +56,7 @@
 		"enabled"									"1"
 		"proportionalToParent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 	}
 
 	"PlayingTo"
@@ -73,7 +72,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"AllCaps"									"1"
 		"alpha"										"175"
 		"fgcolor"									"White"
@@ -84,6 +83,11 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayingToBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"CarriedContainer"
@@ -111,7 +115,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
-			"font"									"Size 20"
+			"font"									"Size_20"
 			"fgcolor"								"White"
 			"proportionalToParent"					"1"
 		}
@@ -128,7 +132,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
-			"font"									"Size 20"
+			"font"									"Size_20"
 			"fgcolor"								"Shadows"
 			"proportionalToParent"					"1"
 			"pin_to_sibling"						"FlagValue"
@@ -139,12 +143,22 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"CarriedImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"CarriedProgressBar"
 		{
 			"fieldName"								"CarriedProgressBar"
 			"ControlName"							"ImagePanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -165,6 +179,11 @@
 			"fieldName"								"ProgressBarContainer"
 			"ControlName"							"EditablePanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"BlueScoreValueContainer"
@@ -193,7 +212,7 @@
 				"enabled"							"1"
 				"proportionalToParent"				"1"
 				"paintborder"						"1"
-				"border"							"BlackTransparent70"
+				"border"							"Black_Transparent_70"
 
 				"TeamBar"
 				{
@@ -208,7 +227,7 @@
 					"enabled"						"1"
 					"proportionalToParent"			"1"
 					"paintborder"					"1"
-					"border"						"BlueTransparent70"
+					"border"						"Blue_Transparent_70"
 				}
 			}
 
@@ -226,7 +245,7 @@
 				"proportionalToParent"				"1"
 				"textAlignment"						"center"
 				"labelText"							"%score%"
-				"font"								"Size 20"
+				"font"								"Size_20"
 				"fgcolor"							"TanDark"
 			}
 
@@ -235,6 +254,11 @@
 				"ControlName"						"CExLabel"
 				"fieldName"							"ScoreShadow"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -264,7 +288,7 @@
 				"enabled"							"1"
 				"proportionalToParent"				"1"
 				"paintborder"						"1"
-				"border"							"BlackTransparent70"
+				"border"							"Black_Transparent_70"
 
 				"TeamBar"
 				{
@@ -279,7 +303,7 @@
 					"enabled"						"1"
 					"proportionalToParent"			"1"
 					"paintborder"					"1"
-					"border"						"RedTransparent70"
+					"border"						"Red_Transparent_70"
 				}
 			}
 
@@ -297,7 +321,7 @@
 				"proportionalToParent"				"1"
 				"textAlignment"						"center"
 				"labelText"							"%score%"
-				"font"								"Size 20"
+				"font"								"Size_20"
 				"fgcolor"							"TanDark"
 			}
 
@@ -306,6 +330,11 @@
 				"ControlName"						"CExLabel"
 				"fieldName"							"ScoreShadow"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -382,7 +411,7 @@
 				"enabled"							"1"
 				"textAlignment"						"west"
 				"labelText"							"%intelvalue%"
-				"font"								"Size 16"
+				"font"								"Size_16"
 				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 			}
@@ -399,7 +428,7 @@
 				"enabled"							"1"
 				"textAlignment"						"west"
 				"labelText"							"%intelvalue%"
-				"font"								"Size 16"
+				"font"								"Size_16"
 				"fgcolor"							"Shadows"
 				"proportionalToParent"				"1"
 				"pin_to_sibling"					"IntelValue"
@@ -479,7 +508,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
-				"font"								"Size 16"
+				"font"								"Size_16"
 				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 			}
@@ -496,7 +525,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
-				"font"								"Size 16"
+				"font"								"Size_16"
 				"fgcolor"							"Shadows"
 				"proportionalToParent"				"1"
 				"pin_to_sibling"					"IntelValue"

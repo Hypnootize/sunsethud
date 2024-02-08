@@ -28,7 +28,7 @@
 				"bgcolor_override"					"BlackLight"
 				"fgcolor_override"					"White"
 
-				"ButtonBorder"						"ThemeTransparent50"
+				"ButtonBorder"						"Theme_Transparent_50"
 			}
 
 			"UpButton"

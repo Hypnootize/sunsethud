@@ -31,7 +31,7 @@
 			"ypos"									"cs-0.5"
 			"zpos"									"-1"
 			"wide"									"f0"
-			"tall"	 								"f0"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -44,7 +44,7 @@
 			"src_corner_height"						"8"
 			"src_corner_width"						"8"
 			"draw_corner_width"						"8"
-			"draw_corner_height" 					"8"
+			"draw_corner_height"					"8"
 		}
 		"FreezePanelHealth"
 		{
@@ -60,7 +60,7 @@
 			"proportionaltoparent"					"1"
 			"HealthBonusPosAdj"						"9"
 			"HealthDeathWarning"					"0.49"
-			"TFFont"								"Size 14"
+			"TFFont"								"Size_14"
 			"HealthDeathWarningColor"				"HUDDeathWarning"
 			"TextColor"								"HudOffWhite"
 		}
@@ -76,7 +76,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"%killername%"
 			"textAlignment"							"west"
 			"fgcolor"								"White"
@@ -105,12 +105,22 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"FreezePanelBG"
 		{
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"FreezePanelBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"NemesisSubPanel"
 		{
@@ -118,10 +128,10 @@
 			"fieldName"								"NemesisSubPanel"
 			"xpos"									"9999"
 			"ypos"									"9999"
-			"zpos"									"4"
 			"wide"									"0"
 			"tall"									"0"
-			"visible"								"1"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -130,5 +140,10 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ScreenshotPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

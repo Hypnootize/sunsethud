@@ -29,8 +29,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"PersonalBG"
 		{
@@ -44,7 +42,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"paintbackground"						"0"
-			"border"								"BlackTransparent30Soft"
+			"border"								"Black_Transparent_30_Soft"
 
 			"RankBG"
 			{
@@ -59,7 +57,7 @@
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
 				"paintbackground"					"0"
-				"border"							"BlackTransparent30Soft"
+				"border"							"Black_Transparent_30_Soft"
 			}
 		}
 
@@ -113,7 +111,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
-			"border"								"BlackTransparent30Soft"
+			"border"								"Black_Transparent_30_Soft"
 
 			"ChatBG"
 			{
@@ -127,7 +125,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"border"							"BlackTransparent30Soft"
+				"border"							"Black_Transparent_30_Soft"
 			}
 		}
 
@@ -252,7 +250,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"Command"								"toggle_chat"
 			"proportionaltoparent"					"1"
@@ -270,10 +268,10 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"FgColor"								"WhiteDark"
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"OrangeDark"
-			"depressedFgColor_override"				"OrangeDark"
+			"FgColor"								"White_Dark"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Orange_Dark"
+			"depressedFgColor_override"				"Orange_Dark"
 
 			"pin_to_sibling"						"PartySlot5"
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
@@ -304,7 +302,7 @@
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 
-				"border"							"BlackTransparent30"
+				"border"							"Black_Transparent_30"
 			}
 
 			"QueueLogoButton"
@@ -316,12 +314,10 @@
 				"zpos"								"10"
 				"wide"								"o1"
 				"tall"								"f0"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							""
-				"font"								"Size 14"
+				"font"								"Size_14"
 				"textAlignment"						"center"
 				"default"							"1"
 				"Command"							"queue_logo_clicked"
@@ -363,7 +359,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 10"
+				"font"								"Size_10"
 				"fgcolor_override"					"White"
 				"textAlignment"						"west"
 				"labelText"							"%queue_state%"
@@ -375,15 +371,15 @@
 				{
 					"0"
 					{
-						"font"						"Size 10" // TF2 Build 11
+						"font"						"Size_10" // TF2 Build 11
 					}
 					"1"
 					{
-						"font"						"Size 9" // TF2 Build 10
+						"font"						"Size_9" // TF2 Build 10
 					}
 					"2"
 					{
-						"font"						"Size 8" // TF2 Build 9
+						"font"						"Size_8" // TF2 Build 9
 					}
 				}
 			}
@@ -397,12 +393,10 @@
 				"zpos"								"10"
 				"wide"								"20"
 				"tall"								"20"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							"~"
-				"font"								"Symbols 18"
+				"font"								"Symbols_18"
 				"textAlignment"						"center"
 				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -414,11 +408,11 @@
 				"paintbackground"					"0"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
-				"border_default"					"ThemeTransparent50"
-				"border_armed"						"OrangeTransparent50"
+				"border_default"					"Theme_Transparent_50"
+				"border_armed"						"Orange_Transparent_50"
 			}
 
 			"CloseButton"
@@ -430,12 +424,10 @@
 				"zpos"								"10"
 				"wide"								"20"
 				"tall"								"20"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							"-"
-				"font"								"Symbols 18"
+				"font"								"Symbols_18"
 				"textAlignment"						"center"
 				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -447,11 +439,11 @@
 				"paintbackground"					"0"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
-				"border_default"					"ThemeTransparent50"
-				"border_armed"						"OrangeTransparent50"
+				"border_default"					"Theme_Transparent_50"
+				"border_armed"						"Orange_Transparent_50"
 			}
 		}
 
@@ -472,6 +464,11 @@
 				"ControlName"						"Panel"
 				"fieldName"							"OuterShadow"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 
 			"BGPanel"
@@ -486,7 +483,7 @@
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 
-				"border"							"BlackTransparent30"
+				"border"							"Black_Transparent_30"
 			}
 
 			"PromptText"
@@ -500,7 +497,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 11"
+				"font"								"Size_11"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 				"labelText"							"#TF_MM_JoinPartyLobby_Prompt"
@@ -524,11 +521,9 @@
 					"wide"							"150"
 				}
 
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 10"
+				"font"								"Size_10"
 				"textAlignment"						"center"
 				"AllCaps"							"1"
 				"Command"							"join_party_match"
@@ -543,12 +538,12 @@
 
 				"paintbackground"					"0"
 
-				"defaultFgColor_override"			"WhiteSolid"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Solid"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
-				"border_default"					"GreenTransparent70"
-				"border_armed"						"GreenDarkTransparent70"
+				"border_default"					"Green_Transparent_70"
+				"border_armed"						"Green_Dark_Transparent_70"
 			}
 		}
 
@@ -577,7 +572,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Symbols 34"
+			"font"									"Symbols_34"
 			"textAlignment"							"center"
 			"Command"								"find_game"
 			"proportionaltoparent"					"1"
@@ -591,13 +586,13 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"FgColor" 								"WhiteDark"
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"MainTheme"
+			"fgcolor"								"White_Dark"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
 
-			"pin_to_sibling" 						"DashboardAnchor"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"DashboardAnchor"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 
@@ -618,8 +613,6 @@
 			"zpos"									"100"
 			"wide"									"0"
 			"tall"									"22"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									""
@@ -643,7 +636,7 @@
 
 			"defaultFgColor_override"				""
 			"armedFgColor_override"					""
-			"depressedFgColor_override" 			""
+			"depressedFgColor_override"				""
 
 			"SubImage"
 			{
@@ -661,8 +654,6 @@
 			"zpos"									"100"
 			"wide"									"0"
 			"tall"									"22"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									""
@@ -686,7 +677,7 @@
 
 			"defaultFgColor_override"				""
 			"armedFgColor_override"					""
-			"depressedFgColor_override"	 			""
+			"depressedFgColor_override"				""
 
 			"SubImage"
 			{
@@ -704,8 +695,6 @@
 			"zpos"									"100"
 			"wide"									"0"
 			"tall"									"0"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									""
@@ -726,7 +715,7 @@
 			"armedBgColor_override"					"Blank"
 			"defaultBgColor_override"				"Blank"
 
-			"defaultFgColor_override" 				""
+			"defaultFgColor_override"				""
 			"armedFgColor_override"					""
 
 			"image_drawcolor"						"255 255 255 255"
@@ -745,12 +734,22 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Gradient"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"OuterShadow"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"OuterShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

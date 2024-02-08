@@ -14,7 +14,7 @@
 		"paintborder"								"0"
 		"PaintBackgroundType"						"2"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackDarkTransparent"
+		"bgcolor_override"							"Black_Dark_Transparent"
 	}
 
 	"TitleLabel"
@@ -30,10 +30,10 @@
 		"enabled"									"1"
 		"wrap"										"0"
 		"centerwrap"								"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"%updatetext%"
 		"textAlignment"								"center"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 	}
 
 	"CloseButton"
@@ -48,7 +48,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#GameUI_Ok"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"close"
@@ -59,11 +59,11 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 }

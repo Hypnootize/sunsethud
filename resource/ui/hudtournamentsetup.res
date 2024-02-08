@@ -37,7 +37,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 	}
 
 	"TournamentReadyButton"
@@ -56,18 +56,16 @@
 		"textAlignment"								"center"
 		"command"									"teamready"
 		"default"									"1"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"paintbackground"							"0"
 		"paintborder"								"1"
 
-		"border_default"							"GreenTransparent70"
-		"border_armed"								"GreenDarkTransparent70"
+		"border_default"							"Green_Transparent_70"
+		"border_armed"								"Green_Dark_Transparent_70"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
-
-		"pin_to_sibling"							"ReadyBG"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"TournamentNotReadyButton"
@@ -86,18 +84,16 @@
 		"textAlignment"								"center"
 		"command"									"teamnotready"
 		"default"									"1"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"paintbackground"							"0"
 		"paintborder"								"1"
 
-		"border_default"							"RedTransparent70"
-		"border_armed"								"RedDarkTransparent70"
+		"border_default"							"Red_Transparent_70"
+		"border_armed"								"Red_Dark_Transparent_70"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
-
-		"pin_to_sibling"							"NotReadyBG"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 
@@ -107,23 +103,43 @@
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"HudTournamentSetupBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TournamentSetupLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentSetupLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TournamentTeamNameLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentTeamNameLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HudTournamentNameBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"HudTournamentNameBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

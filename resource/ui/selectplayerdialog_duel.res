@@ -11,7 +11,7 @@
 		"tall"										"190"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"2"
-		"bgcolor_override"							"BlackDarkTransparent"
+		"bgcolor_override"							"Black_Dark_Transparent"
 		"settitlebarvisible"						""
 
 		"button_kv"
@@ -30,12 +30,12 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							""
-				"font"								"Size 15"
+				"font"								"Size_15"
 				"textAlignment"						"west"
 				"AllCaps"							"1"
 				"textinsetx"						"34"
 				"proportionaltoparent"				"1"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
@@ -43,11 +43,11 @@
 				"paintbackground"					"0"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
-				"border_default"					"ThemeTransparent50"
-				"border_armed"						"OrangeTransparent50"
+				"border_default"					"Theme_Transparent_50"
+				"border_armed"						"Orange_Transparent_50"
 			}
 
 			"avatar"
@@ -81,15 +81,15 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
-		"font"										"Size 20"
+		"font"										"Size_20"
 		"labelText"									"%title%"
 		"textAlignment"								"west"
 		"textinsetx"								"5"
 		"AllCaps"									"1"
-		"fgcolor" 									"White"
-		"paintbackground" 							"1"
-		"paintbackgroundtype" 						"2"
-		"bgcolor_override"							"BlackLightTransparent"
+		"fgcolor"									"White"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"2"
+		"bgcolor_override"							"Black_Light_Transparent"
 	}
 
 	"ClassLabel"
@@ -104,11 +104,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"labelText"									"%player_class%"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 	}
 	"VerticalLine"
 	{
@@ -120,7 +120,7 @@
 		"tall"										"24"
 		"proportionaltoparent"						"1"
 		"PaintBackground"							"1"
-		"bgcolor_override" 							"White"
+		"bgcolor_override"							"White"
 	}
 	"ClassUsageImage_Any"
 	{
@@ -134,8 +134,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"panel_bgcolor" 							"White"
-		"panel_bgcolor_mouseover" 					"MainTheme"
+		"panel_bgcolor"								"White"
+		"panel_bgcolor_mouseover"					"Main_Theme"
 		"image_indent"								"2"
 		"PaintBackgroundType"						"0"
 
@@ -155,8 +155,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"panel_bgcolor" 							"White"
-		"panel_bgcolor_mouseover" 					"MainTheme"
+		"panel_bgcolor"								"White"
+		"panel_bgcolor_mouseover"					"Main_Theme"
 		"image_indent"								"2"
 		"PaintBackgroundType"						"0"
 
@@ -177,7 +177,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"wrap"										"1"
@@ -185,7 +185,7 @@
 		"paintborder"								"1"
 		"paintbackground"							"1"
 		"textinsetx"								"100"
-		"border"									"BlackBorder"
+		"border"									"Black_Border"
 	}
 
 	"PlayerListScroller"
@@ -199,7 +199,7 @@
 		"proportionaltoparent"						"1"
 		"PaintBackgroundType"						"2"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"MainThemeDarkest"
+		"bgcolor_override"							"Main_Theme_Darkest"
 
 		"PlayerList"
 		{
@@ -229,13 +229,13 @@
 	"StatePanel0"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName" 								"StatePanel0"
+		"fieldName"									"StatePanel0"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1-10"
-		"wide"	 									"f20"
-		"tall"	 									"f100"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"wide"										"f20"
+		"tall"										"f100"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
 		"QueryLabel"
@@ -250,11 +250,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"labelText"								"#TF_SelectPlayer_Select"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 		}
 
 		"subbutton0"
@@ -270,7 +270,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_SelectPlayer_SelectFriends"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"default"								"1"
@@ -281,11 +281,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 		"subbutton1"
 		{
@@ -296,13 +296,11 @@
 			"zpos"									"1"
 			"wide"									"200"
 			"tall"									"25"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_SelectPlayer_SelectServer"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"default"								"1"
@@ -313,23 +311,23 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 	}
 	"StatePanel1"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName" 								"StatePanel1"
+		"fieldName"									"StatePanel1"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1-10"
-		"wide"	 									"f20"
-		"tall"	 									"f95"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"wide"										"f20"
+		"tall"										"f95"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
 		"QueryLabel"
@@ -344,11 +342,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"labelText"								"#TF_SelectPlayer_Friends"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 		}
 
 		"EmptyPlayerListLabel"
@@ -363,25 +361,25 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"labelText"								"#TF_SelectPlayer_FriendsNone"
 			"textAlignment"							"center"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"RedLight"
+			"fgcolor"								"Red_Light"
 		}
 	}
 	"StatePanel2"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName" 								"StatePanel2"
+		"fieldName"									"StatePanel2"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1-10"
-		"wide"	 									"f20"
-		"tall"	 									"f95"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"wide"										"f20"
+		"tall"										"f95"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
 		"QueryLabel"
@@ -396,11 +394,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"labelText"								"#TF_SelectPlayer_Server"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 		}
 
 		"EmptyPlayerListLabel"
@@ -415,13 +413,13 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"labelText"								"#TF_SelectPlayer_ServerNone"
 			"textAlignment"							"center"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"RedLight"
+			"fgcolor"								"Red_Light"
 		}
 	}
 
@@ -438,7 +436,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"-"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"1"
@@ -449,11 +447,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"RedTransparent70"
-		"border_armed"								"RedDarkTransparent70"
+		"border_default"							"Red_Transparent_70"
+		"border_armed"								"Red_Dark_Transparent_70"
 	}
 	"CancelButton2"
 	{
@@ -468,7 +466,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"-"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"1"
@@ -479,10 +477,10 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"RedTransparent70"
-		"border_armed"								"RedDarkTransparent70"
+		"border_default"							"Red_Transparent_70"
+		"border_armed"								"Red_Dark_Transparent_70"
 	}
 }

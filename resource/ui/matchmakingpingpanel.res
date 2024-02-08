@@ -28,7 +28,7 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"paintborder"								"1"
-		"border"									"ThemeDarkestBorder"
+		"border"									"Theme_Darkest_Border"
 		"proportionaltoparent"						"1"
 	}
 
@@ -44,11 +44,11 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_OpenSettings"
 		"textAlignment"								"center"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"AllCaps"									"1"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"ThemeTransparent50"
+		"border"									"Theme_Transparent_50"
 
 		"mouseinputenabled"							"0"
 	}
@@ -65,7 +65,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_InviteMode"
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"AllCaps"									"1"
 		"fgcolor"									"White"
 
@@ -83,7 +83,7 @@
 		"wide"										"198"
 		"tall"										"15"
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"keyboardinputenabled"						"0"
 		"paintborder"								"0"
 		"paintbackgroundtype"						"0"
@@ -91,11 +91,11 @@
 		"editable"									"0"
 		"bgcolor_override"							"0 0 0 50"
 		"fgcolor_override"							"White"
-		"disabledFgColor_override" 					"White"
+		"disabledFgColor_override"					"White"
 		"disabledBgColor_override"					"Blank"
-		"selectionColor_override" 					"Blank"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"Blank"
+		"selectionColor_override"					"Blank"
+		"selectionTextColor_override"				"White"
+		"defaultSelectionBG2Color_override"			"Blank"
 	}
 
 	"IgnorePartyInvites"
@@ -110,14 +110,14 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_IgnoreInvites"
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"AllCaps"									"1"
 		"smallcheckimage"							"1"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 
-		"cvar_name" 								"tf_party_ignore_invites"
+		"cvar_name"									"tf_party_ignore_invites"
 	}
 
 	"KeepPartyOnSameTeam"
@@ -132,7 +132,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"smallcheckimage"							"1"
 		"enabled"									"0"
 
@@ -152,7 +152,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_PartySameTeam"
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"AllCaps"									"1"
 		"smallcheckimage"							"1"
 
@@ -177,7 +177,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"smallcheckimage"							"1"
 		"actionsignallevel"							"1"
 
@@ -199,7 +199,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_LobbyContainer_CustomPingButton"
 		"textAlignment"								"west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"AllCaps"									"1"
 		"fgcolor"									"White"
 		"smallcheckimage"							"1"
@@ -224,7 +224,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_LobbyContainer_CustomPingDesc"
 		"textAlignment"								"north-west"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"wrap"										"1"
 		"fgcolor"									"White"
 
@@ -244,8 +244,8 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"center"
-		"font"										"Size 12"
-		"fgcolor_override"							"OrangeDark"
+		"font"										"Size_12"
+		"fgcolor_override"							"Orange_Dark"
 		"AllCaps"									"1"
 
 		"mouseinputenabled"							"0"
@@ -259,8 +259,6 @@
 		"ypos"										"135"
 		"wide"										"200"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"RoundedCorners"							"15"
 		"pin_corner_to_sibling"						"0"
 		"pin_to_sibling_corner"						"0"
@@ -269,7 +267,7 @@
 		"proportionaltoparent"						"1"
 
 		"cvar_name"									"tf_mm_custom_ping"
-		"use_convar_minmax" 						"1"
+		"use_convar_minmax"							"1"
 	}
 
 	"DataCenterContainer"
@@ -285,7 +283,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"ThemeTransparent50"
+		"border"									"Theme_Transparent_50"
 
 		"InnerBG"
 		{
@@ -300,7 +298,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"DataCenterList"
@@ -354,6 +352,11 @@
 			"Controlname"							"EditablePanel"
 			"fieldName"								"Frame"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

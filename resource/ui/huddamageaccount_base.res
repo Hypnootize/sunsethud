@@ -6,13 +6,13 @@
 		"text_x"									"0"
 		"text_y"									"0"
 		"delta_item_end_y"							"0"
-		"PositiveColor"								"Heal Numbers"
+		"PositiveColor"								"Heal_Numbers"
 		"NegativeColor"								""
 		"delta_lifetime"							"1.5"
-		"delta_item_font"							"Size 22 Shadow"
-		"delta_item_font_minmode"					"Size 22 Shadow"
-		"delta_item_font_big"						"Size 22 Shadow"
-		"delta_item_font_big_minmode"				"Size 22 Shadow"
+		"delta_item_font"							"Size_22_Shadow"
+		"delta_item_font_minmode"					"Size_22_Shadow"
+		"delta_item_font_big"						"Size_22_Shadow"
+		"delta_item_font_big_minmode"				"Size_22_Shadow"
 	}
 
 	"DamageAccountValue"
@@ -31,9 +31,9 @@
 		"enabled"									"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"fgcolor"									"Last Damage Done"
-		"font"										"Size 18"
-		"font_minmode"								"Size 24"
+		"fgcolor"									"Last_Damage_Done"
+		"font"										"Size_18"
+		"font_minmode"								"Size_24"
 	}
 
 	"DamageAccountValueShadow"
@@ -51,8 +51,8 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Shadows"
-		"font"										"Size 18"
-		"font_minmode"								"Size 24"
+		"font"										"Size_18"
+		"font_minmode"								"Size_24"
 
 		"pin_to_sibling"							"DamageAccountValue"
 	}

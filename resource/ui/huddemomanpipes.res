@@ -27,7 +27,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_Charge"
 		"textAlignment"								"center"
-		"font"										"Size 8"
+		"font"										"Size_8"
 
 		"pin_to_sibling"							"ChargeMeter"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -59,7 +59,7 @@
 			"proportionaltoparent"					"1"
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"fgcolor"								"White"
 		}
 		"NumPipesLabelDropshadow"
@@ -76,7 +76,7 @@
 			"proportionaltoparent"					"1"
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"fgcolor"								"Shadows"
 			"pin_to_sibling"						"NumPipesLabel"
 		}
@@ -86,6 +86,11 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"PipeIcon"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -94,12 +99,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"background"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
-
 	"NoPipesPresentPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"NoPipesPresentPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

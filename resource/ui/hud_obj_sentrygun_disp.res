@@ -20,7 +20,7 @@
 		"ypos"										"0"
 		"zpos"										"-2"
 		"wide"										"f0"
-		"tall"	 									"f2"
+		"tall"										"f2"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -33,7 +33,7 @@
 		"src_corner_height"							"8"
 		"src_corner_width"							"8"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"Icon_Sentry_1"
@@ -77,7 +77,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"labelText"								"not built"
 			"textAlignment"							"center"
 			"centerwrap"							"1"
@@ -112,7 +112,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"BlackTransparent"
+			"bgcolor_override"						"Black_Transparent"
 
 			"HealthBG"
 			{
@@ -146,10 +146,10 @@
 			"proportionaltoparent"					"1"
 			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_1"
-			"iconColor"								"OrangeDark"
+			"iconColor"								"Orange_Dark"
 
-			"pin_to_sibling" 						"BuildingBG"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"BuildingBG"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
@@ -186,8 +186,8 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"BuildingBG"
-			"pin_corner_to_sibling" 				"PIN_BOTTOMRIGHT"
+			"pin_to_sibling"						"BuildingBG"
+			"pin_corner_to_sibling"					"PIN_BOTTOMRIGHT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMRIGHT"
 		}
 
@@ -215,7 +215,7 @@
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
 				"Allcaps"							"1"
-				"font"								"Size 9"
+				"font"								"Size_9"
 				"labelText"							"#Building_hud_building"
 				"textAlignment"						"west"
 				"fgcolor"							"White"
@@ -260,7 +260,7 @@
 				"AllCaps"							"1"
 				"labelText"							"Kills:"
 				"textAlignment"						"west"
-				"font"								"Size 7"
+				"font"								"Size_7"
 				"fgcolor"							"White"
 				"proportionaltoparent"				"1"
 			}
@@ -276,7 +276,7 @@
 				"enabled"							"1"
 				"labelText"							"#Building_hud_sentry_kills_assists"
 				"textAlignment"						"west"
-				"font"								"Size 7"
+				"font"								"Size_7"
 				"fgcolor"							"White"
 				"proportionaltoparent"				"1"
 			}
@@ -292,7 +292,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"bgcolor_override"					"BlackTransparent"
+				"bgcolor_override"					"Black_Transparent"
 			}
 			"ShellIcon"
 			{
@@ -307,10 +307,10 @@
 				"enabled"							"1"
 				"scaleImage"						"1"
 				"image"								"replay/thumbnails/game/buildingstatus_ammo"
-				"drawcolor"							"GrayMedium"
+				"drawcolor"							"Gray_Medium"
 
-				"pin_to_sibling" 					"Shells"
-				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling"					"Shells"
+				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
 				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
 
@@ -327,12 +327,22 @@
 			"ControlName"							"CBuildingStatusAlertTray"
 			"fieldName"								"AlertTray"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"WrenchIcon"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"WrenchIcon"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -341,5 +351,10 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Background"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

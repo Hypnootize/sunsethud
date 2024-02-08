@@ -56,7 +56,7 @@
 			"command"								"toggle_collapse"
 			"labeltext"								"#TF_Casual_ViewMaps"
 			"textAlignment"							"center"
-			"font"									"Size 8"
+			"font"									"Size_8"
 			"AllCaps"								"1"
 
 			"stay_armed_on_click"					"1"
@@ -70,8 +70,8 @@
 			"paintborder"							"0"
 
 			"defaultBgColor_override"				"0 0 0 150"
-			"armedBgColor_override"					"OrangeDark"
-			"selectedBGColor_override" 				"OrangeDark"
+			"armedBgColor_override"					"Orange_Dark"
+			"selectedBGColor_override"				"Orange_Dark"
 		}
 
 		"Title"
@@ -86,12 +86,12 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%title_token%"
-			"use_proportional_insets" 				"1"
-			"font"									"Size 15"
+			"use_proportional_insets"				"1"
+			"font"									"Size_15"
 			"textAlignment"							"east"
 			"default"								"1"
 			"AllCaps"								"1"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 
 			"fgcolor"								"White"
@@ -123,30 +123,55 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BGColor"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Shade"
 		{
 			"fieldName"								"Shade"
 			"ControlName"							"EditablePanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"DescLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DescLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"TitleShadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"DescLabelShadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DescLabelShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 	"PlayListDropShadow"
@@ -154,6 +179,11 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PlayListDropShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"MapsContainer"
@@ -167,8 +197,6 @@
 		"tall"										"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"pinCorner"									"2"
-		"autoResize"								"1"
 		"skip_autoresize"							"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"

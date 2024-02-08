@@ -9,9 +9,9 @@
 		"wide"										"100"
 		"tall"										"15"
 		"AllCaps"									"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"%header%"
-		"textAlignment" 							"center"
+		"textAlignment"								"center"
 		"fgcolor"									"White"
 	}
 
@@ -25,7 +25,7 @@
 		"wide"										"125"
 		"tall"										"30"
 		"visible"									"1"
-		"bgcolor_override"							"BlackLightestTransparent"
+		"bgcolor_override"							"Black_Lightest_Transparent"
 	}
 
 	"UpgradesLabel"
@@ -36,9 +36,9 @@
 		"ypos"										"15"
 		"wide"										"50"
 		"tall"										"10"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"#TF_PVE_Upgrades"
-		"textAlignment" 							"west"
+		"textAlignment"								"west"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 	}
@@ -51,9 +51,9 @@
 		"ypos"										"0"
 		"wide"										"30"
 		"tall"										"10"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"%upgrades%"
-		"textAlignment" 							"east"
+		"textAlignment"								"east"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
@@ -70,9 +70,9 @@
 		"ypos"										"0"
 		"wide"										"50"
 		"tall"										"10"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"#TF_PVE_Buybacks"
-		"textAlignment" 							"west"
+		"textAlignment"								"west"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
@@ -89,7 +89,7 @@
 		"ypos"										"0"
 		"wide"										"30"
 		"tall"										"10"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"%buybacks%"
 		"textAlignment"								"east"
 		"fgcolor"									"White"
@@ -108,9 +108,9 @@
 		"ypos"										"0"
 		"wide"										"50"
 		"tall"										"10"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"#TF_PVE_Bottles"
-		"textAlignment" 							"west"
+		"textAlignment"								"west"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
@@ -127,9 +127,9 @@
 		"ypos"										"0"
 		"wide"										"30"
 		"tall"										"10"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"%bottles%"
-		"textAlignment" 							"east"
+		"textAlignment"								"east"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
@@ -150,7 +150,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"TableBackground"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"

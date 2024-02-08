@@ -11,7 +11,7 @@
 		"tall"										"200"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"2"
-		"bgcolor_override"							"BlackDarkTransparent"
+		"bgcolor_override"							"Black_Dark_Transparent"
 		"settitlebarvisible"						""
 
 		"button_kv"
@@ -30,18 +30,18 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							""
-				"font"								"Size 12"
+				"font"								"Size_12"
 				"textAlignment"						"west"
 				"textinsetx"						"30"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 
-				"paintbackground" 					"0"
+				"paintbackground"					"0"
 
-				"border_default"					"ThemeTransparent50"
-				"border_armed"						"OrangeTransparent50"
+				"border_default"					"Theme_Transparent_50"
+				"border_armed"						"Orange_Transparent_50"
 			}
 
 			"avatar"
@@ -72,8 +72,8 @@
 		"tall"										"f55"
 		"proportionaltoparent"						"1"
 		"PaintBackgroundType"						"2"
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"MainThemeDarkest"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Main_Theme_Darkest"
 
 		"PlayerList"
 		{
@@ -113,27 +113,27 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
-		"font"										"Size 18"
+		"font"										"Size_18"
 		"labelText"									"#TF_TradeStartDialog_Title"
 		"textAlignment"								"west"
 		"textinsetx"								"5"
 		"AllCaps"									"1"
-		"fgcolor"		 							"White"
-		"paintbackground"		 					"1"
-		"paintbackgroundtype"		 				"2"
-		"bgcolor_override"		 					"BlackLightTransparent"
+		"fgcolor"									"White"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"2"
+		"bgcolor_override"							"Black_Light_Transparent"
 	}
 
 	"StatePanel0"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName" 								"StatePanel0"
+		"fieldName"									"StatePanel0"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1-5"
-		"wide"	 									"f10"
-		"tall"	 									"f35"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"wide"										"f10"
+		"tall"										"f35"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
 		"QueryLabel"
@@ -149,10 +149,10 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"#TF_TradeStartDialog_Select"
 			"textAlignment"							"center"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"subbutton0"								//FRIENDS LIST
@@ -169,7 +169,7 @@
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
 			"labelText"								"#TF_TradeStartDialog_SelectFriends"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"west"
 			"textinsetx"							"65"
 			"AllCaps"								"1"
@@ -182,11 +182,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 		"FriendsListIcon"
 		{
@@ -201,17 +201,17 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"labelText"								"R"
 			"textAlignment"							"center"
-			"fgcolor" 								"White"
-			"paintbackground" 						"0"
-			"paintborder" 							"1"
-			"border" 								"BlackTransparent30"
+			"fgcolor"								"White"
+			"paintbackground"						"0"
+			"paintborder"							"1"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"subbutton0"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+			"pin_to_sibling"						"subbutton0"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 
 		"subbutton1"								//CURRENT SERVER
@@ -228,7 +228,7 @@
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
 			"labelText"								"#TF_TradeStartDialog_SelectServer"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"west"
 			"textinsetx"							"55"
 			"AllCaps"								"1"
@@ -240,11 +240,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 		"CurrentServerIcon"
 		{
@@ -259,17 +259,17 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"labelText"								"u"
 			"textAlignment"							"center"
-			"fgcolor" 								"White"
-			"paintbackground" 						"0"
-			"paintborder" 							"1"
-			"border" 								"BlackTransparent30"
+			"fgcolor"								"White"
+			"paintbackground"						"0"
+			"paintborder"							"1"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"subbutton1"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+			"pin_to_sibling"						"subbutton1"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 
 		"subbutton2"								//STEAM PROFILE
@@ -286,7 +286,7 @@
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
 			"labelText"								"#TF_TradeStartDialog_SelectProfile"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"west"
 			"textinsetx"							"59"
 			"AllCaps"								"1"
@@ -298,11 +298,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 		"SteamProfileIcon"
 		{
@@ -317,30 +317,30 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"labelText"								"p"
 			"textAlignment"							"center"
-			"fgcolor" 								"White"
-			"paintbackground" 						"0"
-			"paintborder" 							"1"
-			"border" 								"BlackTransparent30"
+			"fgcolor"								"White"
+			"paintbackground"						"0"
+			"paintborder"							"1"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"subbutton2"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+			"pin_to_sibling"						"subbutton2"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 	}
 
 	"StatePanel1"									//FRIENDLIST
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName" 								"StatePanel1"
+		"fieldName"									"StatePanel1"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1-5"
-		"wide"	 									"f10"
-		"tall"	 									"f35"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"wide"										"f10"
+		"tall"										"f35"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
 		"QueryLabel"
@@ -356,10 +356,10 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"#TF_TradeStartDialog_Friends"
 			"textAlignment"							"center"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"EmptyPlayerListLabel"
@@ -373,26 +373,26 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"#TF_TradeStartDialog_FriendsNone"
 			"textAlignment"							"center"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"		 						"RedLight"
+			"fgcolor"								"Red_Light"
 		}
 	}
 
 	"StatePanel2"									//CURRENT SERVER
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName" 								"StatePanel2"
+		"fieldName"									"StatePanel2"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1-5"
-		"wide"	 									"f10"
-		"tall"	 									"f35"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"wide"										"f10"
+		"tall"										"f35"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
 		"QueryLabel"
@@ -408,10 +408,10 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"#TF_TradeStartDialog_Server"
 			"textAlignment"							"center"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"EmptyPlayerListLabel"
@@ -428,8 +428,8 @@
 			"proportionaltoparent"					"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
-			"fgcolor" 								"RedLight"
-			"font"									"Size 16"
+			"fgcolor"								"Red_Light"
+			"font"									"Size_16"
 			"labelText"								"#TF_TradeStartDialog_ServerNone"
 			"textAlignment"							"center"
 		}
@@ -438,13 +438,13 @@
 	"StatePanel3"									//STEAM PROFILE
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName" 								"StatePanel3"
+		"fieldName"									"StatePanel3"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1-5"
-		"wide"	 									"f10"
-		"tall"	 									"f35"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"wide"										"f10"
+		"tall"										"f35"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
 		"QueryLabel"
@@ -460,10 +460,10 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"#TF_TradeStartDialog_Profile"
 			"textAlignment"							"center"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"URLHelpLabel"
@@ -477,33 +477,33 @@
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"labelText"								"#TF_TradeStartDialog_ProfileHelp"
 			"textAlignment"							"north"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"		 						"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"URLSearchingLabel"
 		{
-			"ControlName"	 						"CExLabel"
-			"fieldName"		 						"URLSearchingLabel"
-			"xpos"			 						"0"
-			"ypos"			 						"105"
-			"zpos"			 						"-1"
-			"wide"			 						"220"
-			"tall"			 						"40"
-			"visible"		 						"0"
-			"enabled"		 						"1"
-			"font"			 						"Size 10"
-			"labelText"		 						"#TF_TradeStartDialog_ProfileLookup"
-			"textAlignment"	 						"center"
-			"wrap"			 						"1"
-			"centerwrap"	 						"1"
+			"ControlName"							"CExLabel"
+			"fieldName"								"URLSearchingLabel"
+			"xpos"									"0"
+			"ypos"									"105"
+			"zpos"									"-1"
+			"wide"									"220"
+			"tall"									"40"
+			"visible"								"0"
+			"enabled"								"1"
+			"font"									"Size_10"
+			"labelText"								"#TF_TradeStartDialog_ProfileLookup"
+			"textAlignment"							"center"
+			"wrap"									"1"
+			"centerwrap"							"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 		}
 
 		"URLEntry"
@@ -514,8 +514,6 @@
 			"ypos"									"65"
 			"wide"									"f0"
 			"tall"									"18"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"textHidden"							"0"
@@ -524,11 +522,11 @@
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
 			"wrap"									"0"
-			"fgcolor_override"						"WhiteDark"
-			"bgcolor_override"						"BlackLightestTransparent"
+			"fgcolor_override"						"White_Dark"
+			"bgcolor_override"						"Black_Lightest_Transparent"
 			"paintbackgroundtype"					"0"
 			"labelText"								""
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
 		}
@@ -544,13 +542,13 @@
 			"tall"									"40"
 			"visible"								"0"
 			"enabled"								"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"labelText"								"#TF_TradeStartDialog_ProfileFail"
 			"textAlignment"							"north"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"		 						"RedLight"
+			"fgcolor"								"Red_Light"
 		}
 
 		"subbutton0"
@@ -562,12 +560,10 @@
 			"zpos"									"1"
 			"wide"									"f0"
 			"tall"									"26"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_TradeStartDialog_ProfileGo"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"default"								"1"
@@ -579,11 +575,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 	}
 
@@ -600,7 +596,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"-"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"1"
@@ -610,11 +606,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"RedTransparent70"
-		"border_armed"								"RedDarkTransparent70"
+		"border_default"							"Red_Transparent_70"
+		"border_armed"								"Red_Dark_Transparent_70"
 	}
 	"CancelButton2"
 	{
@@ -629,7 +625,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"-"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"1"
@@ -639,10 +635,10 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"RedTransparent70"
-		"border_armed"								"RedDarkTransparent70"
+		"border_default"							"Red_Transparent_70"
+		"border_armed"								"Red_Dark_Transparent_70"
 	}
 }

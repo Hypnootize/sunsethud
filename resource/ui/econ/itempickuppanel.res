@@ -1,4 +1,4 @@
-#base "../../../resource/tools/reloadschemebutton.res"
+#base "../../tools/reloadschemebutton.res"
 
 "Resource/UI/Econ/ItemPickupPanel.res"
 {
@@ -16,14 +16,12 @@
 		"zpos"										"10000"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Blank"
-		"infocus_bgcolor_override" 					"Blank"
+		"infocus_bgcolor_override"					"Blank"
 		"outoffocus_bgcolor_override"				"Blank"
 
 		"modelpanels_spacing"						"40"
@@ -35,7 +33,7 @@
 		{
 			"PaintBackground"						"0"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
 			"model_xpos"							"0"
 			"model_center_y"						"1"
@@ -47,11 +45,11 @@
 			"text_wide"								"230"
 			"text_center"							"1"
 			"is_mouseover"							"1"
-			"hide_collection_panel" 				"1"
+			"hide_collection_panel"					"1"
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 			}
 		}
@@ -83,7 +81,7 @@
 		"tall"										"38"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 
 	"classimageoutline"
@@ -96,7 +94,7 @@
 		"wide"										"34"
 		"tall"										"34"
 		"visible"									"1"
-		"bgcolor_override" 							"0 0 0 50"
+		"bgcolor_override"							"0 0 0 50"
 	}
 	"classimage"
 	{
@@ -111,7 +109,7 @@
 		"enabled"									"1"
 		"image"										"achievements/tf_medic_heal_grind"
 		"scaleImage"								"1"
-		"pin_to_sibling" 							"classimageoutline"
+		"pin_to_sibling"							"classimageoutline"
 
 	}
 
@@ -127,7 +125,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 30"
+		"font"										"Size_30"
 		"labelText"									"#NewItemsAcquired"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
@@ -143,12 +141,10 @@
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									""
 		"textAlignment"								"center"
 		"AllCaps"									"1"
@@ -160,7 +156,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemCountLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"#Item"
 		"textAlignment"								"north-west"
 		"xpos"										"c-245"
@@ -171,13 +167,13 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 	"SelectedItemNumberLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SelectedItemNumberLabel"
-		"font"										"Size 30"
+		"font"										"Size_30"
 		"labelText"									"#SelectedItemNumber"
 		"textAlignment"								"north-west"
 		"xpos"										"c-245"
@@ -188,7 +184,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"NextButton"
@@ -203,19 +199,19 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"Symbols 30"
+		"font"										"Symbols_30"
 		"textAlignment"								"center"
 		"Command"									"nextitem"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		"alpha"										"175"
 
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 
 		"FgColor"									"White"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"MainTheme"
-		"depressedFgColor_override"					"MainTheme"
+		"armedFgColor_override"						"Main_Theme"
+		"depressedFgColor_override"					"Main_Theme"
 	}
 	"NextButtonShortCut"
 	{
@@ -225,8 +221,8 @@
 		"labelText"									"&D"
 		"Command"									"nextitem"
 		"visible"									"1"
-		"sound_depressed"    						"UI/buttonclick.wav"
-		"sound_released"     						"UI/buttonclickrelease.wav"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 	}
 	"PrevButton"
 	{
@@ -240,19 +236,19 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"Symbols 30"
+		"font"										"Symbols_30"
 		"textAlignment"								"center"
 		"Command"									"previtem"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		"alpha"										"175"
 
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 
 		"FgColor"									"White"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"MainTheme"
-		"depressedFgColor_override"					"MainTheme"
+		"armedFgColor_override"						"Main_Theme"
+		"depressedFgColor_override"					"Main_Theme"
 	}
 	"PrevButtonShortCut"
 	{
@@ -262,8 +258,8 @@
 		"labelText"									"&A"
 		"Command"									"previtem"
 		"visible"									"1"
-		"sound_depressed"    						"UI/buttonclick.wav"
-		"sound_released"     						"UI/buttonclickrelease.wav"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
 	}
 
 	"CloseButton"
@@ -280,21 +276,21 @@
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 		"labelText"									"#CloseItemPanel"
-		"font"										"Size 16"
+		"font"										"Size_16"
 		"textAlignment"								"center"
 		"Command"									"vguicancel"
 		"default"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 
 	"OpenLoadoutButton"
@@ -311,20 +307,20 @@
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 		"labelText"									"%loadouttext%"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"textAlignment"								"center"
 		"Command"									"changeloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"DiscardButton"
@@ -340,20 +336,20 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"D"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"Command"									"discarditem"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 	"DiscardButtonTooltip"
 	{
@@ -367,7 +363,7 @@
 		"visible"									"0"
 		"proportionaltoparent"						"1"
 		"Paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"TipLabel"
 		{
@@ -380,7 +376,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"#DiscardItem"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
@@ -393,7 +389,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DiscardedLabel"
-		"font"										"Size 30"
+		"font"										"Size_30"
 		"labelText"									"#Discarded"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -404,9 +400,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 		"bgcolor_override"							"Blank"
-		"border"									"RedTransparent70"
+		"border"									"Red_Transparent_70"
 	}
 
 	"ScoreEntry"

@@ -13,7 +13,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"GreenGradient"
+		"border"									"Green_Gradient"
 	}
 
 	"ItemNameLabel"
@@ -29,7 +29,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"#TF_Object_Dispenser"
 		"textAlignment"								"west"
 		"fgcolor"									"White"
@@ -50,7 +50,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"1"
 		"textAlignment"								"east"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"fgcolor"									"225 225 225 255"
 
 		"pin_to_sibling"							"ItemBackground"
@@ -71,7 +71,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"1"
 		"textAlignment"								"east"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"fgcolor"									"Shadows"
 
 		"pin_to_sibling"							"NumberLabel"
@@ -106,7 +106,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"Not Built"
 		"textAlignment"								"east"
 		"fgcolor"									"White"
@@ -121,19 +121,32 @@
 		"ControlName"								"CIconPanel"
 		"fieldName"									"DestroyIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
-
 	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildingIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
-
 	"NumberBg"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -18,14 +18,14 @@
 		"bgcolor_override"							"0 10 20 220"
 		"paintborder"								"0"
 
-		"log_font_small"							"Size 22"
-		"log_font_medium"							"Size 22"
-		"log_font_large"							"Size 22"
+		"log_font_small"							"Size_22"
+		"log_font_medium"							"Size_22"
+		"log_font_large"							"Size_22"
 
 		"chat_color_default"						"White"
-		"chat_color_player_name"					"OrangeSolid"
+		"chat_color_player_name"					"Orange_Solid"
 		"chat_color_chat_text"						"White"
-		"chat_color_party_event"					"GreenLight"
+		"chat_color_party_event"					"Green_Light"
 
 		"collapsed_height"							"0"
 		"expanded_height"							"120"
@@ -45,12 +45,10 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"RoundedCorners"							"0"
-		"font"										"Size 22"
+		"font"										"Size_22"
 
 		"paintbackground"							"0"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"ScrollBar"
 		{
@@ -65,7 +63,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"					"MainTheme"
+				"fgcolor_override"					"Main_Theme"
 			}
 
 			"UpButton"
@@ -98,16 +96,14 @@
 		"bgcolor_override"							"0 0 0 255"
 		"paintbackgroundtype"						"0"
 		"RoundedCorners"							"0"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"alpha"										"0"
 		"mouseinputenabled"							"0"
 
-		"pinCorner"									"2"
-		//"autoResize"								"1"
 
-		"pin_to_sibling" 							"chatlog"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"chatlog"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"EntryShadow"
@@ -128,6 +124,5 @@
 		"keyboardinputenabled"						"0"
 		"mouseinputenabled"							"0"
 
-		"pinCorner"									"2"
 	}
 }

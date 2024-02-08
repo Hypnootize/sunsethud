@@ -22,7 +22,7 @@
 		"src_corner_height"							"32"
 		"src_corner_width"							"32"
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"TimeBG"
@@ -38,7 +38,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 	}
 
 	"ServerTimeLimitLabel"
@@ -55,7 +55,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%servertimeleft%"
 		"textAlignment"								"center"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"TimeBG"
@@ -77,7 +77,7 @@
 		"labelText"									"Waiting"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 
@@ -103,10 +103,10 @@
 		"textAlignment"								"center"
 		"textinsety"								"8"
 		"AllCaps"									"1"
-		"font"										"Size 9"
+		"font"										"Size_9"
 		"fgcolor"									"Black"
 		"paintborder"								"1"
-		"border"									"WhiteDarkBorder"
+		"border"									"White_Dark_Border"
 
 		"pin_to_sibling"							"TimeBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -127,7 +127,7 @@
 		"labelText"									"#game_SuddenDeath"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Size 7"
+		"font"										"Size_7"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 
@@ -150,7 +150,7 @@
 		"labelText"									"#game_Setup"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Size 8"
+		"font"										"Size_8"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 
@@ -169,29 +169,54 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"WaitingForPlayersBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"OvertimeBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"OvertimeBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SuddenDeathBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"SuddenDeathBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SetupBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"SetupBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ServerTimeLimitLabelBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

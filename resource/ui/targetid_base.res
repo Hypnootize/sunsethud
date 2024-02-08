@@ -8,9 +8,7 @@
 		"ypos"										"9999"		//18
 		"zpos"										"-1"
 		"wide"										"252"
-		"tall"	 									"f0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"tall"										"f0"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/panels/Material_Transparent_Blue_70"
@@ -19,7 +17,7 @@
 		"src_corner_width"							"32"
 
 		"draw_corner_width"							"0"
-		"draw_corner_height" 						"0"
+		"draw_corner_height"						"0"
 	}
 
 	"TargetIDBG_Spec_Red"
@@ -30,9 +28,7 @@
 		"ypos"										"9999"		//18
 		"zpos"										"-1"
 		"wide"										"252"
-		"tall"	 									"f0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+		"tall"										"f0"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/panels/Material_Transparent_Red_70"
@@ -41,7 +37,7 @@
 		"src_corner_width"							"32"
 
 		"draw_corner_width"							"0"
-		"draw_corner_height" 						"0"
+		"draw_corner_height"						"0"
 	}
 
 	"Shade"
@@ -55,7 +51,7 @@
 		"tall"										"13"
 		"visible"									"1"
 		"enabled"									"1"
-		"bgcolor_override"							"BlackLightTransparent"
+		"bgcolor_override"							"Black_Light_Transparent"
 	}
 
 	"TargetNameLabel"
@@ -69,7 +65,7 @@
 		"tall"										"13"
 		"visible"									"1"
 		"enabled"									"1"				// 0 to enable color edits
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"%targetname%"
 		"textAlignment"								"west"
 		"disabledfgcolor2_override"					"White"
@@ -86,7 +82,7 @@
 		"tall"										"14"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"%targetname%"
 		"textAlignment"								"west"
 		"fgcolor"									"Shadows"
@@ -106,7 +102,7 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"				// 0 to enable color edits
-		"font"										"Size 10 Shadow"
+		"font"										"Size_10_Shadow"
 		"labelText"									"%targetdata%"
 		"textAlignment"								"west"
 		"disabledfgcolor2_override"					"White"
@@ -123,7 +119,7 @@
 		"enabled"									"0"
 		"HealthBonusPosAdj"							"0"
 		"HealthDeathWarning"						"0.49"
-		"TFFont"									"Size 14"
+		"TFFont"									"Size_14"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
 	}
@@ -169,7 +165,7 @@
 		"image"										"replay/thumbnails/game/streak"
 		"scaleImage"								"1"
 
-		"pin_to_sibling" 							"KillStreakAnchor"
+		"pin_to_sibling"							"KillStreakAnchor"
 	}
 
 	"MoveableSubPanel"
@@ -188,7 +184,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HandIcon"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"xpos"									"0"
 			"ypos"									"10"
 			"zpos"									"1"
@@ -229,7 +225,6 @@
 			"fieldName"								"MoveableSymbolIcon"
 			"xpos"									"9999"
 			"ypos"									"9999"
-			"zpos"									"0"
 			"wide"									"0"
 			"tall"									"0"
 			"visible"								"0"
@@ -239,14 +234,12 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MoveableKeyLabel"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"xpos"									"9999"
 			"ypos"									"9999"
 			"zpos"									"0"
 			"wide"									"0"
 			"tall"									"0"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"0"
 			"labelText"								""
@@ -261,13 +254,20 @@
 		"fieldName"									"TargetIDBG"
 		"xpos"										"9999"
 		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"AvatarImage"
 	{
 		"ControlName"								"CAvatarImagePanel"
 		"fieldName"									"AvatarImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

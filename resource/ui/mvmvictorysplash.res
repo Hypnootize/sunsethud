@@ -40,9 +40,9 @@
 			"wide"									"f10"
 			"tall"									"f10"
 			"proportionaltoparent"					"1"
-			"font"									"Size 30"
+			"font"									"Size_30"
 			"labelText"								"#TF_MVM_Victory"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"fgcolor"								"White"
 			"AllCaps"								"1"
 		}
@@ -56,11 +56,10 @@
 			"wide"									"0"		//300
 			"tall"									"50"
 			"proportionaltoparent"					"1"
-			"font"									"Size 40"
+			"font"									"Size_40"
 			"labelText"								"#TF_MVM_Victory"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"fgcolor"								"Shadows"
-			"pin_to_sibling"						"DisguiseStatusBG"
 		}
 	}
 }

@@ -24,15 +24,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
-			"font"									"Size 15"
+			"mouseinputenabled"						"0"
+			"font"									"Size_15"
 			"labelText"								"%modename%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
 			"AllCaps"								"1"
 			"paintBackground"						"0"
 			"paintBorder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 
 		"ImageFrame"
@@ -46,11 +46,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 
-			"pin_to_sibling" 						"ModeNameLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"ModeNameLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		// Parented to ImageFrame in code.
@@ -69,9 +69,9 @@
 			"scaleImage"							"1"
 			"image"									""
 
-			"pin_to_sibling" 						"ImageFrame"
-			"pin_corner_to_sibling" 				"PIN_CENTER_BOTTOM"
-			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
+			"pin_to_sibling"						"ImageFrame"
+			"pin_corner_to_sibling"					"PIN_CENTER_BOTTOM"
+			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 
 		"DescLabel"
@@ -86,15 +86,15 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"labelText"								"%description%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
-			"wrap"				   					"0"
+			"wrap"									"0"
 			"AllCaps"								"1"
 			"paintBackground"						"0"
 			"paintBorder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 		}
 	}
 
@@ -111,7 +111,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_Training_SelectMode"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"Command"									"%startcommand%"
 		"AllCaps"									"1"
@@ -121,11 +121,11 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 }

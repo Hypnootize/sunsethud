@@ -10,8 +10,8 @@
 		"playerpanels_kv"
 		{
 			"color_bar_health_high"				"180 225 0 255"
-			"color_bar_health_med"				"OrangeSolid"
-			"color_bar_health_low"				"RedLight"
+			"color_bar_health_med"				"Orange_Solid"
+			"color_bar_health_low"				"Red_Light"
 			
 			"classimagebg"
 			{
@@ -45,7 +45,7 @@
 				"zpos"							"4"
 				"wide"							"f0"
 				"tall"							"19"
-				"fgcolor_override"	   			"255 255 255 200"
+				"fgcolor_override"				"255 255 255 200"
 			}
 			
 			"respawntime"

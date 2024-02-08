@@ -1,4 +1,4 @@
-#base "../../../../../resource/tools/reloadschemebutton.res"
+#base "../../../../tools/reloadschemebutton.res"
 
 "Resource/UI/Econ/Store/V2/StoreHome_Base.res"
 {
@@ -15,8 +15,8 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Blank"
-		"infocus_bgcolor_override" 					"Blank"
-		"outoffocus_bgcolor_override" 				"Blank"
+		"infocus_bgcolor_override"					"Blank"
+		"outoffocus_bgcolor_override"				"Blank"
 
 		"item_controls_xoffset"						"2"
 		"item_controls_yoffset"						"2"
@@ -75,37 +75,35 @@
 			"text_ypos"								"80"
 			"text_center"							"0"
 			"name_only"								"1"
-			"resize_to_text" 						"0"
-			"name_label_alignment" 					"3"
+			"resize_to_text"						"0"
+			"name_label_alignment"					"3"
 
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
-				"inventory_image_type" 				"1"
+				"inventory_image_type"				"1"
 			}
 
-			"use_item_sounds" 						"1"
+			"use_item_sounds"						"1"
 		}
 
 		"modelpanel_labels_kv"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"north-east"
 			"xpos"									"c-61"
 			"ypos"									"32"
 			"zpos"									"15"
 			"wide"									"16"
 			"tall"									"10"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
 
-			"use_item_sounds" 						"1"
+			"use_item_sounds"						"1"
 		}
 
 		"cart_modelpanels_kv"
@@ -136,28 +134,26 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
-				"inventory_image_type" 				"1"
+				"use_item_rendertarget"				"0"
+				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
 
-			"use_item_sounds" 						"1"
+			"use_item_sounds"						"1"
 		}
 
 		"cart_labels_kv"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"north-east"
 			"xpos"									"9999"
 			"ypos"									"9999"
 			"zpos"									"-50"
 			"wide"									"0"
 			"tall"									"0"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"0"
-			"use_item_sounds" 						"1"
+			"use_item_sounds"						"1"
 			"alpha"									"0"
 		}
 	}
@@ -175,7 +171,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 
 	"mouseoveritempanel"
@@ -201,7 +197,7 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
@@ -245,17 +241,17 @@
 			"textAlignment"							"center"
 			"scaleImage"							"1"
 			"AllCaps"								"1"
-			"font"									"Size 13"
+			"font"									"Size_13"
 
 			"paintbackground"						"1"
 			"paintborder"							"0"
 
 			"fgcolor"								"White"
-			"defaultBgColor_override" 				"0 0 0 125"
-			"defaultFgColor_override" 				"White"
-			"armedBgColor_override" 				"BlackLightTransparent"
-			"armedFgColor_override" 				"White"
-			"selectedBgColor_override" 				"BlackLightTransparent"
+			"defaultBgColor_override"				"0 0 0 125"
+			"defaultFgColor_override"				"White"
+			"armedBgColor_override"					"Black_Light_Transparent"
+			"armedFgColor_override"					"White"
+			"selectedBgColor_override"				"Black_Light_Transparent"
 			"selectedFgColor_override"				"White"
 
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -279,7 +275,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"textinsety"								"3"
 		"Command"									"prevpage"
@@ -290,15 +286,15 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
-		"pin_to_sibling" 							"ItemsBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"ItemsBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 	"PrevPageShortCut"
 	{
@@ -321,14 +317,14 @@
 		"tall"										"18"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 20"
+		"font"										"Size_20"
 		"labelText"									"%backpackpage%"
 		"textAlignment"								"east"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"ItemsBG"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"ItemsBG"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"NextPageButton"
@@ -343,7 +339,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"textinsety"								"3"
 		"Command"									"nextpage"
@@ -354,15 +350,15 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
-		"pin_to_sibling" 							"ItemsBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"ItemsBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 	"NextPageShortCut"
 	{
@@ -386,11 +382,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
-		"pin_to_sibling" 							"ItemsBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"ItemsBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"BackpackSpaceLabel"
@@ -404,15 +400,15 @@
 		"tall"										"34"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"labelText"									"%freebackpackspace%"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"CartBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"CartBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"CartButton"
@@ -428,13 +424,13 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"labelText"									"%storecart%"
 		"textAlignment"								"east"
 		"textinsetx"								"8"
 
 		"Command"									"viewcart"
-		"font"										"Size 15"
+		"font"										"Size_15"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -442,15 +438,15 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
-		"pin_to_sibling" 							"CartBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"CartBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 	"CartIcon"
 	{
@@ -465,16 +461,16 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"x"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
-		"pin_to_sibling" 							"CartButton"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"CartButton"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 	"CartLabel"
 	{
@@ -490,14 +486,14 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"AllCaps"									"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"labelText"									"Cart"
 		"textAlignment"								"west"
 		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"CartIcon"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"CartIcon"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 
 	"MarketPlaceButton"
@@ -514,7 +510,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
 		"labelText"									"Steam Market"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"east"
 		"textinsetx"								"30"
 		"default"									"1"
@@ -526,15 +522,15 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
-		"pin_to_sibling" 							"CartBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"CartBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 	"MarketPlaceIcon"
 	{
@@ -549,16 +545,16 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"p"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
-		"pin_to_sibling" 							"MarketPlaceButton"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"MarketPlaceButton"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 
 	"TitleLabel"
@@ -566,35 +562,65 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HomePageLabelContainer"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HomePageLabelContainer"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SaxtonBackgroundPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"SaxtonBackgroundPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"StoreBackgroundPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"StoreBackgroundPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CartImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"CartImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BrowseTheStoreButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"BrowseTheStoreButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

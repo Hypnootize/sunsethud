@@ -38,8 +38,7 @@
 			"bgcolor_override"						"Blank"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			"AutoResize"							"0"
-			"skip_autoresize" 						"1"
+			"skip_autoresize"						"1"
 		}
 	}
 
@@ -56,7 +55,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 	}
 
 	"PlayingTo"
@@ -74,8 +73,8 @@
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Size 10"
-		"fgcolor"									"WhiteTransparent"
+		"font"										"Size_10"
+		"fgcolor"									"White_Transparent"
 
 		"pin_to_sibling"							"MainBackground"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -95,7 +94,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"pin_to_sibling"							"MainBackground"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -114,7 +113,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlueTransparent70"
+			"border"								"Blue_Transparent_70"
 		}
 	}
 
@@ -131,7 +130,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"pin_to_sibling"							"MainBackground"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -150,7 +149,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"RedTransparent70"
+			"border"								"Red_Transparent_70"
 		}
 	}
 
@@ -180,7 +179,7 @@
 			"enabled"								"1"
 			"textAlignment"							"east"
 			"labelText"								"t"
-			"font"									"Symbols 14"
+			"font"									"Symbols_14"
 			"fgcolor"								"White"
 			"proportionalToParent"					"1"
 		}
@@ -197,12 +196,12 @@
 			"enabled"								"1"
 			"textAlignment"							"east"
 			"labelText"								"t"
-			"font"									"Symbols 14"
+			"font"									"Symbols_14"
 			"fgcolor"								"Shadows"
 			"proportionalToParent"					"1"
 			"pin_to_sibling"						"CountdownIcon"
 		}
-		
+
 		"CountdownLabelTime"
 		{
 			"ControlName"							"CExLabel"
@@ -216,7 +215,7 @@
 			"enabled"								"1"
 			"textAlignment"							"west"
 			"labelText"								"%countdowntime%"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"fgcolor"								"White"
 			"proportionalToParent"					"1"
 		}
@@ -233,7 +232,7 @@
 			"enabled"								"1"
 			"textAlignment"							"west"
 			"labelText"								"%countdowntime%"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"fgcolor"								"Shadows"
 			"proportionalToParent"					"1"
 			"pin_to_sibling"						"CountdownLabelTime"
@@ -244,12 +243,22 @@
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"Background"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"CountdownImage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"CountdownImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -294,7 +303,7 @@
 				"proportionalToParent"				"1"
 				"textAlignment"						"center"
 				"labelText"							"%blue_escrow%"
-				"font"								"Size 20"
+				"font"								"Size_20"
 				"fgcolor"							"White"
 			}
 			"EscrowBlueShadow"
@@ -311,7 +320,7 @@
 				"proportionalToParent"				"1"
 				"textAlignment"						"center"
 				"labelText"							"%blue_escrow%"
-				"font"								"Size 20"
+				"font"								"Size_20"
 				"fgcolor"							"Shadows"
 				"pin_to_sibling"					"EscrowBlue"
 			}
@@ -345,7 +354,7 @@
 				"proportionalToParent"				"1"
 				"textAlignment"						"center"
 				"labelText"							"%red_escrow%"
-				"font"								"Size 20"
+				"font"								"Size_20"
 				"fgcolor"							"White"
 			}
 			"EscrowRedShadow"
@@ -362,7 +371,7 @@
 				"proportionalToParent"				"1"
 				"textAlignment"						"center"
 				"labelText"							"%red_escrow%"
-				"font"								"Size 20"
+				"font"								"Size_20"
 				"fgcolor"							"Shadows"
 				"pin_to_sibling"					"EscrowRed"
 			}
@@ -409,7 +418,7 @@
 					"proportionalToParent"			"1"
 					"textAlignment"					"center"
 					"labelText"						"%victorytime%"
-					"font"							"Size 20"
+					"font"							"Size_20"
 					"fgcolor"						"255 115 115 255"
 				}
 
@@ -418,18 +427,33 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabel"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 				"VictoryLabelShadow"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabelShadow"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 				"VictoryLabelTimeShadow"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabelTimeShadow"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 			}
 
@@ -460,7 +484,7 @@
 					"proportionalToParent"			"1"
 					"textAlignment"					"center"
 					"labelText"						"%victorytime%"
-					"font"							"Size 22"
+					"font"							"Size_22"
 					"fgcolor"						"255 115 115 255"
 				}
 
@@ -469,18 +493,33 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabel"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 				"VictoryLabelShadow"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabelShadow"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 				"VictoryLabelTimeShadow"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabelTimeShadow"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 			}
 
@@ -489,30 +528,55 @@
 				"fieldName"							"ScoreOutline"
 				"ControlName"						"ImagePanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"BlueProgressBarFill"
 			{
 				"fieldName"							"BlueProgressBarFill"
 				"ControlName"						"ImagePanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"BlueProgressBarEscrow"
 			{
 				"fieldName"							"BlueProgressBarEscrow"
 				"ControlName"						"ImagePanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"RedProgressBarFill"
 			{
 				"fieldName"							"RedProgressBarFill"
 				"ControlName"						"ImagePanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"RedProgressBarEscrow"
 			{
 				"fieldName"							"RedProgressBarEscrow"
 				"ControlName"						"ImagePanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -542,7 +606,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"
 				"labelText"							"%score%"
-				"font"								"Size 20"
+				"font"								"Size_20"
 				"fgcolor"							"TanDark"
 				"proportionalToParent"				"1"
 			}
@@ -551,6 +615,11 @@
 				"ControlName"						"CExLabel"
 				"fieldName"							"ScoreShadow"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -580,7 +649,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"
 				"labelText"							"%score%"
-				"font"								"Size 20"
+				"font"								"Size_20"
 				"fgcolor"							"TanDark"
 				"proportionalToParent"				"1"
 			}
@@ -589,6 +658,11 @@
 				"ControlName"						"CExLabel"
 				"fieldName"							"ScoreShadow"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -597,12 +671,22 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BlueStolenContainer"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"RedStolenContainer"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"RedStolenContainer"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -632,7 +716,7 @@
 			"enabled"								"1"
 			"proportionalToParent"					"1"
 			"PaintBorder"							"1"
-			"border"								"BlackTransparent70"
+			"border"								"Black_Transparent_70"
 
 			"GreenBG"
 			{
@@ -647,7 +731,7 @@
 				"enabled"							"1"
 				"proportionalToParent"				"1"
 				"PaintBorder"						"1"
-				"border"							"GreenTransparent70"
+				"border"							"Green_Transparent_70"
 			}
 		}
 
@@ -680,8 +764,8 @@
 			"proportionalToParent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
-			"font"									"Size 18"
-			"fgcolor"								"WhiteTransparent"
+			"font"									"Size_18"
+			"fgcolor"								"White_Transparent"
 		}
 
 		"FlagValueShadow"
@@ -689,18 +773,33 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"FlagValueShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"CarriedProgressBar"
 		{
 			"fieldName"								"CarriedProgressBar"
 			"ControlName"							"ImagePanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"TeamLeaderImage"
 		{
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"TeamLeaderImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -709,6 +808,8 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayingToBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

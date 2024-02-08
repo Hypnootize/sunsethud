@@ -22,7 +22,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"paintborder"							"1"
-			"border"								"BlueTransparent70"
+			"border"								"Blue_Transparent_70"
 		}
 
 		"RedScoreBG"
@@ -36,7 +36,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"paintborder"							"1"
-			"border"								"RedTransparent70"
+			"border"								"Red_Transparent_70"
 		}
 
 		"BlueTeamLabel"
@@ -50,7 +50,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"labelText"								"%blueteamname%"
 			"textAlignment"							"west"
 			"fgcolor"								"White"
@@ -68,7 +68,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 20"
+			"font"									"Size_20"
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"east"
 			"fgcolor"								"White"
@@ -89,7 +89,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"labelText"								"%redteamname%"
 			"textAlignment"							"east"
 			"fgcolor"								"White"
@@ -109,7 +109,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 20"
+			"font"									"Size_20"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"west"
 			"fgcolor"								"White"
@@ -122,24 +122,44 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamScoreDropshadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"RedTeamScoreDropshadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamScoreDropshadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ArenaStreaksBG"
 		{
 			"ControlName"							"ScalableImagePanel"
 			"fieldName"								"ArenaStreaksBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ArenaStreakLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ArenaStreakLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -155,7 +175,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 	}
 
 	"HorizontalLine"
@@ -190,7 +210,7 @@
 		"font"										"DefaultVerySmall"
 		"labelText"									"%TopPlayersLabel%"
 		"textAlignment"								"west"
-		"fgcolor"									"WhiteSolid"
+		"fgcolor"									"White_Solid"
 
 		"pin_to_sibling"							"HorizontalLine"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -211,7 +231,7 @@
 		"enabled"									"1"
 		"labelText"									"Class:"
 		"textAlignment"								"west"
-		"fgcolor"									"WhiteSolid"
+		"fgcolor"									"White_Solid"
 
 		"pin_to_sibling"							"TopPlayersLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -232,7 +252,7 @@
 		"font"										"DefaultVerySmall"
 		"labelText"									"#TF_Arena_Winpanel_DamageThisRound"
 		"textAlignment"								"west"
-		"fgcolor"									"WhiteSolid"
+		"fgcolor"									"White_Solid"
 
 		"pin_to_sibling"							"ClassPlayedLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -253,7 +273,7 @@
 		"font"										"DefaultVerySmall"
 		"labelText"									"#TF_Arena_Winpanel_HealingThisRound"
 		"textAlignment"								"west"
-		"fgcolor"									"WhiteSolid"
+		"fgcolor"									"White_Solid"
 
 		"pin_to_sibling"							"DamageThisRoundLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -274,7 +294,7 @@
 		"font"										"DefaultVerySmall"
 		"labelText"									"#TF_Arena_Winpanel_TimeAliveThisRound"
 		"textAlignment"								"west"
-		"fgcolor"									"WhiteSolid"
+		"fgcolor"									"White_Solid"
 
 		"pin_to_sibling"							"HealingThisRoundLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -295,7 +315,7 @@
 		"font"										"DefaultVerySmall"
 		"labelText"									"#TF_Arena_Winpanel_KillingBlows"
 		"textAlignment"								"west"
-		"fgcolor"									"WhiteSolid"
+		"fgcolor"									"White_Solid"
 
 		"pin_to_sibling"							"LifetimeThisRoundLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -622,18 +642,33 @@
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player1Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Player2Avatar"
 		{
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player2Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Player3Avatar"
 		{
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player3Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -957,18 +992,33 @@
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player1Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Player2Avatar"
 		{
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player2Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Player3Avatar"
 		{
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player3Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -977,41 +1027,76 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"WinPanelBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"WinningTeamLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WinningTeamLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"WinningTeamLabelDropshadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WinningTeamLabelDropshadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"LosingTeamLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LosingTeamLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"LosingTeamLabelDropshadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LosingTeamLabelDropshadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"WinReasonLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WinReasonLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"DetailsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DetailsLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

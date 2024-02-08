@@ -185,7 +185,7 @@
 		"ypos"										"r40"
 		"zpos"										"100"
 		"wide"										"500"
-		"tall"	 									"28"
+		"tall"										"28"
 
 		"CarryingBackground"
 		{
@@ -195,9 +195,7 @@
 			"ypos"									"0"
 			"zpos"									"0"
 			"wide"									"p1"
-			"tall"	 								"f0"
-			"autoResize"							"0"
-			"pinCorner"								"0"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"replay/thumbnails/panels/flat_gray"
@@ -211,7 +209,7 @@
 			"src_corner_width"						"24"
 
 			"draw_corner_width"						"0"
-			"draw_corner_height" 					"0"
+			"draw_corner_height"					"0"
 
 			"alpha"									"150"
 		}
@@ -224,10 +222,10 @@
 			"ypos"									"3"
 			"zpos"									"1"
 			"wide"									"200"
-			"tall"	 								"f0"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"textAlignment"							"North-West"
 			"proportionaltoparent"					"1"
 			"auto_wide_tocontents"					"1"
@@ -242,10 +240,10 @@
 			"ypos"									"12"
 			"zpos"									"0"
 			"wide"									"200"
-			"tall"	 								"f0"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 9"
+			"font"									"Size_9"
 			"textAlignment"							"North-West"
 			"proportionaltoparent"					"1"
 			"auto_wide_tocontents"					"1"
@@ -256,6 +254,11 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"CarryingLabelDropShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -265,17 +268,32 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"classmodelpanelBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayerStatusSpyImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayerStatusClassImageBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

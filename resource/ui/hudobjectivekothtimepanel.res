@@ -12,7 +12,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintborder"								"1"
-		"border"									"BlueBorder"
+		"border"									"Blue_Border"
 		"proportionaltoparent"						"1"
 	}
 	"BlueTimer"
@@ -50,7 +50,7 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"fgcolor"								"White"
 		}
 	}
@@ -68,7 +68,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"RedBorder"
+		"border"									"Red_Border"
 	}
 	"RedTimer"
 	{
@@ -105,7 +105,7 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"fgcolor"								"White"
 		}
 	}
@@ -123,7 +123,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundstyle"						"0"
-		"bgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"White_Dark"
 		"alpha"										"255"
 	}
 }

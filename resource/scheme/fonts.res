@@ -12,7 +12,7 @@
 		// SUNSET FONTS
 		//=============================================================================
 
-		"Size 7"
+		"Size_7"
 		{
 			"1"
 			{
@@ -22,7 +22,7 @@
 			}
 		}
 
-		"Size 8"
+		"Size_8"
 		{
 			"1"
 			{
@@ -32,7 +32,7 @@
 			}
 		}
 
-		"Size 9"
+		"Size_9"
 		{
 			"1"
 			{
@@ -42,7 +42,7 @@
 			}
 		}
 
-		"Size 10"
+		"Size_10"
 		{
 			"1"
 			{
@@ -51,7 +51,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 10 Shadow"
+		"Size_10_Shadow"
 		{
 			"1"
 			{
@@ -62,7 +62,7 @@
 			}
 		}
 
-		"Size 11"
+		"Size_11"
 		{
 			"1"
 			{
@@ -71,7 +71,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 11 Shadow"
+		"Size_11_Shadow"
 		{
 			"1"
 			{
@@ -82,7 +82,7 @@
 			}
 		}
 
-		"Size 12"
+		"Size_12"
 		{
 			"1"
 			{
@@ -91,7 +91,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 12 Shadow"
+		"Size_12_Shadow"
 		{
 			"1"
 			{
@@ -102,7 +102,7 @@
 			}
 		}
 
-		"Size 13"
+		"Size_13"
 		{
 			"1"
 			{
@@ -112,7 +112,7 @@
 			}
 		}
 
-		"Size 14"
+		"Size_14"
 		{
 			"1"
 			{
@@ -122,7 +122,7 @@
 			}
 		}
 
-		"Size 14 Shadow"
+		"Size_14_Shadow"
 		{
 			"1"
 			{
@@ -133,7 +133,7 @@
 			}
 		}
 
-		"Size 15"
+		"Size_15"
 		{
 			"1"
 			{
@@ -143,7 +143,7 @@
 			}
 		}
 
-		"Size 16"
+		"Size_16"
 		{
 			"1"
 			{
@@ -152,7 +152,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 16 Shadow"
+		"Size_16_Shadow"
 		{
 			"1"
 			{
@@ -162,7 +162,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Size 16 Outline"
+		"Size_16_Outline"
 		{
 			"1"
 			{
@@ -173,7 +173,7 @@
 			}
 		}
 
-		"Size 18"
+		"Size_18"
 		{
 			"1"
 			{
@@ -182,7 +182,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 18 Shadow"
+		"Size_18_Shadow"
 		{
 			"1"
 			{
@@ -193,7 +193,7 @@
 			}
 		}
 
-		"Size 20"
+		"Size_20"
 		{
 			"1"
 			{
@@ -202,7 +202,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 20 Shadow"
+		"Size_20_Shadow"
 		{
 			"1"
 			{
@@ -213,7 +213,7 @@
 			}
 		}
 
-		"Size 22"
+		"Size_22"
 		{
 			"1"
 			{
@@ -222,7 +222,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 22 Shadow"
+		"Size_22_Shadow"
 		{
 			"1"
 			{
@@ -232,7 +232,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Size 22 Outline"
+		"Size_22_Outline"
 		{
 			"1"
 			{
@@ -243,7 +243,7 @@
 			}
 		}
 
-		"Size 23"
+		"Size_23"
 		{
 			"1"
 			{
@@ -253,7 +253,7 @@
 			}
 		}
 
-		"Size 24"
+		"Size_24"
 		{
 			"1"
 			{
@@ -262,7 +262,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 24 Shadow"
+		"Size_24_Shadow"
 		{
 			"1"
 			{
@@ -272,7 +272,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Size 24 Outline"
+		"Size_24_Outline"
 		{
 			"1"
 			{
@@ -283,7 +283,7 @@
 			}
 		}
 
-		"Size 26"
+		"Size_26"
 		{
 			"1"
 			{
@@ -293,7 +293,7 @@
 			}
 		}
 
-		"Size 28"
+		"Size_28"
 		{
 			"1"
 			{
@@ -302,7 +302,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Size 28 Shadow"
+		"Size_28_Shadow"
 		{
 			"1"
 			{
@@ -312,7 +312,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Size 28 Outline"
+		"Size_28_Outline"
 		{
 			"1"
 			{
@@ -323,7 +323,7 @@
 			}
 		}
 
-		"Size 30"
+		"Size_30"
 		{
 			"1"
 			{
@@ -333,7 +333,7 @@
 			}
 		}
 
-		"Size 34"
+		"Size_34"
 		{
 			"1"
 			{
@@ -343,7 +343,7 @@
 			}
 		}
 
-		"Size 36"
+		"Size_36"
 		{
 			"1"
 			{
@@ -353,7 +353,7 @@
 			}
 		}
 
-		"Size 40"
+		"Size_40"
 		{
 			"1"
 			{
@@ -363,7 +363,7 @@
 			}
 		}
 
-		"Size 40 Shadow"
+		"Size_40_Shadow"
 		{
 			"1"
 			{
@@ -374,7 +374,7 @@
 			}
 		}
 
-		"Size 50"
+		"Size_50"
 		{
 			"1"
 			{
@@ -384,7 +384,7 @@
 			}
 		}
 
-		"Size 50 Shadow"
+		"Size_50_Shadow"
 		{
 			"1"
 			{
@@ -395,7 +395,7 @@
 			}
 		}
 
-		"Size 56"
+		"Size_56"
 		{
 			"1"
 			{
@@ -405,7 +405,7 @@
 			}
 		}
 
-		"Spectator Uber"
+		"Spectator_Uber"
 		{
 			"1"
 			{
@@ -416,7 +416,7 @@
 			}
 		}
 
-		"ControlPoint Cap"
+		"ControlPoint_Cap"
 		{
 			"1"
 			{
@@ -426,7 +426,7 @@
 			}
 		}
 
-		"UltraSmall"
+		"Ultra_Small"
 		{
 			"1"
 			{
@@ -1338,7 +1338,7 @@
 				"name"										"Renogare Soft"
 				"tall"										"28"
 				"antialias"									"1"
-				"custom"									"1" 	[$OSX]
+				"custom"									"1"		[$OSX]
 				"weight"									"500"
 			}
 		}
@@ -1349,7 +1349,7 @@
 				"name"										"Renogare Soft"
 				"tall"										"40"
 				"antialias"									"1"
-				"custom"									"1" 	[$OSX]
+				"custom"									"1"		[$OSX]
 				"weight"									"500"
 			}
 		}
@@ -1360,7 +1360,7 @@
 				"name"										"Renogare Soft"
 				"tall"										"24"
 				"antialias"									"1"
-				"custom"									"1" 	[$OSX]
+				"custom"									"1"		[$OSX]
 				"weight"									"500"
 			}
 		}
@@ -1369,10 +1369,10 @@
 			"1"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"14" 	[!$OSX]
-				"tall"										"15" 	[$OSX]
+				"tall"										"14"	[!$OSX]
+				"tall"										"15"	[$OSX]
 				"antialias"									"1"
-				"custom"									"1" 	[$OSX]
+				"custom"									"1"		[$OSX]
 				"weight"									"500"
 			}
 		}
@@ -1796,8 +1796,8 @@
 			"1"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"11" 	[!$OSX]
-				"tall"										"9" 	[$OSX]
+				"tall"										"11"	[!$OSX]
+				"tall"										"9"		[$OSX]
 				"weight"									"800"
 				"antialias"									"1"
 			}
@@ -2222,7 +2222,7 @@
 				"name"										"Renogare Soft"
 				"tall"										"20"
 				"antialias"									"1"
-				"custom"									"1" 	[$OSX]
+				"custom"									"1"		[$OSX]
 				"weight"									"500"
 			}
 		}
@@ -2780,14 +2780,14 @@
 		}
 		"10"
 		{
-			"font"	"resource/scheme/fonts/renogare.ttf" [$WINDOWS]
-			"font"	"resource/scheme/fonts/renogare linux.otf" [$POSIX]
+			"font"	"resource/scheme/fonts/renogare.ttf"				[$WINDOWS]
+			"font"	"resource/scheme/fonts/renogare_linux.otf"			[$POSIX]
 			"name"	"Renogare Soft"
 		}
 		"11"
 		{
-			"font"	"resource/scheme/fonts/renogare numbers.otf" [$WINDOWS]
-			"font"	"resource/scheme/fonts/renogare numbers linux.otf" [$POSIX]
+			"font"	"resource/scheme/fonts/renogare_numbers.otf"		[$WINDOWS]
+			"font"	"resource/scheme/fonts/renogare_numbers_linux.otf"	[$POSIX]
 			"name"	"Renogare Numbers"
 		}
 		"12"

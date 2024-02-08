@@ -31,8 +31,8 @@
 		"enabled"									"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"Size 40 Shadow"
-		"font_minmode"								"Size 50 Shadow"
+		"font"										"Size_40_Shadow"
+		"font_minmode"								"Size_50_Shadow"
 		"fgcolor"									"Ubercharge"
 
 		"pin_to_sibling"							"UberAnchor"
@@ -55,8 +55,8 @@
 		"enabled"									"1"
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
-		"font"										"Size 40 Shadow"
-		"font_minmode"								"Size 50 Shadow"
+		"font"										"Size_40_Shadow"
+		"font_minmode"								"Size_50_Shadow"
 		"fgcolor"									"Ubercharge"
 
 		"pin_to_sibling"							"UberAnchor"
@@ -182,12 +182,22 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"Background"
-		"xpos"										"99999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HealthClusterIcon"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HealthClusterIcon"
-		"xpos"										"99999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

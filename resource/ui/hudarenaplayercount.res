@@ -12,7 +12,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlueTransparent70"
+		"border"									"Blue_Transparent_70"
 
 		"CountIcon"
 		{
@@ -26,12 +26,12 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols 14"
+			"font"									"Symbols_14"
 			"labelText"								"P"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent50"
+			"border"								"Black_Transparent_50"
 		}
 		"Count"
 		{
@@ -45,7 +45,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"%blue_alive%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
@@ -56,12 +56,22 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"countshadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"playerimage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"playerimage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -77,7 +87,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"RedTransparent70"
+		"border"									"Red_Transparent_70"
 
 		"CountIcon"
 		{
@@ -91,12 +101,12 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols 14"
+			"font"									"Symbols_14"
 			"labelText"								"P"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
 			"paintborder"							"1"
-			"border"								"BlackTransparent50"
+			"border"								"Black_Transparent_50"
 		}
 		"Count"
 		{
@@ -110,7 +120,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"labelText"								"%red_alive%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
@@ -121,13 +131,22 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"countshadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"playerimage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"playerimage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
-
 	}
 }

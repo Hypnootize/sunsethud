@@ -1,25 +1,25 @@
 //===============================================
-//  COLORS
+// COLORS
 //===============================================
 
 #base "../customizations/colors.res"
-#base "../resource/scheme/colors.res"
+#base "scheme/colors.res"
 
 //===============================================
-//  FONTS
+// FONTS
 //===============================================
 
-#base "../resource/scheme/fonts.res"
-#base "../resource/scheme/symbols.res"
+#base "scheme/fonts.res"
+#base "scheme/symbols.res"
 
 //===============================================
-//  BORDERS
+// BORDERS
 //===============================================
 
-#base "../resource/scheme/borders.res"
+#base "scheme/borders.res"
 
 //===============================================
-//  CROSSHAIRS
+// CROSSHAIRS
 //===============================================
 
-#base "../resource/scheme/crosshairs.res"
+#base "scheme/crosshairs.res"

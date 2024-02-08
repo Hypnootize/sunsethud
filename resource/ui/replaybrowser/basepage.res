@@ -30,8 +30,8 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"
-		"paintbackgroundtype" 						"2"
-		"font"										"Size 12"
+		"PaintBackgroundType"						"2"
+		"font"										"Size_12"
 	}
 	
 	"NameFilterBG"
@@ -47,11 +47,11 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border"									"ThemeTransparent50"
+		"border"									"Theme_Transparent_50"
 
-		"pin_to_sibling" 							"SearchTextEntry"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"SearchTextEntry"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"SearchIcon"
 		{
@@ -65,7 +65,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"textAlignment"							"west"
 			"labeltext"								"q"
 			"fgcolor"								"White"
@@ -85,7 +85,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
 			"paintborder"							"1"
-			"border"								"BlackTransparent30"
+			"border"								"Black_Transparent_30"
 			"proportionaltoparent"					"1"
 		}
 	}
@@ -100,10 +100,10 @@
 		"tall"										"350"
 		"visible"									"1"
 		"enabled"									"1"
-		"autohide_scrollbar" 						"1"
-		"proportionaltoparent" 						"1"
+		"autohide_scrollbar"						"1"
+		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 }

@@ -13,15 +13,15 @@
 		"enabled"									"1"
 		"labelText"									"%button_token%"
 		"textinsetx"								"0"
-		"use_proportional_insets" 					"1"
-		"font"										"Size 18"
+		"use_proportional_insets"					"1"
+		"font"										"Size_18"
 		"textAlignment"								"center"
 		"wrap"										"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
 		"default"									"1"
 		"command"									"%button_command%"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 		"actionsignallevel"							"2"
 
 		"paintbackground"							"0"
@@ -30,8 +30,8 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 
 	"MatchmakingBanPanel"
@@ -47,7 +47,7 @@
 		"enabled"									"1"
 		"mouseinputenabled"							"0"
 		"paintborder"								"1"
-		"border"									"RedBorder"
+		"border"									"Red_Border"
 		"proportionaltoparent"						"1"
 
 		"MatchmakingBanDurationLabel"
@@ -65,7 +65,7 @@
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"fgcolor"								"White"
 			"labelText"								"#TF_Matchmaking_Ban_Duration_Remaining"
 			"textalignment"							"center"
@@ -153,7 +153,7 @@
 		"mouseinputenabled"							"1"
 		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 	}
 
 	"DisabledIcon"
@@ -176,15 +176,15 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"OrangeSolid"
-		"depressedFgColor_override" 				"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Orange_Solid"
+		"depressedFgColor_override"					"White"
 		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override" 					"Blank"
-		"depressedBgColor_override" 				"Blank"
+		"armedBgColor_override"						"Blank"
+		"depressedBgColor_override"					"Blank"
 
 		"image_drawcolor"							"235 235 235 235"
-		"image_armedcolor"							"OrangeSolid"
+		"image_armedcolor"							"Orange_Solid"
 
 		"SubImage"
 		{
@@ -199,7 +199,7 @@
 			"enabled"								"1"
 			"image"									"locked_icon"
 			"scaleImage"							"1"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 		}
 	}
 
@@ -215,13 +215,11 @@
 		"zpos"										"2"
 		"wide"										"0"
 		"tall"										"40"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
-		"fgcolor"		 							"TanLight"
-		"proportionaltoparent" 						"1"
+		"fgcolor"									"TanLight"
+		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 	}
 
@@ -237,13 +235,11 @@
 		"zpos"										"1"
 		"wide"										"0"
 		"tall"										"40"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
-		"fgcolor"		 							"Black"
-		"proportionaltoparent" 						"1"
+		"fgcolor"									"Black"
+		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 	}
 }

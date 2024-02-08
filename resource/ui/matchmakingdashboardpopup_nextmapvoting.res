@@ -17,14 +17,17 @@
 		"collapsed_height"							"0"
 		"expanded_height"							"80"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"OuterShadow"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"OuterShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"BGPanel"
@@ -38,9 +41,8 @@
 			"tall"									"f5"
 			"visible"								"1"
 			"PaintBackgroundType"					"2"
-			"border"								"ThemeDarkestBorder"
+			"border"								"Theme_Darkest_Border"
 			"proportionaltoparent"					"1"
-			"pinCorner"								"2"
 
 			"HideButton"
 			{
@@ -53,12 +55,12 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Symbols 16"
+				"font"								"Symbols_16"
 				"textAlignment"						"center"
 				"default"							"0"
 				"labeltext"							"^"
 				"Command"							"toggle_hide"
-				"proportionaltoparent" 				"1"
+				"proportionaltoparent"				"1"
 				"actionsignallevel"					"2"
 
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -66,9 +68,9 @@
 
 				"paintbackground"					"0"
 
-				"defaultFgColor_override" 			"White"
-				"armedFgColor_override" 			"OrangeDark"
-				"depressedFgColor_override" 		"OrangeDark"
+				"defaultFgColor_override"			"White"
+				"armedFgColor_override"				"Orange_Dark"
+				"depressedFgColor_override"			"Orange_Dark"
 			}
 
 			"ShowButton"
@@ -82,12 +84,12 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Symbols 16"
+				"font"								"Symbols_16"
 				"textAlignment"						"center"
 				"default"							"0"
 				"labeltext"							"V"
 				"Command"							"toggle_hide"
-				"proportionaltoparent" 				"1"
+				"proportionaltoparent"				"1"
 				"actionsignallevel"					"2"
 
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -95,9 +97,9 @@
 
 				"paintbackground"					"0"
 
-				"defaultFgColor_override" 			"White"
-				"armedFgColor_override" 			"OrangeDark"
-				"depressedFgColor_override" 		"OrangeDark"
+				"defaultFgColor_override"			"White"
+				"armedFgColor_override"				"Orange_Dark"
+				"depressedFgColor_override"			"Orange_Dark"
 			} // HideButton
 
 
@@ -112,7 +114,7 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 15"
+				"font"								"Size_15"
 				"fgcolor"							"White"
 				"textAlignment"						"center"
 				"labelText"							"#TF_Matchmaking_RollingQueue_MatchOver"

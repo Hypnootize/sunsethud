@@ -14,7 +14,7 @@
 		"proportionaltoparent"						"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"BlackLightTransparent"
+		"bgcolor_override"							"Black_Light_Transparent"
 	}
 
 	"SplashLabel"
@@ -27,9 +27,9 @@
 		"wide"										"500"
 		"tall"										"50"
 		"fgcolor"									"White"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									""
-		"textAlignment" 							"center"
+		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 	}
 }

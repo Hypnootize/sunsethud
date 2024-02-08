@@ -44,7 +44,7 @@
 		"tall"										"178"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"pin_to_sibling"							"MvMPlayerList"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -62,7 +62,7 @@
 		"tall"										"36"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"RedTransparent70"
+		"border"									"Red_Transparent_70"
 
 		"pin_to_sibling"							"MvMPlayerList"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
@@ -79,7 +79,7 @@
 		"wide"										"200"
 		"tall"										"27"
 		"AllCaps"									"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									"%popfile%"
 		"textAlignment"								"west"
 		"fgcolor"									"White"
@@ -118,7 +118,7 @@
 			"wide"									"150"
 			"tall"									"27"
 			"AllCaps"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%difficultyvalue%"
 			"textAlignment"							"east"
 			"fgcolor"								"White"
@@ -134,7 +134,7 @@
 		"wide"										"534"
 		"tall"										"58"
 		"visible"									"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"pin_to_sibling"							"PlayerListBackground"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -209,9 +209,9 @@
 			"wide"									"275"
 			"tall"									"20"
 			"fgcolor"								"White"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%respecstatus%"
-			"textAlignment" 						"north-east"
+			"textAlignment"							"north-east"
 		}
 
 		"CreditStatsBackground"
@@ -219,12 +219,22 @@
 			"ControlName"							"ScalableImagePanel"
 			"fieldName"								"CreditStatsBackground"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"CreditsLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditsLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -239,7 +249,7 @@
 		"tall"										"41"
 		"visible"									"1"
 		"enabled"									"1"
-		"bgcolor_override"							"BlackLightestTransparent"
+		"bgcolor_override"							"Black_Lightest_Transparent"
 
 		"pin_to_sibling"							"CreditStatsContainer"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"

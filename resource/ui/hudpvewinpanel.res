@@ -18,7 +18,7 @@
 		"src_corner_width"							"32"
 
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"WaveCompleteContainer"
@@ -30,13 +30,18 @@
 		"wide"										"300"
 		"tall"										"24"
 		"visible"									"1"
-		"PaintBackgroundType" 						"2"
+		"PaintBackgroundType"						"2"
 
 		"WinningTeamLabelDropshadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WinningTeamLabelDropshadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"WinningTeamLabel"
@@ -49,16 +54,16 @@
 			"tall"									"26"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 20"
+			"font"									"Size_20"
 			"labelText"								"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"							"Center"
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 
 			// blue Background
-			"PaintBackgroundType" 					"2"
+			"PaintBackgroundType"					"2"
 			"fgcolor"								"White"
-			"bgcolor_override"						"RedLight"
+			"bgcolor_override"						"Red_Light"
 		}
 	}
 
@@ -66,7 +71,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WinReasonLabel"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"xpos"										"0"
 		"ypos"										"80"
 		"zpos"										"1"
@@ -90,7 +95,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"labelText"									"%DetailsLabel%"
 		"textAlignment"								"Center"
 		"wrap"										"1"
@@ -114,7 +119,7 @@
 		"src_corner_width"							"32"
 
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"RespecContainer"
@@ -126,15 +131,15 @@
 		"wide"										"300"
 		"tall"										"25"
 		"visible"									"1"
-		"PaintBackgroundType" 						"2"
+		"PaintBackgroundType"						"2"
 
 		"RespecTextLabelLoss"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RespecTextLabelLoss"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#TF_PVE_Respecs"
-			"textAlignment"		 					"center"
+			"textAlignment"							"center"
 			"xpos"									"0"
 			"ypos"									"3"
 			"wide"									"160"
@@ -146,14 +151,14 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RespecCountLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%respeccount%"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"xpos"									"145"
 			"ypos"									"3"
 			"wide"									"30"
 			"tall"									"20"
-			"fgcolor"								"GreenLight"
+			"fgcolor"								"Green_Light"
 		}
 	}
 }

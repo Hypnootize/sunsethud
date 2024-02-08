@@ -1,4 +1,4 @@
-#base "../../resource/tools/reloadschemebutton.res"
+#base "../tools/reloadschemebutton.res"
 
 "Resource/UI/AbuseReportSubmitDialog.res"
 {
@@ -21,7 +21,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
 		"paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 	}
 	"TitleLabel"
 	{
@@ -35,13 +35,13 @@
 		"use_proportional_insets"					"1"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"#AbuseReport_DialogTitle"
 		"textAlignment"								"west"
 		"textinsetx"								"5"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 	"GameServerRadio"
 	{
@@ -55,7 +55,7 @@
 		"tall"										"20"
 		"editable"									"0"
 		"proportionaltoparent"						"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 	}
 	"PlayerRadio"
 	{
@@ -69,7 +69,7 @@
 		"tall"										"20"
 		"editable"									"0"
 		"proportionaltoparent"						"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"defaultfgcolor_override"					"White"
 		"fgcolor_override"							"White"
 		"fgcolor"									"White"
@@ -87,7 +87,7 @@
 		"use_proportiona_insets"					"1"
 		"editable"									"0"
 		"labelText"									"#AbuseReport_PlayerLabel"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textAlignment"								"west"
 		"textinsetx"								"5"
 		"fgcolor"									"White"
@@ -107,13 +107,13 @@
 		"tall"										"15"
 		"proportionaltoparent"						"1"
 		"editable"									"0"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"paintborder"								"0"
 
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackLightestTransparent"
+		"bgcolor_override"							"Black_Lightest_Transparent"
 		"disabledFgColor_override"					"White"
-		"disabledBgColor_override"					"BlackLightestTransparent"
+		"disabledBgColor_override"					"Black_Lightest_Transparent"
 		"selectionColor_override"					"Blank"
 		"selectionTextColor_override"				"White"
 		"defaultSelectionBG2Color_override"			"Blank"
@@ -131,7 +131,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportiona_insets"					"1"
 		"editable"									"0"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textAlignment"								"west"
 		"textinsetx"								"5"
 		"fgcolor"									"White"
@@ -153,11 +153,11 @@
 		"editable"									"0"
 		"paintborder"								"0"
 
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackLightestTransparent"
+		"bgcolor_override"							"Black_Lightest_Transparent"
 		"disabledFgColor_override"					"White"
-		"disabledBgColor_override"					"BlackLightestTransparent"
+		"disabledBgColor_override"					"Black_Lightest_Transparent"
 		"selectionColor_override"					"Blank"
 		"selectionTextColor_override"				"White"
 		"defaultSelectionBG2Color_override"			"Blank"
@@ -175,7 +175,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportiona_insets"					"1"
 		"editable"									"0"
-		"font"										"Size 11"
+		"font"										"Size_11"
 		"textAlignment"								"west"
 		"textinsetx"								"5"
 		"fgcolor"									"White"
@@ -197,11 +197,11 @@
 		"editable"									"0"
 		"paintborder"								"0"
 
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackLightestTransparent"
+		"bgcolor_override"							"Black_Lightest_Transparent"
 		"disabledFgColor_override"					"White"
-		"disabledBgColor_override"					"BlackLightestTransparent"
+		"disabledBgColor_override"					"Black_Lightest_Transparent"
 		"selectionColor_override"					"Blank"
 		"selectionTextColor_override"				"White"
 		"defaultSelectionBG2Color_override"			"Blank"
@@ -229,7 +229,7 @@
 		"tall"										"18"
 		"proportionaltoparent"						"1"
 		"labelText"									"Screenshot shows abuse; upload it with report."
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"textAlignment"								"west"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -259,7 +259,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"#AbuseReport_NoAvatar"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"centerwrap"								"1"
 		"fgcolor"									"White"
 	}
@@ -288,7 +288,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_LessThan"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"Command"									"prevcustomtexture"
@@ -299,11 +299,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 	"CustomTextureNextButton"
 	{
@@ -318,7 +318,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_GreaterThan"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"Command"									"nextcustomtexture"
@@ -329,11 +329,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 	"NoCustomTexturesLabel"
 	{
@@ -347,7 +347,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"#AbuseReport_NoCustomTextures"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
 		"fgcolor"									"White"
@@ -364,7 +364,7 @@
 		"tall"										"15"
 		"editable"									"0"
 		"proportionaltoparent"						"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"AllCaps"									"1"
 		"fgcolor"									"White"
 	}
@@ -378,7 +378,7 @@
 		"wide"										"540"
 		"tall"										"90"
 		"proportionaltoparent"						"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"bgcolor_override"							"0 0 0 150"
 		"fgcolor_override"							"White"
 		"maxchars"									"512"
@@ -395,7 +395,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
 		"labelText"									"#AbuseReport_Discard"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"Command"									"discard"
@@ -406,11 +406,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 	"DiscardButtonIcon"
 	{
@@ -425,12 +425,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"D"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"DiscardButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -448,7 +448,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
 		"labelText"									"#AbuseReport_Submit"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
 		"AllCaps"									"1"
@@ -459,12 +459,12 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"GreenTransparent50"
-		"border_armed"								"GreenDarkTransparent50"
+		"border_default"							"Green_Transparent_50"
+		"border_armed"								"Green_Dark_Transparent_50"
 	}
 	"SubmitButtonIcon"
 	{
@@ -479,12 +479,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"+"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"SubmitButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -502,7 +502,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
 		"labelText"									"-"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"Command"									"cancel"
@@ -513,10 +513,10 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"RedTransparent50"
-		"border_armed"								"RedDarkTransparent50"
+		"border_default"							"Red_Transparent_50"
+		"border_armed"								"Red_Dark_Transparent_50"
 	}
 }

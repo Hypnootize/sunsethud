@@ -21,7 +21,7 @@
 		"src_corner_width"							"32"
 
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"localPlayerBG"
@@ -44,7 +44,7 @@
 		"src_corner_width"							"32"
 
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"classImage0"
@@ -232,23 +232,43 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"title"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"titleShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"titleShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"changeLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"changeLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"changeLabelShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"changeLabelShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

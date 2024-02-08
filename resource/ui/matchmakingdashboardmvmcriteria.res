@@ -26,7 +26,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 
-		"pinCorner"									"2"
 	}
 
 	"BackButton"
@@ -40,7 +39,7 @@
 		"tall"										"24"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"Command"									"back"
 		"proportionaltoparent"						"1"
@@ -56,11 +55,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 
 	"MannUpToolTipButtonHack"
@@ -77,7 +76,7 @@
 		"mouseinputenabled"							"1"
 		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 	}
 
 	"MannUpQueueButton"
@@ -91,7 +90,7 @@
 		"tall"										"24"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"Command"									"start_search"
 		"proportionaltoparent"						"1"
@@ -106,12 +105,12 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"GreenTransparent70"
-		"border_armed"								"GreenDarkTransparent70"
+		"border_default"							"Green_Transparent_70"
+		"border_armed"								"Green_Dark_Transparent_70"
 	}
 
 	"BootCampToolTipButtonHack"
@@ -128,7 +127,7 @@
 		"mouseinputenabled"							"1"
 		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 	}
 
 	"BootCampQueueButton"
@@ -142,7 +141,7 @@
 		"tall"										"24"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"Command"									"start_search"
 		"proportionaltoparent"						"1"
@@ -157,12 +156,12 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteSolid"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Solid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"GreenTransparent70"
-		"border_armed"								"GreenDarkTransparent70"
+		"border_default"							"Green_Transparent_70"
+		"border_armed"								"Green_Dark_Transparent_70"
 	}
 
 	"NextButton"
@@ -174,11 +173,9 @@
 		"zpos"										"100"
 		"wide"										"270"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"Command"									"select_tour"
 		"proportionaltoparent"						"1"
@@ -194,11 +191,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 	}
 
 	"JoinLateCheckButton"
@@ -210,7 +207,7 @@
 		"zpos"										"101"
 		"wide"										"140"
 		"tall"										"20"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									""
 		"proportionaltoparent"						"1"
 	}
@@ -224,7 +221,7 @@
 		"zpos"										"101"
 		"wide"										"115"
 		"tall"										"20"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"#TF_Matchmaking_JoinInProgress"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"

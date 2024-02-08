@@ -25,10 +25,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"labelText"								"#MMenu_CompetitiveAccess"
 			"textAlignment"							"center"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
 
@@ -42,13 +42,13 @@
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"labelText"								"#MMenu_CompetitiveAccess_Desc"
 			"textAlignment"							"north-west"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
 
@@ -62,11 +62,11 @@
 			"tall"									"15"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#MMenu_CompetitiveAccessOption1"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"fgcolor" 								"MainTheme"
+			"fgcolor"								"Main_Theme"
 			"proportionaltoparent"					"1"
 		}
 
@@ -80,13 +80,13 @@
 			"tall"									"60"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"labelText"								"#MMenu_CompetitiveAccessOption1_Desc"
 			"textAlignment"							"north-west"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
 
@@ -108,12 +108,22 @@
 				"Controlname"						"EditablePanel"
 				"fieldName"							"Frame"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"Background"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldname"							"Background"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 
 			"PremiumButton"
@@ -138,8 +148,8 @@
 				"paintbackground"					"0"
 				"paintborder"						"1"
 
-				"border_default"					"ThemeTransparent50"
-				"border_armed"						"OrangeTransparent50"
+				"border_default"					"Theme_Transparent_50"
+				"border_armed"						"Orange_Transparent_50"
 
 				"image_drawcolor"					"200 200 200 255"
 				"image_armedcolor"					"255 255 255 255"
@@ -188,7 +198,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 30"
+				"font"								"Size_30"
 				"labelText"							"+"
 				"textAlignment"						"center"
 				"fgcolor"							"White"
@@ -217,8 +227,8 @@
 				"paintbackground"					"0"
 				"paintborder"						"1"
 
-				"border_default"					"ThemeTransparent50"
-				"border_armed"						"OrangeTransparent50"
+				"border_default"					"Theme_Transparent_50"
+				"border_armed"						"Orange_Transparent_50"
 
 				"image_drawcolor"					"200 200 200 255"
 				"image_armedcolor"					"255 255 255 255"
@@ -267,10 +277,10 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Size 30"
+				"font"								"Size_30"
 				"labelText"							"+"
 				"textAlignment"						"center"
-				"fgcolor" 							"White"
+				"fgcolor"							"White"
 				"proportionaltoparent"				"1"
 			}
 
@@ -316,8 +326,8 @@
 				"paintbackground"					"0"
 				"paintborder"						"1"
 
-				"border_default"					"ThemeTransparent50"
-				"border_armed"						"OrangeTransparent50"
+				"border_default"					"Theme_Transparent_50"
+				"border_armed"						"Orange_Transparent_50"
 
 				"image_drawcolor"					"200 200 200 255"
 				"image_armedcolor"					"255 255 255 255"
@@ -351,11 +361,11 @@
 			"tall"									"15"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#MMenu_CompetitiveAccessOption2"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"fgcolor" 								"MainTheme"
+			"fgcolor"								"Main_Theme"
 			"proportionaltoparent"					"1"
 		}
 
@@ -369,13 +379,13 @@
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 10"
+			"font"									"Size_10"
 			"labelText"								"#MMenu_CompetitiveAccessOption2_Desc"
 			"textAlignment"							"north-west"
 			"AllCaps"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
 
@@ -393,7 +403,7 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 
-			"bgcolor_override"						"BlackLightestTransparent"
+			"bgcolor_override"						"Black_Lightest_Transparent"
 
 			"items"
 			{

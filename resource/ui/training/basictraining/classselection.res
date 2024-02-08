@@ -12,10 +12,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									"#TF_COMPLETE_TRAINING_DESC"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"fgcolor"									"RedLight"
+		"fgcolor"									"Red_Light"
 	}
 }

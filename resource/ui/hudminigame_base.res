@@ -13,7 +13,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 	}
 
 	"BlueScoreBG"
@@ -29,7 +29,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"pin_to_sibling"							"MainBackground"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -48,7 +48,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"BlueTransparent70"
+			"border"								"Blue_Transparent_70"
 		}
 	}
 	"BlueScore"
@@ -65,7 +65,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labelText"									"%bluescore%"
-		"font"										"Size 22"
+		"font"										"Size_22"
 		"fgcolor"									"TanDark"
 
 		"pin_to_sibling"							"BlueScoreBG"
@@ -86,7 +86,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent70"
+		"border"									"Black_Transparent_70"
 
 		"pin_to_sibling"							"MainBackground"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -105,7 +105,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"1"
-			"border"								"RedTransparent70"
+			"border"								"Red_Transparent_70"
 		}
 	}
 	"RedScore"
@@ -122,7 +122,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labelText"									"%redscore%"
-		"font"										"Size 22"
+		"font"										"Size_22"
 		"fgcolor"									"TanDark"
 
 		"pin_to_sibling"							"RedScoreBG"
@@ -145,7 +145,7 @@
 		"AllCaps"									"1"
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"fgcolor"									"TanDark"
 
 		"pin_to_sibling"							"MainBackground"
@@ -159,29 +159,54 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"LeftSideBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"RightSideBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"RightSideBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"OutlineBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"OutlineBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayingToBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayingToBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"GameImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"GameImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

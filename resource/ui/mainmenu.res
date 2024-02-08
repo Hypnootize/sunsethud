@@ -34,13 +34,11 @@
 				"ypos"								"0"
 				"wide"								"250"
 				"tall"								"26"
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
 				"textinsetx"						"25"
-				"use_proportional_insets" 			"1"
-				"font"								"Size 14"
+				"use_proportional_insets"			"1"
+				"font"								"Size_14"
 				"textAlignment"						"west"
 				"default"							"1"
 
@@ -56,8 +54,6 @@
 			"zpos"									"-101"
 			"wide"									"f0"
 			"tall"									"480"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 
 			"visible"								"1"
 			"enabled"								"1"
@@ -133,7 +129,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 
-		"drawcolor"									"BlackSolid"
+		"drawcolor"									"Black_Solid"
 		"scaleImage"								"1"
 		"image"										"replay/thumbnails/panels/material_generic_left_30"
 		"src_corner_height"							"24"
@@ -152,9 +148,9 @@
 		"wide"										"37"
 		"tall"										"1"
 		"visible"									"1"
-		"bgcolor_override" 							"WhiteDark"
+		"bgcolor_override"							"White_Dark"
 
-		"pin_to_sibling" 							"RightBar"
+		"pin_to_sibling"							"RightBar"
 	}
 
 	"Servers"
@@ -168,9 +164,9 @@
 		"tall"										"30"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"PlaySeparatorLine"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"PlaySeparatorLine"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 
 		"SubButton"
 		{
@@ -183,7 +179,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols 30"
+			"font"									"Symbols_30"
 			"textAlignment"							"center"
 			"default"								"1"
 
@@ -192,9 +188,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -209,9 +205,9 @@
 		"tall"										"16"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"Servers"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"Servers"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"Cross"
 		{
@@ -224,8 +220,8 @@
 			"tall"									"16"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
-			"font"									"Symbols 12"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_12"
 			"textAlignment"							"center"
 			"labeltext"								"~"
 			"FgColor"								"White"
@@ -244,8 +240,8 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
-			"font"									"Symbols 16"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"default"								"1"
 
@@ -256,8 +252,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"160 170 255 255"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 
 			"proportionaltoparent"					"1"
 		}
@@ -274,9 +270,9 @@
 		"tall"										"30"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"Servers"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"Servers"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{
@@ -289,7 +285,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols 30"
+			"font"									"Symbols_30"
 			"textAlignment"							"center"
 			"default"								"1"
 
@@ -298,9 +294,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -315,9 +311,9 @@
 		"tall"										"30"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"Items"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"Items"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{
@@ -330,7 +326,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols 30"
+			"font"									"Symbols_30"
 			"textAlignment"							"center"
 			"default"								"1"
 
@@ -339,9 +335,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -356,9 +352,9 @@
 		"tall"										"30"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"Store"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"Store"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{
@@ -371,7 +367,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols 30"
+			"font"									"Symbols_30"
 			"textAlignment"							"center"
 			"default"								"1"
 
@@ -380,9 +376,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -397,9 +393,9 @@
 		"tall"										"30"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"Options"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"Options"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{
@@ -412,7 +408,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols 30"
+			"font"									"Symbols_30"
 			"textAlignment"							"center"
 			"default"								"1"
 
@@ -421,9 +417,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -438,9 +434,9 @@
 		"tall"										"30"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"Vote"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"Vote"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{
@@ -453,7 +449,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols 30"
+			"font"									"Symbols_30"
 			"textAlignment"							"center"
 			"default"								"1"
 
@@ -462,9 +458,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -479,15 +475,15 @@
 		"tall"										"200"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"RightBar"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"RightBar"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Symbols 30"
+			"font"									"Symbols_30"
 			"labelText"								"R"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -496,7 +492,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"SeparationLine"
@@ -512,7 +508,7 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 
-			"bgcolor_override" 						"White"
+			"bgcolor_override"						"White"
 
 			"alpha"									"150"
 		}
@@ -586,11 +582,11 @@
 		"wide"										"37"
 		"tall"										"1"
 		"visible"									"1"
-		"bgcolor_override" 							"WhiteDark"
+		"bgcolor_override"							"White_Dark"
 
-		"pin_to_sibling" 							"RightBar"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"RightBar"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"Quit"
@@ -604,9 +600,9 @@
 		"tall"										"36"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"QuitSeparatorLine"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"QuitSeparatorLine"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 
 		"SubButton"
 		{
@@ -619,7 +615,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols 30"
+			"font"									"Symbols_30"
 			"textAlignment"							"center"
 			"default"								"1"
 
@@ -628,7 +624,7 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"RedLight"
+			"defaultFgColor_override"				"Red_Light"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override"				"Red"
 		}
@@ -645,9 +641,9 @@
 		"tall"										"36"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"QuitSeparatorLine"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"QuitSeparatorLine"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 
 		"SubButton"
 		{
@@ -660,7 +656,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols 30"
+			"font"									"Symbols_30"
 			"textAlignment"							"center"
 			"default"								"1"
 
@@ -669,7 +665,7 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"RedLight"
+			"defaultFgColor_override"				"Red_Light"
 			"armedFgColor_override"					"Red"
 			"depressedFgColor_override"				"Red"
 
@@ -754,7 +750,7 @@
 		"mouseinputenabled"							"0"
 		"wrap"										"1"
 
-		"font"										"Size 40"
+		"font"										"Size_40"
 		"fgcolor"									"White"
 		"labelText"									"Lost connection to the steam server"
 		"textAlignment"								"west"
@@ -776,9 +772,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		"border"									"BlackTransparent30Soft"
+		"border"									"Black_Transparent_30_Soft"
 
-		"pin_to_sibling" 							"BottomLeftButtonsAnchor"
+		"pin_to_sibling"							"BottomLeftButtonsAnchor"
 	}
 
 	"BottomLeftButtonsAnchor"
@@ -803,7 +799,7 @@
 		"tall"										"18"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"BottomLeftButtonsAnchor"
+		"pin_to_sibling"							"BottomLeftButtonsAnchor"
 
 		"SubButton"
 		{
@@ -815,8 +811,8 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
-			"font"									"Symbols 18"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"default"								"1"
 			"proportionaltoparent"					"1"
@@ -824,9 +820,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -841,9 +837,9 @@
 		"tall"										"18"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"Stream"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"Stream"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -855,8 +851,8 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
-			"font"									"Symbols 18"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"default"								"1"
 			"proportionaltoparent"					"1"
@@ -864,9 +860,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -881,9 +877,9 @@
 		"tall"										"18"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"Contracker"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"Contracker"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -895,8 +891,8 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
-			"font"									"Symbols 18"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"default"								"1"
 			"proportionaltoparent"					"1"
@@ -904,9 +900,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -921,9 +917,9 @@
 		"tall"										"18"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"Console"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"Console"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -935,8 +931,8 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
-			"font"									"Symbols 18"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"default"								"1"
 			"proportionaltoparent"					"1"
@@ -944,9 +940,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -961,9 +957,9 @@
 		"tall"										"18"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"AdvancedOptions"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"AdvancedOptions"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -975,8 +971,8 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
-			"font"									"Symbols 18"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"default"								"1"
 			"proportionaltoparent"					"1"
@@ -984,9 +980,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -1001,9 +997,9 @@
 		"tall"										"18"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"Achievements"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"Achievements"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -1015,8 +1011,8 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
-			"font"									"Symbols 18"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"default"								"1"
 			"proportionaltoparent"					"1"
@@ -1024,9 +1020,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -1041,9 +1037,9 @@
 		"tall"										"18"
 		"visible"									"1"
 
-		"pin_to_sibling" 							"Workshop"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"Workshop"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -1055,8 +1051,8 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
-			"font"									"Symbols 18"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"default"								"1"
 			"proportionaltoparent"					"1"
@@ -1064,9 +1060,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"MainTheme"
-			"depressedFgColor_override"				"MainTheme"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"Main_Theme"
+			"depressedFgColor_override"				"Main_Theme"
 		}
 	}
 
@@ -1079,12 +1075,10 @@
 		"zpos"										"10"
 		"wide"										"106"
 		"tall"										"28"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"proportionaltoparent"						"1"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"BlackTransparent30Soft"
+		"border"									"Black_Transparent_30_Soft"
 
 		"Icon"
 		{
@@ -1099,11 +1093,11 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"font"									"Symbols 14"
+			"font"									"Symbols_14"
 			"textAlignment"							"center"
 			"labelText"								"X"
-			"fgcolor"								"WhiteDark"
-			"border"								"BlackTransparent30Soft"
+			"fgcolor"								"White_Dark"
+			"border"								"Black_Transparent_30_Soft"
 		}
 
 		"Notifications_ShowButtonPanel_SB"
@@ -1115,28 +1109,26 @@
 			"zpos"									"4"
 			"wide"									"f0"
 			"tall"									"f0"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"labelText"								"Notification"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"textAlignment"							"east"
 			"textinsetx"							"10"
 			"AllCaps"								"1"
 			"default"								"1"
-			"actionsignallevel" 					"2"
+			"actionsignallevel"						"2"
 
 			"Command"								"noti_show"
 
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"paintbackground" 						"0"
+			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
 		}
@@ -1154,11 +1146,11 @@
 		"visible"									"0"
 
 		"paintbackground"							"0"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
-		"pin_to_sibling" 							"Notifications_ShowButtonPanel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"Notifications_ShowButtonPanel"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 
 		"Notifications_CloseButton"
 		{
@@ -1169,12 +1161,10 @@
 			"zpos"									"50"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"-"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"default"								"0"
 			"actionsignallevel"						"2"
@@ -1187,29 +1177,27 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"RedTransparent70"
-			"border_armed"							"RedDarkTransparent70"
+			"border_default"						"Red_Transparent_70"
+			"border_armed"							"Red_Dark_Transparent_70"
 		}
 
 		"Notifications_TitleLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Notifications_TitleLabel"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%notititle%"
 			"textAlignment"							"north-west"
 			"xpos"									"10"
 			"ypos"									"8"
 			"wide"									"250"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"wrap"									"1"
 		}
 
@@ -1251,7 +1239,7 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"1"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"text_ypos"									"20"
 		"text_center"								"1"
@@ -1261,7 +1249,7 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
@@ -1287,7 +1275,7 @@
 		"tall"										"22"
 		"visible"									"0"
 		"PaintBackground"							"0"
-		"border"									"BlackTransparent50"
+		"border"									"Black_Transparent_50"
 
 		"TipSubLabel"
 		{
@@ -1302,7 +1290,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%tipsubtext%"
 			"textAlignment"							"center"
 			"wrap"									"1"
@@ -1322,31 +1310,33 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%tiptext%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
 		}
 	}
 
-
-
-
-
-
-
-
 	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"MOTD_ShowButtonPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
-
 	"MOTD_Panel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"MOTD_Panel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

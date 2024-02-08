@@ -24,7 +24,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"Size 9"
+		"font"										"Size_9"
 		"smallcheckimage"							"1"
 
 		"sound_depressed"							"UI/buttonclickrelease.wav"
@@ -43,7 +43,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"%title_token%"
 		"textAlignment"								"west"
-		"font"										"Size 9"
+		"font"										"Size_9"
 		"textinsetx"								"18"
 		"use_proportional_insets"					"1"
 		"AllCaps"									"1"

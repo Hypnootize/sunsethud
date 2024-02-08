@@ -12,7 +12,7 @@
 		"settitlebarvisible"						"0"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
-		"border"									"ThemeBorder"
+		"border"									"Theme_Border"
 	}
 
 	"InnerBG"
@@ -28,7 +28,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 
 	"mouseoveritempanel"
@@ -54,14 +54,12 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
 			"wide"									"140"
 			"tall"									"60"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%attriblist%"
@@ -83,7 +81,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"labelText"									"dynamic"
 		"textAlignment"								"center"
 		"centerwrap"								"1"
@@ -103,12 +101,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Size 14"
+		"font"										"Size_14"
 		"labelText"									""
 		"textAlignment"								"east"
 		"paintbackground"							"0"
 		"border"									"BackpackItemBorder_SelfMade"
-		"pin_to_sibling" 							"tool_modelpanel"
+		"pin_to_sibling"							"tool_modelpanel"
 	}
 	"tool_modelpanel"
 	{
@@ -132,11 +130,11 @@
 		"text_ypos"									"100"
 		"text_center"								"1"
 		"name_only"									"1"
-		"paint_icon_hide" 							"1"
+		"paint_icon_hide"							"1"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -153,13 +151,13 @@
 		"tall"										"80"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									"#ItemPreview_Confirm"
 		"textAlignment"								"center"
 		"centerwrap"								"1"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
-		"fgcolor"		 							"RedLight"
+		"fgcolor"									"Red_Light"
 	}
 
 	"CancelButton"
@@ -176,7 +174,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
 		"labelText"									"No, Go Back!"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"west"
 		"textinsetx"								"33"
 		"AllCaps"									"1"
@@ -188,11 +186,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"BlackTransparent30"
-		"border_armed"								"OrangeTransparent70"
+		"border_default"							"Black_Transparent_30"
+		"border_armed"								"Orange_Transparent_70"
 	}
 	"CancelButtonIcon"
 	{
@@ -207,12 +205,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"-"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"CancelButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -233,7 +231,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
 		"labelText"									"Yep, I'm Sure!"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"east"
 		"textinsetx"								"33"
 		"AllCaps"									"1"
@@ -245,11 +243,11 @@
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"BlackTransparent30"
-		"border_armed"								"OrangeTransparent70"
+		"border_default"							"Black_Transparent_30"
+		"border_armed"								"Orange_Transparent_70"
 	}
 	"OkButtonIcon"
 	{
@@ -264,12 +262,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"+"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"OkButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -281,5 +279,10 @@
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"tool_icon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

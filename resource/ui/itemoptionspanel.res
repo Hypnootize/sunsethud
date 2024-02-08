@@ -22,8 +22,6 @@
 			"ypos"									"0"
 			"wide"									"140"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"RoundedCorners"						"15"
 			"pin_corner_to_sibling"					"0"
 			"pin_to_sibling_corner"					"0"
@@ -49,12 +47,11 @@
 			"ypos"									"0"
 			"wide"									"140"
 			"tall"									"14"
-			"autoResize"							"0"
 			"RoundedCorners"						"15"
 			"visible"								"0"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor_override" 						"MainTheme"
+			"FgColor_override"						"Main_Theme"
 		}
 
 		"SetStyleButton"
@@ -69,7 +66,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"#TF_Item_SelectStyle"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"set_style"
@@ -80,11 +77,11 @@
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
-			"border_default"						"ThemeTransparent50"
-			"border_armed"							"OrangeTransparent50"
+			"border_default"						"Theme_Transparent_50"
+			"border_armed"							"Orange_Transparent_50"
 		}
 	}
 }

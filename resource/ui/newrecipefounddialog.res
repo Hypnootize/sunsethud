@@ -12,7 +12,7 @@
 		"settitlebarvisible"						"0"
 		"paintborder"								"1"
 		"paintbackground"							"0"
-		"border"									"ThemeBorder"
+		"border"									"Theme_Border"
 	}
 
 	"InnerBG"
@@ -28,7 +28,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 	}
 
 	"TitleLabel"
@@ -44,7 +44,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
-		"font"										"Size 20"
+		"font"										"Size_20"
 		"labelText"									"#NewRecipeFound"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
@@ -74,14 +74,12 @@
 
 		"attriblabel"
 		{
-			"font"									"Size 11"
+			"font"									"Size_11"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
 			"wide"									"140"
 			"tall"									"100"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%attriblist%"
@@ -105,7 +103,7 @@
 		"proportionaltoparent"						"1"
 		"use_proportional_insets"					"1"
 		"labelText"									"OK"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"close"
@@ -117,12 +115,12 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"BlackTransparent30"
-		"border_armed"								"OrangeTransparent70"
+		"border_default"							"Black_Transparent_30"
+		"border_armed"								"Orange_Transparent_70"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 	"CloseButtonIcon"
 	{
@@ -137,12 +135,12 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"labelText"									"-"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
 		"paintborder"								"1"
-		"border"									"BlackTransparent30"
+		"border"									"Black_Transparent_30"
 
 		"pin_to_sibling"							"CloseButton"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"

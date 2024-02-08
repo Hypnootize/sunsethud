@@ -14,7 +14,7 @@
 		"paintborder"								"0"
 		"PaintBackgroundType"						"2"
 		"paintbackground"							"1"
-		"bgcolor_override"							"MainThemeDarkest"
+		"bgcolor_override"							"Main_Theme_Darkest"
 	}
 
 	"TitleLabel"
@@ -28,11 +28,11 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 24"
+		"font"										"Size_24"
 		"labelText"									"#ConfirmTitle"
 		"textAlignment"								"north"
 		"AllCaps"									"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 	}
 
 	"ExplanationLabel"
@@ -46,12 +46,12 @@
 		"tall"										"170"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"labelText"									"%text%"
 		"textAlignment"								"north"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 	}
 
 	"CyclingAd"
@@ -68,7 +68,7 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 
-		"bgcolor_override"							"BlackLightestTransparent"
+		"bgcolor_override"							"Black_Lightest_Transparent"
 	}
 
 	"ConfirmButton"
@@ -83,7 +83,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#GameUI_OK"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"confirm"
@@ -96,11 +96,11 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"border_default"							"ThemeTransparent50"
-		"border_armed"								"OrangeTransparent50"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 }

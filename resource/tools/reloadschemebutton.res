@@ -23,7 +23,7 @@
 
 		"paintbackground"	"0"
 
-		"border_default"	"ThemeTransparent70"
-		"border_armed"		"OrangeTransparent70"
+		"border_default"	"Theme_Transparent_70"
+		"border_armed"		"Orange_Transparent_70"
 	}
 }

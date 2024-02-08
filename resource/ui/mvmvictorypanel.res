@@ -48,7 +48,7 @@
 				"wide"								"520"
 				"tall"								"40"
 				"AllCaps"							"1"
-				"font"								"Size 20"
+				"font"								"Size_20"
 				"labelText"							"%header%"
 				"textAlignment"						"center"
 				"fgcolor"							"White"
@@ -59,6 +59,11 @@
 				"ControlName"						"CExLabel"
 				"fieldName"							"HeaderShadow"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -71,7 +76,7 @@
 			"wide"									"300"
 			"tall"									"40"
 			"AllCaps"								"1"
-			"font"									"Size 18"
+			"font"									"Size_18"
 			"labelText"								"#TF_PVE_Currency"
 			"textAlignment"							"west"
 			"fgcolor"								"White"
@@ -85,7 +90,6 @@
 			"ypos"									"90"
 			"wide"									"400"
 			"tall"									"70"
-			"autoResize"							"1"
 			"visible"								"1"
 		}
 
@@ -97,7 +101,6 @@
 			"ypos"									"75"
 			"wide"									"400"
 			"tall"									"400"
-			"autoResize"							"1"
 			"visible"								"1"
 
 			"RatingLabel"
@@ -109,9 +112,9 @@
 				"wide"								"180"
 				"tall"								"40"
 				"AllCaps"							"1"
-				"font"								"Size 24"
+				"font"								"Size_24"
 				"labelText"							"%ratinglabel%"
-				"textAlignment" 					"center"
+				"textAlignment"						"center"
 				"fgcolor"							"White"
 			}
 
@@ -120,6 +123,11 @@
 				"ControlName"						"CExLabel"
 				"fieldName"							"RatingTextShadow"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 
 			"RatingText"
@@ -130,9 +138,9 @@
 				"ypos"								"40"
 				"wide"								"180"
 				"tall"								"50"
-				"font"								"Size 36"
+				"font"								"Size_36"
 				"labelText"							"%ratingscore%"
-				"textAlignment" 					"center"
+				"textAlignment"						"center"
 				"fgcolor"							"White"
 			}
 		}
@@ -145,7 +153,6 @@
 			"ypos"									"135"
 			"wide"									"400"
 			"tall"									"70"
-			"autoResize"							"1"
 			"visible"								"1"
 		}
 	}
@@ -162,7 +169,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#DoneButton"
-		"font"										"Size 15"
+		"font"										"Size_15"
 		"textAlignment"								"center"
 		"default"									"1"
 		"AllCaps"									"1"
@@ -171,16 +178,16 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"border_default"							"BlackTransparent70"
-		"border_armed"								"OrangeTransparent70"
+		"border_default"							"Black_Transparent_70"
+		"border_armed"								"Orange_Transparent_70"
 
-		"pin_to_sibling"               				"StatsContainer"
+		"pin_to_sibling"							"StatsContainer"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}

@@ -14,7 +14,7 @@
 		"AllCaps"									"1"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									"#TF_teambalanced"
 		"fgcolor"									"White"
 		"textAlignment"								"center"
@@ -33,11 +33,11 @@
 		"AllCaps"									"1"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		"font"										"Size 12"
+		"font"										"Size_12"
 		"labelText"									"#TF_teambalanced"
 		"fgcolor"									"Shadows"
 		"textAlignment"								"center"
-		"pin_to_sibling" 							"SwitchLabel"
+		"pin_to_sibling"							"SwitchLabel"
 	}
 
 	"BalanceLabel"
@@ -54,7 +54,7 @@
 		"AllCaps"									"1"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									""
 		"fgcolor"									"White"
 		"textAlignment"								"center"
@@ -73,11 +73,11 @@
 		"AllCaps"									"1"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		"font"										"Size 10"
+		"font"										"Size_10"
 		"labelText"									""
 		"fgcolor"									"Shadows"
 		"textAlignment"								"center"
-		"pin_to_sibling" 							"BalanceLabel"
+		"pin_to_sibling"							"BalanceLabel"
 	}
 
 	"HudTeamSwitchBG"
@@ -85,11 +85,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"HudTeamSwitchBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SwitchImage"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"SwitchImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

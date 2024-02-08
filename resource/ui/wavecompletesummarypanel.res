@@ -16,7 +16,7 @@
 		"src_corner_width"							"32"
 
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"WaveCompleteContainer"
@@ -28,7 +28,7 @@
 		"wide"										"250"
 		"tall"										"35"
 		"visible"									"1"
-		"PaintBackgroundType" 						"2"
+		"PaintBackgroundType"						"2"
 
 		"WaveCompleteLabel"
 		{
@@ -40,14 +40,14 @@
 			"tall"									"35"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 20"
+			"font"									"Size_20"
 			"textAlignment"							"center"
 			"labelText"								"%titletext%"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteSolid"
+			"fgcolor"								"White_Solid"
 
 			// Green Background
-			"PaintBackgroundType" 					"0"
+			"PaintBackgroundType"					"0"
 			"fgcolor"								"White"
 			"bgcolor_override"						"Green"
 		}
@@ -57,6 +57,11 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"WaveCompleteLabelShadows"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -68,7 +73,6 @@
 		"ypos"										"30"
 		"wide"										"400"
 		"tall"										"400"
-		"autoResize"								"1"
 		"visible"									"1"
 
 		"CreditCollectedTextLabel"
@@ -80,9 +84,9 @@
 			"wide"									"105"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"#TF_PVE_CurrencyCollected"
-			"textAlignment" 						"north-east"
+			"textAlignment"							"north-east"
 			"fgcolor"								"White"
 		}
 
@@ -95,10 +99,10 @@
 			"wide"									"30"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"%creditscollected%"
-			"textAlignment" 						"north-east"
-			"fgcolor"								"GreenLight"
+			"textAlignment"							"north-east"
+			"fgcolor"								"Green_Light"
 		}
 
 		"CreditMissedTextLabel"
@@ -110,9 +114,9 @@
 			"wide"									"105"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"#TF_PVE_Missed"
-			"textAlignment" 						"north-east"
+			"textAlignment"							"north-east"
 			"fgcolor"								"White"
 		}
 
@@ -125,10 +129,10 @@
 			"wide"									"30"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"%creditsmissed%"
-			"textAlignment" 						"north-east"
-			"fgcolor"								"RedLight"
+			"textAlignment"							"north-east"
+			"fgcolor"								"Red_Light"
 		}
 
 		"CreditBonusTextLabel"
@@ -140,9 +144,9 @@
 			"wide"									"105"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"#TF_PVE_Bonus"
-			"textAlignment" 						"north-east"
+			"textAlignment"							"north-east"
 			"fgcolor"								"White"
 		}
 
@@ -155,10 +159,10 @@
 			"wide"									"30"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"font"									"Size 12"
+			"font"									"Size_12"
 			"labelText"								"%creditbonus%"
-			"textAlignment" 						"north-east"
-			"fgcolor"								"GreenLight"
+			"textAlignment"							"north-east"
+			"fgcolor"								"Green_Light"
 		}
 	}
 
@@ -170,7 +174,6 @@
 		"ypos"										"30"
 		"wide"										"400"
 		"tall"										"400"
-		"autoResize"								"1"
 		"visible"									"1"
 
 		"RatingLabel"
@@ -183,9 +186,9 @@
 			"tall"									"20"
 			"AllCaps"								"1"
 			"fgcolor"								"White"
-			"font"									"Size 15"
+			"font"									"Size_15"
 			"labelText"								"%ratinglabel%"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 		}
 
 		"RatingText"
@@ -198,9 +201,9 @@
 			"tall"									"30"
 			"AllCaps"								"1"
 			"fgcolor"								"White"
-			"font"									"Size 24"
+			"font"									"Size_24"
 			"labelText"								"%ratingscore%"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 		}
 
 		"RatingTextShadows"
@@ -219,8 +222,6 @@
 		"ypos"										"80"
 		"wide"										"250"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/panels/Material_Transparent_Blue_70"
@@ -229,7 +230,7 @@
 		"src_corner_width"							"32"
 
 		"draw_corner_width"							"8"
-		"draw_corner_height" 						"8"
+		"draw_corner_height"						"8"
 	}
 
 	"RespecContainer"
@@ -241,7 +242,7 @@
 		"wide"										"250"
 		"tall"										"25"
 		"visible"									"1"
-		"PaintBackgroundType" 						"2"
+		"PaintBackgroundType"						"2"
 
 		"RespecTextLabelWin"
 		{
@@ -252,9 +253,9 @@
 			"wide"									"160"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"#TF_PVE_Respecs"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"fgcolor"								"White"
 		}
 
@@ -267,10 +268,10 @@
 			"wide"									"30"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"font"									"Size 14"
+			"font"									"Size_14"
 			"labelText"								"%respeccount%"
-			"textAlignment" 						"center"
-			"fgcolor"								"GreenLight"
+			"textAlignment"							"center"
+			"fgcolor"								"Green_Light"
 		}
 	}
 }

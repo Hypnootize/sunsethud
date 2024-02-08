@@ -55,14 +55,12 @@
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"38"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"wrap"										"1"
 		"labelText"									"%avatartext%"
 		"textAlignment"								"West"
-		"font"										"Size 10"
+		"font"										"Size_10"
 	}
 
 	"TextLabel"
@@ -74,7 +72,7 @@
 		"if_high_priority"
 		{
 			"fgcolor"								"White"
-			"font"									"Size 10"
+			"font"									"Size_10"
 		}
 
 		"xpos"										"7"
@@ -82,14 +80,12 @@
 		"zpos"										"2"
 		"wide"										"138"
 		"tall"										"38"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"wrap"										"1"
 		"AllCaps"									"1"
 		"labelText"									"%text%"
 		"textAlignment"								"West"
-		"font"										"Size 10"
+		"font"										"Size_10"
 	}
 }

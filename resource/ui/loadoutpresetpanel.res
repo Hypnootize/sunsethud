@@ -12,7 +12,7 @@
 			"tall"									"18"
 			"visible"								"0"
 			"enabled"								"1"
-			"font"									"Size 16"
+			"font"									"Size_16"
 			"textAlignment"							"center"
 			"Command"								""
 			"sound_depressed"						"UI/buttonclick.wav"
