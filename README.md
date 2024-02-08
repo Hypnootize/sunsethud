@@ -5,7 +5,7 @@
   <a href="https://tf2huds.dev/hud/Sunset-Hud"><img src="https://i.imgur.com/lF9XotO.png"></a>
   <a href="https://www.teamfortress.tv/53596/sunset-hud"><img src="https://i.imgur.com/xTQ26gp.png"></a>
   <a href="https://gamebanana.com/mods/291779"><img src="https://i.imgur.com/UzXoexI.png"></a>
-  <a href="https://www.editor.criticalflaw.ca/"><img src="https://i.imgur.com/6JJTzkc.png"></a>
+  <a href="https://criticalflaw.ca/TF2HUD.Editor"><img src="https://i.imgur.com/6JJTzkc.png"></a>
 </p>
 
 ##
