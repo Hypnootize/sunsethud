@@ -41,7 +41,7 @@
 			"tall"									"f5"
 			"visible"								"1"
 			"PaintBackgroundType"					"2"
-			"border"								"Theme_Darkest_Border"
+			"border"								"Black_Transparent_50"
 			"proportionaltoparent"					"1"
 
 			"HideButton"
