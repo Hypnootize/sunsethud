@@ -195,24 +195,60 @@
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
+		"AlertTray"
+		{
+			"ControlName"							"CBuildingStatusAlertTray"
+			"fieldName"								"AlertTray"
+			"xpos"									"0"
+			"ypos"									"0"
+			"ypos"									"0"
+			"zpos"									"-2"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"icon"									"obj_eng_status_area_sentry_alrt"
+		}
+		"WrenchIcon"
+		{
+			"ControlName"							"CIconPanel"
+			"fieldName"								"WrenchIcon"
+			"xpos"									"-6"
+			"ypos"									"-1"
+			"zpos"									"10"
+			"wide"									"9"
+			"tall"									"9"
+			"visible"								"0"
+			"enabled"								"1"
+			"scaleImage"							"1"
+			"proportionaltoparent"					"1"
+			"icon"									"obj_status_icon_wrench"
+			"iconColor"								"White"
+
+			"pin_to_sibling"						"BuildingBG"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+		}
 		"SapperIcon"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"SapperIcon"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
+			"xpos"									"-6"
+			"ypos"									"-2"
+			"zpos"									"10"
+			"wide"									"8"
+			"tall"									"8"
 			"visible"								"0"
 			"enabled"								"1"
 			"scaleImage"							"1"
-			"icon"									""
-			"iconColor"								"White"
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"255 70 70 50"
 			"proportionaltoparent"					"1"
+			"icon"									"obj_status_icon_sapper"
+			"iconColor"								"Blue"
+
+			"pin_to_sibling"						"BuildingBG"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"Health"
@@ -416,29 +452,6 @@
 				"visible"							"0"
 				"enabled"							"0"
 			}
-		}
-
-		"AlertTray"
-		{
-			"ControlName"							"CBuildingStatusAlertTray"
-			"fieldName"								"AlertTray"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"WrenchIcon"
-		{
-			"ControlName"							"CIconPanel"
-			"fieldName"								"WrenchIcon"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
 		}
 	}
 
