@@ -9,9 +9,11 @@
 		
 		"playerpanels_kv"
 		{
-			"color_bar_health_high"				"180 225 0 255"
-			"color_bar_health_med"				"Orange_Solid"
-			"color_bar_health_low"				"Red_Light"
+			"color_bar_health_high"					"180 225 0 255"
+			"color_bar_health_med"					"Orange_Solid"
+			"color_bar_health_low"					"Red_Light"
+			"color_portrait_bg_red_local_player"	"Gray_Transparent"
+			"color_portrait_bg_blue_local_player"	"Gray_Transparent"
 			
 			"classimagebg"
 			{
