@@ -115,10 +115,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"cs-0.5"
-		"ypos"										"42"
+		"ypos"										"65"
 		"zpos"										"0"
 		"wide"										"178"
-		"tall"										"22"
+		"tall"										"50"
 		"MeterFG"									"Red"
 		"MeterBG"									"Gray"
 	}
