@@ -265,10 +265,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamScore"
 					"xpos"							"5"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"39"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"Size_36"
@@ -278,7 +278,7 @@
 
 					"if_large"
 					{
-						"ypos"						"41"
+						"ypos"						"36"
 					}
 				}
 				"BlueTeamScoreDropshadow"
@@ -286,10 +286,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamScoreDropshadow"
 					"xpos"							"6"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"39"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"Size_36"
@@ -299,7 +299,7 @@
 
 					"if_large"
 					{
-						"ypos"						"42"
+						"ypos"						"37"
 					}
 				}
 				"BlueTeamWinner"
@@ -307,10 +307,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamWinner"
 					"xpos"							"5"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"39"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"Size_18"
@@ -320,7 +320,7 @@
 
 					"if_large"
 					{
-						"ypos"						"41"
+						"ypos"						"36"
 					}
 				}
 				"BlueTeamWinnerDropshadow"
@@ -328,10 +328,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamWinnerDropshadow"
 					"xpos"							"6"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"39"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"Size_18"
@@ -341,7 +341,7 @@
 
 					"if_large"
 					{
-						"ypos"						"42"
+						"ypos"						"37"
 					}
 				}
 				"BlueLabel"
@@ -566,10 +566,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamScore"
 					"xpos"							"r5-p.19"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"39"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"Size_36"
@@ -579,7 +579,7 @@
 
 					"if_large"
 					{
-						"ypos"						"41"
+						"ypos"						"36"
 					}
 				}
 				"RedTeamScoreDropshadow"
@@ -587,10 +587,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamScoreDropshadow"
 					"xpos"							"r4-p.19"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"39"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"Size_36"
@@ -600,7 +600,7 @@
 
 					"if_large"
 					{
-						"ypos"						"42"
+						"ypos"						"37"
 					}
 				}
 				"RedTeamWinner"
@@ -608,10 +608,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamWinner"
 					"xpos"							"r5-p.19"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"39"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"Size_18"
@@ -621,7 +621,7 @@
 
 					"if_large"
 					{
-						"ypos"						"41"
+						"ypos"						"36"
 					}
 				}
 				"RedTeamWinnerDropshadow"
@@ -629,10 +629,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamWinnerDropshadow"
 					"xpos"							"r4-p.19"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"39"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"Size_18"
@@ -642,7 +642,7 @@
 
 					"if_large"
 					{
-						"ypos"						"42"
+						"ypos"						"37"
 					}
 				}
 				"RedLabel"
