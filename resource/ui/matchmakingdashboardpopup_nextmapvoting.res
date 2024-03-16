@@ -17,18 +17,8 @@
 		"collapsed_height"							"0"
 		"expanded_height"							"80"
 
-
-		"OuterShadow"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"OuterShadow"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
+		"pinCorner"									"2"
+		"autoResize"								"1"
 
 		"BGPanel"
 		{
@@ -40,7 +30,8 @@
 			"wide"									"f5"
 			"tall"									"f5"
 			"visible"								"1"
-			"PaintBackgroundType"					"2"
+			"pinCorner"								"2"
+			"PaintBackground"						"0"
 			"border"								"Black_Transparent_50"
 			"proportionaltoparent"					"1"
 
@@ -175,6 +166,16 @@
 				"PaintBackgroundType"				"2"
 				"proportionaltoparent"				"1"
 			}
+		}
+		"OuterShadow"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"OuterShadow"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
 		}
 	}
 }
