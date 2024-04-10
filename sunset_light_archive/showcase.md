@@ -7,7 +7,7 @@
 ![Menu Tools](../../screenshots/sunset_light_archive/02_Main_Menu_Tools.jpg?raw=true)
 
 ## SOURCE SCHEME
-![Sourcescheme](../../screenshots/sunset_light_archive/03_Sourcescheme.jpg?raw=true)
+![Sourcescheme](../../screenshots/sunset_light_archive/03_SourceScheme.jpg?raw=true)
 
 ## MATCHMAKING CASUAL
 ![Matchmaking Casual](../../screenshots/sunset_light_archive/04_Matchmaking_Casual.jpg?raw=true)
