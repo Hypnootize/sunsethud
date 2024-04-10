@@ -1,5 +1,0 @@
-#base "../../customizations/resolutions/4x3/classselection.res"
-#base "../../customizations/resolutions/5x4/classselection.res"
-#base "../../customizations/resolutions/16x10/classselection.res"
-#base "../../customizations/resolutions/16x9/classselection.res"
-#base "classselection_base.res"
