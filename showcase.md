@@ -220,4 +220,4 @@
 ![Sunset Background](../screenshots/70_Sunset_Background.png?raw=true)
 
 ## SUNSET BACKGROUND BLUR
-![Sunset Background Blur](../screenshots/70_Sunset_Background_Blur.png?raw=true)
+![Sunset Background Blur](../screenshots/71_Sunset_Background_Blur.png?raw=true)
