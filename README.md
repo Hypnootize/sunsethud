@@ -10,7 +10,7 @@
 
 ##
 
-<a href="https://imgur.com/a/cJYtauq"><img src="https://i.imgur.com/vVxJdvB.png"></a>
+<a href="../screenshots/showcase.md"><img src="https://i.imgur.com/vVxJdvB.png"></a>
 
 <a href="https://github.com/Hypnootize/Sunset-Hud/wiki"><img src="https://i.imgur.com/UpvlsG7.png"></a>
 
