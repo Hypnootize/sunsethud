@@ -19,7 +19,7 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		"settitlebarvisible"						"0"
+		"settitlebarvisible"						"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Blank"
 		"infocus_bgcolor_override"					"Blank"
@@ -116,7 +116,7 @@
 		"tabheight"									"18"
 		"tabxfittotext"								"1"
 		"transition_time"							"0"
-		"yoffset"									"30"
+		"yoffset"									"13"
 
 		"HeaderLine"
 		{
