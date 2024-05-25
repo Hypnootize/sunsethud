@@ -111,7 +111,7 @@
 		"AllCaps"									"1"
 		"textAlignment"								"west"
 		"labelText"									"#TF_MVM_Support"
-		"font"										"Size_11"
+		"font"										"Size_11_Shadow"
 		"fgcolor"									"White"
 
 		"if_verbose"
