@@ -18,9 +18,9 @@
 		"bgcolor_override"							"0 10 20 220"
 		"paintborder"								"0"
 
-		"log_font_small"							"Size_22"
-		"log_font_medium"							"Size_22"
-		"log_font_large"							"Size_22"
+		"log_font_small"							"Size_12"
+		"log_font_medium"							"Size_12"
+		"log_font_large"							"Size_12"
 
 		"chat_color_default"						"White"
 		"chat_color_player_name"					"Orange_Solid"

@@ -475,9 +475,8 @@
 			"5"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"24"
+				"tall"										"9"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 			"6"
@@ -546,9 +545,8 @@
 			"5"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"22"
+				"tall"										"9"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 			"6"
@@ -593,9 +591,8 @@
 			"5"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"16"
+				"tall"										"9"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 		}
@@ -605,7 +602,6 @@
 			{
 				"name"										"Renogare Soft"
 				"tall"										"18"
-				"weight"									"900"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
@@ -613,7 +609,6 @@
 			{
 				"name"										"Renogare Soft"
 				"tall"										"21"
-				"weight"									"900"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 			}
@@ -621,7 +616,6 @@
 			{
 				"name"										"Renogare Soft"
 				"tall"										"22"
-				"weight"									"900"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -630,7 +624,6 @@
 			{
 				"name"										"Renogare Soft"
 				"tall"										"28"
-				"weight"									"900"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
@@ -638,10 +631,8 @@
 			"5"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"30"
-				"weight"									"900"
+				"tall"										"18"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 			"6"
@@ -649,14 +640,14 @@
 				"name"										"Renogare Soft"
 				"tall"										"20"
 				"range"										"0x0000 0x00FF"
-				"weight"									"900"
+				"antialias"									"1"
 			}
 			"7"
 			{
 				"name"										"Arial"
 				"tall"										"20"
 				"range"										"0x0000 0x00FF"
-				"weight"									"800"
+				"antialias"									"1"
 			}
 		}
 		"CenterPrintText"
@@ -686,8 +677,35 @@
 			"1"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"10"
-				"weight"									"500"
+				"tall"										"13"
+				"yres"										"480 599"
+				"antialias"									"1"
+			}
+			"2"
+			{
+				"name"										"Renogare Soft"
+				"tall"										"14"
+				"yres"										"600 767"
+				"antialias"									"1"
+			}
+			"3"
+			{
+				"name"										"Renogare Soft"
+				"tall"										"15"
+				"yres"										"768 1023"
+				"antialias"									"1"
+			}
+			"4"
+			{
+				"name"										"Renogare Soft"
+				"tall"										"22"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"Verdana"
+				"tall"										"12"
 				"antialias"									"1"
 			}
 		}
@@ -728,10 +746,9 @@
 			"5"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"52"
+				"tall"										"24"
 				"weight"									"500"
 				"antialias"									"1"
-				"yres"										"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -801,6 +818,13 @@
 				"name"										"Renogare Soft"
 				"tall"										"24"
 				"weight"									"500"
+				"yres"										"1 1199"
+				"antialias"									"1"
+			}
+			"2"
+			{
+				"name"										"Renogare Soft"
+				"tall"										"10"
 				"antialias"									"1"
 			}
 		}
@@ -2335,7 +2359,7 @@
 			"1"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"10"
+				"tall"										"12"
 				"weight"									"400"
 				"antialias"									"1"
 			}

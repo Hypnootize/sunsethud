@@ -116,7 +116,7 @@
 		"tabheight"									"18"
 		"tabxfittotext"								"1"
 		"transition_time"							"0"
-		"yoffset"									"13"
+		"yoffset"									"6"
 
 		"HeaderLine"
 		{
