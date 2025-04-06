@@ -28,7 +28,7 @@
 		"title"										"#Replay_Replay"
 		"title_font"								"Size_18"
 		"titletextinsetX"							"40"
-		"titletextinsetY"							"0"
+		"titletextinsetY"							"8"
 		"titlebarfgcolor_override"					"Blank"
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"
@@ -116,7 +116,7 @@
 		"tabheight"									"18"
 		"tabxfittotext"								"1"
 		"transition_time"							"0"
-		"yoffset"									"8"
+		"yoffset"									"0"
 
 		"HeaderLine"
 		{
