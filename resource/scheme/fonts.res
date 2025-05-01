@@ -1245,14 +1245,14 @@
 				"antialias"									"1"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"24"
-				"weight"									"500"
+				"tall"										"11"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"CloseCaption_Italic"
@@ -1260,9 +1260,9 @@
 			"1"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"24"
-				"weight"									"500"
+				"tall"										"11"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"CloseCaption_Bold"
@@ -1270,9 +1270,9 @@
 			"1"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"24"
-				"weight"									"500"
+				"tall"										"11"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"CloseCaption_BoldItalic"
@@ -1280,9 +1280,9 @@
 			"1"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"24"
-				"weight"									"500"
+				"tall"										"11"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"CloseCaption_Small"
@@ -1290,9 +1290,9 @@
 			"1"
 			{
 				"name"										"Renogare Soft"
-				"tall"										"16"
-				"weight"									"500"
+				"tall"										"11"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"Marlett"

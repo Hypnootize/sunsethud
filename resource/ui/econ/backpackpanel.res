@@ -65,6 +65,7 @@
 				"font"								"Size_12"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
+				"button_activation_type"			"2"
 			}
 
 			"New"
@@ -647,7 +648,7 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ShowExplanationsButton"
-		"xpos"										"r20"
+		"xpos"										"rs1-2"
 		"ypos"										"0"
 		"zpos"										"100"
 		"wide"										"18"
@@ -665,8 +666,8 @@
 
 		"paintbackground"							"0"
 
-		"border_default"							"Theme_Transparent_70"
-		"border_armed"								"Orange_Transparent_70"
+		"border_default"							"Theme_Transparent_50"
+		"border_armed"								"Orange_Transparent_50"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White_Solid"
