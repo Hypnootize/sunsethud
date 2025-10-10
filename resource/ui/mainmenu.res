@@ -213,7 +213,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Cross"
-			"xpos"									"cs-0.5"
+			"xpos"									"cs-0.5+1"
 			"ypos"									"cs-0.5"
 			"zpos"									"2"
 			"wide"									"16"
